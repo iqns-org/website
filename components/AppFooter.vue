@@ -4,7 +4,6 @@ import { useI18n } from 'vue-i18n'
 import { useDesignTokens } from '@/utils/useDesignTokens'
 import { useRuntimeConfig } from 'nuxt/app'
 import ConsentBanner from '@/components/ConsentBanner.vue'
-import { useLocalePath } from '#imports'
 
 const { styles, space } = useDesignTokens()
 const { t } = useI18n()
