@@ -14,7 +14,7 @@ Your most consequential decisions are increasingly shaped by machines. Those mac
 
 ## The problem is structural
 
-AI is already inside hiring pipelines, credit decisions, clinical triage, fraud detection, customer interactions. Every day, more agents join: different vendors, different data, different teams, different regulators.
+AI is already inside hiring pipelines, credit decisions, clinical triage, fraud detection, customer operations, and service workflows. Every day, more agents join: different vendors, different data, different teams, different regulators.
 
 The result isn't an AI strategy. It's an **agentic supply chain** — interconnected systems making decisions on your behalf, each carrying obligations you may not fully understand.
 
@@ -26,7 +26,7 @@ That supply chain has no shared vocabulary.
 
 Organisations know things — rules, obligations, risk tolerances, operating principles. But that knowledge lives in PDFs, in people's heads, in documents disconnected from the systems they're meant to inform.
 
-When AI agents act at scale, fragmentation becomes liability.
+When AI agents act at scale, fragmentation becomes liability — especially when teams, tools, and policies must stay aligned.
 
 ---
 

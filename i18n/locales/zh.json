@@ -5,6 +5,7 @@
     "howItWorks": "如何运作",
     "platform": "平台",
     "ontologies": "本体",
+    "governance": "治理",
     "useCases": "用例",
     "contact": "联系",
     "features": "功能",
@@ -20,8 +21,10 @@
     "dataAiStewards": "数据 / AI 管理员",
     "executive": "高管",
     "softwareEngineering": "软件工程",
-    "why": "为什么选择 IQNS",    "gettingStarted": "开始",
-    "faq": "常见问题",    "tech": "技术"
+    "why": "为什么选择 IQNS",
+    "gettingStarted": "开始",
+    "faq": "常见问题",
+    "tech": "技术"
   },
   "docs": "文档",
   "theme": "主题",

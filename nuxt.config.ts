@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 import { navManifestPlugin } from './scripts/nav-manifest-plugin'
 import pkg from './package.json'
 import settings from './config/settings.json'
+import styles from './config/styles.json'
 
 const i18nLocales = ['en', 'fr', 'es', 'de', 'pt', 'zh']
 
@@ -11,19 +12,31 @@ const contentRoutes = (): string[] => {
   const contentDir = path.resolve(__dirname, 'content')
   const routes = new Set<string>()
 
+  function walk(dir: string, locale: string, basePath: string) {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, entry.name)
+      if (entry.isDirectory()) {
+        walk(full, locale, `${basePath}/${entry.name}`)
+        continue
+      }
+      if (!entry.name.endsWith('.md')) continue
+      const relPath = entry.name === 'index.md'
+        ? basePath || '/'
+        : `${basePath}/${entry.name.replace(/\.md$/, '')}`
+      const normalizedRelPath = relPath.replace(/\\/g, '/')
+      if (normalizedRelPath === '/' || normalizedRelPath === '') {
+        routes.add(locale === 'en' ? '/' : `/${locale}`)
+      } else {
+        const route = normalizedRelPath.replace(/^\//, '')
+        routes.add(locale === 'en' ? `/${route}` : `/${locale}/${route}`)
+      }
+    }
+  }
+
   for (const locale of i18nLocales) {
     const localeDir = path.join(contentDir, locale)
     if (!fs.existsSync(localeDir)) continue
-
-    for (const file of fs.readdirSync(localeDir)) {
-      if (!file.endsWith('.md')) continue
-      if (file === 'index.md') {
-        routes.add(locale === 'en' ? '/' : `/${locale}`)
-      } else {
-        const segment = file.replace(/\.md$/, '')
-        routes.add(locale === 'en' ? `/${segment}` : `/${locale}/${segment}`)
-      }
-    }
+    walk(localeDir, locale, '')
   }
 
   return [...routes].sort()
@@ -80,10 +93,11 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: 'i18n_redirected',
       alwaysRedirect: false,
-      fallbackLocale: 'en'
+      fallbackLocale: 'en',
+      redirectOn: 'root'
     },
     bundle: { optimizeTranslationDirective: false },
-    vueI18n: 'i18n.config.ts'
+    vueI18n: '../i18n.config.ts'
   },
   app: {
     head: {
@@ -95,7 +109,7 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          innerHTML: `(function(){var t=localStorage.getItem('iqnsTheme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.dataset.theme=t;if(t==='dark')document.documentElement.classList.add('dark');else if(t==='light')document.documentElement.classList.add('light');else if(t==='sepia')document.documentElement.classList.add('sepia')})()`
+          innerHTML: `(function(){var defaultTheme=${JSON.stringify(styles.theme || 'dark')};var t;try{t=localStorage.getItem('iqnsTheme')}catch(e){t=null}var validThemes=['dark','light','sepia'];if(!validThemes.includes(t)){if(defaultTheme==='auto'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}else if(validThemes.includes(defaultTheme)){t=defaultTheme}else{t='dark'}}document.documentElement.dataset.theme=t;var htmlClassList=document.documentElement.classList;htmlClassList.remove('dark','light','sepia');if(t==='dark')htmlClassList.add('dark');else if(t==='light')htmlClassList.add('light');else if(t==='sepia')htmlClassList.add('sepia');var bodyClassList=document.body.classList;bodyClassList.remove('theme-light','theme-dark','theme-sepia');if(t==='dark')bodyClassList.add('theme-dark');else if(t==='light')bodyClassList.add('theme-light');else if(t==='sepia')bodyClassList.add('theme-sepia');})()`
         }
       ]
     },

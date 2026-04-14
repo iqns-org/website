@@ -33,13 +33,19 @@ function normalizeSection(section: string): string {
 }
 
 function slugToKey(slug: string): string {
-  // slug is e.g. /en/how-it-works — strip locale prefix then convert to camelCase
+  // slug is e.g. /en/how-it-works or /use-cases/product-operations
   const bare = slug
-    .replace(/^\/(en|fr|de|es|pt|zh)/, '')
+    .replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '')
     .replace(/^\//, '')
     .replace(/\/$/, '') || 'home'
-  // kebab-case → camelCase
-  return bare.replace(/-([a-z])/g, (_, c) => c.toUpperCase())
+
+  return bare
+    .split('/')
+    .map((segment, index) => {
+      const camel = segment.replace(/-([a-z])/g, (_, c) => c.toUpperCase())
+      return index === 0 ? camel : camel.replace(/^([a-z])/, (m) => m.toUpperCase())
+    })
+    .join('')
 }
 
 function buildManifest(contentDir: string): NavPage[] {

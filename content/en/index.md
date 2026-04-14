@@ -4,22 +4,27 @@ description: Open ontologies that give AI systems and organisations a shared lan
 lang: en
 hero:
   title: Structured Intelligence for AI & Organisations.
-  subtitle: open ontologies so machines and institutions speak the same language.
-  description: IQ:NS that turns fragmented standards, regulations, and institutional knowledge into open, queryable ontologies. Built on RDF, SKOS, OWL, and SHACL — free for everyone.
-  cta_primary: Explore the Ontologies
-  cta_primary_href: "https://github.com/iqns-org/ontologies"
-  cta_secondary: Learn how IQ:NS works
-  cta_secondary_href: /how-it-works
+  subtitle: Shared language for people, machines, and organisations.
+  description: IQ:NS turns institutional knowledge, frameworks, and operational rules into queryable knowledge graphs so AI and enterprise systems work from the same source of truth.
+  cta:
+  - title: Open Ontologies (GitHub)
+    link: "https://github.com/iqns-org/ontologies"
+  - title: Learn how IQ:NS works
+    link: /how-it-works
+  - title: Explore use cases
+    link: /use-cases
+  - title: Integrate Private Knowledge
+    link: /private-knowledge
 value_props:
   heading: What IQ:NS Does
-  subheading: Integration is a language problem. Ontologies solve it.
+  subheading: Integration is a language problem. Ontologies solve it. At scale.
   items:
     - icon: ShieldCheck
       title: Structured Knowledge, Not Documents
-      description: Regulations, standards, and institutional rules exist as PDFs. IQ:NS turns them into machine-readable ontologies that AI agents and people can query directly.
+      description: Documents, frameworks, and institutional rules exist as PDFs. IQ:NS turns them into machine-readable ontologies that AI agents and people can query directly.
     - icon: Globe
       title: Cross-Framework Integration
-      description: ITIL, SOC2, EU AI Act, ISO 42001, NIST, GDPR — different vocabularies for overlapping concepts. IQ:NS maps them into a shared semantic space so nothing falls between the cracks.
+      description: IQ:NS selects the exact ontologies you need from `./ontologies/v1/`, rather than promoting a fixed shortlist of standards. Different vocabularies are mapped into a shared semantic space so nothing falls between the cracks.
     - icon: Users
       title: Open and Community-Driven
       description: The core ontologies are free and open source. Built by contributors who care about getting the structure right — not selling you a dashboard.
@@ -40,7 +45,7 @@ iqns:
     - icon: Link
       number: 1
       title: Structure the Knowledge
-      description: 'Standards, regulations, and institutional rules are modelled as formal ontologies: classes, properties, and relationships that machines can reason over.'
+      description: 'Documents, frameworks, and institutional rules are modelled as formal ontologies: classes, properties, and relationships that machines can reason over.'
     - icon: Zap
       number: 2
       title: Map Across Frameworks
@@ -55,24 +60,24 @@ iqns:
       description: Frameworks change. New standards arrive. The community maintains and extends the ontologies so the knowledge stays current.
 frameworks:
   heading: 50+ Frameworks. One Shared Vocabulary.
-  description: 100+ ontology files across 20+ domains. IQ:NS cross-maps standards into a unified vocabulary so you can understand how concepts relate across frameworks.
+  description: 100+ ontology files across 20+ domains. IQ:NS cherry-picks the relevant models directly from `./ontologies/v1/` and maps them into a unified vocabulary so you can understand how concepts relate across standards.
   items:
-    - EU AI Act
-    - NIST AI RMF
-    - ISO 42001
-    - ISO 23894
-    - ISO 24027 (Bias)
-    - ISO 24028 (Trustworthiness)
-    - ISO 24029 (Robustness)
-    - ISO 24368 (Ethics)
-    - ISO 25059 (Quality)
-    - EU GDPR
     - OWASP LLM Top 10
     - MITRE ATLAS
     - OECD AI Principles
     - UNESCO AI Ethics
     - IEEE 7000
     - Google SAIF
+    - EU AI Act
+    - NIST AI RMF
+    - ISO 42001
+    - EU GDPR
+    - ISO 23894
+    - ISO 24027 (Bias)
+    - ISO 24028 (Trustworthiness)
+    - ISO 24029 (Robustness)
+    - ISO 24368 (Ethics)
+    - ISO 25059 (Quality)
     - EBA AI Guidelines
     - FDA AI/ML SaMD
     - Canada DCDD
@@ -84,15 +89,15 @@ frameworks:
     - ONC Trustworthy AI
     - NIST AI 100-1
     - NIST CSF 2.0
-    - ITIL 4
-    - COBIT
     - ISO 27001
     - ISO 31000
     - ISO 45001
     - ISO 50001
     - ISO 38500
     - ISO 22320
+    - ITIL 4
     - SOC 2
+    - COBIT
     - Basel III
     - DORA
     - MiFID II

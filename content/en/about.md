@@ -12,18 +12,21 @@ navigation:
 
 ## What we're building
 
-IQ:NS is an open-source project that turns fragmented standards, regulations, and institutional knowledge into structured, queryable ontologies. Built on semantic web standards (RDF, SKOS, OWL, SHACL), the ontologies give AI systems and organisations a shared language.
+IQ:NS is an open-source project that turns fragmented institutional knowledge, frameworks, and operational rules into structured, queryable ontologies. Built on semantic web standards (RDF, SKOS, OWL, SHACL), the ontologies give AI systems and organisations a shared language.
 
 ## Why this exists
 
-AI integration across organisations is fundamentally a **language problem**. Teams read the same regulations and reach different conclusions. Standards use different terms for the same concepts. Institutional knowledge lives in documents that machines can't reason over.
+AI integration across organisations is fundamentally a **language problem**. Teams read the same standards and policies and reach different conclusions. Rules use different terms for the same concepts. Institutional knowledge lives in documents that machines can't reason over.
 
-We started IQ:NS to fix the structural layer — to build the shared vocabulary that lets people and systems work from the same source of truth.
+IQ:NS chooses the right ontologies from `./ontologies/v1/` rather than promoting a single regulatory checklist.
+
+IQ:NS was created to fix the structural layer — to build the shared vocabulary that lets people and systems work from the same source of truth.
 
 ## What we believe
 
 - **Standards contain real insight** — but reading 40 PDFs and synthesising them is where things break down. Formal ontologies make that synthesis reusable.
-- **Context matters** — an AI recommending music isn't the same as one scoring credit. Structure should reflect that.
+- **Context matters** — an AI recommending music isn't the same as one scoring credit. The semantic layer should reflect the difference between teams, domains, and workflows.
+- **Structured intelligence is foundational** — AI systems that must cooperate with compliance, operations, and business processes need a shared vocabulary and queryable knowledge.
 - **Open is better** — the semantic layer for AI and institutional knowledge should be a public good, not a proprietary lock-in.
 - **We work on metadata** — we never touch model data, training sets, or PII. The ontologies describe concepts and relationships.
 

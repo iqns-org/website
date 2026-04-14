@@ -12,16 +12,16 @@ navigation:
 
 ## The integration challenge
 
-Organisations deploying AI face a consistent problem: dozens of overlapping standards, inconsistent terminology, and no clear way to connect what the rules say to what the systems do.
+Organisations deploying AI face a consistent problem: dozens of overlapping rules, inconsistent terminology, and no clear way to connect what the policies say to what the systems do.
 
 This isn't a governance failure — it's a **language problem**. Teams can't act on requirements they can't parse, and systems can't enforce rules they can't read.
 
 ## What structured intelligence provides
 
-IQ:NS approaches this by modelling standards and institutional knowledge as formal ontologies — giving both people and machines a shared vocabulary:
+IQ:NS approaches this by modelling policies, standards, and institutional knowledge as formal ontologies — giving both people and machines a shared vocabulary:
 
-- **Obligation clarity** — which frameworks apply, what they require, where they overlap
-- **Cross-framework alignment** — one concept mapped across every relevant standard
+- **Obligation clarity** — which rules and models apply, what they require, where they overlap
+- **Cross-model alignment** — one concept mapped across every relevant source in `./ontologies/v1/`
 - **Contextual relevance** — filtered by jurisdiction, sector, and AI capability
 - **Machine readability** — agents can query the graph directly, no manual interpretation
 
@@ -34,7 +34,7 @@ IQ:NS approaches this by modelling standards and institutional knowledge as form
 
 ## Why it matters
 
-When standards live as structured knowledge rather than PDFs, teams can:
+When rules and operational models live as structured knowledge rather than PDFs, teams can:
 
 - Understand what applies without weeks of manual review
 - See where one requirement satisfies multiple frameworks
@@ -43,6 +43,6 @@ When standards live as structured knowledge rather than PDFs, teams can:
 
 ## Getting started
 
-The ontologies are [free on GitHub](https://github.com/iqns-org/ontologies). For hosted services or custom integrations, see [pricing](/pricing).
+The ontologies in `./ontologies/v1/` are [free on GitHub](https://github.com/iqns-org/ontologies). For hosted services or custom integrations, see [pricing](/pricing).
 
 [Explore how it works](/how-it-works) · [View the standards coverage](/regulations)

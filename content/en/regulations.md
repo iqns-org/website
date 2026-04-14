@@ -14,7 +14,9 @@ navigation:
 
 No single framework covers everything. Most organisations face overlapping requirements from multiple standards — and the gaps between them are where problems hide.
 
-IQ:NS models 50+ frameworks as structured ontologies. Here's what they cover.
+IQ:NS models 50+ frameworks and domain models from `./ontologies/v1/` as structured ontologies. Here's what they cover.
+
+IQ:NS does not prioritise a single set of regulations; it cherry-picks the relevant ontology models for each context from the repository.
 
 ---
 

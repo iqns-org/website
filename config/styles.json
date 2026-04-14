@@ -2,7 +2,8 @@
   "name": "IQ:NS Design System",
   "version": "1.0.0",
   "description": "Tokenized design system for IQ:NS  — drives all UI styling without hard-coded Tailwind classes",
-  
+  "theme": "dark",
+  "sfx": true,
   "colors": {
     "semantic": {
       "background": {

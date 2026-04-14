@@ -101,7 +101,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
             </ul>
 
             <NuxtLink
-              :to="plan.cta_href || '/contact'"
+              :to="plan.cta_href || '/support'"
               :target="isExternalLink(plan.cta_href) ? '_blank' : null"
               :rel="isExternalLink(plan.cta_href) ? 'noopener noreferrer' : null"
               :class="[
@@ -134,7 +134,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
     </section>
 
     <!-- Add-ons -->
-    <section class="py-16">
+    <section class="py-16" id="addons">
       <div class="container mx-auto px-4 max-w-5xl">
         <div class="text-center mb-10">
           <h2 class="text-2xl font-bold text-white mb-2">{{ pageData.addons?.heading }}</h2>
@@ -196,7 +196,7 @@ const toggleFaq = (i: number) => { openFaq.value = openFaq.value === i ? null : 
         <h2 class="text-2xl font-bold text-white mb-3">Not sure which plan fits?</h2>
         <p class="text-slate-400 text-sm mb-7">Talk to us. We'll help you figure out the right starting point — no pressure.</p>
         <NuxtLink
-          to="/contact"
+          to="/support"
           class="inline-flex items-center gap-2 px-7 py-3.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-violet-500/25 hover:-translate-y-0.5 transition-all duration-200 text-sm"
         >
           Get in touch <ArrowRight class="w-4 h-4" />

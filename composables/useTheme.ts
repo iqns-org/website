@@ -1,8 +1,7 @@
 import { ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
+import styles from '@/config/styles.json'
 
 export const useTheme = () => {
-  const route = useRoute()
   const theme = ref('auto')
 
   const applyTheme = (value: string) => {
@@ -33,7 +32,9 @@ export const useTheme = () => {
         applyTheme(saved)
       } else {
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-        const fallback = prefersDark ? 'dark' : 'light'
+        const fallback = styles.theme === 'auto' || !styles.theme
+          ? prefersDark ? 'dark' : 'light'
+          : styles.theme
         theme.value = 'auto'
         applyTheme(fallback)
       }

@@ -8,7 +8,7 @@ import {
   Lightbulb, Zap, CreditCard, Lock, EyeOff, ArrowRight,
   Brain, Scale, AlertTriangle, Library,
   ShieldAlert, FileCheck, Database, BarChart2, Code2, Cpu,
-  Building2, Mail
+  Building2, Mail, HelpCircle
 } from '@lucide/vue'
 
 const { styles, app, space } = useDesignTokens()
@@ -34,7 +34,8 @@ const navIconMap: Record<string, any> = {
   dataAiStewards: Database,
   executive: BarChart2,
   softwareEngineering: Code2,
-  tech: Cpu
+  tech: Cpu,
+  faq: HelpCircle
 }
 
 const sectionLabel = (key: string) => {
@@ -46,6 +47,12 @@ const sectionLabel = (key: string) => {
 }
 
 const { activeMenu, mobileMenuOpen, currentLocale, sectionMap, sectionNav, buildGlobalNav, openDropdown, scheduleClose, cancelClose, toggleDropdown, toggleMobileMenu, closeMobileMenu, handleOutsideClick, setLocale } = useNavigation()
+
+const scrollToTop = () => {
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
 
 onMounted(() => {
   buildGlobalNav()
@@ -68,6 +75,7 @@ const emit = defineEmits(['update:theme', 'update:matrixEffects'])
     <div :style="{ maxWidth: styles.layout.container.maxWidth, margin: '0 auto', padding: styles.spacing.md + ' ' + space('lg'), display: 'flex', alignItems: 'center', justifyContent: 'space-between' }">
       <NuxtLink 
         :to="localePath('/')" 
+        @click="scrollToTop"
         :style="{ display: 'flex', alignItems: 'center' }" 
         aria-label="IQ:NS  home"
       >
@@ -171,7 +179,7 @@ const emit = defineEmits(['update:theme', 'update:matrixEffects'])
         <div class="pt-md">
           <NuxtLink 
             :to="localePath('/')" 
-            @click="closeMobileMenu()"
+            @click="closeMobileMenu(); scrollToTop()"
             class="block px-md py-sm bg-transparent text-semantic-text-secondary transition-colors duration-fast cursor-pointer rounded-base outline-none hover:bg-semantic-surface-hover"
           >
             {{ t('nav.home') }}

@@ -1,4 +1,5 @@
 import { ref, watch } from 'vue'
+import styles from '@/config/styles.json'
 
 export const useMatrixRain = () => {
   const matrixCanvas = ref<HTMLCanvasElement | null>(null)
@@ -88,6 +89,12 @@ export const useMatrixRain = () => {
 
   const initMatrixEffects = () => {
     if (typeof window !== 'undefined') {
+      if (!styles.sfx) {
+        matrixEffects.value = false
+        localStorage.setItem('iqnsMatrixEffects', 'false')
+        return
+      }
+
       if (isReducedMotion() || isMobile()) {
         matrixEffects.value = false
         localStorage.setItem('iqnsMatrixEffects', 'false')

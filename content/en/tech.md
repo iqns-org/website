@@ -29,7 +29,7 @@ When a standard changes, the ontology update propagates through every mapped con
 
 ### Cross-framework deduplication
 
-When GDPR Article 22 and EU AI Act Article 13 both require transparency, IQ:NS recognises them as `skos:exactMatch` and surfaces one concept, not two. One query resolves both.
+When different rules, policies, or operational standards all require transparency, IQ:NS recognises them as `skos:exactMatch` and surfaces one concept, not two. One query resolves both.
 
 ### Contextual profiling
 
@@ -39,7 +39,7 @@ Given jurisdiction, sector, and AI capability type, a SPARQL query returns the p
 
 ## Framework coverage
 
-40+ frameworks across seven domains:
+40+ frameworks and sector models are available in `./ontologies/v1/`. These are representative examples across seven domains:
 
 | Domain | Frameworks |
 |--------|-----------|

@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useMatrixRain } from '@/composables/useMatrixRain'
 import { useDesignTokens } from '@/utils/useDesignTokens'
 
-const props = defineProps({ matrixEffects: Boolean })
+const props = defineProps({ matrixEffects: { type: Boolean, default: true } })
 const { matrixCanvas, matrixEffects, startMatrixRain, stopMatrixRain } = useMatrixRain()
 const { app } = useDesignTokens()
 

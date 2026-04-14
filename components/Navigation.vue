@@ -5,7 +5,7 @@ import {
   Home, Building2, Workflow, Layers, ShieldCheck, Users, Mail,
   Lightbulb, Zap, CreditCard, Lock, EyeOff, ArrowRight,
   Brain, Scale, AlertTriangle, Library,
-  ShieldAlert, FileCheck, Database, BarChart2, Code2, Cpu
+  ShieldAlert, FileCheck, Database, BarChart2, Code2, Cpu, HelpCircle
 } from '@lucide/vue'
 
 const { styles, space } = useDesignTokens()
@@ -18,6 +18,12 @@ defineProps({
   currentLocale: String 
 })
 const emit = defineEmits(['openDropdown', 'closeDropdown', 'toggleDropdown', 'cancelClose'])
+
+const scrollToTop = () => {
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
 
 const iconMap: Record<string, any> = {
   Home, Building2, Workflow, Layers, ShieldCheck, Users, Mail,
@@ -49,7 +55,14 @@ const navIconMap: Record<string, any> = {
   dataAiStewards: Database,
   executive: BarChart2,
   softwareEngineering: Code2,
-  tech: Cpu
+  productOperations: Library,
+  riskManagement: AlertTriangle,
+  serviceManagement: ShieldCheck,
+  auditAssurance: FileCheck,
+  modelGovernance: Cpu,
+  privateKnowledge: Database,
+  tech: Cpu,
+  faq: HelpCircle
 }
 
 const topNav = [
@@ -58,7 +71,7 @@ const topNav = [
   { label: 'platform', icon: 'Layers', section: 'platform' },
   { label: 'ontologies', icon: 'ShieldCheck', section: 'ontologies' },
   { label: 'useCases', icon: 'Users', section: 'useCases' },
-  { label: 'contact', to: '/contact', icon: 'Mail' }
+  { label: 'contact', to: '/support', icon: 'Mail' }
 ]
 </script>
 
@@ -157,6 +170,7 @@ const topNav = [
         <NuxtLink 
           class="text-semantic-text-secondary hover:text-semantic-text-primary"
           :to="localePath(item.to!)" 
+          @click="item.to === '/' && scrollToTop()"
           :style="{ 
             display: 'inline-flex', 
             alignItems: 'center', 

@@ -45,6 +45,22 @@ const pageData = computed(() => {
   return parseFrontMatter(rawMarkdown.value).meta as Record<string, any>
 })
 
+const heroCTAs = computed(() => {
+  const hero = pageData.value.hero
+  if (Array.isArray(hero?.cta)) {
+    return hero.cta.filter((item: any) => item?.title && item?.link)
+  }
+
+  const primary = hero?.cta_primary && hero?.cta_primary_href
+    ? { title: hero.cta_primary, link: hero.cta_primary_href }
+    : null
+  const secondary = hero?.cta_secondary && hero?.cta_secondary_href
+    ? { title: hero.cta_secondary, link: hero.cta_secondary_href }
+    : null
+
+  return [primary, secondary].filter(Boolean)
+})
+
 useHead(() => ({
   title: pageData.value.title,
   meta: [
@@ -72,20 +88,19 @@ useHead(() => ({
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <NuxtLink
-            :to="pageData.hero?.cta_primary_href"
-            :target="isExternalLink(pageData.hero?.cta_primary_href) ? '_blank' : null"
-            :rel="isExternalLink(pageData.hero?.cta_primary_href) ? 'noopener noreferrer' : null"
-            class="px-7 py-3.5 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-violet-500/25 hover:-translate-y-0.5 transition-all duration-200 text-sm"
+            v-for="(cta, i) in heroCTAs"
+            :key="i"
+            :to="cta.link"
+            :target="isExternalLink(cta.link) ? '_blank' : null"
+            :rel="isExternalLink(cta.link) ? 'noopener noreferrer' : null"
+            :class="[
+              'px-7 py-3.5 font-semibold rounded-lg transition-all duration-200 text-sm',
+              i === 0
+                ? 'bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white shadow-lg hover:shadow-violet-500/25 hover:-translate-y-0.5'
+                : 'bg-semantic-surface-hover text-semantic-text-primary border border-semantic-border-primary hover:border-violet-500/50 hover:-translate-y-0.5'
+            ]"
           >
-            {{ pageData.hero?.cta_primary }}
-          </NuxtLink>
-          <NuxtLink
-            :to="pageData.hero?.cta_secondary_href"
-            :target="isExternalLink(pageData.hero?.cta_secondary_href) ? '_blank' : null"
-            :rel="isExternalLink(pageData.hero?.cta_secondary_href) ? 'noopener noreferrer' : null"
-            class="px-7 py-3.5 bg-semantic-surface-hover text-semantic-text-primary font-semibold rounded-lg border border-semantic-border-primary hover:border-violet-500/50 hover:-translate-y-0.5 transition-all duration-200 text-sm"
-          >
-            {{ pageData.hero?.cta_secondary }}
+            {{ cta.title }}
           </NuxtLink>
         </div>
       </div>

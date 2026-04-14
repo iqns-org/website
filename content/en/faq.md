@@ -34,7 +34,7 @@ GRC platforms run workflows and approvals. IQ:NS provides the semantic layer und
 
 ### What standards do you cover?
 
-50+ frameworks including EU AI Act, NIST AI RMF, ISO 42001, GDPR, OWASP LLM Top 10, MITRE ATLAS, sector-specific regulations (FDA, EBA, SR 11-7), and more. See [full coverage](/regulations).
+50+ frameworks are available, sourced directly from `./ontologies/v1/`. IQ:NS cherry-picks the relevant ontologies for each context — AI regulation, privacy, security, sector-specific rules, and enterprise controls — rather than promoting a fixed shortlist. See [full coverage](/regulations).
 
 ### How are they built?
 
