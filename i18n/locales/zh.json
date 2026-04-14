@@ -1,0 +1,33 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "howItWorks": "如何运作",
+    "platform": "平台",
+    "ontologies": "本体",
+    "useCases": "用例",
+    "contact": "联系",
+    "features": "功能",
+    "pricing": "定价",
+    "security": "安全",
+    "privacy": "隐私",
+    "aiGovernance": "AI 治理",
+    "regulations": "监管",
+    "risks": "风险",
+    "resources": "资源",
+    "securityCiso": "安全 / CISO",
+    "legalCompliance": "法律 / 合规",
+    "dataAiStewards": "数据 / AI 管理员",
+    "executive": "高管",
+    "softwareEngineering": "软件工程",
+    "why": "为什么选择 IQNS",    "gettingStarted": "开始",
+    "faq": "常见问题",    "tech": "技术"
+  },
+  "docs": "文档",
+  "theme": "主题",
+  "language": "语言",
+  "skipToContent": "跳转到内容",
+  "privacy": "隐私",
+  "terms": "条款",
+  "securityFooter": "安全"
+}

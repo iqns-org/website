@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // DO static website fallback: redirect unknown paths to root with a redirect parameter.
+    // Afterwards the app plugin handles the client-side navigation.
+    const path = window.location.pathname + window.location.search + window.location.hash
+    if (path !== '/') {
+      console.warn('404 fallback triggered, redirecting to / to allow SPA router to handle:', path)
+      window.location.replace('/?redirect=' + encodeURIComponent(path))
+    }
+  </script>
+</head>
+<body>
+  <h1>Page not found</h1>
+  <p>Redirecting to the app...</p>
+  <p>If your browser does not redirect, <a href="/">click here</a>.</p>
+</body>
+</html>

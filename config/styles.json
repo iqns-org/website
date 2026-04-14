@@ -1,0 +1,338 @@
+{
+  "name": "IQ:NS Design System",
+  "version": "1.0.0",
+  "description": "Tokenized design system for IQ:NS  — drives all UI styling without hard-coded Tailwind classes",
+  
+  "colors": {
+    "semantic": {
+      "background": {
+        "primary": "#0f172a",
+        "secondary": "#0f200f",
+        "tertiary": "#204020",
+        "interactive": "#1e1b4b"
+      },
+      "surface": {
+        "base": "#102010",
+        "baseOpaque": "rgba(16, 32, 16, 0.8)",
+        "baseOpaqueDark": "rgba(15, 23, 42, 0.9)",
+        "baseOpaqueLight": "rgba(248, 250, 252, 0.92)",
+        "baseOpaqueSepia": "rgba(245, 236, 219, 0.88)",
+        "hover": "#1e293b",
+        "active": "#162016",
+        "overlay": "rgba(15, 23, 42, 0.75)"
+      },
+      "text": {
+        "primary": "#f1f5f9",
+        "secondary": "#cbd5e1",
+        "tertiary": "#94a3b8",
+        "inverted": "#0f172a"
+      },
+      "accent": {
+        "primary": "#4f66ff",
+        "secondary": "#3345dd",
+        "hover": "#2e38c4",
+        "light": "#e6edff"
+      },
+      "border": {
+        "primary": "#1e293b",
+        "secondary": "#334155",
+        "accent": "#4f66ff",
+        "light": "#475569"
+      },
+      "feedback": {
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "info": "#3b82f6"
+      },
+      "state": {
+        "disabled": "#64748b",
+        "focus": "#4f66ff"
+      }
+    },
+    "brand": {
+      "50": "#f5f7ff",
+      "100": "#e6edff",
+      "500": "#4f66ff",
+      "700": "#3345dd"
+    }
+  },
+
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "2.5rem",
+    "3xl": "3rem",
+    "4xl": "4rem"
+  },
+
+  "typography": {
+    "fontFamily": {
+      "sans": "system-ui, -apple-system, sans-serif",
+      "mono": "Menlo, Monaco, Consolas, monospace"
+    },
+    "fontSize": {
+      "xs": ["0.75rem", "1rem"],
+      "sm": ["0.875rem", "1.25rem"],
+      "base": ["1rem", "1.5rem"],
+      "lg": ["1.125rem", "1.75rem"],
+      "xl": ["1.25rem", "1.75rem"],
+      "2xl": ["1.5rem", "2rem"],
+      "3xl": ["1.875rem", "2.25rem"],
+      "4xl": ["2.25rem", "2.5rem"],
+      "5xl": ["3rem", "1"]
+    },
+    "fontWeight": {
+      "light": 300,
+      "normal": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "loose": 1.75
+    }
+  },
+
+  "shadows": {
+    "none": "none",
+    "sm": "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    "base": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "md": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "lg": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "xl": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+  },
+
+  "borders": {
+    "radius": {
+      "none": "0",
+      "xs": "0.125rem",
+      "sm": "0.25rem",
+      "base": "0.375rem",
+      "md": "0.5rem",
+      "lg": "0.75rem",
+      "full": "9999px"
+    },
+    "width": {
+      "none": "0",
+      "xs": "0.5px",
+      "sm": "1px",
+      "base": "2px",
+      "md": "3px",
+      "lg": "4px"
+    },
+    "bottom": {
+      "sm": "1px",
+      "base": "2px",
+      "md": "3px"
+    }
+  },
+
+  "effects": {
+    "backdropBlur": {
+      "none": "0",
+      "xs": "blur(4px)",
+      "sm": "blur(6px)",
+      "md": "blur(12px)",
+      "lg": "blur(16px)",
+      "xl": "blur(24px)"
+    }
+  },
+
+  "animations": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "300ms",
+      "slow": "500ms",
+      "slower": "700ms"
+    },
+    "easing": {
+      "linear": "linear",
+      "ease": "ease",
+      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+      "easeOut": "cubic-bezier(0, 0, 0.2, 1)",
+      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "keyframes": {
+      "blob": {
+        "0%, 100%": { "transform": "translate(0, 0) scale(1)" },
+        "33%": { "transform": "translate(30px, -50px) scale(1.1)" },
+        "66%": { "transform": "translate(-20px, 20px) scale(0.9)" }
+      },
+      "fadeIn": {
+        "from": { "opacity": "0" },
+        "to": { "opacity": "1" }
+      },
+      "fadeInUp": {
+        "from": { "opacity": "0", "transform": "translate3d(0, 40px, 0)" },
+        "to": { "opacity": "1", "transform": "translate3d(0, 0, 0)" }
+      }
+    },
+    "definitions": {
+      "blob": { "duration": "7s", "timingFunction": "infinite" },
+      "fadeIn": { "duration": "0.6s", "timingFunction": "ease-out" },
+      "fadeInUp": { "duration": "0.6s", "timingFunction": "ease-out" }
+    }
+  },
+
+  "components": {
+    "header": {
+      "background": "semantic.surface.base",
+      "borderColor": "semantic.border.primary",
+      "height": "3.5rem",
+      "padding": ["md", "lg"],
+      "spacing": "md",
+      "backdropBlur": "md"
+    },
+    "footer": {
+      "background": "semantic.surface.base",
+      "textColor": "semantic.text.secondary",
+      "padding": "spacing.lg",
+      "fontSize": "typography.fontSize.sm"
+    },
+    "button": {
+      "base": {
+        "padding": ["sm", "md"],
+        "borderRadius": "borders.radius.base",
+        "fontSize": "typography.fontSize.sm",
+        "fontWeight": "typography.fontWeight.medium",
+        "transitionDuration": "animations.duration.fast",
+        "cursor": "pointer"
+      },
+      "primary": {
+        "background": "semantic.accent.primary",
+        "color": "semantic.text.inverted",
+        "hoverBackground": "semantic.accent.secondary",
+        "disabledBackground": "semantic.state.disabled"
+      },
+      "secondary": {
+        "background": "semantic.surface.hover",
+        "color": "semantic.text.primary",
+        "borderColor": "semantic.border.secondary",
+        "hoverBackground": "semantic.surface.active"
+      },
+      "outline": {
+        "background": "transparent",
+        "color": "semantic.accent.primary",
+        "borderColor": "semantic.accent.primary",
+        "borderWidth": "borders.width.sm",
+        "hoverBackground": "semantic.accent.light"
+      }
+    },
+    "dropdown": {
+      "background": "rgba(15, 23, 42, 0.95)",
+      "borderColor": "semantic.border.primary",
+      "borderRadius": "borders.radius.md",
+      "shadow": "shadows.lg",
+      "backdropBlur": "sm",
+      "zIndex": 200
+    },
+    "navigation": {
+      "fontSize": "typography.fontSize.sm",
+      "fontWeight": "typography.fontWeight.medium",
+      "textColor": "semantic.text.secondary",
+      "spacing": "md",
+      "hoverBackground": "semantic.surface.hover",
+      "activeBackground": "rgba(79, 102, 255, 0.2)",
+      "activeColor": "semantic.accent.light"
+    },
+    "link": {
+      "textColor": "semantic.text.secondary",
+      "hoverColor": "semantic.text.primary",
+      "activeColor": "semantic.accent.primary",
+      "underline": false
+    },
+    "settingsPanel": {
+      "background": "semantic.surface.base",
+      "padding": "spacing.lg",
+      "spacing": "spacing.md",
+      "borderColor": "semantic.border.primary"
+    }
+  },
+
+  "layout": {
+    "container": {
+      "maxWidth": "1280px",
+      "padding": ["md", "lg"]
+    },
+    "gutter": "spacing.lg",
+    "section": {
+      "paddingVertical": ["3xl", "4xl"],
+      "paddingHorizontal": ["md", "lg"]
+    }
+  },
+
+  "app": {
+    "matrixRain": {
+      "container": "min-h-screen pt-4 flex flex-col bg-semantic-background-primary text-semantic-text-primary relative overflow-visible",
+      "canvas": "fixed inset-0 pointer-events-none"
+    },
+    "mainContent": "flex-grow container mx-auto px-lg py-md z-10 outline-none",
+    "header": {
+      "header": "fixed top-0 left-0 right-0 border-b-sm backdrop-blur-md z-50",
+      "logo": "h-10 w-auto",
+      "content": "max-w-5xl mx-auto px-lg py-md flex items-center justify-between",
+      "nav": "flex items-center gap-sm text-sm font-medium text-semantic-text-secondary",
+      "desktopNav": "hidden md:flex",
+      "mobileMenuButton": "md:hidden",
+      "mobileMenu": "md:hidden fixed top-14 left-0 right-0 bg-semantic-surface-base border-t border-semantic-border-primary max-h-0 overflow-hidden transition-all duration-normal",
+      "mobileMenuOpen": "max-h-screen"
+    },
+    "footer": {
+      "footer": "bg-semantic-surface-base text-semantic-text-secondary py-lg z-10 relative",
+      "content": "max-w-5xl mx-auto px-lg text-sm",
+      "grid": "flex items-center justify-between gap-lg flex-wrap",
+      "links": "flex items-center gap-lg"
+    },
+    "navigation": {
+      "nav": "flex flex-wrap items-center gap-sm text-sm font-medium text-semantic-text-secondary",
+      "dropdownBtn": "inline-flex items-center gap-sm px-md py-sm rounded-base bg-transparent border-none text-semantic-text-secondary cursor-pointer transition-colors duration-fast hover:bg-semantic-surface-hover",
+      "dropdownMenu": "absolute left-0 top-full mt-sm min-w-48 rounded-md bg-opacity-95 backdrop-blur-sm border border-semantic-border-primary shadow-lg z-200",
+      "menuItem": "block px-md py-sm bg-transparent text-inherit transition-colors duration-fast cursor-pointer hover:bg-semantic-surface-hover",
+      "link": "inline-flex items-center gap-sm px-md py-sm rounded-base bg-transparent text-semantic-text-secondary transition-colors duration-fast cursor-pointer text-decoration-none hover:bg-semantic-surface-hover"
+    },
+    "dropdown": {
+      "container": "absolute top-full mt-sm min-w-56 rounded-md bg-opacity-95 backdrop-blur-sm border border-semantic-border-primary shadow-lg z-200",
+      "content": "overflow-hidden"
+    },
+    "settingsPanel": {
+      "container": "space-y-md",
+      "section": "px-sm py-sm",
+      "label": "text-xs font-semibold uppercase tracking-wider text-semantic-text-tertiary mb-sm",
+      "button": "px-md py-sm rounded-base border-none bg-semantic-surface-hover text-semantic-text-primary cursor-pointer transition-colors duration-fast hover:bg-semantic-accent-primary",
+      "buttonActive": "px-md py-sm rounded-base border-none bg-semantic-accent-primary text-semantic-text-inverted cursor-pointer transition-colors duration-fast"
+    },
+    "sectionNav": {
+      "nav": "hidden lg:block bg-semantic-surface-elevated border-t border-semantic-border-primary px-lg py-sm",
+      "container": "max-w-5xl mx-auto flex flex-wrap gap-lg",
+      "section": "flex-1 min-w-150",
+      "sectionTitle": "text-xs font-semibold uppercase tracking-wider text-semantic-text-tertiary mb-sm",
+      "link": "block px-0 py-xs text-semantic-text-secondary transition-colors duration-fast cursor-pointer text-decoration-none hover:text-semantic-text-primary"
+    }
+  },
+
+  "tokens": {
+    "description": "Color token names for use in template bindings",
+    "primary": "$colors.semantic.accent.primary",
+    "primaryHover": "$colors.semantic.accent.hover",
+    "primaryLight": "$colors.semantic.accent.light",
+    "bgPrimary": "$colors.semantic.background.primary",
+    "bgSecondary": "$colors.semantic.background.secondary",
+    "bgInteractive": "$colors.semantic.background.interactive",
+    "surfaceBase": "$colors.semantic.surface.base",
+    "surfaceHover": "$colors.semantic.surface.hover",
+    "surfaceActive": "$colors.semantic.surface.active",
+    "textPrimary": "$colors.semantic.text.primary",
+    "textSecondary": "$colors.semantic.text.secondary",
+    "textTertiary": "$colors.semantic.text.tertiary",
+    "borderPrimary": "$colors.semantic.border.primary",
+    "borderSecondary": "$colors.semantic.border.secondary",
+    "borderAccent": "$colors.semantic.border.accent"
+  }
+}
