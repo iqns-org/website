@@ -30,4 +30,4 @@ IQ:NS keeps the core ontologies open while supporting a private layer for intern
 - You want private hosting for SPARQL or MCP services
 - Your risk, compliance, or IT teams require tenant-isolated knowledge
 
-[See pricing](/pricing) · [Explore the public ontologies](https://github.com/iqns-org/ontologies)
+[See pricing](/services) · [Explore the public ontologies](https://github.com/iqns-org/ontologies)

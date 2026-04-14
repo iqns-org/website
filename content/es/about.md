@@ -32,7 +32,7 @@ IQ:NS es mantenido por colaboradores con experiencia en investigación de la web
 
 ## Capa comercial
 
-Para equipos que necesiten bases de conocimiento privadas, puntos finales SPARQL alojados, integración con servidor MCP o soporte práctico, existe un [nivel comercial](/pricing). Pero las ontologías en sí siguen siendo gratuitas.
+Para equipos que necesiten bases de conocimiento privadas, puntos finales SPARQL alojados, integración con servidor MCP o soporte práctico, existe un [nivel comercial](/services). Pero las ontologías en sí siguen siendo gratuitas.
 
 ## Involúcrate
 

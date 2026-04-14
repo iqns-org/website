@@ -6,7 +6,7 @@ description: >-
 lang: de
 navigation:
   section: platform
-  label: Preise
+  label: Services
   order: 20
 tagline: Offene Ontologien. Für immer kostenlos.
 subtagline: >-

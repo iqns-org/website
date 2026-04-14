@@ -7,7 +7,7 @@ description: >-
 lang: es
 navigation:
   section: platform
-  label: Precios
+  label: Servicios
   order: 20
 tagline: Ontologías abiertas. Gratis para siempre.
 subtagline: >-

@@ -47,13 +47,30 @@ describe('Content pages', () => {
     })
   }
 
-  it('should have all english pages mirrored in all locales', () => {
-    const enFiles = getFilesForLocale('en')
+  it('should have the shared core pages mirrored across all locales', () => {
+    const expectedCorePages = [
+      'about.md',
+      'ai-governance.md',
+      'faq.md',
+      'features.md',
+      'getting-started.md',
+      'how-it-works.md',
+      'index.md',
+      'industries.md',
+      'privacy.md',
+      'regulations.md',
+      'resources.md',
+      'risks.md',
+      'security.md',
+      'tech.md',
+      'terms.md',
+      'why.md'
+    ]
+
     locales.forEach((locale) => {
-      if (locale === 'en') return
       const localeFiles = getFilesForLocale(locale)
       const localeSet = new Set(localeFiles)
-      enFiles.forEach((fileName) => {
+      expectedCorePages.forEach((fileName) => {
         expect(localeSet.has(fileName)).toBe(true)
       })
     })

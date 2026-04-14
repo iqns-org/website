@@ -32,7 +32,7 @@ IQ:NS é mantido por contribuidores com experiência em pesquisa da web semânti
 
 ## Camada comercial
 
-Para equipes que precisam de bases de conhecimento privadas, endpoints SPARQL hospedados, integração com servidor MCP ou suporte prático, há uma [camada comercial](/pricing). Mas as próprias ontologias permanecem gratuitas.
+Para equipes que precisam de bases de conhecimento privadas, endpoints SPARQL hospedados, integração com servidor MCP ou suporte prático, há uma [camada comercial](/services). Mas as próprias ontologias permanecem gratuitas.
 
 ## Envolva‑se
 

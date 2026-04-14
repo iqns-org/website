@@ -12,6 +12,8 @@ hero:
   - title: Learn how IQ:NS works
     link: /how-it-works
   - title: Explore use cases
+  - title: Browse Ontologies
+    link: /ontology
     link: /use-cases
   - title: Integrate Private Knowledge
     link: /private-knowledge

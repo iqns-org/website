@@ -45,6 +45,6 @@ Wenn Standards als strukturiertes Wissen statt als PDFs vorliegen, können Teams
 
 ## Erste Schritte
 
-Die Ontologien sind [kostenlos auf GitHub](https://github.com/iqns-org/ontologies). Für gehostete Dienste oder benutzerdefinierte Integrationen siehe [Preise](/pricing).
+Die Ontologien sind [kostenlos auf GitHub](https://github.com/iqns-org/ontologies). Für gehostete Dienste oder benutzerdefinierte Integrationen siehe [Preise](/services).
 
 [Entdecken Sie, wie es funktioniert](/how-it-works) · [Standards‑Abdeckung anzeigen](/regulations)

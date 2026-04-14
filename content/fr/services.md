@@ -7,7 +7,7 @@ description: >-
 lang: fr
 navigation:
   section: platform
-  label: Tarification
+  label: Services
   order: 20
 tagline: Ontologies ouvertes. Gratuites à vie.
 subtagline: >-

@@ -30,7 +30,7 @@ Kein Konto erforderlich. Keine Anmeldung.
 
 Wenn Sie agentenbasierte Workflows erstellen, bietet der MCP‑Server Ihren Agenten strukturierten Zugriff auf den Wissensgraphen. Agenten können Konzepte, Beziehungen und bereichsübergreifende Ausrichtungen direkt abfragen – ohne PDF‑Kontextfenster.
 
-Verfügbar im [Business‑Tier](/pricing).
+Verfügbar im [Business‑Tier](/services).
 
 ---
 
@@ -38,7 +38,7 @@ Verfügbar im [Business‑Tier](/pricing).
 
 Möchten Sie keinen eigenen Triplestore betreiben? Der gehostete Endpunkt bietet Ihnen Abfragezugriff ohne Infrastruktur.
 
-Verfügbar im [Business‑Tier](/pricing).
+Verfügbar im [Business‑Tier](/services).
 
 ---
 
@@ -46,7 +46,7 @@ Verfügbar im [Business‑Tier](/pricing).
 
 Erweitern Sie die öffentlichen Ontologien mit Ihrem eigenen institutionellen Wissen – interne Richtlinien, benutzerdefinierte Rahmenwerke, proprietäre Risikotaxonomien. Privat gehalten, abfragbar neben dem öffentlichen Graphen.
 
-Verfügbar im [Business‑Tier](/pricing).
+Verfügbar im [Business‑Tier](/services).
 
 ---
 

@@ -29,7 +29,7 @@ No account needed. No sign-up.
 
 If you're building agentic workflows, the MCP server gives your agents structured access to the knowledge graph. Agents query concepts, relationships, and cross-framework alignments directly — no PDF context windows needed.
 
-Available on the [Business tier](/pricing).
+Available on the [Business tier](/services).
 
 ---
 
@@ -37,7 +37,7 @@ Available on the [Business tier](/pricing).
 
 Don't want to run your own triplestore? The hosted endpoint gives you query access without infrastructure.
 
-Available on the [Business tier](/pricing).
+Available on the [Business tier](/services).
 
 ---
 
@@ -45,7 +45,7 @@ Available on the [Business tier](/pricing).
 
 Extend the public ontologies with your own institutional knowledge — internal policies, custom frameworks, proprietary risk taxonomies. Kept private, queryable alongside the public graph.
 
-Available on the [Business tier](/pricing).
+Available on the [Business tier](/services).
 
 ---
 

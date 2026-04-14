@@ -91,4 +91,4 @@ Jede Ontologie ist versioniert. Exportiert als Standard‑RDF‑Turtle. Wenn Sie
 
 ---
 
-[Auf GitHub erkunden](https://github.com/iqns-org/ontologies) · [Technologie ansehen](/tech) · [Preise ansehen](/pricing)
+[Auf GitHub erkunden](https://github.com/iqns-org/ontologies) · [Technologie ansehen](/tech) · [Preise ansehen](/services)

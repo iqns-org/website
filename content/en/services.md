@@ -1,10 +1,10 @@
 ---
-title: Pricing & Plans
+title: Services & Plans
 description: Open ontologies, free forever. Commercial tiers for teams that need hosting, private knowledge bases, or integration support.
 lang: en
 navigation:
   section: platform
-  label: Pricing
+  label: Services
   order: 20
 tagline: Open ontologies. Free forever.
 subtagline: Only upgrade if you need custom ontologies, private knowledge bases, and/or hands-on support.

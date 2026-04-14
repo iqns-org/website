@@ -36,7 +36,7 @@ IQ:NS is maintained by contributors with backgrounds in semantic web research, r
 
 ## Commercial layer
 
-For teams that need private knowledge bases, hosted SPARQL endpoints, MCP server integration, or hands-on support, there's a [commercial tier](/pricing). But the ontologies themselves remain free.
+For teams that need private knowledge bases, hosted SPARQL endpoints, MCP server integration, or hands-on support, there's a [commercial tier](/services). But the ontologies themselves remain free.
 
 ## Get involved
 

@@ -45,6 +45,6 @@ Cuando las normas existen como conocimiento estructurado en lugar de PDFs, los e
 
 ## Empezando
 
-Las ontologías son [gratuitas en GitHub](https://github.com/iqns-org/ontologies). Para servicios alojados o integraciones personalizadas, consulte [precios](/pricing).
+Las ontologías son [gratuitas en GitHub](https://github.com/iqns-org/ontologies). Para servicios alojados o integraciones personalizadas, consulte [precios](/services).
 
 [Explorar cómo funciona](/how-it-works) · [Ver la cobertura de normas](/regulations)

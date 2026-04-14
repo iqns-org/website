@@ -45,6 +45,6 @@ Lorsque les normes vivent sous forme de connaissances structurées plutôt que d
 
 ## Commencer
 
-Les ontologies sont [gratuites sur GitHub](https://github.com/iqns-org/ontologies). Pour les services hébergés ou les intégrations personnalisées, voir la [tarification](/pricing).
+Les ontologies sont [gratuites sur GitHub](https://github.com/iqns-org/ontologies). Pour les services hébergés ou les intégrations personnalisées, voir la [tarification](/services).
 
 [Explorez comment cela fonctionne](/how-it-works) · [Voir la couverture des normes](/regulations)

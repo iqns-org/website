@@ -34,7 +34,7 @@ IQ:NS est maintenu par des contributeurs issus de la recherche sur le web séman
 
 ## Couche commerciale
 
-Pour les équipes qui ont besoin de bases de connaissances privées, d’endpoints SPARQL hébergés, d’intégration serveur MCP ou d’un support pratique, il existe un [niveau commercial](/pricing). Mais les ontologies elles‑mêmes restent gratuites.
+Pour les équipes qui ont besoin de bases de connaissances privées, d’endpoints SPARQL hébergés, d’intégration serveur MCP ou d’un support pratique, il existe un [niveau commercial](/services). Mais les ontologies elles‑mêmes restent gratuites.
 
 ## Impliquez‑vous
 

@@ -17,7 +17,7 @@ const { data: rawMarkdown } = await useAsyncData(
   `pricing-content-${locale.value}`,
   async () => {
     const currentLocale = locale.value || 'en'
-    const loader = contentModules[`/content/${currentLocale}/pricing.md`] || contentModules['/content/en/pricing.md']
+    const loader = contentModules[`/content/${currentLocale}/services.md`] || contentModules['/content/en/services.md']
     if (loader) return (await loader()) as string
     return null
   },

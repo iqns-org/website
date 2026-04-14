@@ -32,7 +32,7 @@ IQ:NS wird von Mitwirkenden mit Hintergründen in Semantic‑Web‑Forschung, re
 
 ## Kommerzielle Ebene
 
-Für Teams, die private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server‑Integration oder Hands‑on‑Support benötigen, gibt es einen [kommerziellen Tarif](/pricing). Die Ontologien selbst bleiben jedoch kostenlos.
+Für Teams, die private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server‑Integration oder Hands‑on‑Support benötigen, gibt es einen [kommerziellen Tarif](/services). Die Ontologien selbst bleiben jedoch kostenlos.
 
 ## Mitmachen
 

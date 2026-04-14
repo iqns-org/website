@@ -10,7 +10,7 @@ navigation:
 
 # IQ:NS Support
 
-- [Engage Our Team](/pricing#addonsy)
+- [Engage Our Team](/services#addonsy)
 
 ## Open Source
 

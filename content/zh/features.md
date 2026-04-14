@@ -89,4 +89,4 @@ IQ:NS 可接入现有工具：
 
 ---
 
-[在 GitHub 上探索](https://github.com/iqns-org/ontologies) · [查看技术](/tech) · [查看定价](/pricing)
+[在 GitHub 上探索](https://github.com/iqns-org/ontologies) · [查看技术](/tech) · [查看定价](/services)

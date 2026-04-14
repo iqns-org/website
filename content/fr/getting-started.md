@@ -30,7 +30,7 @@ Aucun compte requis. Aucun inscription.
 
 Si vous créez des flux de travail agentiques, le serveur MCP donne à vos agents un accès structuré au graphe de connaissances. Les agents interrogent directement les concepts, les relations et les alignements inter‑cadres — aucune fenêtre de contexte PDF nécessaire.
 
-Disponible dans le [niveau Business](/pricing).
+Disponible dans le [niveau Business](/services).
 
 ---
 
@@ -38,7 +38,7 @@ Disponible dans le [niveau Business](/pricing).
 
 Vous ne voulez pas gérer votre propre triplestore ? Le point d'accès hébergé vous donne un accès aux requêtes sans infrastructure.
 
-Disponible dans le [niveau Business](/pricing).
+Disponible dans le [niveau Business](/services).
 
 ---
 
@@ -46,7 +46,7 @@ Disponible dans le [niveau Business](/pricing).
 
 Étendez les ontologies publiques avec votre propre connaissance institutionnelle — politiques internes, cadres personnalisés, taxonomies de risque propriétaires. Conservées privées, interrogeables aux côtés du graphe public.
 
-Disponible dans le [niveau Business](/pricing).
+Disponible dans le [niveau Business](/services).
 
 ---
 

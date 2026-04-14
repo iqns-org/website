@@ -27,4 +27,4 @@ Auditors often rebuild the same mappings in each review cycle. They face inconsi
 
 IQ:NS does not conduct audits, but it makes them far easier. By providing a common vocabulary, assurance teams can focus on validation instead of reconstruction.
 
-[Explore the ontologies](https://github.com/iqns-org/ontologies) · [View pricing](/pricing)
+[Explore the ontologies](https://github.com/iqns-org/ontologies) · [View pricing](/services)

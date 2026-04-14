@@ -90,4 +90,4 @@ Every ontology is versioned. Exported as standard RDF Turtle. If you leave, you 
 
 ---
 
-[Explore on GitHub](https://github.com/iqns-org/ontologies) · [See the technology](/tech) · [View pricing](/pricing)
+[Explore on GitHub](https://github.com/iqns-org/ontologies) · [See the technology](/tech) · [View pricing](/services)

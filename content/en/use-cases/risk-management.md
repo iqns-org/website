@@ -27,4 +27,4 @@ Risk management is not just about mapping standards. It is about connecting thos
 
 Use IQ:NS with your risk taxonomy and reporting tools so every assessment is linked back to a shared organisational vocabulary. That makes risk faster to understand and easier to audit.
 
-[Explore the ontologies](https://github.com/iqns-org/ontologies) · [View pricing](/pricing)
+[Explore the ontologies](https://github.com/iqns-org/ontologies) · [View pricing](/services)

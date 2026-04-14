@@ -43,6 +43,6 @@ When rules and operational models live as structured knowledge rather than PDFs,
 
 ## Getting started
 
-The ontologies in `./ontologies/v1/` are [free on GitHub](https://github.com/iqns-org/ontologies). For hosted services or custom integrations, see [pricing](/pricing).
+The ontologies in `./ontologies/v1/` are [free on GitHub](https://github.com/iqns-org/ontologies). For hosted services or custom integrations, see [pricing](/services).
 
 [Explore how it works](/how-it-works) · [View the standards coverage](/regulations)

@@ -30,7 +30,7 @@ No se necesita cuenta. No hay registro.
 
 Si estás construyendo flujos de trabajo agenticos, el servidor MCP brinda a tus agentes acceso estructurado al grafo de conocimiento. Los agentes consultan conceptos, relaciones y alineaciones entre marcos directamente — sin necesidad de ventanas de contexto PDF.
 
-Disponible en el [nivel Business](/pricing).
+Disponible en el [nivel Business](/services).
 
 ---
 
@@ -38,7 +38,7 @@ Disponible en el [nivel Business](/pricing).
 
 ¿No quieres ejecutar tu propio triplestore? El punto final alojado te brinda acceso de consulta sin infraestructura.
 
-Disponible en el [nivel Business](/pricing).
+Disponible en el [nivel Business](/services).
 
 ---
 
@@ -46,7 +46,7 @@ Disponible en el [nivel Business](/pricing).
 
 Amplía las ontologías públicas con tu propio conocimiento institucional — políticas internas, marcos personalizados, taxonomías de riesgo propietarias. Manténlas privadas, consultables junto al grafo público.
 
-Disponible en el [nivel Business](/pricing).
+Disponible en el [nivel Business](/services).
 
 ---
 
