@@ -8,14 +8,9 @@ navigation:
   order: 50
 ---
 
-# Contact
+# Open Ontologies
 
-## Get in touch
+- [Download from GitHub](https://github.com/iqns-org/ontologies)
 
-**Email:** [hello@iqns.org](mailto:hello@iqns.org)
+- [Suggest an Ontology](https://github.com/iqns-org/ontologies/issues)
 
-## Community
-
-- **GitHub:** [github.com/iqns-org](https://github.com/iqns-org/ontologies)
-- **LinkedIn:** [@iqns](https://linkedin.com/company/iqns)
-- **X:** [@IQNS](https://X.com/IQNS)
