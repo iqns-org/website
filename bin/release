@@ -4,10 +4,15 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}/.."
 
-if [ -n "$(git status --porcelain)" ]; then
-  echo "Error: working tree is dirty. Commit or stash changes before running release." >&2
-  git status --short
-  exit 1
+git_status="$(git status --porcelain)"
+if [ -n "${git_status}" ]; then
+  dirty="$(printf '%s\n' "${git_status}" | grep -vE '^\?\? bin/release$' || true)"
+  if [ -n "${dirty}" ]; then
+    echo "Error: working tree is dirty. Commit or stash changes before running release." >&2
+    git status --short
+    exit 1
+  fi
+  echo "Warning: untracked bin/release detected; continuing because only the release helper is untracked."
 fi
 
 echo "Starting release from $(pwd)"
