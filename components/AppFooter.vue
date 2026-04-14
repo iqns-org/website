@@ -26,9 +26,6 @@ const marketingEnabled = runtimePublic.consent?.marketing?.enabled ?? false
 const pageSenseConfig = runtimePublic.consent?.analytics?.pageSense ?? {}
 const pageSenseEnabled = marketingEnabled && pageSenseConfig.enabled
 const bannerEnabled = runtimePublic.consent?.banner?.enabled ?? false
-const consentKey = 'iqnsTrackingConsent'
-const consentVisible = ref(false)
-const consentAccepted = ref(false)
 
 const loadPageSense = () => {
   if (!pageSenseEnabled) return
@@ -108,39 +105,6 @@ onMounted(() => {
       </div>
     </div>
 
-    <div
-      v-if="consentVisible"
-      class="fixed bottom-6 right-6 z-50 max-w-sm rounded-2xl border border-slate-700 bg-slate-950/95 p-4 shadow-xl shadow-slate-950/50 backdrop-blur-md text-slate-100"
-      style="box-shadow: 0 24px 60px rgba(15, 23, 42, 0.3);"
-    >
-      <div class="mb-3">
-        <p class="text-sm font-semibold text-white">Cookie consent</p>
-        <p class="mt-2 text-sm leading-6 text-slate-300">
-          This site may use optional analytics and marketing tracking. Pagesense handles its own consent flow, and these controls manage additional tracking options.
-        </p>
-      </div>
-      <div class="flex flex-wrap gap-2">
-        <button
-          class="rounded-full bg-cyan-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-cyan-500"
-          type="button"
-          @click="updateConsent(true)"
-        >
-          Accept
-        </button>
-        <button
-          class="rounded-full border border-slate-600 bg-transparent px-4 py-2 text-sm font-semibold text-slate-200 transition hover:border-slate-400 hover:text-white"
-          type="button"
-          @click="updateConsent(false)"
-        >
-          Decline
-        </button>
-        <NuxtLink
-          :to="localePath('/privacy')"
-          class="ml-auto self-center text-xs uppercase tracking-[0.18em] text-slate-400 transition hover:text-slate-100"
-        >
-          Privacy details
-        </NuxtLink>
-      </div>
-    </div>
+      <ConsentBanner v-if="bannerEnabled" />
   </footer>
 </template>
