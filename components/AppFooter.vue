@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useDesignTokens } from '@/utils/useDesignTokens'
 import { useRuntimeConfig } from 'nuxt/app'
+import ConsentBanner from '@/components/ConsentBanner.vue'
 
 const { styles, space } = useDesignTokens()
 const { t } = useI18n()
@@ -13,6 +14,7 @@ const buildTime = config.public.buildTime || new Date().toISOString()
 
 const runtimePublic = config.public as {
   consent?: {
+    banner?: { enabled?: boolean }
     marketing?: { enabled?: boolean }
     analytics?: {
       pageSense?: { enabled?: boolean; projectId?: string; baseUrl?: string }
@@ -23,6 +25,7 @@ const runtimePublic = config.public as {
 const marketingEnabled = runtimePublic.consent?.marketing?.enabled ?? false
 const pageSenseConfig = runtimePublic.consent?.analytics?.pageSense ?? {}
 const pageSenseEnabled = marketingEnabled && pageSenseConfig.enabled
+const bannerEnabled = runtimePublic.consent?.banner?.enabled ?? false
 const consentKey = 'iqnsTrackingConsent'
 const consentVisible = ref(false)
 const consentAccepted = ref(false)

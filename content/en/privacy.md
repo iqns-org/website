@@ -9,7 +9,7 @@ navigation:
 ---
 # Privacy Policy
 
-IQ:NS operates on metadata — structured concepts and relationships. We never touch model data, training sets, inference outputs, or personal identifiers unless you provide them directly. This policy explains how we collect, use, and protect information when you interact with our website and services.
+IQ:NS operates structured concepts and relationships. We never touch model data, training sets, inference outputs, or personal identifiers unless you provide them directly. This policy explains how we collect, use, and protect information when you interact with our website and services.
 
 ## Information we collect
 
