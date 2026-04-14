@@ -11,6 +11,9 @@
                 "trackingId": "G-XXXXXXXXXX"
             }
         },
+        "banner": {
+            "enabled": false
+        },
         "marketing": {
             "enabled": true
         },
