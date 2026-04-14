@@ -17,7 +17,7 @@ fi
 
 echo "Starting release from $(pwd)"
 
-npm version bump
+npm version patch --no-git-tag-version
 
 VERSION="$(node -e "process.stdout.write(require('./package.json').version)")"
 if [ -z "${VERSION}" ]; then
@@ -32,7 +32,6 @@ npm run translator
 npm run build
 
 git add -A .
-gi
 if git diff --cached --quiet; then
   echo "Error: no changes staged for release after translator/build." >&2
   exit 1
