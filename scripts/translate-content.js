@@ -22,17 +22,15 @@ const config = await loadConfig(CONFIG_PATH)
 const SOURCE_LOCALE = config.sourceLocale
 const LOCALES = Array.isArray(config.locales) ? config.locales : ['en', 'fr', 'es', 'de', 'pt', 'zh']
 const TARGET_LOCALES = LOCALES.filter((locale) => locale !== SOURCE_LOCALE)
+const CONTENT_DIR = config.contentDir || 'content'
+const I18N_DIR = config.i18nDir || 'i18n/locales'
+const PARALLEL_LOCALES = config.parallelLocales ?? true
 const API_BASE_URL = process.env[config.apiEndpointEnv] || config.defaultEndpoint
 const MODEL = process.env[config.modelEnv] || config.defaultModel
 const API_KEY = process.env[config.apiKeyEnv]
 
 if (!API_KEY) {
   console.error(`Missing ${config.apiKeyEnv}. Set it in your environment or in .env at the website root.`)
-  process.exit(1)
-}
-
-if (!API_KEY) {
-  console.error('Missing GROQ_API_KEY. Set it in your environment or in .env at the website root.')
   process.exit(1)
 }
 
@@ -99,7 +97,7 @@ function parseArgs(args) {
 }
 
 async function translateContentFiles() {
-  const sourceGlob = `${config.contentDir}/${SOURCE_LOCALE}/**/*.md`
+  const sourceGlob = `${CONTENT_DIR}/${SOURCE_LOCALE}/**/*.md`
   const sourceFiles = await fg(sourceGlob, { cwd: root, onlyFiles: true, dot: false })
 
   if (!sourceFiles.length) {
@@ -107,38 +105,54 @@ async function translateContentFiles() {
     return
   }
 
-  for (const locale of TARGET_LOCALES) {
-    for (const relativePath of sourceFiles) {
-      const sourcePath = path.join(root, relativePath)
-      const targetRelative = relativePath.replace(`${config.contentDir}/${SOURCE_LOCALE}/`, `${config.contentDir}/${locale}/`)
-      const targetPath = path.join(root, targetRelative)
-      const targetExists = await fileExists(targetPath)
-
-      if (targetExists && !FORCE) {
-        console.log(`Skipping existing translation ${targetRelative} (use --force to overwrite)`)
-        continue
-      }
-
-      if (DRY_RUN) {
-        console.log(`[dry-run] Would translate markdown: ${relativePath} -> ${targetRelative}`)
-        continue
-      }
-
-      const raw = await fs.readFile(sourcePath, 'utf8')
-      const parsed = matter(raw)
-      const translatedData = await translateFrontmatter(parsed.data, locale)
-      translatedData.lang = locale
-      const translatedBody = await translateMarkdownBody(parsed.content, locale)
-      const result = matter.stringify(translatedBody, translatedData)
-      await fs.mkdir(path.dirname(targetPath), { recursive: true })
-      await fs.writeFile(targetPath, result, 'utf8')
-      console.log(`Translated markdown: ${relativePath} -> ${targetRelative}`)
+  const localeTasks = TARGET_LOCALES.map((locale) => translateContentLocale(locale, sourceFiles))
+  if (PARALLEL_LOCALES) {
+    await Promise.all(localeTasks)
+  } else {
+    for (const task of localeTasks) {
+      await task
     }
   }
 }
 
+async function translateContentLocale(locale, sourceFiles) {
+  for (const relativePath of sourceFiles) {
+    const sourcePath = path.join(root, relativePath)
+    const targetRelative = relativePath.replace(`${CONTENT_DIR}/${SOURCE_LOCALE}/`, `${CONTENT_DIR}/${locale}/`)
+    const targetPath = path.join(root, targetRelative)
+    const targetExists = await fileExists(targetPath)
+    const shouldTranslateFile = await shouldTranslate(sourcePath, targetPath)
+
+    if (targetExists && !shouldTranslateFile && !FORCE) {
+      console.log(`Skipping up-to-date translation ${targetRelative}`)
+      continue
+    }
+
+    if (DRY_RUN) {
+      if (!targetExists) {
+        console.log(`[dry-run] Would translate markdown: ${relativePath} -> ${targetRelative}`)
+      } else if (shouldTranslateFile || FORCE) {
+        console.log(`[dry-run] Would re-translate markdown: ${relativePath} -> ${targetRelative}`)
+      } else {
+        console.log(`[dry-run] Would skip up-to-date translation ${targetRelative}`)
+      }
+      continue
+    }
+
+    const raw = await fs.readFile(sourcePath, 'utf8')
+    const parsed = matter(raw)
+    const translatedData = await translateFrontmatter(parsed.data, locale)
+    translatedData.lang = locale
+    const translatedBody = await translateMarkdownBody(parsed.content, locale)
+    const result = matter.stringify(translatedBody, translatedData)
+    await fs.mkdir(path.dirname(targetPath), { recursive: true })
+    await fs.writeFile(targetPath, result, 'utf8')
+    console.log(`Translated markdown: ${relativePath} -> ${targetRelative}`)
+  }
+}
+
 async function translateI18nFiles() {
-  const sourcePath = path.join(root, config.i18nDir, `${SOURCE_LOCALE}.json`)
+  const sourcePath = path.join(root, I18N_DIR, `${SOURCE_LOCALE}.json`)
   const sourceExists = await fileExists(sourcePath)
   if (!sourceExists) {
     console.warn('Source i18n file not found:', sourcePath)
@@ -146,25 +160,41 @@ async function translateI18nFiles() {
   }
 
   const sourceJson = JSON.parse(await fs.readFile(sourcePath, 'utf8'))
+  const localeTasks = TARGET_LOCALES.map((locale) => translateI18nLocale(locale, sourcePath, sourceJson))
 
-  for (const locale of TARGET_LOCALES) {
-    const targetPath = path.join(root, config.i18nDir, `${locale}.json`)
-    const targetExists = await fileExists(targetPath)
-
-    if (targetExists && !FORCE) {
-      console.log(`Skipping existing i18n file ${locale}.json (use --force to overwrite)`)
-      continue
+  if (PARALLEL_LOCALES) {
+    await Promise.all(localeTasks)
+  } else {
+    for (const task of localeTasks) {
+      await task
     }
-
-    if (DRY_RUN) {
-      console.log(`[dry-run] Would translate i18n JSON: ${SOURCE_LOCALE}.json -> ${locale}.json`)
-      continue
-    }
-
-    const translated = await translateJsonObject(sourceJson, locale)
-    await fs.writeFile(targetPath, JSON.stringify(translated, null, 2) + '\n', 'utf8')
-    console.log(`Translated i18n file: ${locale}.json`)    
   }
+}
+
+async function translateI18nLocale(locale, sourcePath, sourceJson) {
+  const targetPath = path.join(root, I18N_DIR, `${locale}.json`)
+  const targetExists = await fileExists(targetPath)
+  const shouldTranslateFile = await shouldTranslate(sourcePath, targetPath)
+
+  if (targetExists && !shouldTranslateFile && !FORCE) {
+    console.log(`Skipping up-to-date i18n file ${locale}.json`)
+    return
+  }
+
+  if (DRY_RUN) {
+    if (!targetExists) {
+      console.log(`[dry-run] Would translate i18n JSON: ${SOURCE_LOCALE}.json -> ${locale}.json`)
+    } else if (shouldTranslateFile || FORCE) {
+      console.log(`[dry-run] Would re-translate i18n JSON: ${SOURCE_LOCALE}.json -> ${locale}.json`)
+    } else {
+      console.log(`[dry-run] Would skip up-to-date i18n file ${locale}.json`)
+    }
+    return
+  }
+
+  const translated = await translateJsonObject(sourceJson, locale)
+  await fs.writeFile(targetPath, JSON.stringify(translated, null, 2) + '\n', 'utf8')
+  console.log(`Translated i18n file: ${locale}.json`)
 }
 
 async function translateFrontmatter(frontmatter, locale) {
@@ -276,6 +306,21 @@ function formatTemplate(template, values) {
     (text, [key, value]) => text.replace(new RegExp(`\\{${key}\\}`, 'g'), String(value)),
     template
   )
+}
+
+async function shouldTranslate(sourcePath, targetPath) {
+  if (!(await fileExists(targetPath))) {
+    return true
+  }
+
+  try {
+    const sourceStat = await fs.stat(sourcePath)
+    const targetStat = await fs.stat(targetPath)
+    return sourceStat.mtimeMs > targetStat.mtimeMs
+  } catch (error) {
+    console.warn(`Unable to compare timestamps for ${sourcePath} and ${targetPath}: ${error.message}`)
+    return true
+  }
 }
 
 async function translatePaths(paths, locale) {
