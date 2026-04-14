@@ -3,6 +3,7 @@ import path from 'path'
 import { defineNuxtConfig } from 'nuxt/config'
 import { navManifestPlugin } from './scripts/nav-manifest-plugin'
 import pkg from './package.json'
+import settings from './config/settings.json'
 
 const i18nLocales = ['en', 'fr', 'es', 'de', 'pt', 'zh']
 
@@ -50,7 +51,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       appVersion: process.env.NUXT_PUBLIC_APP_VERSION || pkg.version,
-      buildTime: process.env.NUXT_PUBLIC_BUILD_TIME || new Date().toISOString()
+      buildTime: process.env.NUXT_PUBLIC_BUILD_TIME || new Date().toISOString(),
+      consent: settings.consent
     }
   },
   ontology: {

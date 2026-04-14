@@ -1,14 +1,10 @@
-import { defineContentConfig } from '@nuxt/content'
+import { defineCollection, defineContentConfig } from '@nuxt/content'
 
 export default defineContentConfig({
-  documentDriven: false,
-  sources: {
-    content: {
-      driver: 'fs',
-      base: './content'
-    }
-  },
-  highlight: {
-    theme: 'github-light'
+  collections: {
+    content: defineCollection({
+      type: 'page',
+      source: '**/*'
+    })
   }
 })

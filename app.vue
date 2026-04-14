@@ -1,5 +1,4 @@
 <script setup>
-// Theme initialization moved to nuxt.config via app.head script
 // No DOM manipulation during mount to avoid theme flash
 </script>
 

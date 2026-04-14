@@ -1,0 +1,24 @@
+{
+    "consent": {
+        "analytics": {
+            "pageSense": {
+                "enabled": true,
+                "projectId": "d6d2ce3c17f44fc8ad7de1c26d8c6b46",
+                "baseUrl": "https://cdn-au.pagesense.io/js/quadra"
+            },
+            "googleAnalytics": {
+                "enabled": false,
+                "trackingId": "G-XXXXXXXXXX"
+            }
+        },
+        "marketing": {
+            "enabled": true
+        },
+        "preferences": {
+            "enabled": false
+        },
+        "statistics": {
+            "enabled": false
+        }
+    }
+}
