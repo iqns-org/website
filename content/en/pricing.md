@@ -56,6 +56,7 @@ plans:
       price: $2,500
       period: /year
     features:
+      - Onboarding Workshop (Architect-led)
       - Unlimited Ontologies
       - Private Knowledge Server
       - Secure MCP Server
@@ -78,7 +79,7 @@ plans:
       price: $10,000
       period: /year
     features:
-      - Project Success Manager
+      - Project Success Manager (Snr Architect)
       - Unlimited Ontologies
       - Enterprise Knowledge Server
       - Enterprise MCP Server

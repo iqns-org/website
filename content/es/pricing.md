@@ -1,5 +1,5 @@
 ---
-title: Precios y planes
+title: Precios y Planes
 description: >-
   Ontologías abiertas, gratis para siempre. Niveles comerciales para equipos que
   necesitan alojamiento, bases de conocimiento privadas o soporte de
@@ -15,10 +15,10 @@ subtagline: >-
   soporte práctico.
 annual_note: Ahorra 2 meses con facturación anual.
 trust_signal: >-
-  Construido sobre estándares de la web semántica W3C adoptados por más del 60 %
+  Construido sobre estándares de la web semántica W3C adoptados por más del 60%
   de las empresas Fortune 500.
 how_it_works:
-  heading: Construido sobre estándares de la web semántica
+  heading: Construido sobre estándares de la Web Semántica
   intro: >-
     IQ:NS modela normas, regulaciones y conocimiento institucional como
     ontologías formales — vocabularios estructurados que tanto personas como
@@ -70,7 +70,7 @@ plans:
     highlight: true
     cta_href: 'https://github.com/iqns-org/ontologies'
   - id: business
-    name: Negocios
+    name: Negocio
     tagline: Para equipos que integran IA
     price: $250
     period: /mes
@@ -81,6 +81,7 @@ plans:
       price: '$2,500'
       period: /año
     features:
+      - Taller de incorporación (liderado por arquitecto)
       - Ontologías ilimitadas
       - Servidor de conocimiento privado
       - Servidor MCP seguro
@@ -103,7 +104,7 @@ plans:
       price: '$10,000'
       period: /año
     features:
-      - Gerente de éxito de proyecto
+      - Gerente de éxito de proyecto (Arquitecto senior)
       - Ontologías ilimitadas
       - Servidor de conocimiento empresarial
       - Servidor MCP empresarial
@@ -141,7 +142,7 @@ addons:
       price: '$1,500'
       description: >-
         Conecta tus flujos de trabajo de agentes a IQ:NS vía MCP. Incluye
-        configuración, pruebas y un manual de operaciones para tu equipo.
+        configuración, pruebas y un manual operativo para tu equipo.
     - icon: Users
       title: Entrenamiento de equipo
       price: '$2,500'
@@ -153,16 +154,16 @@ faq:
   items:
     - q: ¿Qué obtengo gratis?
       a: >-
-        Todas las ontologías del repositorio público — más de 100 archivos en
+        Todas las ontologías en el repositorio público — más de 100 archivos en
         más de 20 dominios. Clona el repositorio, consulta los archivos Turtle,
         intégralos con tus herramientas. No se requiere cuenta.
     - q: '¿Qué es una ontología, en la práctica?'
       a: >-
         Un vocabulario legible por máquinas que mapea normas, regulaciones y
-        conocimiento institucional a un formato que los agentes de IA y
-        herramientas pueden consultar. Piensa en ello como un diccionario
-        compartido que tus sistemas realmente entienden.
-    - q: ¿Cuándo debería actualizar a Negocios?
+        conocimiento institucional a un formato que los agentes y herramientas
+        de IA pueden consultar. Piensa en ello como un diccionario compartido
+        que tus sistemas realmente entienden.
+    - q: ¿Cuándo debería actualizar a Negocio?
       a: >-
         Cuando necesitas un servidor de conocimiento privado, un punto final MCP
         gestionado o alojamiento SPARQL — básicamente, cuando quieres que
@@ -170,7 +171,7 @@ faq:
         la integración.
     - q: ¿Puedo modelar políticas internas junto a normas públicas?
       a: >-
-        Sí. Los planes Business y Ecosystem incluyen bases de conocimiento
+        Sí. Los planes Negocio y Ecosistema incluyen bases de conocimiento
         privadas donde puedes ampliar las ontologías públicas con tus propias
         normas internas, políticas y taxonomías.
     - q: ¿Qué son los conectores ITIL SKMS?

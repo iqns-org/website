@@ -14,25 +14,25 @@ subtagline: >-
   Support benötigen.
 annual_note: Sparen Sie 2 Monate bei jährlicher Abrechnung.
 trust_signal: >-
-  Auf W3C-Standards des semantischen Webs aufgebaut, die von über 60 % der
+  Auf W3C Semantic-Web-Standards aufgebaut, die von über 60 % der
   Fortune‑500-Unternehmen übernommen wurden.
 how_it_works:
-  heading: Auf semantischen Web-Standards aufgebaut
+  heading: Auf Semantic-Web-Standards aufgebaut
   intro: >-
     IQ:NS modelliert Standards, Vorschriften und institutionelles Wissen als
     formale Ontologien – strukturierte Vokabulare, die sowohl Menschen als auch
-    Maschinen abfragen, darüber reasoning und integrieren können.
+    Maschinen abfragen, darauf schließen und integrieren können.
   iqns:
     - step: Struktur
       description: >-
         Standards und institutionelles Wissen modelliert als RDF/OWL-Ontologien
-        mit SKOS-Ausrichtungen. Jeder Begriff hat eine stabile IRI und verweist
-        auf seine autoritative Quelle.
+        mit SKOS-Alignments. Jeder Begriff hat eine stabile IRI und verweist auf
+        seine autoritative Quelle.
     - step: Verbinden
       description: >-
-        Framework-übergreifende Zuordnungen zeigen, wo Standards sich
-        überschneiden, divergieren und Lücken hinterlassen. Eine Abfrage deckt
-        jedes relevante Framework ab.
+        Framework-übergreifende Zuordnungen zeigen, wo Standards überlappen,
+        divergieren und Lücken hinterlassen. Eine Abfrage deckt jedes relevante
+        Framework ab.
     - step: Integrieren
       description: >-
         SPARQL-Endpunkte, MCP-Server und standardisierte Turtle-Exporte lassen
@@ -44,7 +44,7 @@ how_it_works:
         ändern. Jede Version wird nachverfolgt. Das Wissen bleibt aktuell.
   breakdown: >-
     Die Ontologien sind das semantische Fundament – strukturiertes Wissen, das
-    GRC-Tools, KI‑Agenten und menschliche Teams gleichermaßen nutzen können.
+    GRC-Tools, KI-Agenten und menschliche Teams gleichermaßen nutzen können.
     Standardmäßig offen. Kommerzielle Services für Teams, die verwaltetes
     Hosting oder private Erweiterungen benötigen.
 plans:
@@ -61,8 +61,8 @@ plans:
       period: /year
     features:
       - 100+ offene Ontologien
-      - Community‑Support
-      - Industrie‑Standards
+      - Community-Support
+      - Branchennormen
       - 'RDFS, OWL, SKOS, SHACL'
       - Unbegrenzte Integrationen
     cta: Auf GitHub erkunden
@@ -80,12 +80,13 @@ plans:
       price: '$2,500'
       period: /year
     features:
+      - Onboarding-Workshop (von Architekten geleitet)
       - Unbegrenzte Ontologien
       - Privater Wissens-Server
       - Sicherer MCP-Server
-      - SPARQL‑Abfrageunterstützung
+      - SPARQL-Abfrageunterstützung
       - Benutzerdefinierte Integrationen
-      - Priorisierter Support (48 h SLA)
+      - Prioritäts‑Support (48 h SLA)
       - ITIL SKMS‑Connectoren (v4)
     cta: Loslegen
     highlight: false
@@ -102,11 +103,11 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Projekt‑Erfolgsmanager
+      - Projekt‑Erfolgsmanager (Senior‑Architekt)
       - Unbegrenzte Ontologien
       - Enterprise‑Wissens‑Server
       - Enterprise‑MCP‑Server
-      - SPARQL‑Abfrageunterstützung
+      - SPARQL-Abfrageunterstützung
       - Enterprise‑Integration
       - Private Cloud / Vor Ort
       - ITIL SKMS‑Connectoren (v4)
@@ -118,7 +119,7 @@ guarantee:
   items:
     - '100+ Ontologien, für immer kostenlos'
     - 'RDFS, OWL, SKOS, SHACL'
-    - Kein Vendor‑Lock‑In
+    - Kein Vendor-Lock‑In
 addons:
   heading: Add‑Ons
   subheading: nur wenn Sie erweiterte Services benötigen
@@ -134,7 +135,7 @@ addons:
       price: '$3,000'
       description: >-
         Abbildung Ihrer internen Standards und Richtlinien auf öffentliche
-        Ontologien. Geliefert als verifizierte SKOS‑Ausrichtungen mit einem
+        Ontologien. Geliefert als verifizierte SKOS-Alignments mit einem
         Abdeckungsbericht.
     - icon: Zap
       title: Agenten‑Integration
@@ -153,8 +154,8 @@ faq:
   items:
     - q: Was bekomme ich kostenlos?
       a: >-
-        Jede Ontologie im öffentlichen Repository – 100+ Dateien über 20+
-        Domänen. Klonen Sie das Repo, fragen Sie die Turtle‑Dateien ab,
+        Jede Ontologie im öffentlichen Repository – über 100 Dateien in mehr als
+        20 Bereichen. Klonen Sie das Repo, fragen Sie die Turtle‑Dateien ab,
         integrieren Sie sie in Ihre Werkzeuge. Kein Konto erforderlich.
     - q: Was ist praktisch gesehen eine Ontologie?
       a: >-
@@ -182,11 +183,11 @@ faq:
     - q: Gibt es einen Vertrag oder eine Verpflichtung?
       a: >-
         Nein. Monatliche Pläne, jederzeit kündbar. Bei jährlicher Zahlung 2
-        Monate kostenlos. Add‑Ons sind einmalige Engagements, die vor der
-        Verpflichtung definiert werden.
+        Monate kostenlos. Add‑Ons sind einmalige Engagements, die vor dem
+        Abschluss definiert werden.
     - q: Wo werden meine Daten gehostet?
       a: >-
-        Bezahlte Pläne werden in Ihrer Wahl von AWS, GCP oder Azure
+        Bezahlte Pläne werden bei Ihrem gewählten Anbieter AWS, GCP oder Azure
         bereitgestellt – Sie wählen die Region. Private Wissensdatenbanken
         bleiben in Ihrem Mandanten. Wir vermischen Kundendaten niemals.
 ---

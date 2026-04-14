@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "${SCRIPT_DIR}/.."
+
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Error: working tree is dirty. Commit or stash changes before running release." >&2
+  git status --short
+  exit 1
+fi
+
+echo "Starting release from $(pwd)"
+
+npm version bump
+
+VERSION="$(node -e "process.stdout.write(require('./package.json').version)")"
+if [ -z "${VERSION}" ]; then
+  echo "Error: could not read version from package.json" >&2
+  exit 1
+fi
+
+echo "Bumped version to ${VERSION}"
+
+npm run test
+npm run translator
+npm run build
+
+git add -A .
+gi
+if git diff --cached --quiet; then
+  echo "Error: no changes staged for release after translator/build." >&2
+  exit 1
+fi
+
+git commit -m "Release: ${VERSION}"
+git push origin main
+git tag "v${VERSION}"
+git push origin "v${VERSION}"

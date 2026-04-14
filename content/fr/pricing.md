@@ -1,5 +1,5 @@
 ---
-title: Tarification & Offres
+title: Tarifs & Plans
 description: >-
   Ontologies ouvertes, gratuites à vie. Niveaux commerciaux pour les équipes qui
   ont besoin d'hébergement, de bases de connaissances privées ou d'assistance à
@@ -21,9 +21,9 @@ how_it_works:
   heading: Construit sur les standards du Web sémantique
   intro: >-
     IQ:NS modélise les normes, réglementations et connaissances
-    institutionnelles comme des ontologies formelles — des vocabulaires
-    structurés que les personnes et les machines peuvent interroger, raisonner
-    et intégrer.
+    institutionnelles sous forme d'ontologies formelles — des vocabulaires
+    structurés que les humains et les machines peuvent interroger, raisonner et
+    intégrer.
   iqns:
     - step: Structure
       description: >-
@@ -83,6 +83,7 @@ plans:
       price: '$2,500'
       period: /year
     features:
+      - Atelier d'intégration (animé par un architecte)
       - Ontologies illimitées
       - Serveur de connaissances privé
       - Serveur MCP sécurisé
@@ -105,7 +106,7 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Chef de projet succès
+      - Chef de projet succès (architecte senior)
       - Ontologies illimitées
       - Serveur de connaissances d'entreprise
       - Serveur MCP d'entreprise
@@ -144,7 +145,7 @@ addons:
       price: '$1,500'
       description: >-
         Connectez vos flux de travail d'agents à IQ:NS via MCP. Inclut la
-        configuration, les tests et un guide d'exploitation pour votre équipe.
+        configuration, les tests et un manuel d'exploitation pour votre équipe.
     - icon: Users
       title: Formation d'équipe
       price: '$2,500'
@@ -158,14 +159,14 @@ faq:
       a: >-
         Chaque ontologie du dépôt public — plus de 100 fichiers couvrant plus de
         20 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
-        intégrez-les à vos outils. Aucun compte requis.
+        intégrez‑les à vos outils. Aucun compte requis.
     - q: 'Qu’est‑ce qu’une ontologie, concrètement ?'
       a: >-
         Un vocabulaire lisible par machine qui mappe les normes, réglementations
         et connaissances institutionnelles dans un format que les agents IA et
         les outils peuvent interroger. Considérez‑le comme un dictionnaire
         partagé que vos systèmes comprennent réellement.
-    - q: Quand devrais‑je passer à l’offre Entreprise ?
+    - q: Quand devrais‑je passer à l’offre Business ?
       a: >-
         Lorsque vous avez besoin d’un serveur de connaissances privé, d’un point
         d’accès MCP géré ou d’un hébergement SPARQL — en gros, quand vous voulez
@@ -177,7 +178,7 @@ faq:
       a: >-
         Oui. Les offres Business et Écosystème incluent des bases de
         connaissances privées où vous pouvez étendre les ontologies publiques
-        avec vos propres normes, politiques et taxonomies internes.
+        avec vos propres normes internes, politiques et taxonomies.
     - q: Que sont les connecteurs ITIL SKMS ?
       a: >-
         Ils relient les ontologies IQ:NS aux systèmes de gestion des

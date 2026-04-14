@@ -18,7 +18,7 @@ trust_signal: >-
   Construído sobre padrões da web semântica W3C adotados por mais de 60% das
   empresas da Fortune 500.
 how_it_works:
-  heading: Construído sobre Padrões da Web Semântica
+  heading: Construído sobre padrões da Web Semântica
   intro: >-
     IQ:NS modela padrões, regulamentações e conhecimento institucional como
     ontologias formais — vocabulários estruturados que tanto pessoas quanto
@@ -81,6 +81,7 @@ plans:
       price: '$2,500'
       period: /year
     features:
+      - Workshop de Onboarding (Conduzido por Arquiteto)
       - Ontologias Ilimitadas
       - Servidor de Conhecimento Privado
       - Servidor MCP Seguro
@@ -103,7 +104,7 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Gerente de Sucesso de Projeto
+      - Gerente de Sucesso de Projeto (Arquiteto Sênior)
       - Ontologias Ilimitadas
       - Servidor de Conhecimento Empresarial
       - Servidor MCP Empresarial
@@ -141,7 +142,7 @@ addons:
       title: Integração de Agente
       price: '$1,500'
       description: >-
-        Conecte seus fluxos de trabalho agentes ao IQ:NS via MCP. Inclui
+        Conecte seus fluxos de trabalho de agentes ao IQ:NS via MCP. Inclui
         configuração, testes e um manual de operação para sua equipe.
     - icon: Users
       title: Treinamento de Equipe
@@ -163,18 +164,18 @@ faq:
         conhecimento institucional para um formato que agentes de IA e
         ferramentas podem consultar. Pense nisso como um dicionário
         compartilhado que seus sistemas realmente entendem.
-    - q: Quando devo fazer upgrade para Negócios?
+    - q: Quando devo fazer upgrade para o plano Business?
       a: >-
         Quando você precisar de um servidor de conhecimento privado, um endpoint
         MCP gerenciado ou hospedagem SPARQL — basicamente, quando quiser que nós
-        gerenciemos a infraestrutura para que sua equipe possa focar na
+        administremos a infraestrutura para que sua equipe possa focar na
         integração.
     - q: Posso modelar políticas internas junto com padrões públicos?
       a: >-
-        Sim. Planos Business e Ecosystem incluem bases de conhecimento privadas
-        onde você pode estender as ontologias públicas com seus próprios padrões
-        internos, políticas e taxonomias.
-    - q: O que são Conectores ITIL SKMS?
+        Sim. Os planos Business e Ecosystem incluem bases de conhecimento
+        privadas onde você pode estender as ontologias públicas com seus
+        próprios padrões internos, políticas e taxonomias.
+    - q: O que são os Conectores ITIL SKMS?
       a: >-
         Eles conectam as ontologias IQ:NS aos Sistemas de Gerenciamento de
         Conhecimento de Serviço ITIL 4 — assim seu service desk, CMDB e
@@ -184,7 +185,7 @@ faq:
       a: >-
         Não. Planos mensais, cancele a qualquer momento. Pague anualmente e
         ganhe 2 meses grátis. Complementos são serviços pontuais definidos antes
-        do compromisso.
+        de você se comprometer.
     - q: Onde meus dados são hospedados?
       a: >-
         Planos pagos são implantados na sua escolha de AWS, GCP ou Azure — você
