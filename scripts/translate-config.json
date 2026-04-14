@@ -1,0 +1,33 @@
+{
+  "sourceLocale": "en",
+  "locales": ["en", "fr", "es", "de", "pt", "zh"],
+  "contentDir": "content",
+  "i18nDir": "i18n/locales",
+  "apiKeyEnv": "GROQ_API_KEY",
+  "apiEndpointEnv": "GROQ_OPENAI_ENDPOINT",
+  "modelEnv": "GROQ_MODEL",
+  "defaultEndpoint": "https://api.groq.com/openai/v1/chat/completions",
+  "defaultModel": "openai/gpt-oss-120b",
+  "translationOptions": {
+    "temperature": 0.2,
+    "max_completion_tokens": 8192,
+    "top_p": 1,
+    "reasoning_effort": "medium"
+  },
+  "promptTemplates": {
+    "markdown": "Translate the following Markdown from English to {language}. Preserve markdown formatting, headings, lists, links, tables, code blocks, inline code, HTML tags, and URLs. Do not modify YAML frontmatter markers or markdown structure. Return only the translated markdown content, without explanations or commentary.\n\n{content}",
+    "json": "Translate the following JSON mapping of English strings to {language}. Preserve markup, placeholders, HTML tags, and punctuation. Output only valid JSON with the same keys and translated string values. Do not add any commentary.\n\n{content}"
+  },
+  "frontmatterSkipPatterns": [
+    "lang",
+    "icon",
+    "layout",
+    "navigation.section",
+    "hero.cta_primary_href",
+    "hero.cta_secondary_href",
+    "cta_final.cta_href",
+    "value_props.items.*.icon",
+    "industries.items.*.icon",
+    "frameworks.items.*"
+  ]
+}

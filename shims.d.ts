@@ -20,7 +20,7 @@ declare module '*.json' {
 
 // Virtual module generated at build time by nav-manifest-plugin
 declare module 'virtual:nav-manifest' {
-  import type { NavPage } from '@/build/nav-manifest-plugin'
+  import type { NavPage } from '@/scripts/nav-manifest-plugin'
   const manifest: NavPage[]
   export default manifest
 }

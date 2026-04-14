@@ -8,6 +8,9 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "translate:content": "node ./scripts/translate-content.js --mode content",
+    "translate:i18n": "node ./scripts/translate-content.js --mode i18n",
+    "translate:all": "node ./scripts/translate-content.js --mode all",
     "test": "vitest run",
     "test:watch": "vitest"
   },

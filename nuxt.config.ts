@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { defineNuxtConfig } from 'nuxt/config'
-import { navManifestPlugin } from './build/nav-manifest-plugin'
+import { navManifestPlugin } from './scripts/nav-manifest-plugin'
 import pkg from './package.json'
 
 const i18nLocales = ['en', 'fr', 'es', 'de', 'pt', 'zh']

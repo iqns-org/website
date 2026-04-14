@@ -4,8 +4,8 @@ import { useI18n } from 'vue-i18n'
 import { useSwitchLocalePath } from '#imports'
 import navManifest from 'virtual:nav-manifest'
 
-export type { NavPage } from '@/build/nav-manifest-plugin'
-import type { NavPage } from '@/build/nav-manifest-plugin'
+export type { NavPage } from '@/scripts/nav-manifest-plugin'
+import type { NavPage } from '@/scripts/nav-manifest-plugin'
 
 let cachedNavPages: NavPage[] | null = null
 
