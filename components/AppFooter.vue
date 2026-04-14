@@ -4,6 +4,7 @@ import { useI18n } from 'vue-i18n'
 import { useDesignTokens } from '@/utils/useDesignTokens'
 import { useRuntimeConfig } from 'nuxt/app'
 import ConsentBanner from '@/components/ConsentBanner.vue'
+import { useLocalePath } from '#imports'
 
 const { styles, space } = useDesignTokens()
 const { t } = useI18n()
@@ -41,23 +42,7 @@ const loadPageSense = () => {
   x?.parentNode?.insertBefore(e, x)
 }
 
-const updateConsent = (value: boolean) => {
-  if (typeof window === 'undefined') return
-  window.localStorage.setItem(consentKey, value ? 'accepted' : 'declined')
-  consentAccepted.value = value
-  consentVisible.value = false
-}
-
 onMounted(() => {
-  const stored = window.localStorage.getItem(consentKey)
-  if (stored === 'accepted') {
-    consentAccepted.value = true
-  } else if (stored === 'declined') {
-    consentAccepted.value = false
-  } else {
-    consentVisible.value = true
-  }
-
   if (pageSenseEnabled) {
     loadPageSense()
   }
