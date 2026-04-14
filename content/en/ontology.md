@@ -15,7 +15,6 @@ Explore the top IQ:NS ontology domains across sectors, governance, and operation
 ## Ontology index
 
 - [AI Sector](/ontology/ai)
-- [Cross-Domain Alignments](/ontology/crossdomain)
 - [Defence & Dual-Use](/ontology/defence)
 - [Education](/ontology/education)
 - [Employment & HR](/ontology/employment)
