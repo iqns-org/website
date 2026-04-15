@@ -1,0 +1,33 @@
+---
+title: 'KI im öffentlichen Sektor mit Beschaffung, Verantwortung und Service‑Semantik'
+description: >-
+  Wie KI im öffentlichen Sektor mit Beschaffung, Verantwortung und
+  Service‑Semantik funktioniert
+lang: de
+navigation:
+  enabled: false
+  section: articles
+  order: 30
+tags:
+  - ki
+  - beschaffung
+---
+Die Schwierigkeit bei KI‑Kontrollen liegt nicht in der Absicht – sie liegt in der Konsistenz über Werkzeuge, Teams und Entscheidungen hinweg.
+
+## Warum das wichtig ist
+
+Wenn Konzepte konsistent definiert werden, wird das Verhalten von KI über Systeme hinweg vorhersehbar und prüfbar.
+
+## Wie das in der Praxis aussieht
+
+- Ein Prüfer verfolgt KI‑Governance‑Entscheidungen von der Richtlinie über den Code bis zu den Testergebnissen, ohne zu raten.
+- Verschiedene Teams verwenden dieselben Begriffe mit derselben Bedeutung, selbst wenn sie unterschiedlich implementiert werden.
+- Risikoklassifizierungen sind konsistent, egal ob sie von Menschen, Werkzeugen oder externen Regulierungsbehörden bewertet werden.
+
+## Wie Teams es nutzen
+
+- Bias und Fairness so definieren, dass sie über ML‑Frameworks und Bereitstellungskontexte hinweg Bestand haben
+- Audit‑Trails ausrichten, sodass Compliance‑Beweise von mehreren Teams ohne Neuformulierung genutzt werden können
+- Modell‑Governance mit Kontrollen der Software‑Lieferkette verbinden
+
+Gemeinsame KI‑Semantik verwandelt Governance von einem Engpass in eine Fähigkeit.

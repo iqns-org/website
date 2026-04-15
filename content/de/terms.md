@@ -1,6 +1,6 @@
 ---
 title: Nutzungsbedingungen
-description: 'Bedingungen, die Ihre Nutzung von IQ:NS-Ontologien und -Diensten regeln.'
+description: 'Bedingungen, die Ihre Nutzung von IQ:NS Ontologien und Diensten regeln.'
 lang: de
 navigation:
   section: platform
@@ -11,7 +11,7 @@ navigation:
 
 Diese Bedingungen beschreiben Ihre Rechte und Pflichten bei der Nutzung von IQ:NS-Ontologien, der Website und den Diensten.
 
-## Akzeptanz der Bedingungen
+## Zustimmung zu den Bedingungen
 
 Durch den Zugriff auf die IQ:NS-Website oder die Nutzung der Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie nicht einverstanden sind, nutzen Sie die Seite bitte nicht.
 
@@ -41,7 +41,7 @@ Die Website kann Links zu Ressourcen Dritter enthalten. Diese Links werden nur z
 
 ## Änderungen dieser Bedingungen
 
-Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite ändern. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
+Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite überarbeiten. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
 
 ## Kontakt
 

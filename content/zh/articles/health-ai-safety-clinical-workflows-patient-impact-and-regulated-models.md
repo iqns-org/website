@@ -1,0 +1,31 @@
+---
+title: 临床工作流程、患者影响和受监管模型
+description: 临床工作流程、患者影响和受监管模型
+lang: zh
+navigation:
+  enabled: false
+  section: articles
+  order: 30
+tags:
+  - 人工智能
+  - 健康
+  - 机器学习运维
+  - 安全
+---
+When AI governance lives in different places for each team, control failures multiply faster than deployments.
+
+## 为什么这很重要
+
+## 实践中的表现
+
+- 审计员能够从政策到代码再到测试结果，追踪 AI 治理决策，而无需猜测。
+- 不同团队使用相同的术语来表达相同的含义，即使实现方式不同。
+- 风险分类保持一致，无论是由人类、工具还是外部监管机构评估。
+
+## 团队如何使用它
+
+- 以跨越机器学习框架和部署环境的方式定义偏差和公平性
+- 对齐审计轨迹，使合规证据可被多个团队使用而无需重写
+- 将模型治理与软件供应链控制相连接
+
+当 AI 治理在语义上保持一致时，团队能够快速前进，而不会产生控制冲突。
