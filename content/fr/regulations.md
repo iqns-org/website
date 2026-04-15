@@ -5,7 +5,7 @@ description: >-
   à qui ils s'appliquent et comment ils se connectent.
 lang: fr
 navigation:
-  section: governance
+  section: ontologies
   label: Normes
   order: 20
 ---

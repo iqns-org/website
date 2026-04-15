@@ -53,7 +53,7 @@ Disponible en el [nivel Business](/services).
 ## ¿Necesitas ayuda?
 
 - [GitHub Discussions](https://github.com/iqns-org/ontologies/discussions) — preguntas y respuestas de la comunidad
-- [Contáctanos](/contact) — asociaciones, trabajos personalizados, preguntas
+- [Contáctanos](/support) — asociaciones, trabajos personalizados, preguntas
 
 ---
 

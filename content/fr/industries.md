@@ -89,4 +89,4 @@ Alignements SKOS IA-juridique qui franchissent les frontières des domaines — 
 
 ---
 
-[Voir la couverture des normes](/regulations) · [Explorer sur GitHub](https://github.com/iqns-org/ontologies)
+[Voir la couverture des normes](/standards) · [Explorer sur GitHub](https://github.com/iqns-org/ontologies)

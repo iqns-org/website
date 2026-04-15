@@ -60,4 +60,4 @@ Nous pensons que la couche sémantique pour l’IA et la connaissance institutio
 
 ---
 
-[Découvrez comment fonctionne IQ:NS](/how-it-works) · [Explorez les ontologies](https://github.com/iqns-org/ontologies) · [Contactez-nous](/contact)
+[Découvrez comment fonctionne IQ:NS](/how-it-works) · [Explorez les ontologies](https://github.com/iqns-org/ontologies) · [Contactez-nous](/support)

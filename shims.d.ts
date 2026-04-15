@@ -25,4 +25,10 @@ declare module 'virtual:nav-manifest' {
   export default manifest
 }
 
+declare module 'virtual:content-index' {
+  import type { ContentIndex } from '@/scripts/nav-manifest-plugin'
+  const contentIndex: ContentIndex
+  export default contentIndex
+}
+
 declare function useLocalePath(): (route: any) => string

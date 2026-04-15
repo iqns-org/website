@@ -14,7 +14,7 @@ navigation:
 
 IQ:NS uses the same standards that power scientific publishing, pharmaceutical research, and enterprise data integration worldwide:
 
-- **RDF** — the universal data model. Every triple is queryable, exportable, linkable.
+- **JSON-LD** — the universal data model. Every RDF triple is queryable, exportable, linkable.
 - **SKOS** — captures hierarchies, mappings, and alignments across frameworks.
 - **OWL** — defines classes, properties, and logical relationships between concepts.
 - **SHACL** — validates data shapes and constraints.
@@ -37,21 +37,13 @@ Given jurisdiction, sector, and AI capability type, a SPARQL query returns the p
 
 ---
 
-## Framework coverage
+## Modular domain models
 
-40+ frameworks and sector models are available in `./ontologies/v1/`. These are representative examples across seven domains:
+IQ:NS is published as a modular, domain-aligned knowledge graph rather than a flat checklist of standards. More than 40 independent, versioned ontology modules are available in `./ontologies/v1/`, and each module is aligned to the rest of the graph using SKOS, OWL, and shared semantic patterns.
 
-| Domain | Frameworks |
-|--------|-----------|
-| **AI** | EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29 |
-| **Data & Privacy** | GDPR, UK GDPR, CCPA, eIDAS |
-| **Security** | OWASP LLM Top 10, NIST CSF 2.0, ISO 27001, SOC 2 |
-| **Finance** | EBA guidelines, DORA, Basel model risk |
-| **Health** | FDA AI/ML guidance, MDR, HIPAA |
-| **Government** | NIST EO 13960, UK algorithmic transparency |
-| **Enterprise** | ISO 31000, COSO ERM, ITIL 4, IEEE 7000 series |
+Representative domains include AI governance, data privacy, security resilience, financial risk, health oversight, government transparency, and enterprise controls. This structure keeps each domain model clear while preserving cross-domain reasoning and reuse.
 
-Each framework is a standalone, versioned Turtle document.
+Each module is a standalone RDF/Turtle document with explicit semantic alignments so a single query can traverse multiple domains.
 
 ---
 
@@ -61,9 +53,11 @@ Each framework is a standalone, versioned Turtle document.
 
 The full graph is queryable via SPARQL 1.1. Any tool that speaks SPARQL — BI platforms, data warehouses, agent frameworks — gets structured answers.
 
-### MCP for agents
+### Agent-ready graph access
 
-Every concept has a stable IRI, machine-readable definition, and formal relationships. AI agents query the graph directly — no PDF context stuffing.
+Each concept is published with a canonical IRI, machine-readable metadata, and formal semantic relationships. Agents and automation tools can consume the graph directly — via SPARQL or a graph-native API — instead of relying on unstructured PDFs or ad hoc prompt engineering.
+
+This keeps the same semantic model available to compliance workflows and retrieval-augmented reasoning, so agents resolve obligations, risks, and controls from a single source of truth.
 
 ---
 
@@ -71,16 +65,16 @@ Every concept has a stable IRI, machine-readable definition, and formal relation
 
 | Mode | Description |
 |------|-------------|
-| **GitHub** | Download Turtle files, load into your own triplestore |
+| **GitHub** | Download and load into your own RDF store |
 | **Cloud hosted** | Managed graph on a private instance, encrypted |
 | **Private cloud** | Deployed in your VPC (AWS, Azure, GCP) |
-| **Air-gapped** | Full on-premises for regulated environments |
+| **Air-gapped** | Available on-premises for every customer |
 
 ---
 
 ## Open standards, no lock-in
 
-The ontologies are published under open licence. Export as standard RDF Turtle at any time. If you leave, you take a complete, portable knowledge graph with you.
+The ontologies are published under open licence. Export as standard RDF at any time. If you leave, you take a complete, portable knowledge graph with you.
 
 ---
 

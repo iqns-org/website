@@ -32,7 +32,7 @@ We **never** store model training data, weights, inference outputs, customer dat
 - **Self-hosted** — download Turtle files, run your own triplestore
 - **Cloud hosted** — managed instance on AWS, encrypted
 - **Private cloud** — deployed in your VPC
-- **Air-gapped** — full on-premises for regulated environments
+- **Air-gapped** — Available on-premises for every customer
 
 ## Compliance
 

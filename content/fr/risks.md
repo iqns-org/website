@@ -5,7 +5,7 @@ description: >-
   sécurité, sûreté, confidentialité, transparence, responsabilité et fiabilité.
 lang: fr
 navigation:
-  section: governance
+  section: ontologies
   label: Risque
   order: 30
 ---
@@ -55,4 +55,4 @@ Cela signifie qu'une seule requête peut vous montrer toutes les obligations li�
 
 ---
 
-[Voir la couverture des normes](/regulations) · [Explorer les ontologies](https://github.com/iqns-org/ontologies)
+[Voir la couverture des normes](/standards) · [Explorer les ontologies](https://github.com/iqns-org/ontologies)

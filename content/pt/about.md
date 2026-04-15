@@ -37,4 +37,4 @@ Para equipes que precisam de bases de conhecimento privadas, endpoints SPARQL ho
 ## Envolva‑se
 
 - [GitHub](https://github.com/iqns-org/ontologies) — navegue, use, contribua  
-- [Fale conosco](/contact) — perguntas, parcerias, ideias
+- [Fale conosco](/support) — perguntas, parcerias, ideias

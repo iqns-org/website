@@ -91,7 +91,7 @@ plans:
       - Conectores ITIL SKMS (v4)
     cta: Começar
     highlight: false
-    cta_href: /contact
+    cta_href: /support
   - id: ecosystem
     name: Ecossistema / Empresa
     tagline: Construa ecossistemas de inteligência
@@ -114,7 +114,7 @@ plans:
       - Conectores ITIL SKMS (v4)
     cta: Fale com um arquiteto
     highlight: false
-    cta_href: /contact
+    cta_href: /support
 guarantee:
   heading: Código aberto sob Apache 2.0. Sempre.
   items:

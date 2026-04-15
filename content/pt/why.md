@@ -59,4 +59,4 @@ Acreditamos que a camada semântica para IA e conhecimento institucional deve se
 
 ---
 
-[Saiba como o IQ:NS funciona](/how-it-works) · [Explore as ontologias](https://github.com/iqns-org/ontologies) · [Fale conosco](/contact)
+[Saiba como o IQ:NS funciona](/how-it-works) · [Explore as ontologias](https://github.com/iqns-org/ontologies) · [Fale conosco](/support)

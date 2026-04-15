@@ -89,4 +89,4 @@ KI‑rechtliche SKOS‑Abstimmungen, die Domänengrenzen überbrücken — verbi
 
 ---
 
-[View standards coverage](/regulations) · [Explore on GitHub](https://github.com/iqns-org/ontologies)
+[View standards coverage](/standards) · [Explore on GitHub](https://github.com/iqns-org/ontologies)

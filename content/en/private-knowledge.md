@@ -5,7 +5,7 @@ lang: en
 navigation:
   section: ontologies
   label: Private Knowledge
-  order: 15
+  order: 25
 ---
 
 # Private Knowledge with IQ:NS

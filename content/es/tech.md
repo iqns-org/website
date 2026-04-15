@@ -38,21 +38,13 @@ Dada la jurisdicción, el sector y el tipo de capacidad de IA, una consulta SPAR
 
 ---
 
-## Cobertura de marcos
+## Modelos modulares por dominio
 
-Más de 40 marcos en siete dominios:
+IQ:NS se publica como un grafo de conocimiento modular y alineado por dominio, no como una simple lista de estándares. Más de 40 módulos ontológicos independientes y versionados están disponibles en `./ontologies/v1/`, y cada módulo se alinea con el resto del grafo mediante SKOS, OWL y patrones semánticos compartidos.
 
-| Dominio | Marcos |
-|--------|-----------|
-| **IA** | EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29 |
-| **Datos y Privacidad** | GDPR, UK GDPR, CCPA, eIDAS |
-| **Seguridad** | OWASP LLM Top 10, NIST CSF 2.0, ISO 27001, SOC 2 |
-| **Finanzas** | EBA guidelines, DORA, Basel model risk |
-| **Salud** | FDA AI/ML guidance, MDR, HIPAA |
-| **Gobierno** | NIST EO 13960, UK algorithmic transparency |
-| **Empresarial** | ISO 31000, COSO ERM, ITIL 4, IEEE 7000 series |
+Los dominios representados incluyen gobernanza de IA, privacidad de datos, resiliencia de seguridad, riesgo financiero, supervisión de salud, transparencia gubernamental y control empresarial. Esta estructura mantiene claros los modelos de cada dominio al mismo tiempo que conserva el razonamiento y la reutilización entre dominios.
 
-Cada marco es un documento Turtle independiente y versionado.
+Cada módulo es un documento RDF/Turtle independiente con alineamientos semánticos explícitos para que una sola consulta pueda atravesar varios dominios.
 
 ---
 
@@ -62,9 +54,11 @@ Cada marco es un documento Turtle independiente y versionado.
 
 El grafo completo es consultable vía SPARQL 1.1. Cualquier herramienta que hable SPARQL — plataformas de BI, almacenes de datos, marcos de agentes — obtiene respuestas estructuradas.
 
-### MCP para agentes
+### Acceso de grafo listo para agentes
 
-Cada concepto tiene una IRI estable, una definición legible por máquina y relaciones formales. Los agentes de IA consultan el grafo directamente — sin incrustar contexto de PDF.
+Cada concepto se publica con una IRI canónica, metadatos legibles por máquina y relaciones semánticas formales. Los agentes y flujos de trabajo de automatización pueden consumir el grafo directamente — mediante SPARQL o una API nativa de grafo — en lugar de depender de PDFs no estructurados.
+
+Esto permite que el mismo modelo semántico sirva tanto a los flujos de trabajo de cumplimiento como al razonamiento enriquecido por recuperación, de modo que los agentes resuelvan obligaciones, riesgos y controles desde una única fuente de verdad.
 
 ---
 

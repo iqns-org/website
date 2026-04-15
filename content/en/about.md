@@ -2,10 +2,6 @@
 title: About IQNS
 description: IQ:NS building open ontologies for AI and institutional intelligence.
 lang: en
-navigation:
-  section: platform
-  label: About
-  order: 5
 ---
 
 # About IQ:NS
@@ -41,4 +37,4 @@ For teams that need private knowledge bases, hosted SPARQL endpoints, MCP server
 ## Get involved
 
 - [GitHub](https://github.com/iqns-org/ontologies) — browse, use, contribute
-- [Contact us](/contact) — questions, partnerships, ideas
+- [Contact us](/support) — questions, partnerships, ideas

@@ -1,24 +1,30 @@
 ---
-title: Contact
+title: Support
 description: Get in touch with the IQ:NS community and team.
 lang: en
 navigation:
   section: platform
-  label: Contact
+  label: Support
   order: 50
 ---
 
-# IQ:NS Support
+# IQ:NS Support Centre
 
-- [Engage Our Team](/services#addonsy)
+We'd love to engage with you as a community member ...
+
+- [Discord](https://discord.gg/hJNscf4e32)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
+
+Our as a commercial client and partner
+
+- [Engage Our Team](/services#addons)
+
 
 ## Open Source
 
 - [Free Knowledge Server](https://github.com/iqns-org/iq)
 
-- [Download from GitHub](https://github.com/iqns-org/ontologies)
+- [Free Ontologies on GitHub](https://github.com/iqns-org/ontologies)
 
-- [Download from GitHub](https://github.com/iqns-org/ontologies)
 
-- [Ontology Requests / Errata](https://github.com/iqns-org/ontologies/issues)
 

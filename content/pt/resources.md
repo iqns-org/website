@@ -5,7 +5,7 @@ description: >-
   IQ:NS.
 lang: pt
 navigation:
-  section: governance
+  section: ontologies
   label: Recursos
   order: 40
 ---
@@ -29,7 +29,7 @@ Referências rápidas para os padrões cobertos pelo IQ:NS:
 - **GDPR AI provisions** — decisões automatizadas, perfilamento, direitos de dados
 - **Padrões setoriais** — FDA, FTC, EBA, SR 11-7, e mais
 
-[Ver cobertura completa dos padrões](/regulations)
+[Ver cobertura completa dos padrões](/standards)
 
 ---
 
@@ -44,7 +44,7 @@ Referências rápidas para os padrões cobertos pelo IQ:NS:
 ## Comunidade
 
 - [Discussões no GitHub](https://github.com/iqns-org/ontologies/discussions) — faça perguntas, compartilhe abordagens
-- [Contate‑nos](/contact) — parcerias, contribuições, ideias
+- [Contate‑nos](/support) — parcerias, contribuições, ideias
 
 ---
 

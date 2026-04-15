@@ -2,10 +2,10 @@ import { ref, computed, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useSwitchLocalePath } from '#imports'
-import navManifest from 'virtual:nav-manifest'
+import contentIndex from 'virtual:content-index'
 
 export type { NavPage } from '@/scripts/nav-manifest-plugin'
-import type { NavPage } from '@/scripts/nav-manifest-plugin'
+import type { NavPage, ContentPage } from '@/scripts/nav-manifest-plugin'
 
 let cachedNavPages: NavPage[] | null = null
 
@@ -33,7 +33,8 @@ export const useNavigation = () => {
 
   const sectionMap = computed(() => {
     const map: Record<string, Array<{ label: string; key: string; to: string }>> = {}
-    globalNavPages.value
+
+    contentIndex.nav
       .filter((item) => item.locale === currentLocale.value)
       .forEach((item) => {
         if (excludedKeys.has(item.key)) return
@@ -43,8 +44,8 @@ export const useNavigation = () => {
 
     Object.keys(map).forEach((section) => {
       map[section].sort((a, b) => {
-        const pageA = globalNavPages.value.find((p) => p.to === a.to && p.section === section)
-        const pageB = globalNavPages.value.find((p) => p.to === b.to && p.section === section)
+        const pageA = contentIndex.nav.find((p) => p.to === a.to && p.section === section)
+        const pageB = contentIndex.nav.find((p) => p.to === b.to && p.section === section)
         return (pageA?.order ?? 0) - (pageB?.order ?? 0)
       })
     })
@@ -58,12 +59,35 @@ export const useNavigation = () => {
     return map
   })
 
+  const sectionIndex = computed(() => {
+    const index: Record<string, ContentPage[]> = {}
+    contentIndex.pages
+      .filter((page) => page.locale === currentLocale.value)
+      .forEach((page) => {
+        if (!index[page.section]) index[page.section] = []
+        index[page.section].push(page)
+      })
+    return index
+  })
+
+  const tagIndex = computed(() => {
+    const index: Record<string, ContentPage[]> = {}
+    contentIndex.pages
+      .filter((page) => page.locale === currentLocale.value)
+      .forEach((page) => {
+        page.tags.forEach((tag) => {
+          if (!index[tag]) index[tag] = []
+          index[tag].push(page)
+        })
+      })
+    return index
+  })
+
   const currentSection = computed(() => {
-    const normalizedPath = route.path.replace(/\/$/, '') || '/'
-    // Strip any locale prefix (including /en) to get locale-agnostic base path
+    const normalizedPath = route.path.replace(/\/$/, '') || '/' 
     const basePath = normalizedPath.replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '') || '/'
 
-    const matched = globalNavPages.value.find((item) => item.to === basePath)
+    const matched = contentIndex.nav.find((item) => item.to === basePath)
     if (matched) return matched.section
 
     const prefix = Object.keys(sectionMap.value).find((section) => basePath.includes(`/${section}`))
@@ -80,8 +104,8 @@ export const useNavigation = () => {
       globalNavPages.value = cachedNavPages
       return
     }
-    cachedNavPages = navManifest
-    globalNavPages.value = navManifest
+    cachedNavPages = contentIndex.nav
+    globalNavPages.value = contentIndex.nav
   }
 
   const translateNavLabel = (label: string): string => {
@@ -140,8 +164,8 @@ export const useNavigation = () => {
     mobileMenuOpen,
     currentLocale,
     sectionMap,
-    currentSection,
-    sectionNav,
+    sectionIndex,
+    tagIndex,
     buildGlobalNav,
     translateNavLabel,
     openDropdown,

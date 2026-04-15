@@ -5,7 +5,7 @@ lang: en
 navigation:
   section: use-cases
   label: Model Governance
-  order: 100
+  order: 10
 ---
 
 # IQ:NS for Model Governance

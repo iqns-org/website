@@ -6,7 +6,7 @@ description: >-
   gemeinsame Sprache geben.
 lang: de
 navigation:
-  section: governance
+  section: ontologies
   label: KI-Intelligenz
   order: 10
 ---
@@ -47,4 +47,4 @@ Wenn Standards als strukturiertes Wissen statt als PDFs vorliegen, können Teams
 
 Die Ontologien sind [kostenlos auf GitHub](https://github.com/iqns-org/ontologies). Für gehostete Dienste oder benutzerdefinierte Integrationen siehe [Preise](/services).
 
-[Entdecken Sie, wie es funktioniert](/how-it-works) · [Standards‑Abdeckung anzeigen](/regulations)
+[Entdecken Sie, wie es funktioniert](/how-it-works) · [Standards‑Abdeckung anzeigen](/standards)

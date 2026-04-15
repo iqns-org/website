@@ -39,4 +39,4 @@ Pour les équipes qui ont besoin de bases de connaissances privées, d’endpoin
 ## Impliquez‑vous
 
 - [GitHub](https://github.com/iqns-org/ontologies) — parcourir, utiliser, contribuer  
-- [Contactez‑nous](/contact) — questions, partenariats, idées
+- [Contactez‑nous](/support) — questions, partenariats, idées

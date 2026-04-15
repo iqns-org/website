@@ -52,10 +52,10 @@ Structured intelligence needs a **knowledge graph** — something machines reaso
 
 ## A community project
 
-IQ:NS is open source. The ontologies are free. A commercial layer exists for teams that need hosting, private knowledge bases, or integration support — but the core is a public good.
+IQ:NS is open source. The core ontologies are free. A commercial layer exists for teams that need hosting, private knowledge bases, or integration support — but the core is a public good.
 
 We think the semantic layer for AI and institutional knowledge should be built in the open, by people who care about getting the structure right.
 
 ---
 
-[Learn how IQ:NS works](/how-it-works) · [Explore the ontologies](https://github.com/iqns-org/ontologies) · [Talk to us](/contact)
+[Learn how IQ:NS works](/how-it-works) · [Explore the ontologies](https://github.com/iqns-org/ontologies) · [Talk to us](/support)

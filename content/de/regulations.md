@@ -5,7 +5,7 @@ description: >-
   sie gelten und wie sie verbunden sind.
 lang: de
 navigation:
-  section: governance
+  section: ontologies
   label: Standards
   order: 20
 ---

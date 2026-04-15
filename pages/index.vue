@@ -6,13 +6,15 @@ import { parseFrontMatter } from '@/utils/content'
 import {
   ShieldCheck, Globe, Users, Zap, Network, BarChart,
   Link, Target, Building, FlaskConical, Scale,
-  ArrowRight, CheckCircle
+  ArrowRight, CheckCircle, Brain, GraduationCap, Briefcase,
+  Shield, RadioTower, Car, Server, Rocket, Settings
 } from '@lucide/vue'
 
 const iconMap: Record<string, any> = {
   ShieldCheck, Globe, Users, Zap, Network, BarChart,
   Link, Target, Building, FlaskConical, Scale,
-  ArrowRight, CheckCircle
+  ArrowRight, CheckCircle, Brain, GraduationCap, Briefcase,
+  Shield, Radio: RadioTower, Siren: RadioTower, Car, Server, Rocket, Settings
 }
 
 const { locale } = useI18n()
@@ -69,14 +71,16 @@ useHead(() => ({
     { property: 'og:description', content: pageData.value.description }
   ]
 }))
+
 </script>
 
 <template>
-  <div v-if="pageData.hero && pageData.value_props && pageData.iqns && pageData.frameworks && pageData.industries && pageData.cta_final">
-    <!-- ── Hero ── -->
-    <section class="relative min-h-[92vh] flex items-center justify-center overflow-visible pb-2">
-      <div class="absolute inset-0 pointer-events-none overflow-hidden bg-hero-gradient"></div>
-      <div class="relative z-10 container mx-auto px-4 py-12 text-center max-w-4xl">
+  <div>
+    <div>
+      <!-- ── Hero ── -->
+      <section class="relative min-h-[92vh] flex items-center justify-center overflow-visible pb-2">
+        <div class="absolute inset-0 pointer-events-none overflow-hidden bg-hero-gradient"></div>
+        <div class="relative z-10 container mx-auto px-4 py-12 text-center max-w-4xl">
         <h1 class="text-5xl sm:text-6xl font-extrabold tracking-tight leading-[1.1] bg-gradient-to-r from-violet-500 via-fuchsia-500 to-indigo-500 bg-clip-text text-transparent mb-8 p-1">
           {{ pageData.hero?.title }}
         </h1>
@@ -170,7 +174,7 @@ useHead(() => ({
           >{{ fw }}</span>
         </div>
         <div class="text-center mt-8">
-          <NuxtLink to="/regulations" class="inline-flex items-center gap-1.5 text-violet-400 text-sm hover:text-violet-300 transition-colors">
+          <NuxtLink to="/standards" class="inline-flex items-center gap-1.5 text-violet-400 text-sm hover:text-violet-300 transition-colors">
             Browse all frameworks <ArrowRight class="w-3.5 h-3.5" />
           </NuxtLink>
         </div>
@@ -220,6 +224,7 @@ useHead(() => ({
         </NuxtLink>
       </div>
     </section>
+    </div>
   </div>
 </template>
 

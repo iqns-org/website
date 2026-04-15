@@ -38,21 +38,13 @@ En fonction de la juridiction, du secteur et du type de capacité IA, une requê
 
 ---
 
-## Couverture des cadres
+## Modèles de domaine modulaires
 
-Plus de 40 cadres répartis sur sept domaines :
+IQ:NS est publié comme un graphe de connaissances modulaire et aligné par domaine, plutôt que comme une simple checklist de standards. Plus de 40 modules ontologiques indépendants et versionnés sont disponibles dans `./ontologies/v1/`, et chacun est aligné avec le reste du graphe via SKOS, OWL et des patrons sémantiques partagés.
 
-| Domaine | Cadres |
-|--------|-----------|
-| **IA** | EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29 |
-| **Données & Confidentialité** | GDPR, UK GDPR, CCPA, eIDAS |
-| **Sécurité** | OWASP LLM Top 10, NIST CSF 2.0, ISO 27001, SOC 2 |
-| **Finance** | EBA guidelines, DORA, Basel model risk |
-| **Santé** | FDA AI/ML guidance, MDR, HIPAA |
-| **Gouvernement** | NIST EO 13960, UK algorithmic transparency |
-| **Entreprise** | ISO 31000, COSO ERM, ITIL 4, IEEE 7000 series |
+Les domaines représentés comprennent la gouvernance de l'IA, la confidentialité des données, la résilience en sécurité, le risque financier, la supervision de la santé, la transparence gouvernementale et le contrôle d'entreprise. Cette structure maintient chaque modèle de domaine clair tout en préservant le raisonnement et la réutilisation interdomaines.
 
-Chaque cadre est un document Turtle autonome et versionné.
+Chaque module est un document RDF/Turtle autonome avec des alignements sémantiques explicites pour qu'une seule requête puisse traverser plusieurs domaines.
 
 ---
 
@@ -62,9 +54,11 @@ Chaque cadre est un document Turtle autonome et versionné.
 
 Le graphe complet est interrogeable via SPARQL 1.1. Tout outil qui comprend SPARQL — plateformes BI, entrepôts de données, cadres d'agents — obtient des réponses structurées.
 
-### MCP pour les agents
+### Accès graphe prêt pour agents
 
-Chaque concept possède un IRI stable, une définition lisible par machine et des relations formelles. Les agents IA interrogent le graphe directement — pas de bourrage de contexte PDF.
+Chaque concept est publié avec une IRI canonique, des métadonnées lisibles par machine et des relations sémantiques formelles. Les agents et workflows d'automatisation peuvent consommer le graphe directement — via SPARQL ou une API native graphe — plutôt que de s'appuyer sur des PDF non structurés.
+
+Cela permet au même modèle sémantique de servir à la fois les workflows de conformité et le raisonnement enrichi par récupération, de sorte que les agents résolvent obligations, risques et contrôles à partir d'une source de vérité unique.
 
 ---
 

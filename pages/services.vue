@@ -14,7 +14,7 @@ const { locale } = useI18n()
 const contentModules = import.meta.glob('/content/**/*.md', { query: '?raw', import: 'default' })
 
 const { data: rawMarkdown } = await useAsyncData(
-  `pricing-content-${locale.value}`,
+  `services-content-${locale.value}`,
   async () => {
     const currentLocale = locale.value || 'en'
     const loader = contentModules[`/content/${currentLocale}/services.md`] || contentModules['/content/en/services.md']

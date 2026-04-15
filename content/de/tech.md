@@ -38,21 +38,13 @@ Angesichts von Rechtsgebiet, Sektor und KI‑Fähigkeitstyp liefert eine SPARQL�
 
 ---
 
-## Abdeckung von Frameworks
+## Modulare Domänenmodelle
 
-40 + Frameworks über sieben Bereiche:
+IQ:NS wird als modularer, domain-aligned Knowledge Graph veröffentlicht, nicht als einfache Liste von Standards. Mehr als 40 unabhängige, versionierte Ontologie-Module sind in `./ontologies/v1/` verfügbar, und jedes Modul ist über SKOS, OWL und gemeinsame semantische Muster mit dem Rest des Graphen ausgerichtet.
 
-| Domäne | Frameworks |
-|--------|-----------|
-| **KI** | EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29 |
-| **Daten & Datenschutz** | GDPR, UK GDPR, CCPA, eIDAS |
-| **Sicherheit** | OWASP LLM Top 10, NIST CSF 2.0, ISO 27001, SOC 2 |
-| **Finanzen** | EBA guidelines, DORA, Basel model risk |
-| **Gesundheit** | FDA AI/ML guidance, MDR, HIPAA |
-| **Regierung** | NIST EO 13960, UK algorithmic transparency |
-| **Unternehmen** | ISO 31000, COSO ERM, ITIL 4, IEEE 7000 series |
+Repräsentative Domänen umfassen KI-Governance, Datenschutz, Sicherheitsresilienz, Finanzrisiken, Gesundheitsaufsicht, staatliche Transparenz und Unternehmenssteuerung. Diese Struktur bewahrt die Klarheit jedes Domänenmodells und ermöglicht dennoch domänenübergreifendes Schließen und Wiederverwendung.
 
-Jedes Framework ist ein eigenständiges, versioniertes Turtle‑Dokument.
+Jedes Modul ist ein eigenständiges RDF/Turtle-Dokument mit expliziten semantischen Ausrichtungen, sodass eine einzige Abfrage mehrere Domänen durchlaufen kann.
 
 ---
 
@@ -62,9 +54,11 @@ Jedes Framework ist ein eigenständiges, versioniertes Turtle‑Dokument.
 
 Der gesamte Graph ist über SPARQL 1.1 abfragbar. Jedes Tool, das SPARQL versteht — BI‑Plattformen, Data Warehouses, Agenten‑Frameworks — erhält strukturierte Antworten.
 
-### MCP für Agenten
+### Agentenfähiger Graphzugriff
 
-Jedes Konzept hat eine stabile IRI, maschinenlesbare Definition und formale Beziehungen. KI‑Agenten fragen den Graphen direkt ab — kein PDF‑Kontext‑Einbetten.
+Jedes Konzept wird mit einer kanonischen IRI, maschinenlesbaren Metadaten und formalen semantischen Beziehungen veröffentlicht. Agenten und Automatisierungs-Workflows können den Graphen direkt konsumieren — über SPARQL oder eine graph-native API — statt sich auf unstrukturierte PDFs zu verlassen.
+
+So steht dasselbe semantische Modell sowohl Compliance-Workflows als auch Retrieval-gestütztem Schließen zur Verfügung, damit Agenten Verpflichtungen, Risiken und Kontrollen aus einer einzigen Quelle der Wahrheit ableiten.
 
 ---
 

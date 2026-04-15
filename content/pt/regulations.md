@@ -5,7 +5,7 @@ description: >-
   aplicam e como se conectam.
 lang: pt
 navigation:
-  section: governance
+  section: ontologies
   label: Padrões
   order: 20
 ---

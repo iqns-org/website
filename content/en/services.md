@@ -54,7 +54,7 @@ plans:
       - SaaS Connectors (Automated Discovery)
     cta: Get started
     highlight: false
-    cta_href: /contact
+    cta_href: /support
   - id: ecosystem
     name: Ecosystem / Enterprise
     tagline: Build intelligence ecosystems
@@ -80,7 +80,7 @@ plans:
       - SAML / SSO
     cta: Talk to an architect
     highlight: false
-    cta_href: /contact
+    cta_href: /support
 guarantee:
   heading: Open source under Apache 2.0. Always.
   items:
@@ -106,7 +106,7 @@ addons:
     - icon: Users
       title: Team Training
       price: $2,500
-      description: Half-day workshop covering SPARQL, RDF, and ontology fundamentals — tailored to your stack, with hands-on exercises.
+      description: Two Half-day workshops covering SPARQL, RDF, and ontology fundamentals — tailored to your stack, with hands-on exercises.
 faq:
   heading: Frequently asked questions
   items:

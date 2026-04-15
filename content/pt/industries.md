@@ -89,4 +89,4 @@ Alinhamentos SKOS de IA‑jurídico que unem fronteiras de domínio — conectan
 
 ---
 
-[Ver cobertura de padrões](/regulations) · [Explorar no GitHub](https://github.com/iqns-org/ontologies)
+[Ver cobertura de padrões](/standards) · [Explorar no GitHub](https://github.com/iqns-org/ontologies)

@@ -3,7 +3,7 @@ title: Frequently Asked Questions
 description: Common questions about IQ:NS, the ontologies, and how to use them.
 lang: en
 navigation:
-  section: governance
+  section: platform
   label: FAQ
   order: 30
 ---
@@ -34,7 +34,7 @@ GRC platforms run workflows and approvals. IQ:NS provides the semantic layer und
 
 ### What standards do you cover?
 
-50+ frameworks are available, sourced directly from `./ontologies/v1/`. IQ:NS cherry-picks the relevant ontologies for each context — AI regulation, privacy, security, sector-specific rules, and enterprise controls — rather than promoting a fixed shortlist. See [full coverage](/regulations).
+Over 50 frameworks are currently availabl — AI regulation, privacy, security, sector-specific rules, and enterprise controls. See [Open Ontologies](/ontologies/index).
 
 ### How are they built?
 
@@ -42,11 +42,13 @@ Each standard is modelled as OWL classes with SKOS labels, definitions, and cros
 
 ### How do I use them?
 
-Download the Turtle files from GitHub, load into any triplestore, and query with SPARQL. Or use the hosted MCP server to connect AI agents directly.
+You can connect to our hosted MCP server allowing your AI agents to communicate with each other, and your digital supply chain without ambiguity.
+
+As a developer, you can download the RDF source files from GitHub, load into any triplestore, and query with SPARQL. 
 
 ### Can I contribute?
 
-Yes. The ontologies are on [GitHub](https://github.com/iqns-org/ontologies). Domain expertise, corrections, and new framework coverage are welcome.
+Yes. The open ontologies are on [GitHub](https://github.com/iqns-org/ontologies). Domain expertise, corrections, and new framework coverage are welcome.
 
 ### What happens when a standard changes?
 
@@ -58,11 +60,17 @@ The community updates the ontologies. Every version is tracked — you can see w
 
 ### What does the paid tier include?
 
-Private knowledge bases, hosted SPARQL endpoints, MCP server access, ITIL SKMS connectors, and hands-on support.
+We boot up an instance of our enterprise knowledge server containing all of the open ontologies and AI governance frameworks.
+
+You can create private knowledge bases that link together any information from multiple sources - SQL, APIs, GraphQL and more.
+
+The instance includes secured SPARQL endpoints, virtual MCP servers, connectors for enterprise SaaS systems, and hands-on support.
 
 ### Do I need it?
 
-For most use cases, the free ontologies are enough. The commercial tier is for teams that want managed hosting, private extensions, or integration support.
+For many use cases, the free ontologies are enough. 
+
+The commercial tier is for teams that want more - private knowledge, agentic integration, managed hosting, custom extensions, or professional support.
 
 ### Is there lock-in?
 
@@ -76,10 +84,14 @@ No. Everything exports as standard RDF Turtle. You can leave with your complete 
 
 No. The ontologies describe concepts and relationships. We never touch model data, training sets, inference outputs, or PII.
 
+All commercially hosted instances are secured in private clouds - either yours or ours.
+
 ### Can I run it on-premise?
 
-Yes. The ontologies are files you can host anywhere. The commercial tier also supports private cloud and air-gapped deployments.
+Yes. The ontologies are files you can host anywhere. 
+
+The commercial tier also supports private cloud and air-gapped deployments for true data sovereignty.
 
 ---
 
-[Explore the ontologies](https://github.com/iqns-org/ontologies) · [Contact us](/contact)
+[open ontologies](https://github.com/iqns-org/ontologies) · [Contact us](/support)

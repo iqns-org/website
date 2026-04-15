@@ -57,4 +57,4 @@ Wir sind der Meinung, dass die semantische Schicht für KI und institutionelles 
 
 ---
 
-[Erfahren Sie, wie IQ:NS funktioniert](/how-it-works) · [Erkunden Sie die Ontologien](https://github.com/iqns-org/ontologies) · [Kontaktieren Sie uns](/contact)
+[Erfahren Sie, wie IQ:NS funktioniert](/how-it-works) · [Erkunden Sie die Ontologien](https://github.com/iqns-org/ontologies) · [Kontaktieren Sie uns](/support)

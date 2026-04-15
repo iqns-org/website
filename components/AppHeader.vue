@@ -3,6 +3,7 @@ import { onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useNavigation } from '@/composables/useNavigation'
 import { useDesignTokens } from '@/utils/useDesignTokens'
+import { navTranslationKey } from '@/utils/navTranslation'
 import logoSrc from '~/assets/images/logo.svg'
 import {
   Lightbulb, Zap, CreditCard, Lock, EyeOff, ArrowRight,
@@ -21,6 +22,8 @@ const navIconMap: Record<string, any> = {
   why: Lightbulb,
   features: Zap,
   pricing: CreditCard,
+  services: CreditCard,
+  support: Mail,
   security: Lock,
   privacy: EyeOff,
   contact: Mail,
@@ -160,7 +163,7 @@ const emit = defineEmits(['update:theme', 'update:matrixEffects'])
         <template v-for="(items, section) in (sectionMap as any)" :key="section">
             <div class="pb-md border-b border-semantic-border-primary">
               <div class="text-xs font-semibold uppercase tracking-wider text-semantic-text-tertiary mb-sm" style="letter-spacing:0.05em;">
-                {{ t('nav.' + section) }}
+                {{ t(navTranslationKey(String(section))) }}
               </div>
               <div class="flex flex-col gap-xs">
               <NuxtLink 
@@ -171,7 +174,7 @@ const emit = defineEmits(['update:theme', 'update:matrixEffects'])
                 class="flex items-center gap-sm px-md py-sm bg-transparent text-semantic-text-secondary transition-colors duration-fast cursor-pointer rounded-base outline-none hover:bg-semantic-surface-hover"
               >
                 <component :is="navIconMap[child.key]" v-if="navIconMap[child.key]" class="w-3.5 h-3.5 shrink-0 opacity-70" />
-                {{ t('nav.' + child.key) }}
+                {{ t(navTranslationKey(child.key)) }}
               </NuxtLink>
             </div>
           </div>

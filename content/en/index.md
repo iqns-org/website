@@ -1,22 +1,20 @@
 ---
-title: IQ:NS — Structured Intelligence for AI & Organisations
-description: Open ontologies that give AI systems and organisations a shared language. IQ:NS maps frameworks, standards, and institutional knowledge into a queryable knowledge graph anyone can use.
+title: Structured Intelligence for AI
+description: Open ontologies, frameworks, standards, and institutional knowledge.
 lang: en
 hero:
   title: Structured Intelligence for AI & Organisations.
   subtitle: Shared language for people, machines, and organisations.
   description: IQ:NS turns institutional knowledge, frameworks, and operational rules into queryable knowledge graphs so AI and enterprise systems work from the same source of truth.
   cta:
-  - title: Open Ontologies (GitHub)
-    link: "https://github.com/iqns-org/ontologies"
-  - title: Learn how IQ:NS works
+  - title: How IQ:NS works
     link: /how-it-works
-  - title: Explore use cases
-  - title: Browse Ontologies
-    link: /ontology
-    link: /use-cases
-  - title: Integrate Private Knowledge
+  - title: Private Knowledge
     link: /private-knowledge
+  - title: Open Ontologies
+    link: /ontologies/index
+  - title: GitHub
+    link: "https://github.com/iqns-org/ontologies"
 value_props:
   heading: What IQ:NS Does
   subheading: Integration is a language problem. Ontologies solve it. At scale.
@@ -172,7 +170,7 @@ industries:
       description: ITIL 4 service management ontology and SKMS connectors.
 cta_final:
   heading: Start exploring
-  subheading: The ontologies are free and open source. Grab them from GitHub, query them with SPARQL, or connect them to your agents.
+  subheading: The core ontologies are free and open source. Grab them from GitHub, query them with SPARQL, or connect them to your agents.
   cta_text: View on GitHub
   cta_href: "https://github.com/iqns-org/ontologies"
 ---

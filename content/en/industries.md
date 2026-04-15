@@ -1,20 +1,14 @@
 ---
-title: Industries & Domains
-description: 20+  domains, 100+ ontology files — IQ:NS structures knowledge across AI, finance, health, saas, enterprise, and more.
+title: Industries & Expert Domains
+description: IQ:NS structures knowledge across AI, finance, health, saas, enterprise, and more.
 lang: en
 navigation:
-  section: platform
+  section: ontologies
   label: Industries
   order: 30
 ---
 
-# Industries & Domains
-
-IQ:NS covers 20+  domains with 100+ ontology files. Each domain includes core vocabulary, framework alignments, and worked examples.
-
----
-
-## AI & Machine Learning
+# Industries & Expert Domains
 
 30+ AI-specific frameworks including EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, OECD AI Principles, and more. Platform examples for AWS, Azure, GCP, and Kubernetes.
 
@@ -88,4 +82,4 @@ AI-legal SKOS alignments that bridge domain boundaries — connecting AI risk co
 
 ---
 
-[View standards coverage](/regulations) · [Explore on GitHub](https://github.com/iqns-org/ontologies)
+[View standards coverage](/standards) · [Explore on GitHub](https://github.com/iqns-org/ontologies)

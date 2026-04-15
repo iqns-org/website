@@ -3,7 +3,7 @@ title: 资源
 description: '用于使用 IQ:NS 本体的指南、参考资料和社区资源。'
 lang: zh
 navigation:
-  section: governance
+  section: ontologies
   label: 资源
   order: 40
 ---
@@ -27,7 +27,7 @@ IQ:NS 涵盖的标准快速参考：
 - **GDPR AI 条款** — 自动决策、画像、数据权利
 - **行业标准** — FDA、FTC、EBA、SR 11-7 等
 
-[查看完整标准覆盖](/regulations)
+[查看完整标准覆盖](/standards)
 
 ---
 
@@ -42,7 +42,7 @@ IQ:NS 涵盖的标准快速参考：
 ## 社区
 
 - [GitHub 讨论](https://github.com/iqns-org/ontologies/discussions) — 提问，分享方法
-- [联系我们](/contact) — 合作、贡献、想法
+- [联系我们](/support) — 合作、贡献、想法
 
 ---
 

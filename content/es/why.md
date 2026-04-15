@@ -60,4 +60,4 @@ Creemos que la capa semántica para IA y conocimiento institucional debería con
 
 ---
 
-[Aprende cómo funciona IQ:NS](/how-it-works) · [Explora las ontologías](https://github.com/iqns-org/ontologies) · [Habla con nosotros](/contact)
+[Aprende cómo funciona IQ:NS](/how-it-works) · [Explora las ontologías](https://github.com/iqns-org/ontologies) · [Habla con nosotros](/support)

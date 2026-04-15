@@ -51,7 +51,7 @@ navigation:
 ## 需要帮助？
 
 - [GitHub 讨论](https://github.com/iqns-org/ontologies/discussions) — 社区问答
-- [联系我们](/contact) — 合作、定制工作、问题
+- [联系我们](/support) — 合作、定制工作、问题
 
 ---
 

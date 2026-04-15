@@ -5,7 +5,7 @@ description: >-
   IQ:NS‑Ontologien.
 lang: de
 navigation:
-  section: governance
+  section: ontologies
   label: Ressourcen
   order: 40
 ---
@@ -29,7 +29,7 @@ Kurzreferenzen für die von IQ:NS abgedeckten Standards:
 - **GDPR KI‑Bestimmungen** — automatisierte Entscheidungen, Profiling, Datenrechte
 - **Branchenspezifische Standards** — FDA, FTC, EBA, SR 11‑7 und mehr
 
-[​Vollständige Standardsübersicht ansehen](/regulations)
+[​Vollständige Standardsübersicht ansehen](/standards)
 
 ---
 
@@ -44,7 +44,7 @@ Kurzreferenzen für die von IQ:NS abgedeckten Standards:
 ## Gemeinschaft
 
 - [GitHub‑Diskussionen](https://github.com/iqns-org/ontologies/discussions) — Fragen stellen, Ansätze teilen
-- [Kontaktieren Sie uns](/contact) — Partnerschaften, Beiträge, Ideen
+- [Kontaktieren Sie uns](/support) — Partnerschaften, Beiträge, Ideen
 
 ---
 

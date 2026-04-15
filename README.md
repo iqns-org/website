@@ -1,6 +1,6 @@
 # IQ:NS
 
-(IQ:NS)[https://IQNS.org] is a curated collection of semantic knowledge assets that describe how real-world domains connect to frameworks, standards, and governance models.
+[IQ:NS](https://IQNS.org) is a curated collection of semantic knowledge assets that describe how real-world domains connect to frameworks, standards, and governance models.
 
 IQNS acts as the "skeleton" or "semantic backbone", turning raw data into interoperable intelligence by offering structure, grounding, and explainability.
 

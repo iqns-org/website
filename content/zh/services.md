@@ -66,7 +66,7 @@ plans:
       - ITIL SKMS 连接器（v4）
     cta: 立即开始
     highlight: false
-    cta_href: /contact
+    cta_href: /support
   - id: ecosystem
     name: 生态系统 / 企业版
     tagline: 构建智能生态系统
@@ -89,7 +89,7 @@ plans:
       - ITIL SKMS 连接器（v4）
     cta: 与架构师沟通
     highlight: false
-    cta_href: /contact
+    cta_href: /support
 guarantee:
   heading: 始终遵循 Apache 2.0 开源协议。
   items:

@@ -89,4 +89,4 @@ Alineaciones SKOS de IA-legal que cruzan los límites de los dominios — conect
 
 ---
 
-[Ver cobertura de normas](/regulations) · [Explorar en GitHub](https://github.com/iqns-org/ontologies)
+[Ver cobertura de normas](/standards) · [Explorar en GitHub](https://github.com/iqns-org/ontologies)

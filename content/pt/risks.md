@@ -6,7 +6,7 @@ description: >-
   confiabilidade.
 lang: pt
 navigation:
-  section: governance
+  section: ontologies
   label: Risco
   order: 30
 ---
@@ -56,4 +56,4 @@ Isso significa que uma única consulta pode mostrar todas as obrigações relaci
 
 ---
 
-[Ver a cobertura dos padrões](/regulations) · [Explorar as ontologias](https://github.com/iqns-org/ontologies)
+[Ver a cobertura dos padrões](/standards) · [Explorar as ontologias](https://github.com/iqns-org/ontologies)

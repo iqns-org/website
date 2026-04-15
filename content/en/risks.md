@@ -1,14 +1,14 @@
 ---
-title: AI Risk Dimensions
-description: The seven risk dimensions IQ:NS models across standards — fairness, safety, security, privacy, transparency, accountability, and reliability.
+title: AI Risk Management
+description: IQ:NS models seven risk dimensions — fairness, safety, security, privacy, transparency, accountability, and reliability.
 lang: en
 navigation:
-  section: governance
+  section: ontologies
   label: Risk
   order: 30
 ---
 
-# AI Risk Dimensions
+# AI Risk Management
 
 ## Why risk structure matters
 
@@ -41,7 +41,7 @@ Models drift, degrade, or behave unpredictably. Covered by ISO 24029, NIST, moni
 
 ---
 
-## How IQ:NS structures risk
+## How IQ:NS manages risk
 
 Each risk dimension maps to specific obligations across every applicable framework. The ontologies capture:
 
@@ -54,4 +54,4 @@ This means a single query can show you every obligation related to, say, fairnes
 
 ---
 
-[View the standards coverage](/regulations) · [Explore the ontologies](https://github.com/iqns-org/ontologies)
+[View the standards coverage](/standards) · [Explore the ontologies](https://github.com/iqns-org/ontologies)

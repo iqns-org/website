@@ -3,7 +3,7 @@ title: Foire aux questions
 description: 'Questions courantes sur IQ:NS, les ontologies et comment les utiliser.'
 lang: fr
 navigation:
-  section: governance
+  section: ontologies
   label: FAQ
   order: 30
 ---
@@ -33,7 +33,7 @@ Les plateformes GRC exécutent des flux de travail et des approbations. IQ:NS fo
 
 ### Quels standards couvrez-vous ?
 
-Plus de 50 cadres, dont le EU AI Act, le NIST AI RMF, l'ISO 42001, le GDPR, l'OWASP LLM Top 10, le MITRE ATLAS, les réglementations sectorielles (FDA, EBA, SR 11‑7), et plus encore. Voir la [couverture complète](/regulations).
+Plus de 50 cadres, dont le EU AI Act, le NIST AI RMF, l'ISO 42001, le GDPR, l'OWASP LLM Top 10, le MITRE ATLAS, les réglementations sectorielles (FDA, EBA, SR 11‑7), et plus encore. Voir la [couverture complète](/standards).
 
 ### Comment sont-ils construits ?
 
@@ -81,4 +81,4 @@ Oui. Les ontologies sont des fichiers que vous pouvez héberger où vous le souh
 
 ---
 
-[Explorer les ontologies](https://github.com/iqns-org/ontologies) · [Contactez‑nous](/contact)
+[Explorer les ontologies](https://github.com/iqns-org/ontologies) · [Contactez‑nous](/support)

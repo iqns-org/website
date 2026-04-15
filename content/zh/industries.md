@@ -87,4 +87,4 @@ ITIL 4 服务管理本体。将 IT 服务管理连接到更广泛的知识图谱
 
 ---
 
-[View standards coverage](/regulations) · [Explore on GitHub](https://github.com/iqns-org/ontologies)
+[View standards coverage](/standards) · [Explore on GitHub](https://github.com/iqns-org/ontologies)

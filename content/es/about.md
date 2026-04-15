@@ -37,4 +37,4 @@ Para equipos que necesiten bases de conocimiento privadas, puntos finales SPARQL
 ## Involúcrate
 
 - [GitHub](https://github.com/iqns-org/ontologies) — explorar, usar, contribuir
-- [Contáctanos](/contact) — preguntas, asociaciones, ideas
+- [Contáctanos](/support) — preguntas, asociaciones, ideas

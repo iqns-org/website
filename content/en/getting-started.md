@@ -52,7 +52,7 @@ Available on the [Business tier](/services).
 ## Need help?
 
 - [GitHub Discussions](https://github.com/iqns-org/ontologies/discussions) — community Q&A
-- [Contact us](/contact) — partnerships, custom work, questions
+- [Contact us](/support) — partnerships, custom work, questions
 
 ---
 

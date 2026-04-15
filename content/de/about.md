@@ -37,4 +37,4 @@ Für Teams, die private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server
 ## Mitmachen
 
 - [GitHub](https://github.com/iqns-org/ontologies) — durchsuchen, nutzen, beitragen
-- [Kontakt](/contact) — Fragen, Partnerschaften, Ideen
+- [Kontakt](/support) — Fragen, Partnerschaften, Ideen

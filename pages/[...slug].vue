@@ -70,6 +70,8 @@ const parsedData = computed(() => {
 
 const page = computed(() => parsedData.value?.frontmatter || {})
 const renderedMarkdown = computed(() => parsedData.value?.content || null)
+const isBrowseSection = computed(() => ['ontologies', 'use-cases'].includes(pageKey.value))
+const itemLabel = computed(() => (pageKey.value === 'ontologies' ? 'Ontology' : 'Use case'))
 
 useHead(() => ({
   htmlAttrs: { lang: locale.value },
@@ -83,10 +85,22 @@ useHead(() => ({
 </script>
 
 <template>
-  <div class="max-w-4xl mx-auto py-4 prose-container">
-    <article class="prose prose-invert prose-lg max-w-none prose-a:text-violet-300 prose-a:hover:text-violet-100">
-      <div v-if="renderedMarkdown" v-html="renderedMarkdown" />
-      <div v-else class="text-center text-violet-300">Page content missing or path invalid.</div>
-    </article>
+  <div>
+    <SectionBrowsePage
+      v-if="isBrowseSection"
+      :section="pageKey"
+      :landingPath="`/${pageKey}`"
+      :title="page.title || ''"
+      :description="page.description || ''"
+      :itemLabel="itemLabel"
+      noResultsText="No results found. Try a broader term or clear the filter."
+    />
+
+    <div v-else class="max-w-4xl mx-auto py-4 prose-container">
+      <article class="prose prose-invert prose-lg max-w-none prose-a:text-violet-300 prose-a:hover:text-violet-100">
+        <div v-if="renderedMarkdown" v-html="renderedMarkdown" />
+        <div v-else class="text-center text-violet-300">Page content missing or path invalid.</div>
+      </article>
+    </div>
   </div>
 </template>

@@ -6,7 +6,7 @@ description: >-
   compartilhada.
 lang: pt
 navigation:
-  section: governance
+  section: ontologies
   label: Inteligência de IA
   order: 10
 ---
@@ -47,4 +47,4 @@ Quando as normas vivem como conhecimento estruturado em vez de PDFs, as equipes 
 
 As ontologias são [gratuitas no GitHub](https://github.com/iqns-org/ontologies). Para serviços hospedados ou integrações personalizadas, veja [preços](/services).
 
-[Explore como funciona](/how-it-works) · [Veja a cobertura das normas](/regulations)
+[Explore como funciona](/how-it-works) · [Veja a cobertura das normas](/standards)

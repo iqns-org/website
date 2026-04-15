@@ -5,7 +5,7 @@ description: >-
   quiénes se aplican y cómo se conectan.
 lang: es
 navigation:
-  section: governance
+  section: ontologies
   label: Estándares
   order: 20
 ---

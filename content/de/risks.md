@@ -5,7 +5,7 @@ description: >-
   Sicherheit, Datenschutz, Transparenz, Verantwortlichkeit und Zuverlässigkeit.
 lang: de
 navigation:
-  section: governance
+  section: ontologies
   label: Risiko
   order: 30
 ---
@@ -55,4 +55,4 @@ Das bedeutet, dass eine einzige Abfrage Ihnen jede Verpflichtung zu einem Thema,
 
 ---
 
-[Standardsabdeckung anzeigen](/regulations) · [Ontologien erkunden](https://github.com/iqns-org/ontologies)
+[Standardsabdeckung anzeigen](/standards) · [Ontologien erkunden](https://github.com/iqns-org/ontologies)

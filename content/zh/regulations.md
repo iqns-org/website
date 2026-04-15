@@ -3,7 +3,7 @@ title: 标准与框架
 description: 'AI 与组织标准 IQ:NS 模型——它们涵盖的内容、适用对象以及它们之间的关联。'
 lang: zh
 navigation:
-  section: governance
+  section: ontologies
   label: 标准
   order: 20
 ---

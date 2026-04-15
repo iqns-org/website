@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useDesignTokens } from '@/utils/useDesignTokens'
+import { navTranslationKey } from '@/utils/navTranslation'
 import {
   Home, Building2, Workflow, Layers, ShieldCheck, Users, Mail,
   Lightbulb, Zap, CreditCard, Lock, EyeOff, ArrowRight,
@@ -9,8 +10,10 @@ import {
 } from '@lucide/vue'
 
 const { styles, space } = useDesignTokens()
-const { t } = useI18n()
+const { t, te } = useI18n()
 const localePath = useLocalePath()
+
+const translateNav = (key: string, fallback: string) => te(key) ? t(key) : fallback
 
 defineProps({ 
   sectionMap: Object, 
@@ -39,6 +42,8 @@ const navIconMap: Record<string, any> = {
   features: Zap,
   howItWorks: Workflow,
   pricing: CreditCard,
+  services: CreditCard,
+  support: Mail,
   security: Lock,
   privacy: EyeOff,
   // governance
@@ -121,7 +126,7 @@ const topNav = [
             :aria-expanded="activeMenu === item.label"
           >
             <component :is="iconMap[item.icon] || Layers" :style="{ width: '1rem', height: '1rem' }" />
-            {{ t(`nav.${item.label}`) }}
+            {{ translateNav(navTranslationKey(item.label), item.label) }}
           </button>
           <div 
             v-show="activeMenu === item.label" 
@@ -161,7 +166,7 @@ const topNav = [
               role="menuitem"
             >
               <component :is="navIconMap[child.key]" v-if="navIconMap[child.key]" :style="{ width: '0.875rem', height: '0.875rem', flexShrink: '0', opacity: '0.7' }" />
-              {{ t(`nav.${child.key}`) }}
+              {{ translateNav(navTranslationKey(child.key), child.label) }}
             </NuxtLink>
           </div>
         </div>
