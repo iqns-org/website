@@ -1,12 +1,12 @@
 ---
-title: Gobernanza de IA
+title: Gobierno de IA
 description: >-
-  Explore cómo IQ:NS respalda la gobernanza de IA mediante semánticas
-  compartidas, políticas y toma de decisiones estructurada.
+  Explore cómo IQ:NS apoya la gobernanza de IA mediante semánticas compartidas,
+  políticas y toma de decisiones estructurada.
 lang: es
 navigation:
   section: platform
-  label: Gobernanza de IA
+  label: Gobierno de IA
   order: 12
 ---
 # Gobernanza de IA

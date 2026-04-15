@@ -6,7 +6,7 @@ description: >-
 lang: es
 navigation:
   section: platform
-  label: Funciones
+  label: Características
   order: 10
 ---
 # Características y Capacidades
@@ -23,9 +23,9 @@ Cada concepto tiene:
 
 ---
 
-## Inteligencia entre marcos
+## Inteligencia intermarcos
 
-Los marcos usan palabras diferentes para las mismas ideas. IQ:NS los mapea estructuralmente:
+Los marcos utilizan palabras diferentes para las mismas ideas. IQ:NS los mapea estructuralmente:
 
 - Artículo 9 del AI Act de la UE ↔ Función del mapa NIST AI RMF ↔ Cláusula 6.1 de ISO 42001 (gestión de riesgos)
 - Artículo 22 del GDPR ↔ Capítulo IV del AI Act de la UE (transparencia)
@@ -39,7 +39,7 @@ Una consulta abarca todos los estándares. Un control puede cumplir múltiples m
 
 No todo se aplica a todos. Perfila por:
 - **Jurisdicción** — UE, EE. UU., Reino Unido, APAC
-- **Sector** — finanzas, salud, gobierno, RR.HH.
+- **Sector** — finanzas, salud, gobierno, RR. HH.
 - **Capacidad de IA** — LLM, biométrica, puntuación crediticia, decisiones autónomas
 
 Obtén un conjunto preciso y deduplicado de lo que es relevante — no 40 marcos, solo lo que importa a tu contexto.
@@ -60,7 +60,7 @@ WHERE {
 }
 ```
 
-Cualquier herramienta que hable SPARQL — plataformas de BI, almacenes de datos, marcos de agentes — puede consultar las ontologías directamente.
+Cualquier herramienta que hable SPARQL — plataformas BI, almacenes de datos, marcos de agentes — puede consultar las ontologías directamente.
 
 ---
 

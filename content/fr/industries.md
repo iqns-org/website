@@ -1,31 +1,25 @@
 ---
-title: Secteurs & Domaines
+title: Secteurs & domaines d'expertise
 description: >-
-  20+ domaines, 100+ fichiers d'ontologie — IQ:NS structure les connaissances à
-  travers l'IA, la finance, la santé, le SaaS, l'entreprise, et plus.
+  IQ:NS structure les connaissances à travers AI, finance, santé, saas,
+  entreprise, et plus.
 lang: fr
 navigation:
-  section: platform
+  section: ontologies
   label: Industries
   order: 30
 ---
-# Industries et Domaines
+# Industries et domaines d'expertise
 
-IQ:NS couvre plus de 20 domaines avec plus de 100 fichiers d'ontologie. Chaque domaine comprend le vocabulaire de base, les alignements de cadres et des exemples pratiques.
+Plus de 30 cadres spécifiques à l'IA, y compris la loi européenne sur l'IA, le NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, les principes d'IA de l'OCDE, et plus encore. Exemples de plateformes pour AWS, Azure, GCP et Kubernetes.
 
----
-
-## IA & Apprentissage Automatique
-
-Plus de 30 cadres spécifiques à l'IA, y compris le AI Act de l'UE, le NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, les Principes d'IA de l'OCDE, et plus encore. Exemples de plateformes pour AWS, Azure, GCP et Kubernetes.
-
-## Services Financiers
+## Services financiers
 
 Bâle III, DORA, MiFID II, SOX, SR 11-7, directives IA de l'EBA. Structuré pour la gestion du risque des modèles, le reporting réglementaire et la conformité transfrontalière.
 
 ## Santé
 
-HIPAA, MDR de l'UE, FDA AI/ML SaMD, IA fiable de l'ONC. Modélisé pour le soutien à la décision clinique, le diagnostic et la gouvernance des dispositifs médicaux.
+HIPAA, MDR UE, FDA AI/ML SaMD, IA fiable de l'ONC. Modélisé pour le soutien à la décision clinique, le diagnostic et la gouvernance des dispositifs médicaux.
 
 ## Entreprise
 
@@ -37,11 +31,11 @@ FedRAMP, NIST CSF, ISO 38500. Cadres du secteur public pour la gouvernance infor
 
 ## Défense
 
-Principes d'IA Responsable du DoD, Principes d'IA de l'OTAN. IA responsable dans les contextes de défense et de sécurité.
+Principes d'IA responsable du DoD, Principes d'IA de l'OTAN. IA responsable dans les contextes de défense et de sécurité.
 
 ## Juridique
 
-Principes directeurs de l'ONU sur les entreprises et les droits de l'homme. Alignements SKOS IA-juridique inter-domaines.
+Principes directeurs de l'ONU sur les entreprises et les droits de l'homme. Alignements SKOS IA-juridique interdomaines.
 
 ## Assurance
 
@@ -49,7 +43,7 @@ Solvabilité II. Ontologies de souscription, de traitement des sinistres et d'é
 
 ## Éducation
 
-Éthique de l'IA de l'UNESCO. IA responsable dans l'apprentissage, l'évaluation et les technologies éducatives.
+Éthique de l'IA de l'UNESCO. IA responsable dans l'apprentissage, l'évaluation et la technologie éducative.
 
 ## Emploi
 
@@ -61,15 +55,15 @@ ISO 50001. Systèmes de gestion de l'énergie et intégration de l'IA.
 
 ## Médias
 
-Digital Services Act de l'UE. Recommandation de contenu, gouvernance des plateformes et transparence algorithmique.
+Loi européenne sur les services numériques. Recommandation de contenu, gouvernance des plateformes et transparence algorithmique.
 
-## Sécurité Publique
+## Sécurité publique
 
 ISO 22320. Gestion des urgences, gouvernance de la surveillance et IA d'intérêt public.
 
 ## Transport
 
-UN R157. Véhicules autonomes, systèmes de conduite automatisée et sécurité des véhicules.
+ONU R157. Véhicules autonomes, systèmes de conduite automatisée et sécurité des véhicules.
 
 ## SaaS & SKMS
 
@@ -83,9 +77,9 @@ Ontologie de gestion de services ITIL 4. Relie la gestion des services informati
 
 Pacte mondial des Nations Unies. Fondations d'IA responsable pour les entreprises en phase de démarrage.
 
-## Inter-Domaines
+## Interdomaines
 
-Alignements SKOS IA-juridique qui franchissent les frontières des domaines — reliant les concepts de risque IA aux obligations légales à travers les secteurs.
+Alignements SKOS IA-juridique qui franchissent les frontières de domaine — reliant les concepts de risque IA aux obligations légales à travers les secteurs.
 
 ---
 

@@ -1,10 +1,10 @@
 ---
-title: Unterstützung
+title: Support
 description: 'Nehmen Sie Kontakt mit der IQ:NS-Community und dem Team auf.'
 lang: de
 navigation:
   section: platform
-  label: Unterstützung
+  label: Support
   order: 50
 ---
 # IQ:NS Supportzentrum
@@ -12,11 +12,11 @@ navigation:
 Wir würden uns freuen, mit Ihnen als Community‑Mitglied in Kontakt zu treten ...
 
 - [Discord](https://discord.gg/hJNscf4e32)
-- [Anfragen / Errata](https://github.com/iqns-org/ontologies/issues)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
 
-Als kommerzieller Kunde und Partner
+Unser Angebot als kommerzieller Kunde und Partner
 
-- [Unser Team kontaktieren](/services#addons)
+- [Engage Our Team](/services#addons)
 
 
 ## Open Source

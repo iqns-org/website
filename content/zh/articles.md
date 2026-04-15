@@ -1,6 +1,6 @@
 ---
-title: 功能与特性
-description: 发现面向文章的核心功能以及用于内容发现和知识工作流的本体集成。
+title: 功能与能力
+description: 发现核心以文章为中心的功能以及本体集成，用于内容发现和知识工作流。
 lang: zh
 navigation:
   section: ontologies

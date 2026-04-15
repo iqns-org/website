@@ -1,39 +1,31 @@
 ---
-title: Indústrias & Domínios
-description: >-
-  Mais de 20 domínios, mais de 100 arquivos de ontologia — IQ:NS estrutura o
-  conhecimento em IA, finanças, saúde, SaaS, empresas e mais.
+title: Indústrias e Domínios de Especialistas
+description: 'IQ:NS estrutura o conhecimento em AI, finanças, saúde, saas, empresa e mais.'
 lang: pt
 navigation:
-  section: platform
+  section: ontologies
   label: Indústrias
   order: 30
 ---
-# Indústrias e Domínios
+# Indústrias e Domínios de Especialização
 
-IQ:NS cobre mais de 20 domínios com mais de 100 arquivos de ontologia. Cada domínio inclui vocabulário central, alinhamentos de frameworks e exemplos práticos.
-
----
-
-## IA & Aprendizado de Máquina
-
-Mais de 30 frameworks específicos de IA, incluindo EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, Princípios de IA da OCDE, e mais. Exemplos de plataformas para AWS, Azure, GCP e Kubernetes.
+30+ estruturas específicas de IA incluindo EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, Princípios de IA da OCDE, e mais. Exemplos de plataformas para AWS, Azure, GCP e Kubernetes.
 
 ## Serviços Financeiros
 
-Basel III, DORA, MiFID II, SOX, SR 11-7, diretrizes de IA da EBA. Estruturado para gestão de risco de modelos, relatórios regulatórios e conformidade transfronteiriça.
+Basel III, DORA, MiFID II, SOX, SR 11-7, diretrizes de IA do EBA. Estruturado para gestão de risco de modelos, relatórios regulatórios e conformidade transfronteiriça.
 
 ## Saúde
 
-HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI. Modelado para suporte à decisão clínica, diagnósticos e governança de dispositivos médicos.
+HIPAA, EU MDR, FDA AI/ML SaMD, IA confiável da ONC. Modelado para suporte à decisão clínica, diagnósticos e governança de dispositivos médicos.
 
 ## Empresa
 
-COBIT, ISO 27001, ISO 31000, ISO 45001, SOC 2. Risco empresarial, segurança da informação e saúde ocupacional — as ontologias fundamentais para a governança organizacional.
+COBIT, ISO 27001, ISO 31000, ISO 45001, SOC 2. Risco empresarial, segurança da informação e saúde ocupacional — as ontologias base para a governança organizacional.
 
 ## Governo
 
-FedRAMP, NIST CSF, ISO 38500. Frameworks do setor público para governança de TI, cibersegurança e segurança em nuvem.
+FedRAMP, NIST CSF, ISO 38500. Estruturas do setor público para governança de TI, cibersegurança e segurança em nuvem.
 
 ## Defesa
 
@@ -41,7 +33,7 @@ Princípios de IA Responsável do DoD, Princípios de IA da OTAN. IA responsáve
 
 ## Jurídico
 
-Princípios Orientadores da ONU sobre Negócios e Direitos Humanos. Alinhamentos SKOS de IA‑jurídico interdomínios.
+Princípios Orientadores da ONU sobre Negócios e Direitos Humanos. Alinhamentos SKOS de IA‑jurídico intersetoriais.
 
 ## Seguros
 
@@ -49,7 +41,7 @@ Solvency II. Ontologias de subscrição, processamento de sinistros e justiça d
 
 ## Educação
 
-Ética de IA da UNESCO. IA responsável na aprendizagem, avaliação e tecnologia educacional.
+Ética de IA da UNESCO. IA responsável em aprendizagem, avaliação e tecnologia educacional.
 
 ## Emprego
 
@@ -73,7 +65,7 @@ UN R157. Veículos autônomos, sistemas de condução automatizada e segurança 
 
 ## SaaS & SKMS
 
-Ontologias de Sistema de Gerenciamento de Conhecimento de Serviço para AWS, Azure, GCP e DigitalOcean. Mapeia serviços de nuvem para um vocabulário compartilhado.
+Ontologias do Sistema de Gerenciamento de Conhecimento de Serviço para AWS, Azure, GCP e DigitalOcean. Mapeia serviços de nuvem para um vocabulário compartilhado.
 
 ## ITIL
 
@@ -83,7 +75,7 @@ Ontologia de gerenciamento de serviços ITIL 4. Conecta o gerenciamento de ser
 
 Pacto Global da ONU. Fundamentos de IA responsável para empresas em estágio inicial.
 
-## Interdomínio
+## Intersetorial
 
 Alinhamentos SKOS de IA‑jurídico que unem fronteiras de domínio — conectando conceitos de risco de IA a obrigações legais em diversos setores.
 

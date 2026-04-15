@@ -1,7 +1,7 @@
 ---
 title: AdTech
 description: >-
-  Ontología de publicidad para segmentación, atribución, consentimiento y
+  Ontología publicitaria para segmentación, atribución, consentimiento y
   seguridad de marca.
 lang: es
 navigation:

@@ -9,12 +9,12 @@ navigation:
   label: Ressources
   order: 14
 ---
-# Ressources
+# Resources
 
-Trouvez la documentation, les exemples et les matériaux de référence qui vous aident à comprendre et à utiliser les ontologies IQ:NS efficacement.
+Find documentation, examples, and reference materials that help you understand and use IQ:NS ontologies effectively.
 
-- Parcourir la documentation et les exemples d'ontologie
-- Explorer les intégrations de la plateforme et les modèles de requête
-- Commencer avec la modélisation sémantique et les pratiques de gouvernance
+- Browse ontology documentation and examples
+- Explore platform integrations and query patterns
+- Get started with semantic modeling and governance practice
 
-[Voir comment IQ:NS fonctionne](/how-it-works)
+[See how IQ:NS works](/how-it-works)

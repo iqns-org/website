@@ -16,13 +16,13 @@ navigation:
 IQ:NS fonctionne uniquement sur **les métadonnées** :
 
 - Concepts et relations du cadre (texte réglementaire public)
-- Vos profils système (si vous utilisez le niveau commercial) : noms, capacités, classifications de risque
+- Les profils de votre système (si vous utilisez le niveau commercial) : noms, capacités, classifications de risque
 - Vos extensions d'ontologie (si privées) : concepts et mappages personnalisés
 - Références de preuves (liens ou hachages — pas les documents eux‑mêmes)
 
 Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, les sorties d'inférence, les données client ou les informations personnelles identifiables (PII).
 
-## Où nous les stockons
+## Où nous le stockons
 
 - **Chiffrement :** AES-256 au repos, TLS 1.3 en transit
 - **Accès :** Contrôles basés sur les rôles, journalisation d'audit
@@ -31,7 +31,7 @@ Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, 
 ## Options de déploiement
 
 - **Auto-hébergé** — téléchargez les fichiers Turtle, exécutez votre propre triplestore
-- **Hébergé dans le cloud** — instance gérée sur AWS, chiffrée
+- **Hébergé sur le cloud** — instance gérée sur AWS, chiffrée
 - **Cloud privé** — déployé dans votre VPC
 - **Air-gapped** — Disponible sur site pour chaque client
 
@@ -44,7 +44,7 @@ Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, 
 
 ## Ouvert par défaut
 
-Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, chaque mappage, chaque relation. La transparence est structurelle, pas simplement promise.
+Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, chaque mappage, chaque relation. La transparence est structurelle, pas promise.
 
 ## Signaler un problème de sécurité
 
@@ -52,4 +52,4 @@ Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, c
 
 ---
 
-[Privacy policy](/privacy) · [Terms of service](/terms)
+[Politique de confidentialité](/privacy) · [Conditions d'utilisation](/terms)

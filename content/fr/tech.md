@@ -1,7 +1,7 @@
 ---
 title: Technologie & Architecture
 description: >-
-  Comment les ontologies IQ:NS sont construites : bases du web sémantique,
+  Comment les ontologies IQ:NS sont construites : fondations du web sémantique,
   cadres lisibles par machine et API prêtes pour les agents.
 lang: fr
 navigation:
@@ -15,22 +15,22 @@ navigation:
 
 IQ:NS utilise les mêmes standards qui alimentent la publication scientifique, la recherche pharmaceutique et l'intégration de données d'entreprise à l'échelle mondiale :
 
-- **RDF** — le modèle de données universel. Chaque triplet est interrogeable, exportable, reliable.
+- **JSON-LD** — le modèle de données universel. Chaque triplet RDF est interrogeable, exportable, reliable.
 - **SKOS** — capture les hiérarchies, les mappings et les alignements entre les cadres.
 - **OWL** — définit les classes, les propriétés et les relations logiques entre les concepts.
 - **SHACL** — valide les formes de données et les contraintes.
 
-Chaque concept possède un IRI canonique (stable, permanent), une définition formelle provenant du texte original, et des relations explicites avec des concepts liés à travers les cadres.
+Chaque concept possède un IRI canonique (stable, permanent), une définition formelle référencée au texte original, et des relations explicites avec des concepts liés à travers les cadres.
 
 ---
 
 ## Comment ça fonctionne
 
-Lorsque un standard change, la mise à jour de l'ontologie se propage à travers chaque concept mappé — chaque obligation liée, chaque contrôle associé. Aucun remappage manuel.
+Lorsqu'un standard change, la mise à jour de l'ontologie se propage à travers chaque concept mappé — chaque obligation liée, chaque contrôle associé. Aucun remappage manuel.
 
 ### Déduplication inter-cadres
 
-Lorsque l'Article 22 du RGPD et l'Article 13 de la loi européenne sur l'IA exigent tous deux la transparence, IQ:NS les reconnaît comme `skos:exactMatch` et fait apparaître un seul concept, pas deux. Une requête résout les deux.
+Lorsque différentes règles, politiques ou standards opérationnels exigent tous la transparence, IQ:NS les reconnaît comme `skos:exactMatch` et expose un seul concept, pas deux. Une requête résout les deux.
 
 ### Profilage contextuel
 
@@ -40,11 +40,11 @@ En fonction de la juridiction, du secteur et du type de capacité IA, une requê
 
 ## Modèles de domaine modulaires
 
-IQ:NS est publié comme un graphe de connaissances modulaire et aligné par domaine, plutôt que comme une simple checklist de standards. Plus de 40 modules ontologiques indépendants et versionnés sont disponibles dans `./ontologies/v1/`, et chacun est aligné avec le reste du graphe via SKOS, OWL et des patrons sémantiques partagés.
+IQ:NS est publié comme un graphe de connaissances modulaire, aligné sur les domaines, plutôt que comme une simple liste de contrôle de standards. Plus de 40 modules d'ontologie indépendants et versionnés sont disponibles dans `./ontologies/v1/`, et chaque module est aligné avec le reste du graphe en utilisant SKOS, OWL et des modèles sémantiques partagés.
 
-Les domaines représentés comprennent la gouvernance de l'IA, la confidentialité des données, la résilience en sécurité, le risque financier, la supervision de la santé, la transparence gouvernementale et le contrôle d'entreprise. Cette structure maintient chaque modèle de domaine clair tout en préservant le raisonnement et la réutilisation interdomaines.
+Les domaines représentatifs incluent la gouvernance de l'IA, la confidentialité des données, la résilience de la sécurité, le risque financier, la supervision de la santé, la transparence gouvernementale et les contrôles d'entreprise. Cette structure maintient chaque modèle de domaine clair tout en préservant le raisonnement et la réutilisation inter-domaines.
 
-Chaque module est un document RDF/Turtle autonome avec des alignements sémantiques explicites pour qu'une seule requête puisse traverser plusieurs domaines.
+Chaque module est un document RDF/Turtle autonome avec des alignements sémantiques explicites afin qu'une seule requête puisse traverser plusieurs domaines.
 
 ---
 
@@ -52,13 +52,13 @@ Chaque module est un document RDF/Turtle autonome avec des alignements sémantiq
 
 ### Point d'accès SPARQL
 
-Le graphe complet est interrogeable via SPARQL 1.1. Tout outil qui comprend SPARQL — plateformes BI, entrepôts de données, cadres d'agents — obtient des réponses structurées.
+Le graphe complet est interrogeable via SPARQL 1.1. Tout outil qui comprend SPARQL — plateformes BI, entrepôts de données, frameworks d'agents — obtient des réponses structurées.
 
-### Accès graphe prêt pour agents
+### Accès au graphe prêt pour les agents
 
-Chaque concept est publié avec une IRI canonique, des métadonnées lisibles par machine et des relations sémantiques formelles. Les agents et workflows d'automatisation peuvent consommer le graphe directement — via SPARQL ou une API native graphe — plutôt que de s'appuyer sur des PDF non structurés.
+Chaque concept est publié avec un IRI canonique, des métadonnées lisibles par machine et des relations sémantiques formelles. Les agents et les outils d'automatisation peuvent consommer le graphe directement — via SPARQL ou une API native du graphe — au lieu de dépendre de PDF non structurés ou d'une ingénierie de prompts ad hoc.
 
-Cela permet au même modèle sémantique de servir à la fois les workflows de conformité et le raisonnement enrichi par récupération, de sorte que les agents résolvent obligations, risques et contrôles à partir d'une source de vérité unique.
+Cela maintient le même modèle sémantique disponible pour les flux de travail de conformité et le raisonnement enrichi par la récupération, de sorte que les agents résolvent obligations, risques et contrôles à partir d'une source unique de vérité.
 
 ---
 
@@ -66,16 +66,16 @@ Cela permet au même modèle sémantique de servir à la fois les workflows de c
 
 | Mode | Description |
 |------|-------------|
-| **GitHub** | Téléchargez les fichiers Turtle, chargez-les dans votre propre triplestore |
+| **GitHub** | Télécharger et charger dans votre propre magasin RDF |
 | **Cloud hosted** | Graphe géré sur une instance privée, chiffré |
 | **Private cloud** | Déployé dans votre VPC (AWS, Azure, GCP) |
-| **Air-gapped** | Entièrement sur site pour les environnements réglementés |
+| **Air-gapped** | Disponible sur site pour chaque client |
 
 ---
 
 ## Standards ouverts, sans verrouillage
 
-Les ontologies sont publiées sous licence ouverte. Exportez au format RDF Turtle standard à tout moment. Si vous partez, vous emportez avec vous un graphe de connaissances complet et portable.
+Les ontologies sont publiées sous licence ouverte. Exportez en tant que RDF standard à tout moment. Si vous partez, vous emportez avec vous un graphe de connaissances complet et portable.
 
 ---
 

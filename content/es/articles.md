@@ -2,7 +2,7 @@
 title: Características y Capacidades
 description: >-
   Descubra las capacidades centrales centradas en artículos y la integración de
-  ontologías para el descubrimiento de contenido y flujos de trabajo de
+  ontología para el descubrimiento de contenido y flujos de trabajo de
   conocimiento.
 lang: es
 navigation:

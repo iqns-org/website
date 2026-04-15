@@ -14,10 +14,10 @@ navigation:
 
 Ontología de aviación para sistemas de vuelo, certificación y supervisión operativa.
 
-## Por qué esta ontología es importante
+## Por qué importa esta ontología
 
-- Captura la semántica de la seguridad de vuelo, la certificación y la supervisión operativa.
+- Captura la semántica de la seguridad de vuelo, certificación y supervisión operativa.
 - Ayuda a los equipos de aviación a gobernar la IA en aviónica y aeronaves autónomas.
-- Apoya operaciones aéreas más seguras y conformes mediante modelos estructurados.
+- Apoya operaciones aéreas más seguras y conformes con modelos estructurados.
 
 [Ver la ontología en GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/aviation)

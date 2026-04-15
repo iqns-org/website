@@ -1,6 +1,6 @@
 ---
 title: Suporte
-description: 'Entre em contato com a comunidade e a equipe da IQ:NS.'
+description: 'Entre em contato com a comunidade e equipe da IQ:NS.'
 lang: pt
 navigation:
   section: platform
@@ -12,9 +12,9 @@ navigation:
 Adoraríamos interagir com você como membro da comunidade ...
 
 - [Discord](https://discord.gg/hJNscf4e32)
-- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
+- [Solicitações / Erratas](https://github.com/iqns-org/ontologies/issues)
 
-Como cliente comercial e parceiro
+Nosso como cliente comercial e parceiro
 
 - [Engajar Nossa Equipe](/services#addons)
 

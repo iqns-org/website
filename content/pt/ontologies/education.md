@@ -16,8 +16,8 @@ Ontologia de educação para admissões, avaliação, direitos dos aprendizes e 
 
 ## Por que esta ontologia importa
 
-- Captura os direitos dos aprendizes, semântica de avaliação e privacidade.
-- Ajuda os sistemas educacionais a governar admissões e avaliações suportadas por IA.
-- Apoia experiências de aprendizagem justas e transparentes com modelos compartilhados.
+- Captura os direitos dos aprendizes, a avaliação e a semântica de privacidade.  
+- Ajuda os sistemas educacionais a governar admissões e avaliações suportadas por IA.  
+- Suporta experiências de aprendizagem justas e transparentes com modelos compartilhados.
 
 [Veja a ontologia no GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/education)

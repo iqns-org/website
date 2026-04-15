@@ -1,6 +1,6 @@
 ---
 title: 农业与食品系统
-description: 用于精准农业、产量模型和食品链保障的农业本体。
+description: 农业 ontology 用于 precision farming、yield models 和 food-chain assurance。
 lang: zh
 navigation:
   enabled: false
@@ -10,7 +10,7 @@ navigation:
 ---
 # 农业与食品系统
 
-农业本体用于精准农业、产量模型和食品链保证。
+农业本体用于精准农业、产量模型和食品链保障。
 
 ## 为什么这个本体重要
 

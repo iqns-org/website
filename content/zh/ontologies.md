@@ -1,10 +1,10 @@
 ---
-title: 'IQ:NS 开放本体'
-description: 探索开放本体在各行业、治理和运营领域的运作方式
+title: 'Open Ontologies by IQ:NS'
+description: 探索 open ontology 在各行业、治理和运营领域的运作方式
 lang: zh
 navigation:
   section: ontologies
-  label: 开放本体
+  label: Open Ontologies
   order: 0
 ---
 # 开放本体
@@ -31,12 +31,12 @@ navigation:
 - [用户体验与人机交互](/ontologies/ux)
 - [广告技术](/ontologies/adtech)
 - [农业与食品系统](/ontologies/agriculture)
-- [审计与鉴证](/ontologies/audit)
+- [审计与保证](/ontologies/audit)
 - [航空](/ontologies/aviation)
 - [银行业](/ontologies/banking)
 - [生物技术](/ontologies/biotech)
 
-## 开始使用
+## 入门
 
 - [GitHub 上的开放本体](https://github.com/iqns-org/ontologies)
 - [了解 IQ:NS 的工作原理](/how-it-works)

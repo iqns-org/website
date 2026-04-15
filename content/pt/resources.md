@@ -1,8 +1,8 @@
 ---
 title: Recursos
 description: >-
-  Acesse guias, referências e conteúdo de apoio para ontologias e modelos de
-  governança IQ:NS.
+  Acesse guias, referências e conteúdo de apoio para ontologias IQ:NS e modelos
+  de governança.
 lang: pt
 navigation:
   section: platform
@@ -11,7 +11,7 @@ navigation:
 ---
 # Recursos
 
-Encontre documentação, exemplos e materiais de referência que ajudam você a entender e usar ontologias IQ:NS de forma eficaz.
+Encontre documentação, exemplos e materiais de referência que ajudam a entender e usar as ontologias IQ:NS de forma eficaz.
 
 - Navegue pela documentação e exemplos de ontologia
 - Explore integrações de plataforma e padrões de consulta

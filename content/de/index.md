@@ -1,14 +1,14 @@
 ---
 title: Strukturierte Intelligenz für KI
-description: 'Offene Ontologien, Rahmenwerke, Standards und institutionelles Wissen.'
+description: 'Offene Ontologien, Frameworks, Standards und institutionelles Wissen.'
 lang: de
 hero:
   title: Strukturierte Intelligenz für KI & Organisationen.
   subtitle: 'Gemeinsame Sprache für Menschen, Maschinen und Organisationen.'
   description: >-
-    IQ:NS verwandelt institutionelles Wissen, Rahmenwerke und operative Regeln
-    in abfragbare Wissensgraphen, sodass KI- und Unternehmenssysteme aus
-    derselben Wahrheitsquelle arbeiten.
+    IQ:NS verwandelt institutionelles Wissen, Frameworks und operative Regeln in
+    abfragbare Wissensgraphen, sodass KI und Unternehmenssysteme aus derselben
+    Wahrheitsquelle arbeiten.
   cta:
     - title: 'Wie IQ:NS funktioniert'
       link: /how-it-works
@@ -25,16 +25,16 @@ value_props:
     - icon: ShieldCheck
       title: 'Strukturiertes Wissen, nicht Dokumente'
       description: >-
-        Dokumente, Rahmenwerke und institutionelle Regeln liegen als PDFs vor.
+        Dokumente, Frameworks und institutionelle Regeln liegen als PDFs vor.
         IQ:NS wandelt sie in maschinenlesbare Ontologien um, die KI‑Agenten und
         Menschen direkt abfragen können.
     - icon: Globe
-      title: Integration über Rahmenwerke hinweg
+      title: Integration über Frameworks hinweg
       description: >-
         IQ:NS wählt die genauen Ontologien, die Sie aus `./ontologies/v1/`
         benötigen, anstatt eine feste Kurzliste von Standards zu fördern.
         Unterschiedliche Vokabulare werden in einen gemeinsamen semantischen
-        Raum abgebildet, sodass nichts verloren geht.
+        Raum abgebildet, sodass nichts übersehen wird.
     - icon: Users
       title: Offen und gemeinschaftsgetrieben
       description: >-
@@ -44,9 +44,9 @@ value_props:
     - icon: Zap
       title: Maschinenlesbar von Grund auf
       description: >-
-        Jedes Konzept hat eine stabile IRI, formale Beziehungen und
-        Zuordnungs‑Mappings. Ihre KI‑Agenten können über institutionelles Wissen
-        nachschließen, ohne PDFs in Prompts zu stopfen.
+        Jedes Konzept besitzt eine stabile IRI, formale Beziehungen und
+        Zuordnungen. Ihre KI‑Agenten können über institutionelles Wissen
+        nachdenken, ohne PDFs zu überladen.
     - icon: Network
       title: Institutionelle Intelligenz
       description: >-
@@ -56,47 +56,47 @@ value_props:
     - icon: BarChart
       title: Skalierbare Integration
       description: >-
-        Verbinden Sie Ontologien mit Ihren Tools, Ihren Agenten, Ihren
-        Workflows. Ein gemeinsames Vokabular bedeutet weniger
-        Übersetzungsaufwand, wenn Ihr KI‑Portfolio wächst.
+        Verbinden Sie Ontologien mit Ihren Werkzeugen, Agenten und Workflows.
+        Ein gemeinsames Vokabular bedeutet weniger Übersetzungsaufwand, wenn Ihr
+        KI‑Portfolio wächst.
 iqns:
   badge: WIE ES FUNKTIONIERT
   heading: Von fragmentiertem Wissen zu geteilter Intelligenz
   description: >-
-    Offene Ontologien, die das, was Ihre Organisation weiß, mit dem verbinden,
+    Offene Ontologien, die das verbinden, was Ihre Organisation weiß, mit dem,
     was Ihre KI‑Systeme tun.
   pillars:
     - icon: Link
       number: 1
       title: Strukturiere das Wissen
       description: >-
-        Dokumente, Rahmenwerke und institutionelle Regeln werden als formale
+        Dokumente, Frameworks und institutionelle Regeln werden als formale
         Ontologien modelliert: Klassen, Eigenschaften und Beziehungen, über die
-        Maschinen schließen können.
+        Maschinen reasoning können.
     - icon: Zap
       number: 2
-      title: Abbilden über Rahmenwerke hinweg
+      title: Abbildung über Frameworks hinweg
       description: >-
         Cross‑Framework‑Alignments zeigen, wo Konzepte überlappen, wo sie
         divergieren und wo Lücken bestehen. Eine Abfrage deckt jeden Standard
         ab.
     - icon: Target
       number: 3
-      title: Integrieren Sie mit Ihren Systemen
+      title: Integration mit Ihren Systemen
       description: >-
-        Abfragen via SPARQL, verbinden via MCP oder einbetten in Ihre
+        Abfrage via SPARQL, Verbindung via MCP oder Einbettung in Ihre
         Agent‑Workflows. Die Ontologien treffen Sie dort, wo Ihre Werkzeuge
         bereits sind.
     - icon: Users
       number: 4
       title: Gemeinsam weiterentwickeln
       description: >-
-        Rahmenwerke ändern sich. Neue Standards kommen. Die Community pflegt und
+        Frameworks ändern sich. Neue Standards kommen. Die Community pflegt und
         erweitert die Ontologien, damit das Wissen aktuell bleibt.
 frameworks:
-  heading: 50+ Rahmenwerke. Ein gemeinsames Vokabular.
+  heading: 50+ Frameworks. Ein gemeinsames Vokabular.
   description: >-
-    100+ Ontologiedateien über 20+ Domänen. IQ:NS wählt die relevanten Modelle
+    100+ Ontologie‑Dateien über 20+ Domänen. IQ:NS wählt die relevanten Modelle
     direkt aus `./ontologies/v1/` aus und mappt sie in ein einheitliches
     Vokabular, sodass Sie verstehen können, wie Konzepte über Standards hinweg
     zusammenhängen.
@@ -160,7 +160,7 @@ industries:
       title: KI & Maschinelles Lernen
       description: >-
         EU AI Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, MITRE ATLAS — 30+
-        KI-spezifische Rahmenwerke.
+        KI‑spezifische Frameworks.
     - icon: Building
       title: Finanzdienstleistungen
       description: >-
@@ -168,11 +168,11 @@ industries:
         regulatorische Berichterstattung.
     - icon: FlaskConical
       title: Gesundheitswesen
-      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC vertrauenswürdige KI.'
+      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI.'
     - icon: Scale
       title: Recht
       description: >-
-        UN-Leitprinzipien zu BHR, bereichsübergreifende KI‑rechtliche
+        UN Guiding Principles on BHR, bereichsübergreifende KI‑rechtliche
         Alignments.
     - icon: Globe
       title: Regierung
@@ -191,11 +191,11 @@ industries:
         Sicherheit.
     - icon: GraduationCap
       title: Bildung
-      description: UNESCO KI‑Ethik — verantwortungsvolle KI in Lernen und Bewertung.
+      description: UNESCO AI Ethics — verantwortungsvolle KI in Lernen und Bewertung.
     - icon: Users
       title: Beschäftigung
       description: >-
-        EEOC, EU Gleichbehandlung — Fairness bei Einstellung und KI im
+        EEOC, EU Equal Treatment — Fairness bei Einstellung und KI im
         Personalwesen.
     - icon: Zap
       title: Energie
@@ -205,7 +205,7 @@ industries:
       description: 'Solvency II — Underwriting, Schadenbearbeitung und Preisfairness.'
     - icon: Radio
       title: Medien
-      description: EU Digital Services Act — Inhalts­empfehlungen und Plattform‑Governance.
+      description: EU Digital Services Act — Inhalts‑empfehlungen und Plattform‑Governance.
     - icon: Siren
       title: Öffentliche Sicherheit
       description: ISO 22320 — Notfallmanagement und Überwachungs‑Governance.
@@ -220,13 +220,13 @@ industries:
       description: UN Global Compact — verantwortungsvolle KI von Anfang an.
     - icon: Settings
       title: ITIL
-      description: ITIL‑4 Service‑Management‑Ontologie und SKMS‑Connectoren.
+      description: ITIL 4 Service‑Management‑Ontologie und SKMS‑Connectoren.
 cta_final:
-  heading: Entdecken Sie jetzt
+  heading: Starten Sie die Erkundung
   subheading: >-
     Die Kernontologien sind kostenlos und Open Source. Holen Sie sie von GitHub,
     fragen Sie sie mit SPARQL ab oder verbinden Sie sie mit Ihren Agenten.
   cta_text: Auf GitHub ansehen
   cta_href: 'https://github.com/iqns-org/ontologies'
 ---
-[IQ:NS](https://IQNS.org) ist `Structured Intelligence` für KI und Organisationen. Es ist ein community‑getriebenes Projekt, das fragmentierte Standards, Vorschriften und institutionelles Wissen in offene, abfragbare Ontologien verwandelt — sodass sowohl Menschen als auch Maschinen aus derselben Wahrheitsquelle arbeiten können.
+[IQ:NS](https://IQNS.org) ist `Structured Intelligence` für KI und Organisationen. Es ist ein community‑getriebenes Projekt, das fragmentierte Standards, Vorschriften und institutionelles Wissen in offene, abfragbare Ontologien verwandelt — so dass sowohl Menschen als auch Maschinen aus derselben Wahrheitsquelle arbeiten können.

@@ -1,13 +1,13 @@
 ---
-title: Agricultura e Sistemas Alimentares
+title: Agricultura & Sistemas Alimentares
 description: >-
-  Ontologia agrícola para agricultura de precisão, modelos de rendimento e
+  Ontologia de agricultura para agricultura de precisão, modelos de rendimento e
   garantia da cadeia alimentar.
 lang: pt
 navigation:
   enabled: false
   section: ontologies
-  label: Agricultura e Sistemas Alimentares
+  label: Agricultura & Sistemas Alimentares
   order: 210
 ---
 # Agricultura & Sistemas Alimentares

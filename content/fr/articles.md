@@ -12,4 +12,4 @@ navigation:
 ---
 # Fonctionnalités et capacités
 
-Découvrez les capacités principales et les intégrations pour la découverte de contenu, les systèmes d'enregistrement, la collaboration et les flux de travail IA émergents.
+Découvrez les capacités de base et les intégrations pour la découverte de contenu, les systèmes d'enregistrement, la collaboration et les flux de travail d'IA émergents.

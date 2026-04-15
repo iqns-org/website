@@ -1,8 +1,8 @@
 ---
 title: Fonctionnalités et capacités
 description: >-
-  Ce que IQ:NS fournit — ontologies ouvertes, mappings inter‑cadres, accès
-  SPARQL et intégration prête pour les agents.
+  Ce que IQ:NS fournit — des ontologies ouvertes, des mappings inter‑cadres, un
+  accès SPARQL et une intégration prête pour les agents.
 lang: fr
 navigation:
   section: platform
@@ -16,28 +16,30 @@ navigation:
 Plus de 50 ontologies couvrant l'IA, le juridique, la finance, la santé, le gouvernement, l'entreprise, et plus encore. Chacune est modélisée en RDF/OWL avec des alignements SKOS, publiée sous forme de fichiers Turtle versionnés.
 
 Chaque concept possède :
+
 - Une IRI stable (identifiant permanent, pas une ligne de base de données)
 - Une définition formelle référencée au texte original
 - Des relations avec des concepts connexes à travers les cadres
-- Des correspondances inter-cadres (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
+- Mappages inter-cadres (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
 
 ---
 
 ## Intelligence inter-cadres
 
-Les cadres utilisent des mots différents pour les mêmes idées. IQ:NS les cartographie de manière structurée :
+Les cadres utilisent des mots différents pour les mêmes idées. IQ:NS les mappe structurellement :
 
 - Article 9 du AI Act de l'UE ↔ Fonction de la carte NIST AI RMF ↔ Clause 6.1 de l'ISO 42001 (gestion des risques)
 - Article 22 du RGPD ↔ Chapitre IV du AI Act de l'UE (transparence)
 - ISO 24027 ↔ Mesure 2.6 du NIST (biais et équité)
 
-Une requête couvre chaque norme. Un contrôle peut satisfaire plusieurs cadres — et la cartographie le prouve.
+Une requête couvre chaque norme. Un contrôle peut satisfaire plusieurs cadres — et le mappage le prouve.
 
 ---
 
 ## Profilage contextuel
 
 Tout ne s'applique pas à tout le monde. Profilage par :
+
 - **Juridiction** — UE, États‑Unis, Royaume‑Uni, APAC
 - **Secteur** — finance, santé, gouvernement, RH
 - **Capacité IA** — LLM, biométrie, scoring de crédit, décisions autonomes
@@ -60,13 +62,13 @@ WHERE {
 }
 ```
 
-Tout outil qui comprend SPARQL — plateformes BI, entrepôts de données, cadres d'agents — peut interroger directement les ontologies.
+Tout outil qui comprend SPARQL — plateformes BI, entrepôts de données, cadres d'agents — peut interroger les ontologies directement.
 
 ---
 
 ## MCP pour les flux de travail agentiques
 
-Chaque concept possède une IRI stable, une définition lisible par machine et des relations formelles. Les agents IA interrogent le graphe et obtiennent des réponses structurées et typées — aucune insertion de prompts PDF n'est requise.
+Chaque concept possède une IRI stable, une définition lisible par machine, et des relations formelles. Les agents IA interrogent le graphe et obtiennent des réponses structurées et typées — aucune insertion de prompts PDF requise.
 
 ---
 
@@ -79,15 +81,15 @@ IQ:NS s'intègre aux outils existants :
 - **Registres de modèles** — MLflow, Weights & Biases
 - **Plateformes cloud** — AWS, Azure, GCP
 - **Outils de développement** — Jira, pipelines CI/CD
-- **ITSM** — Connecteurs SKMS ITIL v3/v4
+- **ITSM** — connecteurs SKMS ITIL v3/v4
 
-Aucune migration forcée. Les ontologies s'adaptent à vos outils.
+Pas de migrations forcées. Les ontologies vous rejoignent là où se trouvent vos outils.
 
 ---
 
 ## Versionnées et portables
 
-Chaque ontologie est versionnée. Exportée au format RDF Turtle standard. Si vous partez, vous emportez avec vous un graphe de connaissances complet et conforme aux standards. Aucun verrouillage.
+Chaque ontologie est versionnée. Exportée au format RDF Turtle standard. Si vous partez, vous emportez un graphe de connaissances complet et conforme aux standards. Aucun verrouillage.
 
 ---
 

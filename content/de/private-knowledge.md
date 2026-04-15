@@ -2,16 +2,16 @@
 title: Privates Wissen
 description: >-
   Erweitern Sie IQ:NS mit privaten Wissensdatenbanken, sicheren MCP-Servern und
-  einer semantischen Integration auf Unternehmensniveau.
+  semantischer Integration auf Unternehmensniveau.
 lang: de
 navigation:
   section: ontologies
   label: Privates Wissen
   order: 25
 ---
-# Privates Wissen mit IQ:NS
+# Private Knowledge mit IQ:NS
 
-Your public ontologies are a shared semantic foundation. Private knowledge lets your organisation extend that foundation with internal policies, proprietary taxonomies, and operational models.
+Ihre öffentlichen Ontologien bilden eine gemeinsame semantische Grundlage. Privates Wissen ermöglicht es Ihrer Organisation, diese Grundlage mit internen Richtlinien, proprietären Taxonomien und Betriebsmodellen zu erweitern.
 
 ## Was privates Wissen liefert
 
@@ -22,12 +22,12 @@ Your public ontologies are a shared semantic foundation. Private knowledge lets 
 
 ## Wie es funktioniert
 
-IQ:NS hält die Kernontologien offen, unterstützt jedoch eine private Schicht für interne Erweiterungen. Das bedeutet, dass Ihre Teams dieselbe semantische Schicht sowohl für Community‑Wissen als auch für Ihre proprietären Regeln nutzen können.
+IQ:NS hält die Kernontologien offen, während es eine private Schicht für interne Erweiterungen unterstützt. Das bedeutet, dass Ihre Teams dieselbe semantische Schicht sowohl für Community‑Wissen als auch für Ihre proprietären Regeln nutzen können.
 
-## Wann Sie es einsetzen sollten
+## Wann es zu verwenden ist
 
 - Sie benötigen private Richtlinien oder interne Kontrollrahmen, die im Graphen enthalten sind
-- Ihre Agenten müssen über proprietäres Betriebswissen schließen
+- Ihre Agenten müssen über proprietäres Betriebswissen schließen können
 - Sie möchten privates Hosting für SPARQL‑ oder MCP‑Dienste
 - Ihre Risiko‑, Compliance‑ oder IT‑Teams benötigen mandantenisoliertes Wissen
 

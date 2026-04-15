@@ -1,9 +1,9 @@
 ---
 title: Häufig gestellte Fragen
-description: 'Häufige Fragen zu IQ:NS, den Ontologien und deren Verwendung.'
+description: 'Allgemeine Fragen zu IQ:NS, den Ontologien und wie man sie verwendet.'
 lang: de
 navigation:
-  section: ontologies
+  section: platform
   label: FAQ
   order: 30
 ---
@@ -13,19 +13,19 @@ navigation:
 
 ### Was ist IQ:NS?
 
-Ein Open‑Source‑Projekt, das KI‑Standards, Vorschriften und institutionelles Wissen als formale Ontologien modelliert. Aufgebaut auf RDF, SKOS, OWL und SHACL — abfragbar von Menschen und Maschinen.
+Ein Open‑Source‑Projekt, das KI‑Standards, Vorschriften und institutionelles Wissen als formale Ontologien modelliert. Aufgebaut auf RDF, SKOS, OWL und SHACL — abfragbar von Menschen und Maschinen.
 
 ### Ist es kostenlos?
 
-Die Kern‑Ontologien sind kostenlos und Open Source. Es gibt eine kommerzielle Stufe für gehostete Dienste, private Wissensbasen und Integrationssupport.
+Die Kernontologien sind kostenlos und Open‑Source. Es gibt eine kommerzielle Stufe für gehostete Dienste, private Wissensbasen und Integrationsunterstützung.
 
 ### Für wen ist das?
 
-Jeder, der mit KI‑Standards arbeitet — Compliance‑Teams, Ingenieure, Integrationsarchitekten, Forschende oder alle, die Agenten bauen, die über institutionelle Regeln nachdenken müssen.
+Jeder, der mit KI‑Standards arbeitet — Compliance‑Teams, Ingenieure, Integrationsarchitekten, Forschende oder jeder, der Agenten entwickelt, die über institutionelle Regeln nachdenken müssen.
 
 ### Wie unterscheidet es sich von einer GRC‑Plattform?
 
-GRC‑Plattformen steuern Workflows und Genehmigungen. IQ:NS liefert die semantische Schicht darunter — strukturiertes Wissen darüber, was die Standards sagen und wie sie zusammenhängen. Sie ergänzen sich.
+GRC‑Plattformen führen Workflows und Genehmigungen aus. IQ:NS liefert die semantische Schicht darunter — strukturiertes Wissen darüber, was die Standards besagen und wie sie zusammenhängen. Sie ergänzen sich.
 
 ---
 
@@ -33,23 +33,25 @@ GRC‑Plattformen steuern Workflows und Genehmigungen. IQ:NS liefert die semanti
 
 ### Welche Standards decken Sie ab?
 
-Mehr als 50 Rahmenwerke, darunter EU‑AI‑Act, NIST AI RMF, ISO 42001, DSGVO, OWASP LLM Top 10, MITRE ATLAS, branchenspezifische Vorschriften (FDA, EBA, SR 11‑7) und mehr. Siehe [vollständige Abdeckung](/standards).
+Über 50 Rahmenwerke sind derzeit verfügbar — KI‑Regulierung, Datenschutz, Sicherheit, branchenspezifische Regeln und Unternehmenskontrollen. Siehe [Offene Ontologien](/ontologies/index).
 
 ### Wie werden sie erstellt?
 
 Jeder Standard wird als OWL‑Klassen mit SKOS‑Bezeichnungen, Definitionen und übergreifenden Alignments modelliert. Jeder Begriff lässt sich auf den autoritativen Quelltext zurückführen.
 
-### Wie verwende ich sie?
+### Wie nutze ich sie?
 
-Laden Sie die Turtle‑Dateien von GitHub herunter, importieren Sie sie in einen beliebigen Triplestore und fragen Sie mit SPARQL ab. Oder nutzen Sie den gehosteten MCP‑Server, um KI‑Agenten direkt zu verbinden.
+Sie können sich mit unserem gehosteten MCP‑Server verbinden, sodass Ihre KI‑Agenten miteinander und mit Ihrer digitalen Lieferkette ohne Mehrdeutigkeit kommunizieren können.
+
+Als Entwickler können Sie die RDF‑Quelldateien von GitHub herunterladen, in einen beliebigen Triple‑Store laden und mit SPARQL abfragen. 
 
 ### Kann ich beitragen?
 
-Ja. Die Ontologien finden Sie auf [GitHub](https://github.com/iqns-org/ontologies). Fachwissen, Korrekturen und neue Rahmenwerke sind willkommen.
+Ja. Die offenen Ontologien befinden sich auf [GitHub](https://github.com/iqns-org/ontologies). Fachwissen, Korrekturen und neue Rahmenwerk‑Abdeckungen sind willkommen.
 
-### Was passiert, wenn ein Standard geändert wird?
+### Was passiert, wenn sich ein Standard ändert?
 
-Die Community aktualisiert die Ontologien. Jede Version wird nachverfolgt — Sie können sehen, was sich wann geändert hat.
+Die Community aktualisiert die Ontologien. Jede Version wird nachverfolgt — Sie können sehen, was sich geändert hat und wann.
 
 ---
 
@@ -57,11 +59,17 @@ Die Community aktualisiert die Ontologien. Jede Version wird nachverfolgt —�
 
 ### Was beinhaltet die kostenpflichtige Stufe?
 
-Private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server‑Zugang, ITIL‑SKMS‑Connectoren und praxisnahen Support.
+Wir starten eine Instanz unseres Enterprise‑Wissensservers, die alle offenen Ontologien und KI‑Governance‑Frameworks enthält.
+
+Sie können private Wissensbasen erstellen, die Informationen aus mehreren Quellen verknüpfen – SQL, APIs, GraphQL und mehr.
+
+Die Instanz beinhaltet gesicherte SPARQL‑Endpunkte, virtuelle MCP‑Server, Konnektoren für Enterprise‑SaaS‑Systeme und praxisnahe Unterstützung.
 
 ### Brauche ich das?
 
-Für die meisten Anwendungsfälle reichen die kostenlosen Ontologien aus. Die kommerzielle Stufe richtet sich an Teams, die verwaltetes Hosting, private Erweiterungen oder Integrationssupport wünschen.
+Für viele Anwendungsfälle reichen die kostenlosen Ontologien aus.  
+
+Die kommerzielle Stufe richtet sich an Teams, die mehr wollen – private Wissensbasen, agentenbasierte Integration, verwaltetes Hosting, benutzerdefinierte Erweiterungen oder professionellen Support.
 
 ### Gibt es Bindungen?
 
@@ -73,12 +81,16 @@ Nein. Alles lässt sich als Standard‑RDF‑Turtle exportieren. Sie können jed
 
 ### Sieht IQ:NS meine Daten?
 
-Nein. Die Ontologien beschreiben Konzepte und Beziehungen. Wir berühren niemals Modelldaten, Trainingsdatensätze, Inferenz‑Ergebnisse oder personenbezogene Daten (PII).
+Nein. Die Ontologien beschreiben Konzepte und Beziehungen. Wir berühren niemals Modelldaten, Trainingsdatensätze, Inferenz‑Ausgaben oder personenbezogene Daten (PII).
 
-### Kann ich es vor Ort ausführen?
+Alle kommerziell gehosteten Instanzen sind in privaten Clouds gesichert – entweder Ihrer oder unserer.
 
-Ja. Die Ontologien sind Dateien, die Sie überall hosten können. Die kommerzielle Stufe unterstützt zudem private Cloud‑ und air‑gapped‑Deployments.
+### Kann ich es lokal betreiben?
+
+Ja. Die Ontologien sind Dateien, die Sie überall hosten können.  
+
+Die kommerzielle Stufe unterstützt zudem Private‑Cloud‑ und air‑gapped‑Bereitstellungen für echte Datensouveränität.
 
 ---
 
-[Entdecken Sie die Ontologien](https://github.com/iqns-org/ontologies) · [Kontaktieren Sie uns](/support)
+[offene Ontologien](https://github.com/iqns-org/ontologies) · [Kontaktieren Sie uns](/support)

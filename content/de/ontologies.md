@@ -1,12 +1,12 @@
 ---
-title: 'Open Ontologien von IQ:NS'
+title: 'Open Ontologies by IQ:NS'
 description: >-
-  Entdecken Sie, wie offene Ontologien in verschiedenen Sektoren, der Governance
-  und operativen Bereichen funktionieren
+  Erkunden Sie, wie open ontology in verschiedenen Sektoren, der Governance und
+  den operativen Bereichen funktioniert
 lang: de
 navigation:
   section: ontologies
-  label: Open Ontologien
+  label: Open Ontologies
   order: 0
 ---
 # Offene Ontologien
@@ -33,7 +33,7 @@ Entdecken Sie offene Ontologien über Systeme, Sektoren, Governance und operativ
 - [UX & Menschliche Interaktion](/ontologies/ux)
 - [AdTech](/ontologies/adtech)
 - [Landwirtschaft & Lebensmittelsysteme](/ontologies/agriculture)
-- [Prüfung & Assurance](/ontologies/audit)
+- [Audit & Assurance](/ontologies/audit)
 - [Luftfahrt](/ontologies/aviation)
 - [Bankwesen](/ontologies/banking)
 - [Biotechnologie](/ontologies/biotech)

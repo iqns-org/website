@@ -4,6 +4,12 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "${SCRIPT_DIR}/.."
 
+current_branch="$(git rev-parse --abbrev-ref HEAD)"
+if [ "${current_branch}" != "main" ]; then
+  echo "Error: release must be run from the main branch, currently on '${current_branch}'." >&2
+  exit 1
+fi
+
 git_status="$(git status --porcelain)"
 if [ -n "${git_status}" ]; then
   dirty="$(printf '%s\n' "${git_status}" | grep -vE '^\?\? bin/release$' || true)"
@@ -27,10 +33,24 @@ fi
 
 echo "Bumped version to ${VERSION}"
 
+echo "Running test suite..."
 npm run test
-npm run translator
-git add -A .
-git commit -m "chore: update translations"
+
+echo "Running translation script..."
+before_translator="$(git diff --name-only | sort)"
+npm run translator -- --force
+
+translator_changes="$(comm -13 <(printf '%s\n' "${before_translator}" | sed '/^$/d') <(git diff --name-only | sort) | sed '/^$/d')"
+if [ -n "${translator_changes}" ]; then
+  echo "Staging translator-generated changes:"
+  printf '%s\n' "${translator_changes}"
+  printf '%s\n' "${translator_changes}" | xargs git add --
+  git commit -m "chore: update translations"
+else
+  echo "No translator changes detected. Skipping translation commit."
+fi
+
+echo "Building release output..."
 npm run build
 
 git add -A .
@@ -39,7 +59,10 @@ if git diff --cached --quiet; then
   exit 1
 fi
 
+echo "Creating release commit..."
 git commit -m "Release: ${VERSION}"
+
+echo "Pushing release branch and tag..."
 git push origin main
 git tag "v${VERSION}"
 git push origin "v${VERSION}"

@@ -25,15 +25,15 @@ Sie dürfen die Website nur für rechtmäßige Zwecke nutzen. Sie verpflichten s
 
 ## Geistiges Eigentum
 
-Alle Inhalte, Designs, Ontologien, Marken und Software auf dieser Seite gehören IQ:NS oder deren Lizenzgebern. Sie dürfen die Inhalte der Seite nicht ohne Erlaubnis vervielfältigen, verbreiten oder abgeleitete Werke erstellen.
+Alle Inhalte, Designs, Ontologien, Marken und Software auf dieser Seite sind Eigentum von IQ:NS oder dessen Lizenzgebern. Sie dürfen die Inhalte der Seite nicht ohne Erlaubnis reproduzieren, verbreiten oder abgeleitete Werke erstellen.
 
 ## Haftungsausschluss
 
-Die Seite und die Dienste werden „wie besehen“ und „wie verfügbar“ bereitgestellt. IQ:NS garantiert nicht, dass die Website ununterbrochen, fehlerfrei oder sicher ist. Wir schließen alle Gewährleistungen im größtmöglichen gesetzlich zulässigen Umfang aus.
+Die Seite und die Dienste werden „wie besehen“ und „wie verfügbar“ bereitgestellt. IQ:NS garantiert nicht, dass die Website ununterbrochen, fehlerfrei oder sicher ist. Wir schließen alle Gewährleistungen im gesetzlich zulässigen Umfang aus.
 
 ## Haftungsbeschränkung
 
-Soweit gesetzlich zulässig, haften IQ:NS und seine verbundenen Unternehmen nicht für indirekte, zufällige oder Folgeschäden, die aus Ihrer Nutzung der Website oder der Dienste entstehen.
+Soweit gesetzlich zulässig, haften IQ:NS und seine verbundenen Unternehmen nicht für indirekte, zufällige oder Folgeschäden, die sich aus Ihrer Nutzung der Website oder der Dienste ergeben.
 
 ## Externe Links
 
@@ -41,7 +41,7 @@ Die Website kann Links zu Ressourcen Dritter enthalten. Diese Links werden nur z
 
 ## Änderungen dieser Bedingungen
 
-Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite überarbeiten. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
+Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite ändern. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
 
 ## Kontakt
 

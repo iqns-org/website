@@ -345,7 +345,42 @@ ${rawResponse.slice(0, 2000)}`
     )
   }
 
-  return parsed
+  const flattened = flattenJsonPaths(parsed)
+  const missingKeys = paths
+    .map((entry) => entry.path)
+    .filter((key) => flattened[key] === undefined)
+  if (missingKeys.length > 0) {
+    throw new Error(
+      `Translation response for locale ${locale} did not contain expected keys: ${missingKeys.slice(0, 20).join(', ')}${missingKeys.length > 20 ? ', ...' : ''}`
+    )
+  }
+
+  return flattened
+}
+
+function flattenJsonPaths(obj, parentPath = '') {
+  const result = {}
+  if (typeof obj === 'string') {
+    result[parentPath] = obj
+    return result
+  }
+
+  if (Array.isArray(obj)) {
+    for (let index = 0; index < obj.length; index++) {
+      const childPath = parentPath ? `${parentPath}.${index}` : String(index)
+      Object.assign(result, flattenJsonPaths(obj[index], childPath))
+    }
+    return result
+  }
+
+  if (obj && typeof obj === 'object') {
+    for (const [key, value] of Object.entries(obj)) {
+      const childPath = parentPath ? `${parentPath}.${key}` : key
+      Object.assign(result, flattenJsonPaths(value, childPath))
+    }
+  }
+
+  return result
 }
 
 async function requestChatCompletion(prompt) {
@@ -400,7 +435,8 @@ function localeToLanguageName(locale) {
     es: 'Spanish',
     de: 'German',
     pt: 'Portuguese',
-    zh: 'Chinese'
+    zh: 'Chinese (Simplified)',
+    ar: 'Arabic (Modern Standard Arabic)'
   }
   return map[locale] || locale
 }

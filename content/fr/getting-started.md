@@ -1,8 +1,8 @@
 ---
-title: Premiers pas
+title: Commencer
 description: >-
-  Comment commencer à utiliser les ontologies IQ:NS — de GitHub à SPARQL en
-  passant par l'intégration d'agents.
+  Comment commencer à utiliser les ontologies IQ:NS — de GitHub à SPARQL à
+  l'intégration d'agents.
 lang: fr
 navigation:
   section: platform
@@ -30,15 +30,15 @@ Aucun compte requis. Aucun inscription.
 
 Si vous créez des flux de travail agentiques, le serveur MCP donne à vos agents un accès structuré au graphe de connaissances. Les agents interrogent directement les concepts, les relations et les alignements inter‑cadres — aucune fenêtre de contexte PDF nécessaire.
 
-Disponible dans le [niveau Business](/services).
+Disponible sur le [niveau Business](/services).
 
 ---
 
 ### Point d'accès SPARQL hébergé
 
-Vous ne voulez pas gérer votre propre triplestore ? Le point d'accès hébergé vous donne un accès aux requêtes sans infrastructure.
+Vous ne voulez pas gérer votre propre triplestore ? Le point d'accès hébergé vous donne un accès en requête sans infrastructure.
 
-Disponible dans le [niveau Business](/services).
+Disponible sur le [niveau Business](/services).
 
 ---
 
@@ -46,14 +46,14 @@ Disponible dans le [niveau Business](/services).
 
 Étendez les ontologies publiques avec votre propre connaissance institutionnelle — politiques internes, cadres personnalisés, taxonomies de risque propriétaires. Conservées privées, interrogeables aux côtés du graphe public.
 
-Disponible dans le [niveau Business](/services).
+Disponible sur le [niveau Business](/services).
 
 ---
 
 ## Besoin d'aide ?
 
 - [Discussions GitHub](https://github.com/iqns-org/ontologies/discussions) — Q&R communautaire
-- [Contactez‑nous](/support) — partenariats, travaux sur mesure, questions
+- [Contactez-nous](/support) — partenariats, travaux sur mesure, questions
 
 ---
 

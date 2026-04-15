@@ -1,13 +1,13 @@
 ---
-title: KI-Sektor
+title: AI Sektor
 description: >-
-  Kern‑KI‑Governance‑Ontologie für Rahmenwerke, Kontrollen, Risiken und
+  Kern‑AI‑Governance‑Ontologie für Rahmenwerke, Kontrollen, Risiken und
   Verpflichtungen.
 lang: de
 navigation:
   enabled: false
   section: ontologies
-  label: KI-Sektor
+  label: AI Sektor
   order: 10
 ---
 # KI-Sektor

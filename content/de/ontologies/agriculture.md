@@ -1,7 +1,7 @@
 ---
 title: Landwirtschaft & Lebensmittelsysteme
 description: >-
-  Agrarontologie für Präzisionslandwirtschaft, Ertragsmodelle und
+  Landwirtschafts-Ontologie für Präzisionslandwirtschaft, Ertragsmodelle und
   Lieferketten‑Sicherheit.
 lang: de
 navigation:
@@ -12,12 +12,12 @@ navigation:
 ---
 # Landwirtschaft & Lebensmittelsysteme
 
-Agronomie-Ontologie für Präzisionslandwirtschaft, Ertragsmodelle und Lebensmittelketten-Absicherung.
+Agronomie-Ontologie für Präzisionslandwirtschaft, Ertragsmodelle und Lieferketten‑Sicherheit.
 
 ## Warum diese Ontologie wichtig ist
 
 - Modelliert Präzisionslandwirtschaft, Rückverfolgbarkeit und Governance von Lebensmittelsystemen.
 - Hilft landwirtschaftlichen Teams, Risiken und Nachhaltigkeit mit KI zu managen.
-- Unterstützt interoperable Lieferketten- und Ertragsprognose-Workflows.
+- Unterstützt interoperable Lieferketten‑ und Ertragsprognose‑Workflows.
 
-[Ansicht der Ontologie auf GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/agriculture)
+[Siehe die Ontologie auf GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/agriculture)

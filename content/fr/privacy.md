@@ -9,7 +9,7 @@ navigation:
 ---
 # Politique de confidentialité
 
-IQ:NS exploite des concepts structurés et des relations. Nous ne manipulons jamais les données de modèle, les ensembles d'entraînement, les résultats d'inférence ou les identifiants personnels, sauf si vous les fournissez directement. Cette politique explique comment nous collectons, utilisons et protégeons les informations lorsque vous interagissez avec notre site web et nos services.
+IQ:NS gère des concepts et des relations structurés. Nous ne touchons jamais aux données de modèle, aux ensembles d'entraînement, aux sorties d'inférence ou aux identifiants personnels, sauf si vous les fournissez directement. Cette politique explique comment nous collectons, utilisons et protégeons les informations lorsque vous interagissez avec notre site web et nos services.
 
 ## Informations que nous collectons
 
@@ -28,7 +28,7 @@ Nous utilisons les informations que nous collectons pour :
 
 ## Ce que nous ne faisons pas
 
-- Nous ne traitons ni ne stockons les données d'entraînement de modèle, les résultats d'inférence ou tout contenu propriétaire du client dans nos ontologies.  
+- Nous ne traitons ni ne stockons les données d'entraînement de modèle, les sorties d'inférence ou tout contenu propriétaire du client dans nos ontologies.  
 - Nous ne vendons pas vos informations personnelles à des tiers.
 
 ## Partage et divulgation
@@ -48,7 +48,7 @@ Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables
 
 ## Modifications de cette politique
 
-Nous pouvons mettre à jour cette politique de temps à autre. Lorsque nous le ferons, nous publierons la version mise à jour sur cette page avec une date d'entrée en vigueur révisée.
+Nous pouvons mettre à jour cette politique de temps à autre. Lorsque nous le ferons, nous publierons la version mise à jour sur cette page avec une date d'effet révisée.
 
 ## Contact
 

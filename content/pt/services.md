@@ -9,7 +9,7 @@ navigation:
   section: platform
   label: Serviços
   order: 20
-tagline: Ontologias abertas. Gratuitas para sempre.
+tagline: Open ontologies. Free forever.
 subtagline: >-
   Só faça upgrade se precisar de ontologias personalizadas, bases de
   conhecimento privadas e/ou suporte prático.
@@ -39,7 +39,7 @@ plans:
     highlight: true
     cta_href: 'https://github.com/iqns-org/ontologies'
   - id: business
-    name: Empresarial
+    name: Negócios
     tagline: Para equipes que integram IA
     price: $250
     period: /month
@@ -63,7 +63,7 @@ plans:
     highlight: false
     cta_href: /support
   - id: ecosystem
-    name: Ecossistema / Empresa
+    name: Ecossistema / Enterprise
     tagline: Construa ecossistemas de inteligência
     price: '$1,000'
     period: /month
@@ -76,14 +76,14 @@ plans:
     features:
       - Ontologias de Governança / Conformidade
       - Ontologias Privadas Ilimitadas
-      - Servidor de Conhecimento Empresarial
-      - Servidor MCP Empresarial
+      - Servidor de Conhecimento Enterprise
+      - Servidor MCP Enterprise
       - Suporte a Consultas SPARQL
       - Agente de IA (Ontologista)
-      - Integrações Empresariais
-      - Nuvem Privada / On-Premises
-      - Conectores SaaS Empresariais
-      - Suporte Empresarial (SLA de 12h)
+      - Integrações Enterprise
+      - Nuvem Privada / Local
+      - Conectores SaaS Enterprise
+      - Suporte Enterprise (SLA de 12h)
       - SAML / SSO
     cta: Fale com um arquiteto
     highlight: false
@@ -108,8 +108,9 @@ addons:
       title: Mapeamento de Framework
       price: '$2,500'
       description: >-
-        Mapeie seus padrões e políticas internas para ontologias públicas.
-        Entregue como alinhamentos SKOS verificados com relatório de cobertura.
+        Mapeie seus padrões e políticas internos para ontologias públicas.
+        Entregue como alinhamentos SKOS verificados com um relatório de
+        cobertura.
     - icon: Zap
       title: Integração de Agente
       price: '$1,500'
@@ -136,7 +137,7 @@ faq:
         conhecimento institucional para um formato que agentes e ferramentas de
         IA podem consultar. Pense nisso como um dicionário compartilhado que
         seus sistemas realmente entendem.
-    - q: Quando devo fazer upgrade para o plano Business?
+    - q: Quando devo fazer upgrade para Business?
       a: >-
         Quando você precisar da camada semântica operacionalizada com um
         servidor de conhecimento privado, endpoint MCP gerenciado ou hospedagem
@@ -146,19 +147,19 @@ faq:
       a: >-
         Sim. Os planos Business e Ecosystem incluem bases de conhecimento
         privadas onde você pode estender as ontologias públicas com seus
-        próprios padrões internos, políticas e taxonomias — para que o
-        conhecimento organizacional compartilhado permaneça conectado.
+        próprios padrões internos, políticas e taxonomias — mantendo o
+        conhecimento organizacional compartilhado conectado.
     - q: O que são Conectores ITIL SKMS?
       a: >-
         Eles conectam as ontologias IQ:NS aos Sistemas de Gerenciamento de
-        Conhecimento de Serviço (SKMS) ITIL 4 — para que seu service desk, CMDB
-        e ferramentas de gerenciamento de mudanças possam acessar o mesmo
+        Conhecimento de Serviço (SKMS) do ITIL 4 — permitindo que seu service
+        desk, CMDB e ferramentas de gerenciamento de mudanças acessem o mesmo
         conhecimento estruturado que seus agentes de IA utilizam.
     - q: Existe contrato ou compromisso?
       a: >-
         Não. Planos mensais, cancele a qualquer momento. Pague anualmente e
-        ganhe 2 meses grátis. Complementos são engajamentos únicos definidos
-        antes de você se comprometer.
+        ganhe 2 meses grátis. Complementos são contratações pontuais definidas
+        antes do compromisso.
     - q: Onde meus dados são hospedados?
       a: >-
         Planos pagos são implantados na sua escolha de AWS, GCP ou Azure — você

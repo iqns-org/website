@@ -11,10 +11,10 @@ navigation:
 ---
 # Regulamentações
 
-IQ:NS transforma regulamentos em conhecimento estruturado e legível por máquina, para que você possa comparar, alinhar e implementar requisitos de conformidade de forma consistente.
+IQ:NS transforma regulamentações em conhecimento estruturado e legível por máquinas, para que você possa comparar, alinhar e implementar requisitos de conformidade de forma consistente.
 
 - Capturar obrigações regulatórias como conceitos semânticos
 - Vincular requisitos a controles e evidências
-- Suportar modelos de conformidade rastreáveis e prontos para auditoria
+- Apoiar modelos de conformidade rastreáveis e prontos para auditoria
 
 [Explore ontologias abertas no GitHub](https://github.com/iqns-org/ontologies)

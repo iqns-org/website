@@ -1,14 +1,14 @@
 ---
-title: Inteligencia estructurada para IA
+title: Inteligencia estructurada para AI
 description: 'Ontologías abiertas, marcos, estándares y conocimiento institucional.'
 lang: es
 hero:
-  title: Inteligencia estructurada para IA y organizaciones.
+  title: Inteligencia estructurada para AI y organizaciones.
   subtitle: 'Lenguaje compartido para personas, máquinas y organizaciones.'
   description: >-
     IQ:NS convierte el conocimiento institucional, los marcos y las reglas
-    operativas en grafos de conocimiento consultables para que la IA y los
-    sistemas empresariales trabajen desde la misma fuente de verdad.
+    operativas en grafos de conocimiento consultables para que AI y los sistemas
+    empresariales trabajen desde la misma fuente de verdad.
   cta:
     - title: 'Cómo funciona IQ:NS'
       link: /how-it-works
@@ -28,7 +28,7 @@ value_props:
       title: 'Conocimiento estructurado, no documentos'
       description: >-
         Los documentos, marcos y reglas institucionales existen como PDFs. IQ:NS
-        los convierte en ontologías legibles por máquinas que los agentes de IA
+        los convierte en ontologías legibles por máquinas que los agentes de AI
         y las personas pueden consultar directamente.
     - icon: Globe
       title: Integración entre marcos
@@ -41,14 +41,14 @@ value_props:
       title: Abierto y impulsado por la comunidad
       description: >-
         Las ontologías centrales son gratuitas y de código abierto. Construidas
-        por colaboradores que se preocupan por lograr la estructura correcta, no
-        por venderte un panel.
+        por colaboradores que se preocupan por obtener la estructura correcta,
+        no por venderte un panel.
     - icon: Zap
       title: Legible por máquinas por diseño
       description: >-
         Cada concepto tiene un IRI estable, relaciones formales y mapeos de
-        alineación. Tus agentes de IA pueden razonar sobre el conocimiento
-        institucional sin rellenar PDFs en los prompts.
+        alineación. Tus agentes de AI pueden razonar sobre el conocimiento
+        institucional sin rellenar PDFs con prompts.
     - icon: Network
       title: Inteligencia institucional
       description: >-
@@ -60,13 +60,13 @@ value_props:
       description: >-
         Conecta ontologías a tus herramientas, tus agentes, tus flujos de
         trabajo. Un vocabulario compartido significa menos sobrecarga de
-        traducción a medida que tu ecosistema de IA crece.
+        traducción a medida que tu ecosistema de AI crece.
 iqns:
   badge: CÓMO FUNCIONA
   heading: De conocimiento fragmentado a inteligencia compartida
   description: >-
     Ontologías abiertas que conectan lo que tu organización sabe con lo que
-    hacen tus sistemas de IA.
+    hacen tus sistemas de AI.
   pillars:
     - icon: Link
       number: 1
@@ -94,7 +94,7 @@ iqns:
       title: Evolucionar juntos
       description: >-
         Los marcos cambian. Llegan nuevos estándares. La comunidad mantiene y
-        amplía las ontologías para que el conocimiento se mantenga actualizado.
+        amplía las ontologías para que el conocimiento esté actualizado.
 frameworks:
   heading: Más de 50 marcos. Un vocabulario compartido.
   description: >-
@@ -159,10 +159,10 @@ industries:
   heading: Más de 20 dominios. Una estructura compartida.
   items:
     - icon: Brain
-      title: IA y aprendizaje automático
+      title: AI y aprendizaje automático
       description: >-
         EU AI Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, MITRE ATLAS — más
-        de 30 marcos específicos de IA.
+        de 30 marcos específicos de AI.
     - icon: Building
       title: Servicios financieros
       description: >-
@@ -170,23 +170,21 @@ industries:
         reporte regulatorio.
     - icon: FlaskConical
       title: Salud
-      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC AI confiable.'
+      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI.'
     - icon: Scale
       title: Legal
-      description: >-
-        Principios rectores de la ONU sobre BHR, alineaciones AI-legal
-        interdominio.
+      description: 'UN Guiding Principles on BHR, alineaciones AI-legales interdominio.'
     - icon: Globe
       title: Gobierno
       description: 'FedRAMP, NIST CSF, ISO 38500 — rendición de cuentas del sector público.'
     - icon: Shield
       title: Defensa
-      description: 'Principios DoD RAI, Principios NATO AI — IA responsable en defensa.'
+      description: 'DoD RAI Principles, NATO AI Principles — IA responsable en defensa.'
     - icon: Briefcase
-      title: Empresa
+      title: Empresas
       description: >-
-        COBIT, ISO 27001, ISO 31000, ISO 45001, SOC 2 — riesgo empresarial y
-        seguridad.
+        COBIT, ISO 27001, ISO 31000, ISO 45001, SOC 2 — riesgo y seguridad
+        empresarial.
     - icon: GraduationCap
       title: Educación
       description: UNESCO AI Ethics — IA responsable en aprendizaje y evaluación.
@@ -213,8 +211,10 @@ industries:
       title: Transporte
       description: UN R157 — vehículos autónomos y conducción automatizada.
     - icon: Server
-      title: SaaS y SKMS
-      description: 'Gestión del conocimiento de servicio para AWS, Azure, GCP, DigitalOcean.'
+      title: SaaS & SKMS
+      description: >-
+        Gestión del conocimiento del servicio para AWS, Azure, GCP,
+        DigitalOcean.
     - icon: Rocket
       title: Startups
       description: UN Global Compact — IA responsable desde el primer día.
@@ -229,4 +229,4 @@ cta_final:
   cta_text: Ver en GitHub
   cta_href: 'https://github.com/iqns-org/ontologies'
 ---
-[IQ:NS](https://IQNS.org) es `Inteligencia Estructurada` para IA y organizaciones. Es un proyecto impulsado por la comunidad que convierte normas fragmentadas, regulaciones y conocimiento institucional en ontologías abiertas y consultables — de modo que tanto personas como máquinas puedan trabajar desde la misma fuente de verdad.
+[IQ:NS](https://IQNS.org) es `Structured Intelligence` para IA y organizaciones. Es un proyecto impulsado por la comunidad que convierte normas fragmentadas, regulaciones y conocimiento institucional en ontologías abiertas y consultables — de modo que tanto personas como máquinas puedan trabajar desde la misma fuente de verdad.

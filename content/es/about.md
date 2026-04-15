@@ -1,6 +1,8 @@
 ---
 title: Acerca de IQNS
-description: 'IQ:NS construyendo ontologías abiertas para IA e inteligencia institucional.'
+description: >-
+  IQ:NS construyendo ontologías abiertas para IA y la inteligencia
+  institucional.
 lang: es
 ---
 # Acerca de IQ:NS
@@ -15,23 +17,23 @@ La integración de IA en las organizaciones es fundamentalmente un **problema de
 
 IQ:NS elige las ontologías correctas de `./ontologies/v1/` en lugar de promover una única lista de verificación regulatoria.
 
-IQ:NS se creó para corregir la capa estructural — para construir el vocabulario compartido que permite a las personas y sistemas trabajar a partir de la misma fuente de verdad.
+IQ:NS se creó para arreglar la capa estructural — para construir el vocabulario compartido que permite a personas y sistemas trabajar a partir de la misma fuente de verdad.
 
 ## Lo que creemos
 
 - **Los estándares contienen información real** — pero leer 40 PDFs y sintetizarlos es donde las cosas se rompen. Las ontologías formales hacen que esa síntesis sea reutilizable.
-- **El contexto importa** — una IA que recomienda música no es lo mismo que una que evalúa crédito. La capa semántica debe reflejar la diferencia entre equipos, dominios y flujos de trabajo.
+- **El contexto importa** — una IA que recomienda música no es lo mismo que una que puntúa crédito. La capa semántica debe reflejar la diferencia entre equipos, dominios y flujos de trabajo.
 - **La inteligencia estructurada es fundamental** — los sistemas de IA que deben cooperar con cumplimiento, operaciones y procesos de negocio necesitan un vocabulario compartido y conocimiento consultable.
-- **Lo abierto es mejor** — la capa semántica para IA y conocimiento institucional debería ser un bien público, no un bloqueo propietario.
-- **Trabajamos con metadatos** — nunca tocamos datos de modelo, conjuntos de entrenamiento o información de identificación personal (PII). Las ontologías describen conceptos y relaciones.
+- **Lo abierto es mejor** — la capa semántica para IA y conocimiento institucional debe ser un bien público, no un bloqueo propietario.
+- **Trabajamos con metadatos** — nunca tocamos datos de modelo, conjuntos de entrenamiento o PII. Las ontologías describen conceptos y relaciones.
 
 ## La comunidad
 
-IQ:NS es mantenido por colaboradores con experiencia en investigación de la web semántica, práctica regulatoria e integración empresarial. Las ontologías centrales son gratuitas y de código abierto. Se agradecen contribuciones, comentarios y experiencia en el dominio.
+IQ:NS es mantenido por colaboradores con experiencia en investigación de la web semántica, práctica regulatoria e integración empresarial. Las ontologías principales son gratuitas y de código abierto. Se agradecen contribuciones, comentarios y experiencia de dominio.
 
 ## Capa comercial
 
-Para equipos que necesitan bases de conocimiento privadas, puntos finales SPARQL alojados, integración con servidor MCP o soporte práctico, existe un [nivel comercial](/services). Pero las ontologías en sí siguen siendo gratuitas.
+Para equipos que necesiten bases de conocimiento privadas, puntos finales SPARQL alojados, integración con servidor MCP o soporte práctico, existe una [capa comercial](/services). Pero las ontologías en sí siguen siendo gratuitas.
 
 ## Involúcrate
 

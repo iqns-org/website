@@ -1,8 +1,9 @@
 ---
-title: IA & Inteligência Institucional
+title: AI & Institutional Intelligence
 description: >-
-  Como ontologias estruturadas ajudam as organizações a integrar IA de forma
-  responsável — ao fornecer às equipes e sistemas uma linguagem compartilhada.
+  Como ontologias estruturadas ajudam as organizações a integrar AI de forma
+  responsável — ao proporcionar às equipes e sistemas uma linguagem
+  compartilhada.
 lang: pt
 navigation:
   section: ontologies
@@ -11,7 +12,7 @@ navigation:
 ---
 # IA & Inteligência Institucional
 
-## O desafio da integração
+## O desafio de integração
 
 Organizações que implantam IA enfrentam um problema constante: dezenas de regras sobrepostas, terminologia inconsistente e nenhuma maneira clara de conectar o que as políticas dizem ao que os sistemas fazem.
 

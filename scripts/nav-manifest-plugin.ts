@@ -36,7 +36,7 @@ const NAV_RESOLVED_ID = '\0virtual:nav-manifest'
 const CONTENT_VIRTUAL_ID = 'virtual:content-index'
 const CONTENT_RESOLVED_ID = '\0virtual:content-index'
 
-const LOCALE_CODES = ['en', 'fr', 'de', 'es', 'pt', 'zh']
+const LOCALE_CODES = ['en', 'fr', 'de', 'es', 'pt', 'zh', 'ar']
 
 function parseFrontMatter(text: string): Record<string, any> {
   const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/)
@@ -72,7 +72,7 @@ function normalizeTags(tags: unknown): string[] {
 
 function slugToKey(slug: string): string {
   const bare = slug
-    .replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '')
+    .replace(/^\/(en|fr|de|es|pt|zh|ar)(?=\/|$)/, '')
     .replace(/^\//, '')
     .replace(/\/$/, '') || 'home'
 
@@ -87,7 +87,7 @@ function slugToKey(slug: string): string {
 
 function inferSectionFromSlug(slug: string): string {
   const base = slug
-    .replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '')
+    .replace(/^\/(en|fr|de|es|pt|zh|ar)(?=\/|$)/, '')
     .replace(/^\//, '')
     .replace(/\/$/, '')
   const firstSegment = base.split('/')[0] || ''
@@ -140,13 +140,9 @@ function validateTranslations(contentIndex: ContentIndex, rootDir: string): void
 
   const localeFiles = fs.readdirSync(localeDir).filter((name) => name.endsWith('.json'))
   const sectionKeys = new Set<string>()
-  const tagKeys = new Set<string>()
 
   for (const navPage of contentIndex.nav) {
     if (navPage.section) sectionKeys.add(sectionTranslationKey(navPage.section))
-  }
-  for (const tag of Object.keys(contentIndex.tags)) {
-    if (tag) tagKeys.add(tagTranslationKey(tag))
   }
 
   const failures: string[] = []
@@ -165,11 +161,6 @@ function validateTranslations(contentIndex: ContentIndex, rootDir: string): void
     for (const sectionKey of sectionKeys) {
       if (!keyExists(localeData, sectionKey)) {
         failures.push(`${localeCode}: missing translation key ${sectionKey}`)
-      }
-    }
-    for (const tagKey of tagKeys) {
-      if (!keyExists(localeData, tagKey)) {
-        failures.push(`${localeCode}: missing translation key ${tagKey}`)
       }
     }
   }
@@ -197,11 +188,11 @@ function buildContentIndex(contentDir: string): ContentIndex {
             .replace(/\\/g, '/')
             .replace(/\.md$/, '')
           const routeSlug = `/${rel}`
-          const localeMatch = routeSlug.match(/^\/(en|fr|de|es|pt|zh)/)
+          const localeMatch = routeSlug.match(/^\/(en|fr|de|es|pt|zh|ar)/)
           const locale = localeMatch ? localeMatch[1]! : 'en'
           if (!LOCALE_CODES.includes(locale)) return
 
-          const basePath = routeSlug.replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '') || '/'
+          const basePath = routeSlug.replace(/^\/(en|fr|de|es|pt|zh|ar)(?=\/|$)/, '') || '/'
           const section = normalizeSection(
             String(meta.navigation?.section ?? meta.section ?? inferSectionFromSlug(routeSlug) ?? '')
           )

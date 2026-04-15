@@ -13,31 +13,31 @@ navigation:
 
 ## Die Landschaft
 
-Kein einzelnes Rahmenwerk deckt alles ab. Die meisten Organisationen stehen vor überlappenden Anforderungen aus mehreren Standards — und die Lücken dazwischen sind, wo Probleme versteckt sind.
+Kein einzelnes Rahmenwerk deckt alles ab. Die meisten Organisationen stehen vor überlappenden Anforderungen aus mehreren Standards — und die Lücken dazwischen sind, wo Probleme verborgen sind.
 
 IQ:NS modelliert über 50 Rahmenwerke und Domänenmodelle aus `./ontologies/v1/` als strukturierte Ontologien. Das ist, was sie abdecken.
 
-IQ:NS priorisiert nicht ein einzelnes Regelwerk; es wählt die relevanten Ontologiemodelle für jeden Kontext aus dem Repository aus.
+IQ:NS priorisiert nicht ein einzelnes Regelwerk; es wählt die relevanten Ontologie‑Modelle für jeden Kontext aus dem Repository aus.
 
 ---
 
 ## Horizontale Rahmenwerke
 
-### EU KI-Gesetz
+### EU KI‑Gesetz
 - **Gilt für:** Jede Organisation, die KI in der EU anbietet oder einsetzt
 - **Umfasst:** Risikoklassifizierung, Konformitätsbewertung, Transparenz, technische Dokumentation, menschliche Aufsicht
-- **Durchsetzung:** Geldstrafen bis zu 7 % des globalen Umsatzes
+- **Durchsetzung:** Geldbußen bis zu 7 % des weltweiten Umsatzes
 
-### NIST KI-Risikomanagement-Rahmenwerk
-- **Gilt für:** Freiwillig, wird aber zunehmend von US-Regulierungsbehörden und Beschaffungsstellen zitiert
+### NIST KI‑Risikomanagement‑Rahmenwerk
+- **Gilt für:** Freiwillig, wird aber zunehmend von US‑Regulierungsbehörden und Beschaffungsstellen zitiert
 - **Umfasst:** Vier Kernfunktionen — Govern, Map, Measure, Manage
 - **Warum es wichtig ist:** Das operativ am meisten umsetzbare Rahmenwerk, das verfügbar ist
 
 ### ISO 42001
-- **Gilt für:** Organisationen, die eine formelle KI-Management-Zertifizierung anstreben
-- **Umfasst:** Plan-Do-Check-Act-Managementsystem, Anhang‑A‑Kontrollen, interne Audits
+- **Gilt für:** Organisationen, die eine formelle KI‑Management‑Zertifizierung anstreben
+- **Umfasst:** Plan‑Do‑Check‑Act‑Managementsystem, Anhang‑A‑Kontrollen, interne Audits
 
-### EU DSGVO (KI-Bestimmungen)
+### EU‑DSGVO (KI‑Bestimmungen)
 - **Gilt für:** Jede Organisation, die personenbezogene Daten von EU‑Bewohnern mit KI verarbeitet
 - **Umfasst:** Artikel 22 (automatisierte Entscheidungen), Transparenz beim Profiling, Datenminimierung
 
@@ -46,23 +46,23 @@ IQ:NS priorisiert nicht ein einzelnes Regelwerk; es wählt die relevanten Ontolo
 ## Branchenspezifische Standards
 
 ### Finanzdienstleistungen
-| Rahmenwerk | Rechtsgebiet | Fokus |
+| Rahmenwerk | Jurisdiktion | Fokus |
 |---|---|---|
-| SR 11-7 | US | Modellrisikomanagement |
-| EBA KI-Richtlinien | EU | KI‑Aufsicht von Kreditinstituten |
-| MAS KI‑Governance | Singapur | KI‑Governance von Finanzinstituten |
+| SR 11‑7 | USA | Modellrisikomanagement |
+| EBA KI‑Richtlinien | EU | Aufsicht über KI in Kreditinstituten |
+| MAS KI‑Governance | Singapur | KI‑Governance in Finanzinstituten |
 
 ### Gesundheitswesen
-| Rahmenwerk | Rechtsgebiet | Fokus |
+| Rahmenwerk | Jurisdiktion | Fokus |
 |---|---|---|
-| FDA KI/ML SaMD | US | Klinische KI und Software als Medizinprodukt |
-| ONC Trustworthy KI | US | KI‑Standards für Gesundheits‑IT |
+| FDA KI/ML SaMD | USA | Klinische KI und Software als Medizinprodukt |
+| ONC Vertrauenswürdige KI | USA | KI‑Standards für Gesundheits‑IT |
 
 ### Sicherheit
 | Rahmenwerk | Fokus |
 |---|---|
-| OWASP LLM Top 10 | LLM‑Sicherheitslücken |
-| MITRE ATLAS | Bedrohungslandschaft für gegnerische KI |
+| OWASP LLM Top 10 | Sicherheitslücken von LLMs |
+| MITRE ATLAS | Bedrohungslandschaft für adversarielle KI |
 | Google SAIF | Sicheres KI‑Rahmenwerk |
 
 ### Ethik & Prinzipien
@@ -70,7 +70,7 @@ IQ:NS priorisiert nicht ein einzelnes Regelwerk; es wählt die relevanten Ontolo
 |---|---|
 | OECD KI‑Prinzipien | OECD |
 | UNESCO KI‑Ethik | UNESCO |
-| IEEE 7000 | IEEE |
+| IEEE 7000 | IEEE |
 
 ---
 
@@ -78,7 +78,7 @@ IQ:NS priorisiert nicht ein einzelnes Regelwerk; es wählt die relevanten Ontolo
 
 Unterschiedliche Terminologie, gleiche Konzepte:
 
-| Konzept | EU KI-Gesetz | NIST KI‑RMF | ISO 42001 |
+| Konzept | EU KI‑Gesetz | NIST KI‑RMF | ISO 42001 |
 |---|---|---|---|
 | Risikomanagement | Artikel 9 | Map‑Funktion | Klausel 6.1 |
 | Menschliche Aufsicht | Artikel 14 | Govern 1.4 | A.8.4 |

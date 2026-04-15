@@ -16,11 +16,11 @@ navigation:
 
 作为商业客户和合作伙伴
 
-- [与我们的团队合作](/services#addons)
+- [Engage Our Team](/services#addons)
 
 
 ## 开源
 
-- [免费知识服务器](https://github.com/iqns-org/iq)
+- [Free Knowledge Server](https://github.com/iqns-org/iq)
 
-- [GitHub 上的免费本体](https://github.com/iqns-org/ontologies)
+- [Free Ontologies on GitHub](https://github.com/iqns-org/ontologies)

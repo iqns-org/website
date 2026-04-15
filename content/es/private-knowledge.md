@@ -1,12 +1,12 @@
 ---
-title: Conocimiento privado
+title: Conocimiento Privado
 description: >-
-  Amplía IQ:NS con bases de conocimiento privadas, servidores MCP seguros y una
+  Amplíe IQ:NS con bases de conocimiento privadas, servidores MCP seguros y una
   integración semántica de nivel empresarial.
 lang: es
 navigation:
   section: ontologies
-  label: Conocimiento privado
+  label: Conocimiento Privado
   order: 25
 ---
 # Conocimiento Privado con IQ:NS
@@ -15,10 +15,10 @@ Tus ontologías públicas son una base semántica compartida. El conocimiento pr
 
 ## Qué entrega el conocimiento privado
 
-- **Extensiones seguras** — mantiene los estándares internos, controles y taxonomía privados mientras los conecta al grafo abierto de IQ:NS
+- **Extensiones seguras** — mantén los estándares internos, controles y taxonomía privados mientras los conectas al grafo abierto de IQ:NS
 - **MCP privado** — permite que los flujos de trabajo de tus agentes razonen sobre el conocimiento organizacional privado sin exponerlo públicamente
 - **Acceso SPARQL** — consulta el conocimiento interno y público juntos, con alojamiento seguro y controles de acceso
-- **Integración empresarial** — incrusta el conocimiento privado en catálogos de servicios, CMDB y flujos de trabajo de gobernanza
+- **Integración empresarial** — incrusta el conocimiento privado en catálogos de servicios, CMDBs y flujos de trabajo de gobernanza
 
 ## Cómo funciona
 
@@ -28,7 +28,7 @@ IQ:NS mantiene las ontologías centrales abiertas mientras soporta una capa priv
 
 - Necesitas políticas privadas o marcos de control internos incluidos en el grafo
 - Tus agentes deben razonar sobre conocimiento operativo propietario
-- Quieres alojamiento privado para servicios SPARQL o MCP
+- Deseas alojamiento privado para servicios SPARQL o MCP
 - Tus equipos de riesgo, cumplimiento o TI requieren conocimiento aislado por inquilino
 
 [Ver precios](/services) · [Explorar las ontologías públicas](https://github.com/iqns-org/ontologies)

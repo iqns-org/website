@@ -1,15 +1,15 @@
 ---
-title: 'الأونتولوجيات المفتوحة من IQ:NS'
-description: استكشف كيف تعمل الأونتولوجيا المفتوحة عبر القطاعات والحكم ومجالات التشغيل
+title: 'Open Ontologies من IQ:NS'
+description: استكشف كيف تعمل الأنطولوجيا المفتوحة عبر القطاعات والحوكمة ومجالات التشغيل
 lang: ar
 navigation:
   section: ontologies
-  label: الأونتولوجيات المفتوحة
+  label: Open Ontologies
   order: 0
 ---
-# الأونتولوجيات المفتوحة
+# أونتولوجيات مفتوحة
 
-استكشف الأونتولوجيات المفتوحة عبر الأنظمة والقطاعات والحوكمة ومجالات التشغيل. 
+استكشف الأونتولوجيات المفتوحة عبر الأنظمة والقطاعات والحكم ومجالات التشغيل. 
 
 - [قطاع الذكاء الاصطناعي](/ontologies/ai)
 - [الدفاع والاستخدام المزدوج](/ontologies/defence)
@@ -17,9 +17,9 @@ navigation:
 - [التوظيف والموارد البشرية](/ontologies/employment)
 - [الطاقة والبنية التحتية الحيوية](/ontologies/energy)
 - [المؤسسات](/ontologies/enterprise)
-- [قطاع المالية](/ontologies/finance)
+- [القطاع المالي](/ontologies/finance)
 - [الحكومة والقطاع العام](/ontologies/government)
-- [قطاع الصحة](/ontologies/health)
+- [القطاع الصحي](/ontologies/health)
 - [التأمين](/ontologies/insurance)
 - [القانون والتقنية القانونية](/ontologies/legal)
 - [الإعلام والمحتوى](/ontologies/media)
@@ -31,7 +31,7 @@ navigation:
 - [تجربة المستخدم والتفاعل البشري](/ontologies/ux)
 - [تقنية الإعلانات](/ontologies/adtech)
 - [الزراعة وأنظمة الغذاء](/ontologies/agriculture)
-- [المراجعة والضمان](/ontologies/audit)
+- [التدقيق والضمان](/ontologies/audit)
 - [الطيران](/ontologies/aviation)
 - [المصارف](/ontologies/banking)
 - [التقنية الحيوية](/ontologies/biotech)

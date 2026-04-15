@@ -1,7 +1,7 @@
 ---
 title: Recursos e Capacidades
 description: >-
-  O que o IQ:NS oferece — ontologias abertas, mapeamentos entre frameworks,
+  O que o IQ:NS fornece — ontologias abertas, mapeamentos entre frameworks,
   acesso SPARQL e integração pronta para agentes.
 lang: pt
 navigation:
@@ -13,36 +13,36 @@ navigation:
 
 ## Ontologias abertas
 
-Mais de 50 ontologias cobrindo IA, jurídico, finanças, saúde, governo, empresas e mais. Cada uma modelada em RDF/OWL com alinhamentos SKOS, publicada como arquivos Turtle versionados.
+Mais de 50 ontologias que cobrem IA, jurídico, finanças, saúde, governo, empresas e mais. Cada uma modelada em RDF/OWL com alinhamentos SKOS, publicada como arquivos Turtle versionados.
 
 Cada conceito tem:
 - Um IRI estável (identificador permanente, não uma linha de banco de dados)
 - Uma definição formal referenciada ao texto original
-- Relacionamentos com conceitos relacionados em diferentes frameworks
-- Mapeamentos entre frameworks (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
+- Relacionamentos com conceitos relacionados entre diferentes estruturas
+- Mapeamentos entre estruturas (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
 
 ---
 
-## Inteligência entre frameworks
+## Inteligência entre estruturas
 
-Frameworks usam palavras diferentes para as mesmas ideias. IQ:NS as mapeia estruturalmente:
+Estruturas usam palavras diferentes para as mesmas ideias. IQ:NS as mapeia estruturalmente:
 
-- Artigo 9 do EU AI Act ↔ Função do Mapa NIST AI RMF ↔ Cláusula 6.1 da ISO 42001 (gestão de risco)
+- Artigo 9 do EU AI Act ↔ Função do Mapa NIST AI RMF ↔ Cláusula 6.1 da ISO 42001 (gerenciamento de risco)
 - Artigo 22 do GDPR ↔ Capítulo IV do EU AI Act (transparência)
 - ISO 24027 ↔ Medida 2.6 do NIST (viés e justiça)
 
-Uma consulta abrange todos os padrões. Um controle pode atender a múltiplos frameworks — e o mapeamento prova isso.
+Uma consulta abrange todos os padrões. Um controle pode atender a múltiplas estruturas — e o mapeamento comprova isso.
 
 ---
 
-## Perfilamento contextual
+## Perfil contextual
 
 Nem tudo se aplica a todos. Perfil por:
 - **Jurisdicação** — UE, EUA, Reino Unido, APAC
 - **Setor** — finanças, saúde, governo, RH
 - **Capacidade de IA** — LLM, biométrica, pontuação de crédito, decisões autônomas
 
-Obtenha um conjunto preciso e deduplicado do que é relevante — não 40 frameworks, apenas o que importa para o seu contexto.
+Obtenha um conjunto preciso e deduplicado do que é relevante — não 40 estruturas, apenas o que importa para o seu contexto.
 
 ---
 
@@ -85,9 +85,9 @@ Sem migrações forçadas. As ontologias se adaptam onde suas ferramentas estão
 
 ---
 
-## Versionado e portátil
+## Versionada e portátil
 
-Cada ontologia é versionada. Exportada como RDF Turtle padrão. Se você sair, leva consigo um grafo de conhecimento completo e compatível com padrões. Sem bloqueio.
+Cada ontologia é versionada. Exportada como Turtle RDF padrão. Se você sair, leva consigo um grafo de conhecimento completo e compatível com padrões. Sem bloqueio.
 
 ---
 

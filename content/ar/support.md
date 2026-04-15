@@ -1,26 +1,26 @@
 ---
 title: الدعم
-description: 'تواصل مع مجتمع IQ:NS والفريق.'
+description: 'تواصل مع مجتمع وفريق IQ:NS.'
 lang: ar
 navigation:
   section: platform
   label: الدعم
   order: 50
 ---
-# IQ:NS Support Centre
+# مركز دعم IQ:NS
 
-نود التفاعل معك كعضو في المجتمع ...
+نود أن نتفاعل معك كعضو في المجتمع ...
 
 - [Discord](https://discord.gg/hJNscf4e32)
-- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
+- [الطلبات / التصحيحات](https://github.com/iqns-org/ontologies/issues)
 
-كعميل تجاري وشريك
+نحن كعميل تجاري وشريك
 
-- [Engage Our Team](/services#addons)
+- [التواصل مع فريقنا](/services#addons)
 
 
-## Open Source
+## المصدر المفتوح
 
-- [Free Knowledge Server](https://github.com/iqns-org/iq)
+- [خادم المعرفة المجاني](https://github.com/iqns-org/iq)
 
-- [Free Ontologies on GitHub](https://github.com/iqns-org/ontologies)
+- [الأونتولوجيات المجانية على GitHub](https://github.com/iqns-org/ontologies)

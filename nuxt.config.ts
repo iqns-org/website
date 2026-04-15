@@ -119,6 +119,9 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: 'github-light'
+    },
+    watch: {
+      enabled: process.env.NODE_ENV !== 'development' ? true : false
     }
   },
   postcss: {

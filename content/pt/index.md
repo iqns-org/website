@@ -6,7 +6,7 @@ hero:
   title: Inteligência Estruturada para IA e Organizações.
   subtitle: 'Linguagem compartilhada para pessoas, máquinas e organizações.'
   description: >-
-    IQ:NS transforma o conhecimento institucional, frameworks e regras
+    IQ:NS transforma conhecimento institucional, frameworks e regras
     operacionais em grafos de conhecimento consultáveis, para que IA e sistemas
     empresariais trabalhem a partir da mesma fonte de verdade.
   cta:
@@ -19,7 +19,7 @@ hero:
     - title: GitHub
       link: 'https://github.com/iqns-org/ontologies'
 value_props:
-  heading: 'O que o IQ:NS faz'
+  heading: 'O que o IQ:NS Faz'
   subheading: Integração é um problema de linguagem. Ontologias resolvem isso. Em escala.
   items:
     - icon: ShieldCheck
@@ -34,7 +34,7 @@ value_props:
         IQ:NS seleciona as ontologias exatas que você precisa de
         `./ontologies/v1/`, em vez de promover uma lista fixa de padrões.
         Vocabulários diferentes são mapeados para um espaço semântico
-        compartilhado, de modo que nada fique perdido.
+        compartilhado, de modo que nada fique esquecido.
     - icon: Users
       title: Aberto e Orientado pela Comunidade
       description: >-
@@ -50,9 +50,9 @@ value_props:
     - icon: Network
       title: Inteligência Institucional
       description: >-
-        As organizações sabem coisas — obrigações, tolerâncias de risco, regras
-        operacionais. O IQ:NS dá a esse conhecimento uma estrutura que sobrevive
-        à troca de cargos.
+        Organizações sabem coisas — obrigações, tolerâncias de risco, regras
+        operacionais. IQ:NS dá a esse conhecimento uma estrutura que sobrevive à
+        troca de cargos das pessoas.
     - icon: BarChart
       title: Integração que Escala
       description: >-
@@ -78,15 +78,14 @@ iqns:
       title: Mapeie Entre Frameworks
       description: >-
         Alinhamentos entre frameworks mostram onde os conceitos se sobrepõem,
-        onde divergem e onde existem lacunas. Uma consulta abrange todos os
-        padrões.
+        onde divergem e onde há lacunas. Uma consulta abrange todos os padrões.
     - icon: Target
       number: 3
       title: Integre com seus Sistemas
       description: >-
-        Consulte via SPARQL, conecte via MCP ou incorpore nos fluxos de trabalho
-        dos seus agentes. As ontologias encontram você onde suas ferramentas já
-        estão.
+        Consulte via SPARQL, conecte via MCP ou incorpore em seus fluxos de
+        trabalho de agentes. As ontologias encontram você onde suas ferramentas
+        já estão.
     - icon: Users
       number: 4
       title: Evolua Juntos
@@ -96,8 +95,8 @@ iqns:
 frameworks:
   heading: Mais de 50 Frameworks. Um Vocabulário Compartilhado.
   description: >-
-    Mais de 100 arquivos de ontologia em mais de 20 domínios. O IQ:NS seleciona
-    os modelos relevantes diretamente de `./ontologies/v1/` e os mapeia para um
+    Mais de 100 arquivos de ontologia em mais de 20 domínios. IQ:NS seleciona os
+    modelos relevantes diretamente de `./ontologies/v1/` e os mapeia para um
     vocabulário unificado, para que você possa entender como os conceitos se
     relacionam entre padrões.
   items:
@@ -157,7 +156,7 @@ industries:
   heading: Mais de 20 Domínios. Uma Estrutura Compartilhada.
   items:
     - icon: Brain
-      title: IA e Aprendizado de Máquina
+      title: IA & Aprendizado de Máquina
       description: >-
         EU AI Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, MITRE ATLAS — mais
         de 30 frameworks específicos de IA.
@@ -168,18 +167,16 @@ industries:
         relatórios regulatórios.
     - icon: FlaskConical
       title: Saúde
-      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC AI confiável.'
+      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI.'
     - icon: Scale
       title: Jurídico
-      description: >-
-        Princípios Orientadores da ONU sobre BHR, alinhamentos AI-jurídicos
-        interdomínios.
+      description: 'UN Guiding Principles on BHR, alinhamentos AI-jurídicos interdomínios.'
     - icon: Globe
       title: Governo
       description: 'FedRAMP, NIST CSF, ISO 38500 — responsabilidade do setor público.'
     - icon: Shield
       title: Defesa
-      description: 'Princípios DoD RAI, Princípios NATO AI — IA responsável na defesa.'
+      description: 'DoD RAI Principles, NATO AI Principles — IA responsável na defesa.'
     - icon: Briefcase
       title: Empresarial
       description: >-
@@ -198,7 +195,7 @@ industries:
       description: ISO 50001 — gestão de energia e integração de IA.
     - icon: ShieldCheck
       title: Seguros
-      description: 'Solvency II — subscrição, sinistros e justiça de precificação.'
+      description: 'Solvency II — subscrição, sinistros e equidade de precificação.'
     - icon: Radio
       title: Mídia
       description: >-
@@ -211,7 +208,7 @@ industries:
       title: Transporte
       description: UN R157 — veículos autônomos e condução automatizada.
     - icon: Server
-      title: SaaS e SKMS
+      title: SaaS & SKMS
       description: 'Gestão de conhecimento de serviço para AWS, Azure, GCP, DigitalOcean.'
     - icon: Rocket
       title: Startups
@@ -227,4 +224,4 @@ cta_final:
   cta_text: Ver no GitHub
   cta_href: 'https://github.com/iqns-org/ontologies'
 ---
-[IQ:NS](https://IQNS.org) é `Structured Intelligence` para IA e organizações. É um projeto impulsionado pela comunidade que transforma padrões fragmentados, regulamentos e conhecimento institucional em ontologias abertas e consultáveis — de modo que tanto pessoas quanto máquinas possam trabalhar a partir da mesma fonte de verdade.
+[IQ:NS](https://IQNS.org) é `Inteligência Estruturada` para IA e organizações. É um projeto impulsionado pela comunidade que transforma padrões fragmentados, regulamentos e conhecimento institucional em ontologias abertas e consultáveis — de modo que tanto pessoas quanto máquinas possam trabalhar a partir da mesma fonte de verdade.

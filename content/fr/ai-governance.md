@@ -1,7 +1,7 @@
 ---
 title: Gouvernance de l'IA
 description: >-
-  Découvrez comment IQ:NS prend en charge la gouvernance de l'IA grâce à des
+  Explorez comment IQ:NS prend en charge la gouvernance de l'IA grâce à des
   sémantiques partagées, des politiques et une prise de décision structurée.
 lang: fr
 navigation:

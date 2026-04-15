@@ -1,15 +1,15 @@
 ---
 title: Services et forfaits
 description: >-
-  Ontologies ouvertes, gratuites à vie. Niveaux commerciaux pour les équipes qui
-  ont besoin d'hébergement, de bases de connaissances privées ou d'assistance à
-  l'intégration.
+  Ontologies ouvertes, gratuites pour toujours. Niveaux commerciaux pour les
+  équipes qui ont besoin d'hébergement, de bases de connaissances privées ou
+  d'assistance à l'intégration.
 lang: fr
 navigation:
   section: platform
   label: Services
   order: 20
-tagline: Ontologies ouvertes. Gratuites à vie.
+tagline: Open ontologies. Free forever.
 subtagline: >-
   Mettez à niveau uniquement si vous avez besoin d'ontologies personnalisées, de
   bases de connaissances privées et/ou d'un support pratique.
@@ -54,7 +54,7 @@ plans:
       - Ontologies de gouvernance
       - Ontologies privées illimitées
       - Serveur de connaissances privées
-      - Agent IA (Ontologiste)
+      - Agent IA (Ontologue)
       - Support des requêtes SPARQL
       - Intégrations personnalisées
       - Support prioritaire (SLA 48 h)
@@ -79,7 +79,7 @@ plans:
       - Serveur de connaissances d'entreprise
       - Serveur MCP d'entreprise
       - Support des requêtes SPARQL
-      - Agent IA (Ontologiste)
+      - Agent IA (Ontologue)
       - Intégrations d'entreprise
       - Cloud privé / sur site
       - Connecteurs SaaS d'entreprise
@@ -91,7 +91,7 @@ plans:
 guarantee:
   heading: Open source sous Apache 2.0. Toujours.
   items:
-    - 'Plus de 100 ontologies, gratuites à vie'
+    - 'Plus de 100 ontologies, gratuites pour toujours'
     - 'JSON-LD, RDFS, OWL, SKOS, SHACL'
     - Pas de verrouillage fournisseur
 addons:
@@ -102,7 +102,7 @@ addons:
       title: Atelier d'ontologie
       price: '$2,500'
       description: >-
-        Engagement de 2 jours — nous modélisons votre domaine en une ontologie
+        Engagement de 2 jours — nous modélisons votre domaine en une ontologie
         privée, livrée avec documentation et guide d'intégration.
     - icon: Network
       title: Cartographie du cadre
@@ -126,43 +126,43 @@ addons:
 faq:
   heading: Questions fréquemment posées
   items:
-    - q: Que puis‑je obtenir gratuitement ?
+    - q: Que puis-je obtenir gratuitement ?
       a: >-
-        Toutes les ontologies du dépôt public — plus de 100 fichiers couvrant
-        plus de 50 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
+        Chaque ontologie du dépôt public — plus de 100 fichiers couvrant plus de
+        50 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
         intégrez-les à vos outils. Aucun compte requis.
-    - q: 'Qu’est‑ce qu’une ontologie, concrètement ?'
+    - q: 'Qu''est-ce qu''une ontologie, concrètement ?'
       a: >-
         Un vocabulaire lisible par machine qui mappe les normes, réglementations
-        et connaissances institutionnelles dans un format interrogeable par les
-        agents et outils IA. Pensez‑y comme à un dictionnaire partagé que vos
-        systèmes comprennent réellement.
-    - q: Quand devrais‑je passer à l’offre Entreprise ?
+        et connaissances institutionnelles dans un format que les agents IA et
+        les outils peuvent interroger. Pensez-y comme à un dictionnaire partagé
+        que vos systèmes comprennent réellement.
+    - q: Quand devrais-je passer au plan Entreprise ?
       a: >-
         Lorsque vous avez besoin de la couche sémantique opérationnalisée avec
-        un serveur de connaissances privé, un point d’accès MCP géré ou un
-        hébergement SPARQL — afin que votre équipe se concentre sur
-        l’intégration, pas sur l’infrastructure.
+        un serveur de connaissances privé, un point de terminaison MCP géré ou
+        un hébergement SPARQL — afin que votre équipe puisse se concentrer sur
+        l'intégration, pas sur l'infrastructure.
     - q: >-
-        Puis‑je modéliser des politiques internes aux côtés des normes
+        Puis-je modéliser les politiques internes aux côtés des normes
         publiques ?
       a: >-
-        Oui. Les offres Business et Écosystème incluent des bases de
+        Oui. Les plans Entreprise et Écosystème incluent des bases de
         connaissances privées où vous pouvez étendre les ontologies publiques
-        avec vos propres normes, politiques et taxonomies internes — ainsi les
+        avec vos propres normes internes, politiques et taxonomies — ainsi les
         connaissances organisationnelles partagées restent connectées.
     - q: Que sont les connecteurs ITIL SKMS ?
       a: >-
         Ils relient les ontologies IQ:NS aux systèmes de gestion des
         connaissances de service ITIL 4 — ainsi votre service desk, CMDB et
         outils de gestion des changements peuvent accéder aux mêmes
-        connaissances structurées que vos agents IA utilisent.
-    - q: Y a‑t‑il un contrat ou un engagement ?
+        connaissances structurées utilisées par vos agents IA.
+    - q: Y a-t-il un contrat ou un engagement ?
       a: >-
-        Non. Plans mensuels, annulation à tout moment. Payez annuellement pour
-        2 mois gratuits. Les modules complémentaires sont des engagements
+        Non. Plans mensuels, annulation à tout moment. Payez annuellement pour 2
+        mois gratuits. Les modules complémentaires sont des engagements
         ponctuels définis avant votre engagement.
-    - q: Où mes données sont‑elles hébergées ?
+    - q: Où mes données sont-elles hébergées ?
       a: >-
         Les plans payants sont déployés sur le fournisseur de votre choix parmi
         AWS, GCP ou Azure — vous choisissez la région. Les bases de

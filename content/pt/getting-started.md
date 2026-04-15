@@ -1,5 +1,5 @@
 ---
-title: Introdução
+title: Começando
 description: >-
   Como começar a usar ontologias IQ:NS — do GitHub ao SPARQL à integração de
   agentes.
@@ -15,7 +15,7 @@ navigation:
 
 ### Use as ontologias abertas
 
-A maneira mais rápida de começar. Pegue os arquivos Turtle no GitHub, carregue‑os no seu triplestore.
+A maneira mais rápida de começar. Baixe os arquivos Turtle do GitHub e carregue-os no seu triplestore.
 
 1. [Explore as ontologias](https://github.com/iqns-org/ontologies)
 2. Escolha os domínios relevantes para você (IA, jurídico, finanças, saúde, etc.)
@@ -30,7 +30,7 @@ Nenhuma conta necessária. Nenhum cadastro.
 
 Se você está construindo fluxos de trabalho agentes, o servidor MCP fornece aos seus agentes acesso estruturado ao grafo de conhecimento. Os agentes consultam conceitos, relacionamentos e alinhamentos entre frameworks diretamente — sem necessidade de janelas de contexto PDF.
 
-Disponível no [Plano Business](/services).
+Disponível no [Nível Business](/services).
 
 ---
 
@@ -38,22 +38,22 @@ Disponível no [Plano Business](/services).
 
 Não quer executar seu próprio triplestore? O endpoint hospedado oferece acesso de consulta sem infraestrutura.
 
-Disponível no [Plano Business](/services).
+Disponível no [Nível Business](/services).
 
 ---
 
-### Crie bases de conhecimento privadas
+### Construa bases de conhecimento privadas
 
 Estenda as ontologias públicas com seu próprio conhecimento institucional — políticas internas, frameworks personalizados, taxonomias de risco proprietárias. Mantidas privadas, consultáveis ao lado do grafo público.
 
-Disponível no [Plano Business](/services).
+Disponível no [Nível Business](/services).
 
 ---
 
 ## Precisa de ajuda?
 
 - [GitHub Discussions](https://github.com/iqns-org/ontologies/discussions) — perguntas e respostas da comunidade
-- [Contacte‑nos](/support) — parcerias, trabalhos personalizados, dúvidas
+- [Contact us](/support) — parcerias, trabalhos personalizados, dúvidas
 
 ---
 

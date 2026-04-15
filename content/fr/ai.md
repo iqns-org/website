@@ -1,13 +1,13 @@
 ---
-title: IA & Intelligence Institutionnelle
+title: AI & Institutional Intelligence
 description: >-
-  Comment les ontologies structurées aident les organisations à intégrer l'IA de
-  manière responsable — en offrant aux équipes et aux systèmes un langage
-  commun.
+  Comment les ontologies structurées aident les organisations à intégrer AI de
+  manière responsable — en donnant aux équipes et aux systèmes un langage
+  partagé.
 lang: fr
 navigation:
   section: ontologies
-  label: Intelligence Institutionnelle
+  label: Institutional Intelligence
   order: 20
 ---
 # IA & Intelligence Institutionnelle
@@ -45,6 +45,6 @@ Lorsque les règles et les modèles opérationnels existent sous forme de connai
 
 ## Commencer
 
-Les ontologies dans `./ontologies/v1/` sont [gratuites sur GitHub](https://github.com/iqns-org/ontologies). Pour les services hébergés ou les intégrations personnalisées, voir [tarification](/services).
+Les ontologies dans `./ontologies/v1/` sont [gratuites sur GitHub](https://github.com/iqns-org/ontologies). Pour les services hébergés ou les intégrations personnalisées, voir la [tarification](/services).
 
-[Découvrez comment cela fonctionne](/how-it-works) · [Voir la couverture des normes](/standards)
+[Explorez son fonctionnement](/how-it-works) · [Voir la couverture des normes](/standards)

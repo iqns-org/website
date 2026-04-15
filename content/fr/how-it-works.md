@@ -7,26 +7,26 @@ description: >-
 lang: fr
 navigation:
   section: platform
-  label: commentCaMarche
+  label: howItWorks
   order: 15
 ---
 # Comment fonctionne IQ:NS
 
 ## Des documents à la connaissance structurée
 
-Les normes, règlements et règles institutionnelles existent sous forme de texte naturel dans des PDF. Utiles pour les personnes qui les lisent de bout en bout — moins utiles lorsqu’il faut qu’une machine raisonne sur la façon dont l’article 13 du EU AI Act se rapporte à un contrôle NIST ou à une clause ISO.
+Les normes, règlements et règles institutionnelles existent sous forme de langage naturel dans les PDF. Utiles pour les personnes qui les lisent de bout en bout — moins utiles lorsqu’il faut qu’une machine raisonne sur la façon dont l’article 13 du EU AI Act se rapporte à un contrôle NIST ou à une clause ISO.
 
-IQ:NS modélise ces concepts comme des ontologies formelles — des vocabulaires structurés où chaque terme possède un identifiant stable, une définition ancrée dans sa source, et des relations explicites avec les concepts liés à travers les cadres.
+IQ:NS modélise ces concepts comme des ontologies formelles — des vocabulaires structurés où chaque terme possède un identifiant stable, une définition ancrée dans sa source, et des relations explicites avec les concepts connexes à travers les cadres.
 
 ## Les quatre couches
 
 ### 1. Modélisation des concepts
 
-Chaque norme est découpée en ses concepts constitutifs — obligations, contrôles, catégories de risque, rôles — et représentée sous forme de classes OWL avec des libellés et définitions SKOS. Chaque concept remonte à sa source autoritaire.
+Chaque norme est décomposée en ses concepts constitutifs — obligations, contrôles, catégories de risque, rôles — et représentée sous forme de classes OWL avec des libellés et définitions SKOS. Chaque concept remonte à sa source autoritaire.
 
 ### 2. Alignement inter‑cadres
 
-Les cadres se chevauchent constamment. L’article 22 du RGPD et l’article 13 du EU AI Act abordent tous deux la transparence. ISO 42001 et NIST AI RMF définissent tous deux des processus de gestion des risques. IQ:NS capture ces alignements explicitement en utilisant `skos:exactMatch`, `skos:broadMatch` et `skos:relatedMatch`.
+Les cadres se chevauchent constamment. L’article 22 du RGPD et l’article 13 du EU AI Act abordent tous deux la transparence. ISO 42001 et NIST AI RMF définissent tous deux des processus de gestion des risques. IQ:NS capture ces alignements explicitement en utilisant `skos:exactMatch`, `skos:broadMatch` et `skos:relatedMatch`.
 
 Une requête vous montre où les cadres convergent, où ils divergent, et où des lacunes existent.
 

@@ -1,6 +1,6 @@
 ---
 title: Audit & Assurance
-description: 'Audit-Ontologie für Beweisketten, Kontrollenprüfung und Assurance-Workflows.'
+description: 'Audit-Ontologie für Beweispfade, Kontrollenprüfung und Assurance-Workflows.'
 lang: de
 navigation:
   enabled: false
@@ -10,12 +10,12 @@ navigation:
 ---
 # Audit & Assurance
 
-Audit-Ontologie für Beweisketten, Kontrollen und Assurance-Workflows.
+Audit-Ontologie für Beweispfade, Kontrollen und Assurance-Workflows.
 
 ## Warum diese Ontologie wichtig ist
 
-- Erfasst Beweisketten, Kontrollen und Assurance-Workflows.
+- Erfasst Beweispfade, Kontrollen und Assurance-Workflows.
 - Macht Audits handlungsfähiger, indem Befunde in strukturierte Daten umgewandelt werden.
-- Unterstützt automatisierte Assurance und eine bessere Validierung von Kontrollen.
+- Unterstützt automatisierte Assurance und bessere Kontrollvalidierung.
 
 [Siehe die Ontologie auf GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/audit)

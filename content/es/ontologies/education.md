@@ -14,10 +14,10 @@ navigation:
 
 Ontología de educación para admisiones, calificaciones, derechos del estudiante y supervisión.
 
-## Por qué es importante esta ontología
+## Por qué esta ontología es importante
 
-- Captura los derechos del estudiante, la evaluación y la semántica de la privacidad.
-- Ayuda a los sistemas educativos a gestionar admisiones y calificaciones apoyadas por IA.
+- Captura los derechos del estudiante, la evaluación y la semántica de privacidad.
+- Ayuda a los sistemas educativos a gobernar admisiones y calificaciones apoyadas por IA.
 - Apoya experiencias de aprendizaje justas y transparentes con modelos compartidos.
 
 [Ver la ontología en GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/education)

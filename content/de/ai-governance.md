@@ -1,12 +1,12 @@
 ---
-title: KI-Governance
+title: AI Governance
 description: >-
-  Erkunden Sie, wie IQ:NS die KI-Governance durch gemeinsame Semantik,
-  Richtlinien und strukturierte Entscheidungsfindung unterstützt.
+  Erkunden Sie, wie IQ:NS AI Governance durch gemeinsame Semantik, Richtlinien
+  und strukturierte Entscheidungsfindung unterstützt.
 lang: de
 navigation:
   section: platform
-  label: KI-Governance
+  label: AI Governance
   order: 12
 ---
 # KI Governance

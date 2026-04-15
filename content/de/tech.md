@@ -1,7 +1,7 @@
 ---
 title: Technologie & Architektur
 description: >-
-  Wie IQ:NS-Ontologien aufgebaut werden: Grundlagen des semantischen Webs,
+  Wie IQ:NS Ontologien aufgebaut werden: Grundlagen des semantischen Webs,
   maschinenlesbare Rahmenwerke und agentenbereite APIs.
 lang: de
 navigation:
@@ -11,40 +11,40 @@ navigation:
 ---
 # Technologie & Architektur
 
-## Auf semantischen Webstandards aufgebaut
+## Auf Basis von Semantic-Web-Standards
 
-IQ:NS verwendet dieselben Standards, die weltweit wissenschaftliche Publikationen, pharmazeutische Forschung und Unternehmensdatenintegration antreiben:
+IQ:NS verwendet dieselben Standards, die weltweit das wissenschaftliche Publizieren, die pharmazeutische Forschung und die Unternehmensdatenintegration antreiben:
 
-- **RDF** — das universelle Datenmodell. Jeder Triple ist abfragbar, exportierbar, verlinkbar.
+- **JSON-LD** — das universelle Datenmodell. Jeder RDF‑Triple ist abfragbar, exportierbar, verlinkbar.
 - **SKOS** — erfasst Hierarchien, Zuordnungen und Ausrichtungen über Frameworks hinweg.
 - **OWL** — definiert Klassen, Eigenschaften und logische Beziehungen zwischen Konzepten.
 - **SHACL** — validiert Datenformen und -einschränkungen.
 
-Jedes Konzept trägt eine kanonische IRI (stabil, permanent), eine formale Definition, die aus dem Originaltext stammt, und explizite Beziehungen zu verwandten Konzepten über Frameworks hinweg.
+Jedes Konzept trägt eine kanonische IRI (stabil, permanent), eine formale Definition, die auf den Originaltext zurückgeht, und explizite Beziehungen zu verwandten Konzepten über Frameworks hinweg.
 
 ---
 
 ## Wie es funktioniert
 
-Wenn sich ein Standard ändert, propagiert das Ontologie-Update durch jedes zugeordnete Konzept — jede verknüpfte Verpflichtung, jede verwandte Kontrolle. Keine manuelle Neuzuordnung.
+Wenn sich ein Standard ändert, propagiert das Ontologie‑Update durch jedes zugeordnete Konzept — jede verknüpfte Verpflichtung, jede verwandte Kontrolle. Keine manuelle Neuzuordnung.
 
-### Framework-übergreifende Duplikatentfernung
+### Cross‑Framework-Deduplizierung
 
-Wenn Artikel 22 der DSGVO und Artikel 13 des EU AI Act beide Transparenz verlangen, erkennt IQ:NS sie als `skos:exactMatch` und stellt ein Konzept bereit, nicht zwei. Eine Abfrage löst beide.
+Wenn verschiedene Regeln, Richtlinien oder betriebliche Standards alle Transparenz verlangen, erkennt IQ:NS sie als `skos:exactMatch` und stellt ein Konzept bereit, nicht zwei. Eine Abfrage löst beide.
 
-### Kontextbezogene Profilerstellung
+### Kontextbezogenes Profiling
 
-Angesichts von Rechtsgebiet, Sektor und KI‑Fähigkeitstyp liefert eine SPARQL‑Abfrage den genauen, deduplizierten Satz relevanter Konzepte — nicht eine Liste von Frameworks, sondern genau das, was zutrifft.
+Angesichts von Rechtsordnung, Sektor und KI‑Fähigkeitstyp liefert eine SPARQL‑Abfrage die präzise, deduplizierte Menge relevanter Konzepte — nicht eine Liste von Frameworks, sondern genau das, was gilt.
 
 ---
 
 ## Modulare Domänenmodelle
 
-IQ:NS wird als modularer, domain-aligned Knowledge Graph veröffentlicht, nicht als einfache Liste von Standards. Mehr als 40 unabhängige, versionierte Ontologie-Module sind in `./ontologies/v1/` verfügbar, und jedes Modul ist über SKOS, OWL und gemeinsame semantische Muster mit dem Rest des Graphen ausgerichtet.
+IQ:NS wird als modularer, domänen‑ausgerichteter Knowledge‑Graph veröffentlicht, nicht als flache Checkliste von Standards. Mehr als 40 unabhängige, versionierte Ontologie‑Module sind in `./ontologies/v1/` verfügbar, und jedes Modul ist mit dem Rest des Graphen mittels SKOS, OWL und gemeinsamer semantischer Muster ausgerichtet.
 
-Repräsentative Domänen umfassen KI-Governance, Datenschutz, Sicherheitsresilienz, Finanzrisiken, Gesundheitsaufsicht, staatliche Transparenz und Unternehmenssteuerung. Diese Struktur bewahrt die Klarheit jedes Domänenmodells und ermöglicht dennoch domänenübergreifendes Schließen und Wiederverwendung.
+Repräsentative Domänen umfassen KI‑Governance, Datenschutz, Sicherheitsresilienz, Finanzrisiken, Gesundheitsaufsicht, Regierungs‑Transparenz und Unternehmens‑Kontrollen. Diese Struktur hält jedes Domänenmodell klar, während sie domänenübergreifendes Schließen und Wiederverwenden bewahrt.
 
-Jedes Modul ist ein eigenständiges RDF/Turtle-Dokument mit expliziten semantischen Ausrichtungen, sodass eine einzige Abfrage mehrere Domänen durchlaufen kann.
+Jedes Modul ist ein eigenständiges RDF/Turtle‑Dokument mit expliziten semantischen Ausrichtungen, sodass eine einzelne Abfrage mehrere Domänen durchlaufen kann.
 
 ---
 
@@ -52,13 +52,13 @@ Jedes Modul ist ein eigenständiges RDF/Turtle-Dokument mit expliziten semantisc
 
 ### SPARQL‑Endpunkt
 
-Der gesamte Graph ist über SPARQL 1.1 abfragbar. Jedes Tool, das SPARQL versteht — BI‑Plattformen, Data Warehouses, Agenten‑Frameworks — erhält strukturierte Antworten.
+Der vollständige Graph ist über SPARQL 1.1 abfragbar. Jedes Tool, das SPARQL versteht — BI‑Plattformen, Data‑Warehouses, Agent‑Frameworks — erhält strukturierte Antworten.
 
-### Agentenfähiger Graphzugriff
+### Agent‑bereiter Graph‑Zugriff
 
-Jedes Konzept wird mit einer kanonischen IRI, maschinenlesbaren Metadaten und formalen semantischen Beziehungen veröffentlicht. Agenten und Automatisierungs-Workflows können den Graphen direkt konsumieren — über SPARQL oder eine graph-native API — statt sich auf unstrukturierte PDFs zu verlassen.
+Jedes Konzept wird mit einer kanonischen IRI, maschinenlesbaren Metadaten und formalen semantischen Beziehungen veröffentlicht. Agenten und Automatisierungstools können den Graphen direkt konsumieren — über SPARQL oder eine graph‑native API — anstatt sich auf unstrukturierte PDFs oder ad‑hoc‑Prompt‑Engineering zu verlassen.
 
-So steht dasselbe semantische Modell sowohl Compliance-Workflows als auch Retrieval-gestütztem Schließen zur Verfügung, damit Agenten Verpflichtungen, Risiken und Kontrollen aus einer einzigen Quelle der Wahrheit ableiten.
+Damit bleibt dasselbe semantische Modell für Compliance‑Workflows und retrieval‑augmented Reasoning verfügbar, sodass Agenten Verpflichtungen, Risiken und Kontrollen aus einer einzigen Wahrheitsquelle ableiten.
 
 ---
 
@@ -66,16 +66,16 @@ So steht dasselbe semantische Modell sowohl Compliance-Workflows als auch Retrie
 
 | Modus | Beschreibung |
 |------|-------------|
-| **GitHub** | Turtle-Dateien herunterladen, in Ihren eigenen Triplestore laden |
-| **Cloud-gehostet** | Verwalteter Graph auf einer privaten Instanz, verschlüsselt |
-| **Private Cloud** | Im eigenen VPC (AWS, Azure, GCP) bereitgestellt |
-| **Air-gapped** | Vollständig on‑premises für regulierte Umgebungen |
+| **GitHub** | Herunterladen und in Ihren eigenen RDF‑Store laden |
+| **Cloud hosted** | Verwalteter Graph auf einer privaten Instanz, verschlüsselt |
+| **Private cloud** | Bereitgestellt in Ihrer VPC (AWS, Azure, GCP) |
+| **Air-gapped** | Vor Ort verfügbar für jeden Kunden |
 
 ---
 
-## Offene Standards, kein Lock‑in
+## Offene Standards, kein Lock‑In
 
-Die Ontologien werden unter einer offenen Lizenz veröffentlicht. Exportieren Sie jederzeit als Standard‑RDF‑Turtle. Wenn Sie gehen, nehmen Sie einen vollständigen, portablen Wissensgraphen mit.
+Die Ontologien werden unter offener Lizenz veröffentlicht. Exportieren Sie jederzeit als Standard‑RDF. Wenn Sie gehen, nehmen Sie einen vollständigen, portablen Knowledge‑Graph mit.
 
 ---
 

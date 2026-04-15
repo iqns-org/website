@@ -1,6 +1,6 @@
 ---
 title: Termos de Serviço
-description: 'Termos que regem o uso das ontologias e serviços IQ:NS.'
+description: 'Termos que regem o uso das ontologias e serviços da IQ:NS.'
 lang: pt
 navigation:
   section: platform
@@ -13,7 +13,7 @@ Estes termos descrevem seus direitos e responsabilidades ao usar as ontologias, 
 
 ## Aceitação dos termos
 
-Ao acessar ou usar o site ou os serviços da IQ:NS, você concorda com estes termos. Se você não concorda, por favor, não use o site.
+Ao acessar ou usar o site ou os serviços da IQ:NS, você concorda com estes termos. Se você não concordar, por favor, não use o site.
 
 ## Uso do site
 
@@ -21,13 +21,13 @@ Você pode usar o site apenas para fins legais. Você concorda em não:
 
 - interferir na operação ou segurança do site;
 - tentar acessar dados que você não está autorizado a visualizar;
-- fazer upload ou transmitir conteúdo malicioso, spam ou material ilícito.
+- carregar ou transmitir conteúdo malicioso, spam ou material ilícito.
 
 ## Propriedade intelectual
 
 Todo o conteúdo, designs, ontologias, marcas registradas e software neste site são de propriedade da IQ:NS ou de seus licenciadores. Você não pode reproduzir, distribuir ou criar obras derivadas do conteúdo do site sem permissão.
 
-## Aviso legal
+## Isenção de responsabilidade
 
 O site e os serviços são fornecidos "como estão" e "conforme disponíveis". A IQ:NS não garante que o site será ininterrupto, livre de erros ou seguro. Nós renunciamos a todas as garantias na máxima extensão permitida por lei.
 
@@ -45,4 +45,4 @@ Podemos revisar estes termos a qualquer momento atualizando esta página. O uso 
 
 ## Contato
 
-Se você tem dúvidas ou precisa de mais informações, entre em contato conosco através do formulário de contato do site.
+Se você tiver dúvidas ou precisar de mais informações, entre em contato conosco através do formulário de contato do site.

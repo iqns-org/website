@@ -1,6 +1,6 @@
 ---
 title: Über IQNS
-description: 'IQ:NS erstellt offene Ontologien für KI und institutionelle Intelligenz.'
+description: 'IQ:NS entwickelt offene Ontologien für AI und institutionelle Intelligenz.'
 lang: de
 ---
 # Über IQ:NS
@@ -11,11 +11,11 @@ IQ:NS ist ein Open-Source-Projekt, das fragmentiertes institutionelles Wissen, R
 
 ## Warum das existiert
 
-Die KI‑Integration in Organisationen ist im Wesentlichen ein **Sprachproblem**. Teams lesen dieselben Standards und Richtlinien und kommen zu unterschiedlichen Schlussfolgerungen. Regeln verwenden unterschiedliche Begriffe für dieselben Konzepte. Institutionelles Wissen befindet sich in Dokumenten, die Maschinen nicht verarbeiten können.
+Die KI‑Integration in Organisationen ist im Wesentlichen ein **Sprachproblem**. Teams lesen dieselben Standards und Richtlinien und kommen zu unterschiedlichen Schlussfolgerungen. Regeln verwenden unterschiedliche Begriffe für dieselben Konzepte. Institutionelles Wissen liegt in Dokumenten, die Maschinen nicht verarbeiten können.
 
 IQ:NS wählt die richtigen Ontologien aus `./ontologies/v1/` aus, anstatt eine einzige regulatorische Checkliste zu fördern.
 
-IQ:NS wurde geschaffen, um die strukturelle Ebene zu beheben – ein gemeinsames Vokabular aufzubauen, das Menschen und Systeme aus derselben Wahrheitsquelle arbeiten lässt.
+IQ:NS wurde geschaffen, um die strukturelle Ebene zu beheben – ein gemeinsames Vokabular zu bauen, das Menschen und Systeme aus derselben Wahrheitsquelle arbeiten lässt.
 
 ## Was wir glauben
 
@@ -25,13 +25,13 @@ IQ:NS wurde geschaffen, um die strukturelle Ebene zu beheben – ein gemeinsames
 - **Offen ist besser** — die semantische Schicht für KI und institutionelles Wissen sollte ein öffentliches Gut sein, kein proprietäres Lock‑In.
 - **Wir arbeiten an Metadaten** — wir berühren niemals Modelldaten, Trainingsdatensätze oder PII. Die Ontologien beschreiben Konzepte und Beziehungen.
 
-## Die Community
+## Die Gemeinschaft
 
-IQ:NS wird von Mitwirkenden mit Hintergründen in Semantic‑Web‑Forschung, regulatorischer Praxis und Unternehmensintegration gepflegt. Die Kernontologien sind kostenlos und Open Source. Beiträge, Feedback und Fachexpertise sind willkommen.
+IQ:NS wird von Mitwirkenden mit Hintergründen in Semantic‑Web‑Forschung, regulatorischer Praxis und Unternehmensintegration gepflegt. Die Kernontologien sind frei und Open Source. Beiträge, Feedback und Fachexpertise sind willkommen.
 
-## Kommerzielle Ebene
+## Kommerzielle Schicht
 
-Für Teams, die private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server‑Integration oder praktische Unterstützung benötigen, gibt es eine [kommerzielle Stufe](/services). Die Ontologien selbst bleiben jedoch kostenlos.
+Für Teams, die private Wissensbasen, gehostete SPARQL‑Endpoints, MCP‑Server‑Integration oder praktische Unterstützung benötigen, gibt es eine [kommerzielle Stufe](/services). Aber die Ontologien selbst bleiben kostenlos.
 
 ## Mitmachen
 

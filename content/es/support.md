@@ -16,11 +16,11 @@ Nos encantaría interactuar contigo como miembro de la comunidad ...
 
 Como cliente comercial y socio
 
-- [Contacta a Nuestro Equipo](/services#addons)
+- [Interactúa con Nuestro Equipo](/services#addons)
 
 
 ## Código Abierto
 
-- [Servidor de Conocimiento Gratis](https://github.com/iqns-org/iq)
+- [Servidor de Conocimiento Gratuito](https://github.com/iqns-org/iq)
 
-- [Ontologías Gratis en GitHub](https://github.com/iqns-org/ontologies)
+- [Ontologías Gratuitas en GitHub](https://github.com/iqns-org/ontologies)

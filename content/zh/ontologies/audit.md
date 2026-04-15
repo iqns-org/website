@@ -8,14 +8,14 @@ navigation:
   label: 审计与保证
   order: 220
 ---
-# Audit & Assurance
+# 审计与保证
 
-Audit ontology for evidence trails, control testing, and assurance workflows.
+审计本体用于证据链、控制测试和保证工作流。
 
-## Why this ontology matters
+## 为什么这个本体重要
 
-- Captures evidence trails, controls and assurance workflows.
-- Makes audits more actionable by turning findings into structured data.
-- Supports automated assurance and better control validation.
+- 捕获证据链、控制和保证工作流。
+- 通过将发现转化为结构化数据，使审计更具可操作性。
+- 支持自动化保证和更好的控制验证。
 
-[View the ontology on GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/audit)
+[在 GitHub 上查看本体](https://github.com/iqns-org/ontologies/tree/main/v1/audit)

@@ -1,7 +1,7 @@
 ---
-title: 'Ontologies ouvertes par IQ:NS'
+title: 'Open Ontologies by IQ:NS'
 description: >-
-  Explorez comment l'ontologie ouverte fonctionne à travers les secteurs, la
+  Explorez comment l'ontologie ouverte fonctionne dans les secteurs, la
   gouvernance et les domaines opérationnels
 lang: fr
 navigation:

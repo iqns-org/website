@@ -3,7 +3,7 @@ title: Intelligence structurée pour l'IA
 description: 'Ontologies ouvertes, cadres, normes et connaissances institutionnelles.'
 lang: fr
 hero:
-  title: Intelligence structurée pour l'IA & les organisations.
+  title: Intelligence structurée pour l'IA & Organisations.
   subtitle: 'Langage partagé pour les personnes, les machines et les organisations.'
   description: >-
     IQ:NS transforme les connaissances institutionnelles, les cadres et les
@@ -11,7 +11,7 @@ hero:
     l'IA et les systèmes d'entreprise fonctionnent à partir de la même source de
     vérité.
   cta:
-    - title: 'Comment IQ:NS fonctionne'
+    - title: 'Comment fonctionne IQ:NS'
       link: /how-it-works
     - title: Connaissance privée
       link: /private-knowledge
@@ -36,8 +36,8 @@ value_props:
       description: >-
         IQ:NS sélectionne les ontologies exactes dont vous avez besoin dans
         `./ontologies/v1/`, plutôt que de promouvoir une liste fixe de normes.
-        Différents vocabulaires sont cartographiés dans un espace sémantique
-        partagé afin qu'aucun ne tombe entre les mailles du filet.
+        Différents vocabulaires sont mappés dans un espace sémantique partagé
+        afin que rien ne tombe entre les mailles du filet.
     - icon: Users
       title: Ouvert et piloté par la communauté
       description: >-
@@ -53,21 +53,21 @@ value_props:
     - icon: Network
       title: Intelligence institutionnelle
       description: >-
-        Les organisations savent des choses — obligations, tolérances au risque,
-        règles opérationnelles. IQ:NS donne à ces connaissances une structure
-        qui survit aux changements de rôles.
+        Les organisations savent des choses — obligations, tolérances aux
+        risques, règles opérationnelles. IQ:NS donne à ces connaissances une
+        structure qui survit aux changements de rôle du personnel.
     - icon: BarChart
-      title: Intégration qui s'adapte
+      title: Intégration qui s'adapte à l'échelle
       description: >-
         Connectez les ontologies à vos outils, vos agents, vos flux de travail.
         Un vocabulaire partagé signifie moins de surcharge de traduction à
-        mesure que votre parc d'IA s'agrandit.
+        mesure que votre parc d'IA se développe.
 iqns:
   badge: COMMENT CELA FONCTIONNE
   heading: De la connaissance fragmentée à l'intelligence partagée
   description: >-
     Ontologies ouvertes qui relient ce que votre organisation sait à ce que font
-    vos systèmes d'IA.
+    vos systèmes IA.
   pillars:
     - icon: Link
       number: 1
@@ -78,7 +78,7 @@ iqns:
         machines peuvent raisonner.
     - icon: Zap
       number: 2
-      title: Cartographier entre les cadres
+      title: Cartographier à travers les cadres
       description: >-
         Les alignements inter-cadres montrent où les concepts se chevauchent, où
         ils divergent et où des lacunes existent. Une requête couvre chaque
@@ -101,9 +101,9 @@ frameworks:
   heading: Plus de 50 cadres. Un vocabulaire partagé.
   description: >-
     Plus de 100 fichiers d'ontologie couvrant plus de 20 domaines. IQ:NS
-    sélectionne les modèles pertinents directement dans `./ontologies/v1/` et
-    les cartographie dans un vocabulaire unifié afin que vous puissiez
-    comprendre comment les concepts se relient entre les normes.
+    sélectionne les modèles pertinents directement depuis `./ontologies/v1/` et
+    les mappe dans un vocabulaire unifié afin que vous puissiez comprendre
+    comment les concepts se relient entre les normes.
   items:
     - OWASP LLM Top 10
     - MITRE ATLAS
@@ -161,7 +161,7 @@ industries:
   heading: Plus de 20 domaines. Une structure partagée.
   items:
     - icon: Brain
-      title: IA & Apprentissage automatique
+      title: IA & apprentissage automatique
       description: >-
         EU AI Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, MITRE ATLAS — plus
         de 30 cadres spécifiques à l'IA.
@@ -172,20 +172,18 @@ industries:
         reporting réglementaire.
     - icon: FlaskConical
       title: Santé
-      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC AI fiable.'
+      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI.'
     - icon: Scale
       title: Juridique
       description: >-
-        Principes directeurs de l'ONU sur les droits humains, alignements
+        Principes directeurs de l'ONU sur les droits humains (BHR), alignements
         IA-juridique inter-domaines.
     - icon: Globe
       title: Gouvernement
       description: 'FedRAMP, NIST CSF, ISO 38500 — responsabilité du secteur public.'
     - icon: Shield
       title: Défense
-      description: >-
-        Principes DoD RAI, principes IA de l'OTAN — IA responsable dans la
-        défense.
+      description: 'Principes DoD RAI, principes NATO AI — IA responsable dans la défense.'
     - icon: Briefcase
       title: Entreprise
       description: >-
@@ -193,20 +191,18 @@ industries:
         d'entreprise.
     - icon: GraduationCap
       title: Éducation
-      description: >-
-        Éthique IA de l'UNESCO — IA responsable dans l'apprentissage et
-        l'évaluation.
+      description: UNESCO AI Ethics — IA responsable dans l'apprentissage et l'évaluation.
     - icon: Users
       title: Emploi
       description: >-
-        EEOC, Égalité de traitement UE — équité dans le recrutement et l'IA du
+        EEOC, EU Equal Treatment — équité dans le recrutement et l'IA du
         personnel.
     - icon: Zap
       title: Énergie
       description: ISO 50001 — gestion de l'énergie et intégration de l'IA.
     - icon: ShieldCheck
       title: Assurance
-      description: 'Solvabilité II — souscription, sinistres et équité tarifaire.'
+      description: 'Solvency II — souscription, sinistres et équité tarifaire.'
     - icon: Radio
       title: Médias
       description: >-
@@ -235,4 +231,4 @@ cta_final:
   cta_text: Voir sur GitHub
   cta_href: 'https://github.com/iqns-org/ontologies'
 ---
-[IQ:NS](https://IQNS.org) est `Intelligence structurée` pour l'IA et les organisations. C'est un projet communautaire qui transforme les normes fragmentées, les réglementations et le savoir institutionnel en ontologies ouvertes et interrogeables — afin que les personnes et les machines puissent travailler à partir de la même source de vérité.
+[IQ:NS](https://IQNS.org) est `Structured Intelligence` pour l'IA et les organisations. C'est un projet communautaire qui transforme des normes, réglementations et connaissances institutionnelles fragmentées en ontologies ouvertes et interrogeables — afin que les personnes et les machines puissent travailler à partir de la même source de vérité.

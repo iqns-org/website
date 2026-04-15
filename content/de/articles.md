@@ -1,8 +1,8 @@
 ---
 title: Funktionen & Fähigkeiten
 description: >-
-  Entdecken Sie die zentralen, artikelbezogenen Funktionen und die
-  Ontologie-Integration für die Inhaltssuche und Wissens-Workflows.
+  Entdecken Sie die Kernfunktionen, die sich auf Artikel konzentrieren, und die
+  Ontologie-Integration für die Inhaltsentdeckung und Wissens-Workflows.
 lang: de
 navigation:
   section: ontologies

@@ -1,13 +1,13 @@
 ---
-title: Biotecnología
+title: Biotech
 description: >-
-  Ontología de biotecnología para IA de laboratorio, flujos de descubrimiento y
+  Ontología de Biotech para IA de laboratorio, pipelines de descubrimiento y
   controles de investigación regulados.
 lang: es
 navigation:
   enabled: false
   section: ontologies
-  label: Biotecnología
+  label: Biotech
   order: 250
 ---
 # Biotecnología

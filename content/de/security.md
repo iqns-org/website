@@ -13,24 +13,24 @@ navigation:
 
 IQ:NS arbeitet nur mit **Metadaten**:
 
-- Rahmenkonzepte und Beziehungen (öffentlicher Regulierungstext)
+- Rahmenkonzepte und Beziehungen (öffentlicher Regulierungs­text)
 - Ihre Systemprofile (bei Nutzung der kommerziellen Stufe): Namen, Fähigkeiten, Risikoklassifizierungen
 - Ihre Ontologie‑Erweiterungen (falls privat): benutzerdefinierte Konzepte und Zuordnungen
-- Evidenz‑Referenzen (Links oder Hashes – nicht die Dokumente selbst)
+- Evidenz‑Referenzen (Links oder Hashes — nicht die Dokumente selbst)
 
-Wir **speichern niemals** Trainingsdaten, Gewichte, Inferenz‑Ausgaben, Kundendaten oder PII.
+Wir **speichern niemals** Model‑Trainingsdaten, Gewichte, Inferenz‑Ausgaben, Kundendaten oder PII.
 
 ## Wo wir es speichern
 
-- **Verschlüsselung:** AES-256 im Ruhezustand, TLS 1.3 während der Übertragung
-- **Zugriff:** Rollenbasierte Kontrollen, Audit‑Logging
+- **Verschlüsselung:** AES‑256 im Ruhezustand, TLS 1.3 während der Übertragung
+- **Zugriff:** Rollenbasierte Kontrollen, Audit‑Protokollierung
 - **Backups:** Automatisiert täglich, geografisch verteilt
 
 ## Bereitstellungsoptionen
 
 - **Selbstgehostet** — Turtle‑Dateien herunterladen, eigenen Triplestore betreiben
 - **Cloud‑gehostet** — verwaltete Instanz auf AWS, verschlüsselt
-- **Private Cloud** — in Ihrem VPC bereitgestellt
+- **Private Cloud** — bereitgestellt in Ihrem VPC
 - **Air‑gapped** — Vor Ort für jeden Kunden verfügbar
 
 ## Konformität
@@ -42,9 +42,9 @@ Wir **speichern niemals** Trainingsdaten, Gewichte, Inferenz‑Ausgaben, Kundend
 
 ## Standardmäßig offen
 
-Die Kernontologien sind Open Source. Sie können jedes Konzept, jede Zuordnung, jede Beziehung prüfen. Transparenz ist strukturell, nicht versprochen.
+Die Kernontologien sind Open‑Source. Sie können jedes Konzept, jede Zuordnung, jede Beziehung überprüfen. Transparenz ist strukturell, nicht versprochen.
 
-## Sicherheitsproblem melden
+## Melden Sie ein Sicherheitsproblem
 
 [security@iqns.org](mailto:security@iqns.org)
 

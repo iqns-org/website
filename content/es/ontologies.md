@@ -1,12 +1,12 @@
 ---
-title: 'Ontologías abiertas de IQ:NS'
+title: 'Open Ontologies by IQ:NS'
 description: >-
-  Explore cómo funciona la ontología abierta en los sectores, la gobernanza y
+  Explora cómo funciona la ontología abierta en los sectores, la gobernanza y
   los dominios operativos
 lang: es
 navigation:
   section: ontologies
-  label: Ontologías abiertas
+  label: Open Ontologies
   order: 0
 ---
 # Ontologías Abiertas
@@ -38,7 +38,7 @@ Explore ontologías abiertas en sistemas, sectores, gobernanza y dominios operac
 - [Banca](/ontologies/banking)
 - [Biotecnología](/ontologies/biotech)
 
-## Empezar
+## Comenzar
 
 - [Ontologías Abiertas en GitHub](https://github.com/iqns-org/ontologies)
 - [Aprende cómo funciona IQ:NS](/how-it-works)

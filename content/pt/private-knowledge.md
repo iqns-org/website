@@ -11,24 +11,24 @@ navigation:
 ---
 # Conhecimento Privado com IQ:NS
 
-Suas ontologias públicas são uma base semântica compartilhada. O conhecimento privado permite que sua organização amplie essa base com políticas internas, taxonomias proprietárias e modelos operacionais.
+Your public ontologies are a shared semantic foundation. Private knowledge lets your organisation extend that foundation with internal policies, proprietary taxonomies, and operational models.
 
 ## O que o conhecimento privado oferece
 
-- **Extensões seguras** — mantenha padrões internos, controles e taxonomia privados enquanto ainda os conecta ao grafo aberto do IQ:NS
-- **MCP privado** — permita que os fluxos de trabalho dos seus agentes raciocinem sobre o conhecimento organizacional privado sem expô-lo publicamente
-- **Acesso SPARQL** — consulte o conhecimento interno e público juntos, com hospedagem segura e controles de acesso
-- **Integração empresarial** — incorpore o conhecimento privado em catálogos de serviços, CMDBs e fluxos de governança
+- **Extensões seguras** — keep internal standards, controls, and taxonomy private while still connecting them to the open IQ:NS graph
+- **MCP privado** — let your agent workflows reason over private organisational knowledge without exposing it publicly
+- **Acesso SPARQL** — query internal and public knowledge together, with secure hosting and access controls
+- **Integração empresarial** — embed private knowledge into service catalogs, CMDBs, and governance workflows
 
 ## Como funciona
 
-O IQ:NS mantém as ontologias principais abertas enquanto suporta uma camada privada para extensões internas. Isso significa que suas equipes podem usar a mesma camada semântica tanto para o conhecimento da comunidade quanto para suas regras proprietárias.
+IQ:NS keeps the core ontologies open while supporting a private layer for internal extensions. That means your teams can use the same semantic layer for both community knowledge and your proprietary rules.
 
 ## Quando usar
 
-- Você precisa de políticas privadas ou estruturas de controle interno incluídas no grafo
-- Seus agentes devem raciocinar sobre conhecimento operacional proprietário
-- Você deseja hospedagem privada para serviços SPARQL ou MCP
-- Suas equipes de risco, conformidade ou TI exigem conhecimento isolado por inquilino
+- You need private policies or internal control frameworks included in the graph
+- Your agents must reason over proprietary operational knowledge
+- You want private hosting for SPARQL or MCP services
+- Your risk, compliance, or IT teams require tenant-isolated knowledge
 
-[Veja os preços](/services) · [Explore as ontologias públicas](https://github.com/iqns-org/ontologies)
+[Ver preços](/services) · [Explore as ontologias públicas](https://github.com/iqns-org/ontologies)

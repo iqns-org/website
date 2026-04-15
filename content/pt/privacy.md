@@ -9,37 +9,37 @@ navigation:
 ---
 # Política de Privacidade
 
-IQ:NS opera conceitos e relacionamentos estruturados. Nunca tocamos nos dados do modelo, conjuntos de treinamento, saídas de inferência ou identificadores pessoais, a menos que você os forneça diretamente. Esta política explica como coletamos, usamos e protegemos informações quando você interage com nosso site e serviços.
+IQ:NS opera conceitos e relacionamentos estruturados. Nunca tocamos em dados de modelo, conjuntos de treinamento, resultados de inferência ou identificadores pessoais, a menos que você os forneça diretamente. Esta política explica como coletamos, usamos e protegemos informações quando você interage com nosso site e serviços.
 
 ## Informações que coletamos
 
 - **Informações que você fornece:** detalhes de contato, mensagens ou formulários de consulta enviados através do site.  
 - **Dados de uso:** análises anonimadas, visualizações de página, tipo de dispositivo, navegador e informações de referência.  
-- **Cookies e armazenamento local:** cookies de sessão e configurações de preferência usadas para melhorar a navegação do site e o comportamento de idioma.
+- **Cookies e armazenamento local:** cookies de sessão e configurações de preferência usadas para melhorar a navegação no site e o comportamento de idioma.
 
 ## Como usamos as informações
 
 Usamos as informações que coletamos para:
 
-- responder a consultas e solicitações de suporte;  
-- melhorar o site, a documentação e a experiência do produto;  
-- monitorar o desempenho do site e entender padrões de uso;  
+- responder a consultas e solicitações de suporte;
+- melhorar o site, a documentação e a experiência do produto;
+- monitorar o desempenho do site e entender os padrões de uso;
 - cumprir requisitos legais e de segurança.
 
 ## O que não fazemos
 
-- Não processamos ou armazenamos dados de treinamento de modelo, saídas de inferência ou qualquer conteúdo proprietário do cliente em nossas ontologias.  
+- Não processamos nem armazenamos dados de treinamento de modelo, resultados de inferência ou qualquer conteúdo proprietário do cliente em nossas ontologias.  
 - Não vendemos suas informações pessoais a terceiros.
 
 ## Compartilhamento e divulgação
 
-Podemos compartilhar informações com provedores de serviço confiáveis que nos ajudam a operar o site e oferecer suporte, como provedores de hospedagem e serviços de análise. Exigimos que esses provedores protejam suas informações e as utilizem apenas para os fins que especificamos.
+Podemos compartilhar informações com provedores de serviços confiáveis que nos ajudam a operar o site e fornecer suporte, como provedores de hospedagem e serviços de análise. Exigimos que esses provedores protejam suas informações e as utilizem apenas para os fins que especificamos.
 
-Também podemos divulgar informações se exigido por lei, para proteger nossos direitos ou para prevenir fraude ou outra atividade ilegal.
+Também podemos divulgar informações se exigido por lei, para proteger nossos direitos ou para prevenir fraudes ou outras atividades ilegais.
 
 ## Segurança
 
-Implementamos medidas técnicas e organizacionais razoáveis para proteger as informações contra acesso não autorizado, alteração ou divulgação. No entanto, nenhum rede ou sistema de armazenamento é completamente seguro, portanto não podemos garantir proteção absoluta.
+Implementamos medidas técnicas e organizacionais razoáveis para proteger as informações contra acesso não autorizado, alteração ou divulgação. No entanto, nenhuma rede ou sistema de armazenamento é completamente seguro, portanto não podemos garantir proteção absoluta.
 
 ## Suas escolhas
 

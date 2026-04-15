@@ -21,7 +21,7 @@ const selectedTag = ref('')
 const searchInput = ref<HTMLInputElement | null>(null)
 
 const normalizePath = (path: string) =>
-  path.replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '') || '/'
+  path.replace(/^\/(en|fr|de|es|pt|zh|ar)(?=\/|$)/, '') || '/'
 
 const sectionPages = computed(() =>
   contentIndex.pages

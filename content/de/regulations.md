@@ -9,9 +9,9 @@ navigation:
   label: Regelungen
   order: 13
 ---
-# Vorschriften
+# Regelungen
 
-IQ:NS wandelt Vorschriften in strukturierte, maschinenlesbare Informationen um, sodass Sie vergleichen, abstimmen und Compliance‑Anforderungen konsequent umsetzen können.
+IQ:NS wandelt Vorschriften in strukturierte, maschinenlesbare Kenntnisse um, sodass Sie Compliance‑Anforderungen konsistent vergleichen, abstimmen und umsetzen können.
 
 - Erfassen Sie regulatorische Verpflichtungen als semantische Konzepte
 - Verknüpfen Sie Anforderungen mit Kontrollen und Nachweisen

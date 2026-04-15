@@ -85,7 +85,7 @@ export const useNavigation = () => {
 
   const currentSection = computed(() => {
     const normalizedPath = route.path.replace(/\/$/, '') || '/' 
-    const basePath = normalizedPath.replace(/^\/(en|fr|de|es|pt|zh)(?=\/|$)/, '') || '/'
+    const basePath = normalizedPath.replace(/^\/(en|fr|de|es|pt|zh|ar)(?=\/|$)/, '') || '/'
 
     const matched = contentIndex.nav.find((item) => item.to === basePath)
     if (matched) return matched.section
@@ -146,7 +146,7 @@ export const useNavigation = () => {
   }
 
   const setLocale = (value: string) => {
-    const validLocales = ['en', 'es', 'fr', 'de', 'pt', 'zh']
+    const validLocales = ['en', 'es', 'fr', 'de', 'pt', 'zh', 'ar']
     if (!validLocales.includes(value)) return
     const switchLocalePath = useSwitchLocalePath()
     const target = switchLocalePath(value)

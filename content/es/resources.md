@@ -11,10 +11,10 @@ navigation:
 ---
 # Recursos
 
-Encuentra documentación, ejemplos y materiales de referencia que te ayuden a comprender y usar las ontologías IQ:NS de manera eficaz.
+Encuentre documentación, ejemplos y materiales de referencia que le ayuden a comprender y usar las ontologías IQ:NS de manera eficaz.
 
-- Explora la documentación y ejemplos de ontologías
-- Explora integraciones de la plataforma y patrones de consulta
-- Comienza con la modelación semántica y la práctica de gobernanza
+- Navegue la documentación y los ejemplos de la ontología
+- Explore integraciones de la plataforma y patrones de consulta
+- Comience con la modelación semántica y la práctica de gobernanza
 
 [Ver cómo funciona IQ:NS](/how-it-works)

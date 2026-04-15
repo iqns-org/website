@@ -8,15 +8,16 @@
   "modelEnv": "GROQ_MODEL",
   "defaultEndpoint": "https://api.groq.com/openai/v1/chat/completions",
   "defaultModel": "openai/gpt-oss-120b",
+  "parallelLocales": false,
   "translationOptions": {
     "temperature": 0.2,
-    "max_completion_tokens": 32768,
+    "max_completion_tokens": 8192,
     "top_p": 1,
     "reasoning_effort": "medium"
   },
   "promptTemplates": {
-    "markdown": "Translate the following Markdown from English to {language}. Preserve markdown formatting, headings, lists, links, tables, code blocks, inline code, HTML tags, and URLs. Do not modify YAML frontmatter markers or markdown structure. Return only the translated markdown content, without explanations or commentary.\n\n{content}",
-    "json": "Translate the following JSON mapping of English strings to {language}. Preserve markup, placeholders, HTML tags, and punctuation. Output only valid JSON with the same keys and translated string values. Do not add any commentary.\n\n{content}"
+    "markdown": "Translate the following Markdown from English to {language}. Preserve markdown formatting, headings, lists, links, tables, code blocks, inline code, HTML tags, and URLs. Do not modify YAML frontmatter keys, markers, or markdown structure. Return only the translated markdown content and do not include explanations or commentary.\n\n{content}",
+    "json": "Translate the following JSON mapping of English strings to {language}. Preserve JSON keys exactly, including dotted keys such as \"nav.home\". Output only valid JSON with the same keys and translated string values. Do not add commentary, do not change any keys, and do not convert dotted keys into nested objects. Translate all English text values into {language}, but keep brand names, acronyms, technical labels, and proper nouns unchanged.\n\n{content}"
   },
   "frontmatterSkipPatterns": [
     "lang",
@@ -28,6 +29,8 @@
     "cta_final.cta_href",
     "value_props.items.*.icon",
     "industries.items.*.icon",
-    "frameworks.items.*"
+    "frameworks.items.*",
+    "tags.*",
+    "tag.*"
   ]
 }

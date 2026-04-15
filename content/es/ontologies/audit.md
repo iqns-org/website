@@ -10,14 +10,14 @@ navigation:
   label: Auditoría y Garantía
   order: 220
 ---
-# Auditoría y Garantía
+# Auditoría y Aseguramiento
 
-Ontología de auditoría para rastros de evidencia, pruebas de control y flujos de trabajo de garantía.
+Ontología de auditoría para rastros de evidencia, pruebas de control y flujos de trabajo de aseguramiento.
 
-## Por qué importa esta ontología
+## Por qué esta ontología es importante
 
-- Captura rastros de evidencia, controles y flujos de trabajo de garantía.  
-- Hace que las auditorías sean más accionables al convertir los hallazgos en datos estructurados.  
-- Soporta la garantía automatizada y una mejor validación de controles.
+- Captura rastros de evidencia, controles y flujos de trabajo de aseguramiento.
+- Hace que las auditorías sean más accionables al convertir los hallazgos en datos estructurados.
+- Soporta aseguramiento automatizado y una mejor validación de controles.
 
 [Ver la ontología en GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/audit)

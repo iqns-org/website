@@ -1,31 +1,25 @@
 ---
-title: Industrias y dominios
+title: Industrias y dominios de expertos
 description: >-
-  20+ dominios, 100+ archivos de ontología — IQ:NS estructura el conocimiento en
-  IA, finanzas, salud, SaaS, empresa y más.
+  IQ:NS estructura el conocimiento en AI, finanzas, salud, SaaS, enterprise y
+  más.
 lang: es
 navigation:
-  section: platform
+  section: ontologies
   label: Industrias
   order: 30
 ---
-# Industrias y Dominios
+# Industrias y Dominios de Expertos
 
-IQ:NS cubre más de 20 dominios con más de 100 archivos de ontología. Cada dominio incluye vocabulario básico, alineaciones de marcos y ejemplos trabajados.
-
----
-
-## IA y Aprendizaje Automático
-
-30+ marcos específicos de IA, incluidos la Ley de IA de la UE, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, Principios de IA de la OCDE, y más. Ejemplos de plataformas para AWS, Azure, GCP y Kubernetes.
+Más de 30 marcos específicos de IA, incluidos EU AI Act, NIST AI RMF, ISO 42001, ISO 23894, ISO 24027–29, OWASP LLM Top 10, MITRE ATLAS, Google SAIF, IEEE 7000, Principios de IA de la OCDE, y más. Ejemplos de plataformas para AWS, Azure, GCP y Kubernetes.
 
 ## Servicios Financieros
 
-Basilea III, DORA, MiFID II, SOX, SR 11-7, directrices de IA de la EBA. Estructurado para la gestión de riesgos de modelos, informes regulatorios y cumplimiento transfronterizo.
+Basel III, DORA, MiFID II, SOX, SR 11-7, directrices de IA de la EBA. Estructurado para la gestión de riesgos de modelos, informes regulatorios y cumplimiento transfronterizo.
 
 ## Salud
 
-HIPAA, EU MDR, FDA AI/ML SaMD, ONC IA confiable. Modelado para soporte de decisiones clínicas, diagnósticos y gobernanza de dispositivos médicos.
+HIPAA, EU MDR, FDA AI/ML SaMD, ONC trustworthy AI. Modelado para soporte de decisiones clínicas, diagnósticos y gobernanza de dispositivos médicos.
 
 ## Empresa
 
@@ -41,19 +35,19 @@ Principios de IA Responsable del DoD, Principios de IA de la OTAN. IA responsabl
 
 ## Legal
 
-Principios Rectores de la ONU sobre Empresas y Derechos Humanos. Alineaciones SKOS de IA-legal interdominio.
+Principios Rectores de la ONU sobre Empresas y Derechos Humanos. Alineaciones SKOS de IA-legal intersectoriales.
 
 ## Seguros
 
-Solvencia II. Ontologías de suscripción, procesamiento de reclamaciones y equidad de precios.
+Solvencia II. Ontologías de suscripción, procesamiento de reclamaciones y equidad en precios.
 
 ## Educación
 
-Ética de IA de la UNESCO. IA responsable en aprendizaje, evaluación y tecnología educativa.
+Ética de IA de la UNESCO. IA responsable en el aprendizaje, la evaluación y la tecnología educativa.
 
 ## Empleo
 
-EEOC, Directiva de Igualdad de Trato de la UE. Equidad en contratación, selección y gestión de la fuerza laboral impulsadas por IA.
+EEOC, Directiva de Igualdad de Trato de la UE. Equidad en la contratación, selección y gestión de la fuerza laboral impulsadas por IA.
 
 ## Energía
 
@@ -73,7 +67,7 @@ UN R157. Vehículos autónomos, sistemas de conducción automatizada y seguridad
 
 ## SaaS y SKMS
 
-Ontologías del Sistema de Gestión del Conocimiento de Servicio para AWS, Azure, GCP y DigitalOcean. Mapea los servicios en la nube a un vocabulario compartido.
+Ontologías del Sistema de Gestión del Conocimiento de Servicios para AWS, Azure, GCP y DigitalOcean. Mapea los servicios en la nube a un vocabulario compartido.
 
 ## ITIL
 
@@ -81,12 +75,12 @@ Ontología de gestión de servicios ITIL 4. Conecta la gestión de servicios de 
 
 ## Startups
 
-Pacto Mundial de la ONU. Fundaciones de IA responsable para empresas en etapa temprana.
+Pacto Global de la ONU. Fundamentos de IA responsable para empresas en etapa temprana.
 
-## Interdominio
+## Intersectorial
 
-Alineaciones SKOS de IA-legal que cruzan los límites de los dominios — conectando conceptos de riesgo de IA con obligaciones legales en todos los sectores.
+Alineaciones SKOS de IA-legal que cruzan los límites de dominio — conectando conceptos de riesgo de IA con obligaciones legales en todos los sectores.
 
 ---
 
-[Ver cobertura de normas](/standards) · [Explorar en GitHub](https://github.com/iqns-org/ontologies)
+[Ver cobertura de estándares](/standards) · [Explorar en GitHub](https://github.com/iqns-org/ontologies)
