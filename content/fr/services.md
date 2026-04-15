@@ -1,5 +1,5 @@
 ---
-title: Tarifs & Plans
+title: Services et forfaits
 description: >-
   Ontologies ouvertes, gratuites à vie. Niveaux commerciaux pour les équipes qui
   ont besoin d'hébergement, de bases de connaissances privées ou d'assistance à
@@ -11,45 +11,12 @@ navigation:
   order: 20
 tagline: Ontologies ouvertes. Gratuites à vie.
 subtagline: >-
-  Mettez à niveau uniquement si vous avez besoin d'hébergement, de bases de
-  connaissances privées ou d'un support pratique.
+  Mettez à niveau uniquement si vous avez besoin d'ontologies personnalisées, de
+  bases de connaissances privées et/ou d'un support pratique.
 annual_note: Économisez 2 mois avec la facturation annuelle.
 trust_signal: >-
   Construit sur les standards du Web sémantique du W3C adoptés par plus de 60 %
   des entreprises du Fortune 500.
-how_it_works:
-  heading: Construit sur les standards du Web sémantique
-  intro: >-
-    IQ:NS modélise les normes, réglementations et connaissances
-    institutionnelles sous forme d'ontologies formelles — des vocabulaires
-    structurés que les humains et les machines peuvent interroger, raisonner et
-    intégrer.
-  iqns:
-    - step: Structure
-      description: >-
-        Normes et connaissances institutionnelles modélisées comme des
-        ontologies RDF/OWL avec des alignements SKOS. Chaque concept possède un
-        IRI stable et renvoie à sa source autoritaire.
-    - step: Connecter
-      description: >-
-        Les mappings inter‑cadres montrent où les normes se chevauchent,
-        divergent et laissent des lacunes. Une seule requête couvre chaque cadre
-        pertinent.
-    - step: Intégrer
-      description: >-
-        Les points d’accès SPARQL, serveurs MCP et exportations Turtle standard
-        s’intègrent à vos outils existants — plateformes GRC, catalogues de
-        données, cadres d’agents, pipelines CI/CD.
-    - step: Évoluer
-      description: >-
-        La communauté maintient et étend les ontologies au fur et à mesure que
-        les normes évoluent. Chaque version est suivie. Les connaissances
-        restent à jour.
-  breakdown: >-
-    Les ontologies sont la fondation sémantique — connaissances structurées que
-    les outils GRC, les agents IA et les équipes humaines peuvent tous
-    exploiter. Ouvertes par défaut. Services commerciaux pour les équipes qui
-    ont besoin d’hébergement géré ou d’extensions privées.
 plans:
   - id: community
     name: Communauté
@@ -83,14 +50,15 @@ plans:
       price: '$2,500'
       period: /year
     features:
-      - Atelier d'intégration (animé par un architecte)
-      - Ontologies illimitées
-      - Serveur de connaissances privé
       - Serveur MCP sécurisé
+      - Ontologies de gouvernance
+      - Ontologies privées illimitées
+      - Serveur de connaissances privées
+      - Agent IA (Ontologiste)
       - Support des requêtes SPARQL
       - Intégrations personnalisées
       - Support prioritaire (SLA 48 h)
-      - Connecteurs ITIL SKMS (v4)
+      - Connecteurs SaaS (découverte automatisée)
     cta: Commencer
     highlight: false
     cta_href: /support
@@ -106,14 +74,17 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Chef de projet succès (architecte senior)
-      - Ontologies illimitées
+      - Ontologies de gouvernance / conformité
+      - Ontologies privées illimitées
       - Serveur de connaissances d'entreprise
       - Serveur MCP d'entreprise
       - Support des requêtes SPARQL
-      - Intégration d'entreprise
-      - Cloud privé / Sur site
-      - Connecteurs ITIL SKMS (v4)
+      - Agent IA (Ontologiste)
+      - Intégrations d'entreprise
+      - Cloud privé / sur site
+      - Connecteurs SaaS d'entreprise
+      - Support d'entreprise (SLA 12 h)
+      - SAML / SSO
     cta: Parler à un architecte
     highlight: false
     cta_href: /support
@@ -121,7 +92,7 @@ guarantee:
   heading: Open source sous Apache 2.0. Toujours.
   items:
     - 'Plus de 100 ontologies, gratuites à vie'
-    - 'RDFS, OWL, SKOS, SHACL'
+    - 'JSON-LD, RDFS, OWL, SKOS, SHACL'
     - Pas de verrouillage fournisseur
 addons:
   heading: Modules complémentaires
@@ -129,56 +100,57 @@ addons:
   items:
     - icon: ShieldCheck
       title: Atelier d'ontologie
-      price: '$2,000'
+      price: '$2,500'
       description: >-
         Engagement de 2 jours — nous modélisons votre domaine en une ontologie
         privée, livrée avec documentation et guide d'intégration.
     - icon: Network
-      title: Cartographie de cadre
-      price: '$3,000'
+      title: Cartographie du cadre
+      price: '$2,500'
       description: >-
-        Cartographiez vos normes et politiques internes vers des ontologies
-        publiques. Livré sous forme d'alignements SKOS vérifiés avec un rapport
-        de couverture.
+        Mappez vos normes et politiques internes aux ontologies publiques. Livré
+        sous forme d'alignements SKOS vérifiés avec un rapport de couverture.
     - icon: Zap
       title: Intégration d'agent
       price: '$1,500'
       description: >-
-        Connectez vos flux de travail d'agents à IQ:NS via MCP. Inclut la
-        configuration, les tests et un manuel d'exploitation pour votre équipe.
+        Connectez vos flux de travail agentiques à IQ:NS via MCP. Inclut la
+        configuration, les tests et un guide d'exploitation pour votre équipe.
     - icon: Users
       title: Formation d'équipe
       price: '$2,500'
       description: >-
-        Atelier d'une demi-journée couvrant SPARQL, RDF et les fondamentaux des
-        ontologies — adapté à votre stack, avec exercices pratiques.
+        Deux ateliers d'une demi-journée couvrant SPARQL, RDF et les
+        fondamentaux de l'ontologie — adaptés à votre stack, avec des exercices
+        pratiques.
 faq:
-  heading: Questions fréquentes
+  heading: Questions fréquemment posées
   items:
     - q: Que puis‑je obtenir gratuitement ?
       a: >-
-        Chaque ontologie du dépôt public — plus de 100 fichiers couvrant plus de
-        20 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
-        intégrez‑les à vos outils. Aucun compte requis.
+        Toutes les ontologies du dépôt public — plus de 100 fichiers couvrant
+        plus de 50 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
+        intégrez-les à vos outils. Aucun compte requis.
     - q: 'Qu’est‑ce qu’une ontologie, concrètement ?'
       a: >-
         Un vocabulaire lisible par machine qui mappe les normes, réglementations
-        et connaissances institutionnelles dans un format que les agents IA et
-        les outils peuvent interroger. Considérez‑le comme un dictionnaire
-        partagé que vos systèmes comprennent réellement.
-    - q: Quand devrais‑je passer à l’offre Business ?
+        et connaissances institutionnelles dans un format interrogeable par les
+        agents et outils IA. Pensez‑y comme à un dictionnaire partagé que vos
+        systèmes comprennent réellement.
+    - q: Quand devrais‑je passer à l’offre Entreprise ?
       a: >-
-        Lorsque vous avez besoin d’un serveur de connaissances privé, d’un point
-        d’accès MCP géré ou d’un hébergement SPARQL — en gros, quand vous voulez
-        que nous gérions l’infrastructure afin que votre équipe se concentre sur
-        l’intégration.
+        Lorsque vous avez besoin de la couche sémantique opérationnalisée avec
+        un serveur de connaissances privé, un point d’accès MCP géré ou un
+        hébergement SPARQL — afin que votre équipe se concentre sur
+        l’intégration, pas sur l’infrastructure.
     - q: >-
-        Puis‑je modéliser des politiques internes en même temps que les normes
+        Puis‑je modéliser des politiques internes aux côtés des normes
         publiques ?
       a: >-
         Oui. Les offres Business et Écosystème incluent des bases de
         connaissances privées où vous pouvez étendre les ontologies publiques
-        avec vos propres normes internes, politiques et taxonomies.
+        avec vos propres normes, politiques et taxonomies internes — ainsi les
+        connaissances organisationnelles partagées restent connectées.
     - q: Que sont les connecteurs ITIL SKMS ?
       a: >-
         Ils relient les ontologies IQ:NS aux systèmes de gestion des

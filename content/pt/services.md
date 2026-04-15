@@ -1,5 +1,5 @@
 ---
-title: Preços e Planos
+title: Serviços e Planos
 description: >-
   Ontologias abertas, gratuitas para sempre. Camadas comerciais para equipes que
   precisam de hospedagem, bases de conhecimento privadas ou suporte de
@@ -11,43 +11,12 @@ navigation:
   order: 20
 tagline: Ontologias abertas. Gratuitas para sempre.
 subtagline: >-
-  Só faça upgrade se precisar de hospedagem, bases de conhecimento privadas ou
-  suporte prático.
+  Só faça upgrade se precisar de ontologias personalizadas, bases de
+  conhecimento privadas e/ou suporte prático.
 annual_note: Economize 2 meses com faturamento anual.
 trust_signal: >-
   Construído sobre padrões da web semântica W3C adotados por mais de 60% das
   empresas da Fortune 500.
-how_it_works:
-  heading: Construído sobre padrões da Web Semântica
-  intro: >-
-    IQ:NS modela padrões, regulamentações e conhecimento institucional como
-    ontologias formais — vocabulários estruturados que tanto pessoas quanto
-    máquinas podem consultar, raciocinar e integrar.
-  iqns:
-    - step: Estruturar
-      description: >-
-        Padrões e conhecimento institucional modelados como ontologias RDF/OWL
-        com alinhamentos SKOS. Cada conceito tem um IRI estável e rastreia sua
-        fonte autoritária.
-    - step: Conectar
-      description: >-
-        Mapeamentos entre frameworks mostram onde os padrões se sobrepõem,
-        divergem e deixam lacunas. Uma consulta abrange todos os frameworks
-        relevantes.
-    - step: Integrar
-      description: >-
-        Endpoints SPARQL, servidores MCP e exportações padrão Turtle se conectam
-        às suas ferramentas existentes — plataformas GRC, catálogos de dados,
-        frameworks de agentes, pipelines CI/CD.
-    - step: Evoluir
-      description: >-
-        A comunidade mantém e expande as ontologias à medida que os padrões
-        mudam. Cada versão é rastreada. O conhecimento permanece atualizado.
-  breakdown: >-
-    As ontologias são a base semântica — conhecimento estruturado que
-    ferramentas GRC, agentes de IA e equipes humanas podem usar. Aberto por
-    padrão. Serviços comerciais para equipes que precisam de hospedagem
-    gerenciada ou extensões privadas.
 plans:
   - id: community
     name: Comunidade
@@ -70,7 +39,7 @@ plans:
     highlight: true
     cta_href: 'https://github.com/iqns-org/ontologies'
   - id: business
-    name: Negócios
+    name: Empresarial
     tagline: Para equipes que integram IA
     price: $250
     period: /month
@@ -81,14 +50,15 @@ plans:
       price: '$2,500'
       period: /year
     features:
-      - Workshop de Onboarding (Conduzido por Arquiteto)
-      - Ontologias Ilimitadas
-      - Servidor de Conhecimento Privado
       - Servidor MCP Seguro
+      - Ontologias de Governança
+      - Ontologias Privadas Ilimitadas
+      - Servidor de Conhecimento Privado
+      - Agente de IA (Ontologista)
       - Suporte a Consultas SPARQL
       - Integrações Personalizadas
       - Suporte Prioritário (SLA de 48h)
-      - Conectores ITIL SKMS (v4)
+      - Conectores SaaS (Descoberta Automatizada)
     cta: Começar
     highlight: false
     cta_href: /support
@@ -104,14 +74,17 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Gerente de Sucesso de Projeto (Arquiteto Sênior)
-      - Ontologias Ilimitadas
+      - Ontologias de Governança / Conformidade
+      - Ontologias Privadas Ilimitadas
       - Servidor de Conhecimento Empresarial
       - Servidor MCP Empresarial
       - Suporte a Consultas SPARQL
-      - Integração Empresarial
+      - Agente de IA (Ontologista)
+      - Integrações Empresariais
       - Nuvem Privada / On-Premises
-      - Conectores ITIL SKMS (v4)
+      - Conectores SaaS Empresariais
+      - Suporte Empresarial (SLA de 12h)
+      - SAML / SSO
     cta: Fale com um arquiteto
     highlight: false
     cta_href: /support
@@ -119,7 +92,7 @@ guarantee:
   heading: Código aberto sob Apache 2.0. Sempre.
   items:
     - 'Mais de 100 ontologias, gratuitas para sempre'
-    - 'RDFS, OWL, SKOS, SHACL'
+    - 'JSON-LD, RDFS, OWL, SKOS, SHACL'
     - Sem bloqueio de fornecedor
 addons:
   heading: Complementos
@@ -127,65 +100,65 @@ addons:
   items:
     - icon: ShieldCheck
       title: Workshop de Ontologia
-      price: '$2,000'
+      price: '$2,500'
       description: >-
         Engajamento de 2 dias — modelamos seu domínio em uma ontologia privada,
         entregue com documentação e guia de integração.
     - icon: Network
       title: Mapeamento de Framework
-      price: '$3,000'
+      price: '$2,500'
       description: >-
         Mapeie seus padrões e políticas internas para ontologias públicas.
-        Entregue como alinhamentos SKOS verificados com um relatório de
-        cobertura.
+        Entregue como alinhamentos SKOS verificados com relatório de cobertura.
     - icon: Zap
       title: Integração de Agente
       price: '$1,500'
       description: >-
-        Conecte seus fluxos de trabalho de agentes ao IQ:NS via MCP. Inclui
+        Conecte seus fluxos de trabalho agentes ao IQ:NS via MCP. Inclui
         configuração, testes e um manual de operação para sua equipe.
     - icon: Users
       title: Treinamento de Equipe
       price: '$2,500'
       description: >-
-        Workshop de meio dia cobrindo SPARQL, RDF e fundamentos de ontologia —
-        adaptado ao seu stack, com exercícios práticos.
+        Dois workshops de meio dia cobrindo SPARQL, RDF e fundamentos de
+        ontologia — adaptados ao seu stack, com exercícios práticos.
 faq:
   heading: Perguntas frequentes
   items:
     - q: O que eu recebo gratuitamente?
       a: >-
         Todas as ontologias no repositório público — mais de 100 arquivos em
-        mais de 20 domínios. Clone o repositório, consulte os arquivos Turtle,
+        mais de 50 domínios. Clone o repositório, consulte os arquivos Turtle,
         integre com suas ferramentas. Não é necessário conta.
     - q: 'O que é uma ontologia, na prática?'
       a: >-
-        Um vocabulário legível por máquina que mapeia padrões, regulamentações e
-        conhecimento institucional para um formato que agentes de IA e
-        ferramentas podem consultar. Pense nisso como um dicionário
-        compartilhado que seus sistemas realmente entendem.
+        Um vocabulário legível por máquina que mapeia padrões, regulamentos e
+        conhecimento institucional para um formato que agentes e ferramentas de
+        IA podem consultar. Pense nisso como um dicionário compartilhado que
+        seus sistemas realmente entendem.
     - q: Quando devo fazer upgrade para o plano Business?
       a: >-
-        Quando você precisar de um servidor de conhecimento privado, um endpoint
-        MCP gerenciado ou hospedagem SPARQL — basicamente, quando quiser que nós
-        administremos a infraestrutura para que sua equipe possa focar na
-        integração.
+        Quando você precisar da camada semântica operacionalizada com um
+        servidor de conhecimento privado, endpoint MCP gerenciado ou hospedagem
+        SPARQL — para que sua equipe possa focar na integração, não na
+        infraestrutura.
     - q: Posso modelar políticas internas junto com padrões públicos?
       a: >-
         Sim. Os planos Business e Ecosystem incluem bases de conhecimento
         privadas onde você pode estender as ontologias públicas com seus
-        próprios padrões internos, políticas e taxonomias.
-    - q: O que são os Conectores ITIL SKMS?
+        próprios padrões internos, políticas e taxonomias — para que o
+        conhecimento organizacional compartilhado permaneça conectado.
+    - q: O que são Conectores ITIL SKMS?
       a: >-
         Eles conectam as ontologias IQ:NS aos Sistemas de Gerenciamento de
-        Conhecimento de Serviço ITIL 4 — assim seu service desk, CMDB e
-        ferramentas de gerenciamento de mudanças podem acessar o mesmo
+        Conhecimento de Serviço (SKMS) ITIL 4 — para que seu service desk, CMDB
+        e ferramentas de gerenciamento de mudanças possam acessar o mesmo
         conhecimento estruturado que seus agentes de IA utilizam.
     - q: Existe contrato ou compromisso?
       a: >-
         Não. Planos mensais, cancele a qualquer momento. Pague anualmente e
-        ganhe 2 meses grátis. Complementos são serviços pontuais definidos antes
-        de você se comprometer.
+        ganhe 2 meses grátis. Complementos são engajamentos únicos definidos
+        antes de você se comprometer.
     - q: Onde meus dados são hospedados?
       a: >-
         Planos pagos são implantados na sua escolha de AWS, GCP ou Azure — você

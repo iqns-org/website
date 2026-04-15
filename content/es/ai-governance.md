@@ -1,50 +1,20 @@
 ---
-title: IA & Inteligencia Organizacional
+title: Gobernanza de IA
 description: >-
-  Cómo las ontologías estructuradas ayudan a las organizaciones a integrar la IA
-  de manera responsable — al proporcionar a los equipos y sistemas un lenguaje
-  compartido.
+  Explore cómo IQ:NS respalda la gobernanza de IA mediante semánticas
+  compartidas, políticas y toma de decisiones estructurada.
 lang: es
 navigation:
-  section: ontologies
-  label: Inteligencia Artificial
-  order: 10
+  section: platform
+  label: Gobernanza de IA
+  order: 12
 ---
-# IA & Inteligencia Organizacional
+# Gobernanza de IA
 
-## El desafío de la integración
+IQ:NS proporciona una base semántica compartida para la gobernanza de IA, permitiendo a las organizaciones mapear políticas, controles y riesgos entre equipos y sistemas.
 
-Las organizaciones que implementan IA enfrentan un problema constante: decenas de normas superpuestas, terminología inconsistente y ninguna forma clara de conectar lo que dicen las reglas con lo que hacen los sistemas.
+- Modelar obligaciones, controles y roles con identificadores estables
+- Alinear los requisitos regulatorios con las prácticas operativas
+- Habilitar inteligencia de gobernanza consultable para equipos de cumplimiento y riesgo
 
-Esto no es una falla de gobernanza — es un **problema de lenguaje**. Los equipos no pueden actuar sobre requisitos que no pueden interpretar, y los sistemas no pueden aplicar reglas que no pueden leer.
-
-## Qué proporciona la inteligencia estructurada
-
-IQ:NS aborda esto modelando normas y conocimientos institucionales como ontologías formales — proporcionando tanto a personas como a máquinas un vocabulario compartido:
-
-- **Claridad de obligaciones** — qué marcos se aplican, qué requieren, dónde se superponen
-- **Alineación entre marcos** — un concepto mapeado a través de cada norma relevante
-- **Relevancia contextual** — filtrada por jurisdicción, sector y capacidad de IA
-- **Legibilidad para máquinas** — los agentes pueden consultar el grafo directamente, sin interpretación manual
-
-## Quién usa esto
-
-- Equipos que construyen o despliegan sistemas de IA
-- Organizaciones que navegan requisitos de múltiples marcos
-- Arquitectos de integración que conectan el cumplimiento con las operaciones
-- Cualquier persona que construya agentes de IA que necesiten razonar sobre reglas institucionales
-
-## Por qué es importante
-
-Cuando las normas existen como conocimiento estructurado en lugar de PDFs, los equipos pueden:
-
-- Entender qué se aplica sin semanas de revisión manual
-- Ver dónde un requisito satisface múltiples marcos
-- Mantenerse al día a medida que evolucionan las regulaciones
-- Permitir que los agentes de IA trabajen desde la misma fuente de verdad que los equipos humanos
-
-## Empezando
-
-Las ontologías son [gratuitas en GitHub](https://github.com/iqns-org/ontologies). Para servicios alojados o integraciones personalizadas, consulte [precios](/services).
-
-[Explorar cómo funciona](/how-it-works) · [Ver la cobertura de normas](/standards)
+[Aprende más sobre cómo funciona IQ:NS](/how-it-works)

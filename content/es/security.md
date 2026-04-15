@@ -18,31 +18,31 @@ IQ:NS opera solo con **metadatos**:
 - Extensiones de su ontología (si es privada): conceptos y mapeos personalizados
 - Referencias de evidencia (enlaces o hashes — no los documentos mismos)
 
-Nosotros **nunca** almacenamos datos de entrenamiento del modelo, pesos, resultados de inferencia, datos de clientes, o información de identificación personal (PII).
+**Nunca** almacenamos datos de entrenamiento del modelo, pesos, resultados de inferencia, datos de clientes o PII.
 
 ## Dónde lo almacenamos
 
 - **Cifrado:** AES-256 en reposo, TLS 1.3 en tránsito
-- **Acceso:** controles basados en roles, registro de auditoría
-- **Copias de seguridad:** automatizadas diariamente, distribuidas geográficamente
+- **Acceso:** Controles basados en roles, registro de auditoría
+- **Copias de seguridad:** Automatizadas diariamente, distribuidas geográficamente
 
 ## Opciones de despliegue
 
 - **Autoalojado** — descargue archivos Turtle, ejecute su propio triplestore
 - **Alojado en la nube** — instancia gestionada en AWS, cifrada
 - **Nube privada** — desplegado en su VPC
-- **Aislado** — totalmente on-premise para entornos regulados
+- **Aislado** — Disponible on-premise para cada cliente
 
 ## Cumplimiento
 
 - Auditado SOC 2 Tipo II
 - Cumple con GDPR — sin retención de datos personales
 - Certificado ISO 27001
-- BAA de HIPAA y FedRAMP disponibles bajo solicitud
+- HIPAA BAA y FedRAMP disponibles bajo solicitud
 
 ## Abierto por defecto
 
-Las ontologías centrales son de código abierto. Puede verificar cada concepto, cada mapeo, cada relación. La transparencia es estructural, no una promesa.
+Las ontologías centrales son de código abierto. Puede verificar cada concepto, cada mapeo, cada relación. La transparencia es estructural, no prometida.
 
 ## Reportar un problema de seguridad
 
@@ -50,4 +50,4 @@ Las ontologías centrales son de código abierto. Puede verificar cada concepto,
 
 ---
 
-[Política de privacidad](/privacy) · [Términos del servicio](/terms)
+[Política de privacidad](/privacy) · [Términos de servicio](/terms)

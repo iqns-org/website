@@ -6,7 +6,7 @@ import pkg from './package.json'
 import settings from './config/settings.json'
 import styles from './config/styles.json'
 
-const i18nLocales = ['en', 'fr', 'es', 'de', 'pt', 'zh']
+const i18nLocales = ['en', 'fr', 'es', 'de', 'pt', 'zh', 'ar']
 
 const contentRoutes = (): string[] => {
   const contentDir = path.resolve(__dirname, 'content')
@@ -83,7 +83,8 @@ export default defineNuxtConfig({
       { code: 'es', iso: 'es-ES', file: 'es.json' },
       { code: 'de', iso: 'de-DE', file: 'de.json' },
       { code: 'pt', iso: 'pt-PT', file: 'pt.json' },
-      { code: 'zh', iso: 'zh-CN', file: 'zh.json' }
+      { code: 'zh', iso: 'zh-CN', file: 'zh.json' },
+      { code: 'ar', iso: 'ar-SA', file: 'ar.json' }
     ],
     defaultLocale: 'en',
     strategy: 'prefix_except_default',

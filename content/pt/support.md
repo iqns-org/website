@@ -1,14 +1,26 @@
 ---
-title: Contato
+title: Suporte
 description: 'Entre em contato com a comunidade e a equipe da IQ:NS.'
 lang: pt
 navigation:
   section: platform
-  label: Contato
+  label: Suporte
   order: 50
 ---
-# Ontologias Abertas
+# Centro de Suporte IQ:NS
 
-- [Baixar do GitHub](https://github.com/iqns-org/ontologies)
+Adoraríamos interagir com você como membro da comunidade ...
 
-- [Sugerir uma Ontologia](https://github.com/iqns-org/ontologies/issues)
+- [Discord](https://discord.gg/hJNscf4e32)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
+
+Como cliente comercial e parceiro
+
+- [Engajar Nossa Equipe](/services#addons)
+
+
+## Código Aberto
+
+- [Servidor de Conhecimento Gratuito](https://github.com/iqns-org/iq)
+
+- [Ontologias Gratuitas no GitHub](https://github.com/iqns-org/ontologies)

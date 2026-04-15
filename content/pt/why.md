@@ -11,15 +11,15 @@ navigation:
 ---
 # Por que IQNS
 
-Suas decisões mais importantes estão cada vez mais sendo moldadas por máquinas. Essas máquinas não compartilham uma linguagem comum — nem entre si, nem com as instituições que atendem.
+Suas decisões mais importantes são cada vez mais moldadas por máquinas. Essas máquinas não compartilham uma linguagem comum — nem entre si, nem com as instituições que atendem.
 
 ## O problema é estrutural
 
-A IA já está presente em pipelines de contratação, decisões de crédito, triagem clínica, detecção de fraudes, interações com clientes. A cada dia, mais agentes se juntam: diferentes fornecedores, diferentes dados, diferentes equipes, diferentes reguladores.
+A IA já está presente em pipelines de contratação, decisões de crédito, triagem clínica, detecção de fraudes, operações de atendimento ao cliente e fluxos de trabalho de serviço. A cada dia, mais agentes se juntam: diferentes fornecedores, diferentes dados, diferentes equipes, diferentes reguladores.
 
-O resultado não é uma estratégia de IA. É uma **cadeia de suprimentos agente** — sistemas interconectados que tomam decisões em seu nome, cada um carregando obrigações que você pode não compreender totalmente.
+O resultado não é uma estratégia de IA. É uma **cadeia de suprimentos agente** — sistemas interconectados que tomam decisões em seu nome, cada um carregando obrigações que você pode não entender completamente.
 
-Essa cadeia de suprimentos não tem um vocabulário compartilhado.
+Essa cadeia de suprimentos não tem vocabulário compartilhado.
 
 ---
 
@@ -27,17 +27,17 @@ Essa cadeia de suprimentos não tem um vocabulário compartilhado.
 
 As organizações sabem coisas — regras, obrigações, tolerâncias de risco, princípios operacionais. Mas esse conhecimento vive em PDFs, na cabeça das pessoas, em documentos desconectados dos sistemas que deveriam informar.
 
-Quando agentes de IA atuam em escala, a fragmentação se torna uma responsabilidade.
+Quando agentes de IA atuam em escala, a fragmentação se torna uma responsabilidade — especialmente quando equipes, ferramentas e políticas precisam permanecer alinhadas.
 
 ---
 
-## O que a inteligência estruturada significa
+## O que significa inteligência estruturada
 
-IQ:NS fornece ontologias abertas — vocabulários formais, legíveis por máquina, construídos sobre RDF, SKOS, OWL e SHACL — que dão ao conhecimento institucional uma estrutura com a qual tanto pessoas quanto máquinas podem trabalhar.
+IQ:NS fornece ontologias abertas — vocabulários formais, legíveis por máquina, construídos sobre RDF, SKOS, OWL e SHACL — que dão ao conhecimento institucional uma estrutura com a qual pessoas e máquinas podem trabalhar.
 
-- Quais obrigações existem — em diferentes jurisdições, estruturas, setores  
-- Como os conceitos se relacionam — onde os padrões se sobrepõem, divergem, deixam lacunas  
-- O que os termos significam — fundamentados nas fontes autoritativas originais  
+- Quais obrigações existem — em diferentes jurisdições, estruturas, setores
+- Como os conceitos se relacionam — onde padrões se sobrepõem, divergem, deixam lacunas
+- O que os termos significam — fundamentados nas fontes autoritativas originais
 
 Isso não é um produto que gerencia as coisas para você. É uma infraestrutura que torna o conhecimento institucional **legível** — para suas equipes, seus agentes e suas ferramentas.
 
@@ -45,7 +45,7 @@ Isso não é um produto que gerencia as coisas para você. É uma infraestrutura
 
 ## Por que isso importa agora
 
-Seu conjunto de IA é multi-jurisdicional, multi-estrutura, multi-fornecedor, multi-agente. Nenhuma equipe humana detém tudo isso de forma coerente. Nenhuma planilha rastreia como um conceito em uma estrutura se relaciona com requisitos em três outras.
+Seu patrimônio de IA é multi‑jurisdicional, multi‑estrutura, multi‑fornecedor, multi‑agente. Nenhuma equipe humana detém tudo isso de forma coerente. Nenhuma planilha rastreia como um conceito em uma estrutura se relaciona com requisitos em três outras.
 
 Inteligência estruturada precisa de um **grafo de conhecimento** — algo sobre o qual as máquinas raciocinam e as pessoas confiam.
 
@@ -53,7 +53,7 @@ Inteligência estruturada precisa de um **grafo de conhecimento** — algo sobre
 
 ## Um projeto comunitário
 
-IQ:NS é código aberto. As ontologias são gratuitas. Existe uma camada comercial para equipes que precisam de hospedagem, bases de conhecimento privadas ou suporte de integração — mas o núcleo é um bem público.
+IQ:NS é código aberto. As ontologias principais são gratuitas. Existe uma camada comercial para equipes que precisam de hospedagem, bases de conhecimento privadas ou suporte de integração — mas o núcleo é um bem público.
 
 Acreditamos que a camada semântica para IA e conhecimento institucional deve ser construída de forma aberta, por pessoas que se importam em acertar a estrutura.
 

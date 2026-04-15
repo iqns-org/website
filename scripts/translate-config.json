@@ -1,6 +1,6 @@
 {
   "sourceLocale": "en",
-  "locales": ["en", "fr", "es", "de", "pt", "zh"],
+  "locales": ["en", "fr", "es", "de", "pt", "zh", "ar"],
   "contentDir": "content",
   "i18nDir": "i18n/locales",
   "apiKeyEnv": "GROQ_API_KEY",
@@ -10,7 +10,7 @@
   "defaultModel": "openai/gpt-oss-120b",
   "translationOptions": {
     "temperature": 0.2,
-    "max_completion_tokens": 8192,
+    "max_completion_tokens": 32768,
     "top_p": 1,
     "reasoning_effort": "medium"
   },

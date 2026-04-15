@@ -4,6 +4,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import matter from 'gray-matter'
 import fg from 'fast-glob'
+import { extractJson } from './translate-utils.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -338,7 +339,10 @@ async function translatePaths(paths, locale) {
   const rawResponse = await requestChatCompletion(prompt)
   const parsed = extractJson(rawResponse)
   if (!parsed) {
-    throw new Error('Could not parse JSON translation response for locale ' + locale)
+    throw new Error(
+      `Could not parse JSON translation response for locale ${locale}. Response:
+${rawResponse.slice(0, 2000)}`
+    )
   }
 
   return parsed
@@ -387,18 +391,6 @@ async function requestChatCompletion(prompt) {
 
   const content = message.content || message.delta || ''
   return typeof content === 'string' ? content.trim() : String(content)
-}
-
-function extractJson(text) {
-  const start = text.indexOf('{')
-  const end = text.lastIndexOf('}')
-  if (start < 0 || end < 0 || end <= start) return null
-  const jsonText = text.slice(start, end + 1)
-  try {
-    return JSON.parse(jsonText)
-  } catch (error) {
-    return null
-  }
 }
 
 function localeToLanguageName(locale) {

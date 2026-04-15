@@ -16,7 +16,7 @@ Tus decisiones más trascendentales están cada vez más moldeadas por máquinas
 
 ## El problema es estructural
 
-La IA ya está dentro de los procesos de contratación, decisiones de crédito, triaje clínico, detección de fraude, interacciones con clientes. Cada día se suman más agentes: diferentes proveedores, diferentes datos, diferentes equipos, diferentes reguladores.
+AI ya está dentro de los procesos de contratación, decisiones de crédito, triaje clínico, detección de fraude, operaciones de cliente y flujos de trabajo de servicio. Cada día se unen más agentes: diferentes proveedores, diferentes datos, diferentes equipos, diferentes reguladores.
 
 El resultado no es una estrategia de IA. Es una **cadena de suministro agente** — sistemas interconectados que toman decisiones en tu nombre, cada uno con obligaciones que quizás no comprendas completamente.
 
@@ -28,7 +28,7 @@ Esa cadena de suministro no tiene un vocabulario compartido.
 
 Las organizaciones saben cosas — reglas, obligaciones, tolerancias de riesgo, principios operativos. Pero ese conocimiento vive en PDFs, en la cabeza de las personas, en documentos desconectados de los sistemas a los que deben informar.
 
-Cuando los agentes de IA actúan a gran escala, la fragmentación se convierte en una responsabilidad.
+Cuando los agentes de IA actúan a gran escala, la fragmentación se convierte en una responsabilidad — especialmente cuando los equipos, herramientas y políticas deben mantenerse alineados.
 
 ---
 
@@ -40,11 +40,11 @@ IQ:NS ofrece ontologías abiertas — vocabularios formales y legibles por máqu
 - Cómo se relacionan los conceptos — donde los estándares se superponen, divergen, dejan vacíos
 - Qué significan los términos — basados en fuentes autoritativas originales
 
-Esto no es un producto que gestiona cosas por ti. Es una infraestructura que hace el conocimiento institucional **legible** — para tus equipos, tus agentes y tus herramientas.
+Esto no es un producto que gestione cosas por ti. Es una infraestructura que hace que el conocimiento institucional sea **legible** — para tus equipos, tus agentes y tus herramientas.
 
 ---
 
-## Por qué importa ahora
+## Por qué es importante ahora
 
 Tu patrimonio de IA es multijurisdiccional, multimarco, multivendedor, multiagente. Ningún equipo humano lo posee de manera coherente. Ninguna hoja de cálculo rastrea cómo un concepto en un marco se relaciona con los requisitos en tres más.
 
@@ -54,9 +54,9 @@ La inteligencia estructurada necesita un **grafo de conocimiento** — algo sobr
 
 ## Un proyecto comunitario
 
-IQ:NS es de código abierto. Las ontologías son gratuitas. Existe una capa comercial para equipos que necesitan alojamiento, bases de conocimiento privadas o soporte de integración — pero el núcleo es un bien público.
+IQ:NS es de código abierto. Las ontologías centrales son gratuitas. Existe una capa comercial para equipos que necesiten alojamiento, bases de conocimiento privadas o soporte de integración — pero el núcleo es un bien público.
 
-Creemos que la capa semántica para IA y conocimiento institucional debería construirse de forma abierta, por personas que se preocupan por lograr la estructura correcta.
+Creemos que la capa semántica para IA y conocimiento institucional debe construirse de forma abierta, por personas que se preocupan por lograr la estructura correcta.
 
 ---
 

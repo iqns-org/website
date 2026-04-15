@@ -1,14 +1,26 @@
 ---
-title: 联系
+title: 支持
 description: '与 IQ:NS 社区和团队取得联系。'
 lang: zh
 navigation:
   section: platform
-  label: 联系
+  label: 支持
   order: 50
 ---
-# 开放本体
+# IQ:NS 支持中心
 
-- [从 GitHub 下载](https://github.com/iqns-org/ontologies)
+我们很乐意以社区成员的身份与您互动 ...
 
-- [建议本体](https://github.com/iqns-org/ontologies/issues)
+- [Discord](https://discord.gg/hJNscf4e32)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
+
+作为商业客户和合作伙伴
+
+- [与我们的团队合作](/services#addons)
+
+
+## 开源
+
+- [免费知识服务器](https://github.com/iqns-org/iq)
+
+- [GitHub 上的免费本体](https://github.com/iqns-org/ontologies)

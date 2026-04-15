@@ -11,49 +11,49 @@ navigation:
 ---
 # Erste Schritte
 
-## Wählen Sie Ihren Weg
+## Wähle deinen Weg
 
-### Verwenden Sie die offenen Ontologien
+### Verwende die offenen Ontologien
 
-Der schnellste Weg, um zu beginnen. Holen Sie sich die Turtle-Dateien von GitHub und laden Sie sie in Ihren Triplestore.
+Der schnellste Weg, um zu beginnen. Hol dir die Turtle-Dateien von GitHub und lade sie in deinen Triplestore.
 
-1. [Durchsuchen Sie die Ontologien](https://github.com/iqns-org/ontologies)
-2. Wählen Sie die für Sie relevanten Domänen (KI, Recht, Finanzen, Gesundheit usw.)
-3. Laden Sie sie in jeden RDF-Store (Apache Jena, Blazegraph, GraphDB, Stardog)
-4. Abfragen mit SPARQL
+1. [Durchsuche die Ontologien](https://github.com/iqns-org/ontologies)
+2. Wähle die für dich relevanten Domänen (KI, Recht, Finanzen, Gesundheit usw.)
+3. Lade sie in jeden RDF-Store (Apache Jena, Blazegraph, GraphDB, Stardog)
+4. Abfrage mit SPARQL
 
 Kein Konto erforderlich. Keine Anmeldung.
 
 ---
 
-### Verbinden Sie KI‑Agenten über MCP
+### Verbinde KI-Agenten über MCP
 
-Wenn Sie agentenbasierte Workflows erstellen, bietet der MCP‑Server Ihren Agenten strukturierten Zugriff auf den Wissensgraphen. Agenten können Konzepte, Beziehungen und bereichsübergreifende Ausrichtungen direkt abfragen – ohne PDF‑Kontextfenster.
-
-Verfügbar im [Business‑Tier](/services).
-
----
-
-### Gehosteter SPARQL‑Endpunkt
-
-Möchten Sie keinen eigenen Triplestore betreiben? Der gehostete Endpunkt bietet Ihnen Abfragezugriff ohne Infrastruktur.
+Wenn du agentenbasierte Workflows erstellst, bietet der MCP-Server deinen Agenten strukturierten Zugriff auf den Wissensgraphen. Agenten können Konzepte, Beziehungen und bereichsübergreifende Ausrichtungen direkt abfragen — ohne PDF-Kontextfenster.
 
 Verfügbar im [Business‑Tier](/services).
 
 ---
 
-### Erstellen Sie private Wissensbasen
+### Gehosteter SPARQL-Endpunkt
 
-Erweitern Sie die öffentlichen Ontologien mit Ihrem eigenen institutionellen Wissen – interne Richtlinien, benutzerdefinierte Rahmenwerke, proprietäre Risikotaxonomien. Privat gehalten, abfragbar neben dem öffentlichen Graphen.
+Du möchtest keinen eigenen Triplestore betreiben? Der gehostete Endpunkt bietet dir Abfragezugriff ohne Infrastruktur.
 
 Verfügbar im [Business‑Tier](/services).
 
 ---
 
-## Brauchen Sie Hilfe?
+### Erstelle private Wissensbasen
+
+Erweitere die öffentlichen Ontologien mit deinem institutionellen Wissen — interne Richtlinien, benutzerdefinierte Rahmenwerke, proprietäre Risikotaxonomien. Privat gehalten, abfragbar neben dem öffentlichen Graphen.
+
+Verfügbar im [Business‑Tier](/services).
+
+---
+
+## Brauchst du Hilfe?
 
 - [GitHub Discussions](https://github.com/iqns-org/ontologies/discussions) — Community‑Fragen & Antworten
-- [Kontaktieren Sie uns](/support) — Partnerschaften, individuelle Arbeiten, Fragen
+- [Kontakt](/support) — Partnerschaften, individuelle Arbeiten, Fragen
 
 ---
 

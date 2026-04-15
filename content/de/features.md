@@ -16,33 +16,33 @@ navigation:
 50+ Ontologien, die KI, Recht, Finanzen, Gesundheit, Regierung, Unternehmen und mehr abdecken. Jede ist in RDF/OWL mit SKOS‑Ausrichtungen modelliert und als versionierte Turtle‑Dateien veröffentlicht.
 
 Jedes Konzept hat:
-- Eine stabile IRI (permanenter Bezeichner, nicht eine Datenbankzeile)
+- Eine stabile IRI (dauerhafte Kennung, nicht eine Datenbankzeile)
 - Eine formale Definition, die auf den Originaltext zurückgeht
-- Beziehungen zu verwandten Konzepten über Frameworks hinweg
-- Framework‑übergreifende Zuordnungen (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
+- Beziehungen zu verwandten Konzepten über verschiedene Rahmenwerke hinweg
+- Rahmenwerk‑übergreifende Zuordnungen (`skos:exactMatch`, `skos:broadMatch`, `skos:relatedMatch`)
 
 ---
 
-## Framework‑übergreifende Intelligenz
+## Rahmenwerk‑übergreifende Intelligenz
 
-Frameworks verwenden unterschiedliche Begriffe für dieselben Ideen. IQ:NS ordnet sie strukturell:
+Rahmenwerke verwenden unterschiedliche Begriffe für dieselben Ideen. IQ:NS ordnet sie strukturell zu:
 
-- EU AI Act Artikel 9 ↔ NIST AI RMF Map‑Funktion ↔ ISO 42001 Klausel 6.1 (Risikomanagement)
-- DSGVO Artikel 22 ↔ EU AI Act Kapitel IV (Transparenz)
-- ISO 24027 ↔ NIST Maßnahme 2.6 (Voreingenommenheit und Fairness)
+- EU‑KI‑Gesetz Artikel 9 ↔ NIST AI RMF Map‑Funktion ↔ ISO 42001 Klausel 6.1 (Risikomanagement)
+- DSGVO Artikel 22 ↔ EU‑KI‑Gesetz Kapitel IV (Transparenz)
+- ISO 24027 ↔ NIST Measure 2.6 (Voreingenommenheit und Fairness)
 
-Eine Abfrage deckt jeden Standard ab. Eine Kontrolle kann mehrere Frameworks erfüllen — und die Zuordnung beweist es.
+Eine Abfrage deckt jeden Standard ab. Eine Kontrolle kann mehrere Rahmenwerke erfüllen — und die Zuordnung beweist es.
 
 ---
 
-## Kontextuelles Profiling
+## Kontextbezogene Profilerstellung
 
 Nicht alles gilt für jeden. Profilieren nach:
-- **Jurisdiktion** — EU, USA, UK, APAC
-- **Sektor** — Finanzen, Gesundheitswesen, Regierung, Personal
-- **KI‑Fähigkeit** — LLM, biometrisch, Kredit‑Scoring, autonome Entscheidungen
+- **Jurisdiktion** — EU, USA, UK, APAC
+- **Sektor** — Finanzen, Gesundheitswesen, Regierung, Personalwesen
+- **KI‑Fähigkeit** — LLM, biometrisch, Kredit‑Scoring, autonome Entscheidungen
 
-Erhalten Sie ein präzises, dedupliziertes Set dessen, was relevant ist — nicht 40 Frameworks, sondern nur das, was für Ihren Kontext wichtig ist.
+Erhalten Sie ein präzises, dedupliziertes Set dessen, was relevant ist — nicht 40 Rahmenwerke, sondern nur das, was für Ihren Kontext wichtig ist.
 
 ---
 
@@ -60,26 +60,26 @@ WHERE {
 }
 ```
 
-Jedes Tool, das SPARQL versteht — BI‑Plattformen, Data Warehouses, Agenten‑Frameworks — kann die Ontologien direkt abfragen.
+Jedes Tool, das SPARQL versteht — BI‑Plattformen, Data‑Warehouses, Agenten‑Frameworks — kann die Ontologien direkt abfragen.
 
 ---
 
 ## MCP für agentische Workflows
 
-Jedes Konzept hat eine stabile IRI, eine maschinenlesbare Definition und formale Beziehungen. KI‑Agenten fragen den Graphen ab und erhalten strukturierte, typisierte Antworten — kein PDF‑Prompt‑Stuffing erforderlich.
+Jedes Konzept hat eine stabile IRI, maschinenlesbare Definition und formale Beziehungen. KI‑Agenten können den Graphen abfragen und strukturierte, typisierte Antworten erhalten — kein PDF‑Prompt‑Stuffing erforderlich.
 
 ---
 
 ## Integration
 
-IQ:NS lässt sich in bestehende Werkzeuge integrieren:
+IQ:NS lässt sich in bestehende Werkzeuge einbinden:
 
-- **GRC‑Plattformen** — OneTrust, Vanta, ServiceNow
-- **Datenkataloge** — Collibra, Alation
-- **Modell‑Registries** — MLflow, Weights & Biases
-- **Cloud‑Plattformen** — AWS, Azure, GCP
-- **Entwicklungswerkzeuge** — Jira, CI/CD‑Pipelines
-- **ITSM** — ITIL v3/v4 SKMS‑Connectoren
+- **GRC‑Plattformen** — OneTrust, Vanta, ServiceNow
+- **Datenkataloge** — Collibra, Alation
+- **Modell‑Registries** — MLflow, Weights & Biases
+- **Cloud‑Plattformen** — AWS, Azure, GCP
+- **Entwicklungs‑Tools** — Jira, CI/CD‑Pipelines
+- **ITSM** — ITIL v3/v4 SKMS‑Connectoren
 
 Keine erzwungenen Migrationen. Die Ontologien treffen Sie dort, wo Ihre Werkzeuge stehen.
 
@@ -87,8 +87,8 @@ Keine erzwungenen Migrationen. Die Ontologien treffen Sie dort, wo Ihre Werkzeug
 
 ## Versioniert und portabel
 
-Jede Ontologie ist versioniert. Exportiert als Standard‑RDF‑Turtle. Wenn Sie gehen, nehmen Sie einen vollständigen, standardkonformen Wissensgraphen mit. Kein Lock‑in.
+Jede Ontologie ist versioniert. Exportiert als standardisiertes RDF‑Turtle. Wenn Sie gehen, nehmen Sie einen vollständigen, standards‑konformen Wissensgraphen mit. Kein Lock‑in.
 
 ---
 
-[Auf GitHub erkunden](https://github.com/iqns-org/ontologies) · [Technologie ansehen](/tech) · [Preise ansehen](/services)
+[Auf GitHub erkunden](https://github.com/iqns-org/ontologies) · [Siehe die Technologie](/tech) · [Preise ansehen](/services)

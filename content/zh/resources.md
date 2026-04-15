@@ -1,53 +1,18 @@
 ---
 title: 资源
-description: '用于使用 IQ:NS 本体的指南、参考资料和社区资源。'
+description: '获取 IQ:NS 本体论和治理模型的指南、参考资料和支持内容。'
 lang: zh
 navigation:
-  section: ontologies
+  section: platform
   label: 资源
-  order: 40
+  order: 14
 ---
 # 资源
 
-## 本体文档
+查找文档、示例和参考材料，帮助您有效理解和使用 IQ:NS 本体。
 
-每个本体都附带内联文档——标签、定义、范围说明和来源引用。Turtle 文件是自描述的。
+- 浏览本体文档和示例
+- 探索平台集成和查询模式
+- 开始进行语义建模和治理实践
 
-- [在 GitHub 上浏览本体](https://github.com/iqns-org/ontologies)
-
----
-
-## 框架指南
-
-IQ:NS 涵盖的标准快速参考：
-
-- **EU AI 法案** — 风险分类、透明度、合规评估
-- **NIST AI RMF** — 管理、映射、衡量、管理
-- **ISO 42001** — 管理体系方法，附录 A 控制措施
-- **GDPR AI 条款** — 自动决策、画像、数据权利
-- **行业标准** — FDA、FTC、EBA、SR 11-7 等
-
-[查看完整标准覆盖](/standards)
-
----
-
-## 技术资源
-
-- **SPARQL 示例** — 跨框架分析的常用查询
-- **集成模式** — 将本体连接到 GRC 工具、数据目录、CI/CD
-- **MCP 设置** — 将 AI 代理连接到知识图谱
-
----
-
-## 社区
-
-- [GitHub 讨论](https://github.com/iqns-org/ontologies/discussions) — 提问，分享方法
-- [联系我们](/support) — 合作、贡献、想法
-
----
-
-## 博客
-
-持续撰写结构化智能、本体设计和 AI 集成方面的文章。
-
-[阅读博客](/blog)
+[了解 IQ:NS 的工作原理](/how-it-works)

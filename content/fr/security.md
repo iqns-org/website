@@ -1,5 +1,5 @@
 ---
-title: Confiance et sécurité
+title: Confiance et Sécurité
 description: >-
   Comment IQ:NS gère les données, ce que nous stockons et comment nous les
   protégeons.
@@ -9,13 +9,13 @@ navigation:
   label: Sécurité
   order: 30
 ---
-# Confiance et Sécurité
+# Confiance & Sécurité
 
 ## Ce que nous stockons
 
 IQ:NS fonctionne uniquement sur **les métadonnées** :
 
-- Concepts et cadres ainsi que leurs relations (texte réglementaire public)
+- Concepts et relations du cadre (texte réglementaire public)
 - Vos profils système (si vous utilisez le niveau commercial) : noms, capacités, classifications de risque
 - Vos extensions d'ontologie (si privées) : concepts et mappages personnalisés
 - Références de preuves (liens ou hachages — pas les documents eux‑mêmes)
@@ -31,9 +31,9 @@ Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, 
 ## Options de déploiement
 
 - **Auto-hébergé** — téléchargez les fichiers Turtle, exécutez votre propre triplestore
-- **Hébergé sur le cloud** — instance gérée sur AWS, chiffrée
+- **Hébergé dans le cloud** — instance gérée sur AWS, chiffrée
 - **Cloud privé** — déployé dans votre VPC
-- **Air-gapped** — entièrement sur site pour les environnements réglementés
+- **Air-gapped** — Disponible sur site pour chaque client
 
 ## Conformité
 
@@ -52,4 +52,4 @@ Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, c
 
 ---
 
-[Politique de confidentialité](/privacy) · [Conditions d'utilisation](/terms)
+[Privacy policy](/privacy) · [Terms of service](/terms)

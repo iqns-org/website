@@ -1,43 +1,46 @@
 ---
-title: 'IQ:NS — Inteligência Estruturada para IA & Organizações'
-description: >-
-  Ontologias abertas que dão aos sistemas de IA e às organizações uma linguagem
-  compartilhada. IQ:NS mapeia frameworks, padrões e conhecimento institucional
-  em um grafo de conhecimento consultável que qualquer pessoa pode usar.
+title: Inteligência Estruturada para IA
+description: 'Ontologias abertas, frameworks, padrões e conhecimento institucional.'
 lang: pt
 hero:
-  title: Inteligência Estruturada para IA & Organizações.
-  subtitle: ontologias abertas para que máquinas e instituições falem a mesma linguagem.
+  title: Inteligência Estruturada para IA e Organizações.
+  subtitle: 'Linguagem compartilhada para pessoas, máquinas e organizações.'
   description: >-
-    IQ:NS que transforma padrões fragmentados, regulamentações e conhecimento
-    institucional em ontologias abertas e consultáveis. Construído sobre RDF,
-    SKOS, OWL e SHACL — gratuito para todos.
-  cta_primary: Explore as Ontologias
-  cta_primary_href: 'https://github.com/iqns-org/ontologies'
-  cta_secondary: 'Saiba como o IQ:NS funciona'
-  cta_secondary_href: /how-it-works
+    IQ:NS transforma o conhecimento institucional, frameworks e regras
+    operacionais em grafos de conhecimento consultáveis, para que IA e sistemas
+    empresariais trabalhem a partir da mesma fonte de verdade.
+  cta:
+    - title: 'Como o IQ:NS funciona'
+      link: /how-it-works
+    - title: Conhecimento Privado
+      link: /private-knowledge
+    - title: Ontologias Abertas
+      link: /ontologies/index
+    - title: GitHub
+      link: 'https://github.com/iqns-org/ontologies'
 value_props:
-  heading: 'O que o IQ:NS Faz'
-  subheading: Integração é um problema de linguagem. Ontologias resolvem isso.
+  heading: 'O que o IQ:NS faz'
+  subheading: Integração é um problema de linguagem. Ontologias resolvem isso. Em escala.
   items:
     - icon: ShieldCheck
       title: 'Conhecimento Estruturado, Não Documentos'
       description: >-
-        Regulamentações, padrões e regras institucionais existem como PDFs.
-        IQ:NS os transforma em ontologias legíveis por máquina que agentes de IA
-        e pessoas podem consultar diretamente.
+        Documentos, frameworks e regras institucionais existem como PDFs. IQ:NS
+        os transforma em ontologias legíveis por máquina que agentes de IA e
+        pessoas podem consultar diretamente.
     - icon: Globe
       title: Integração Entre Frameworks
       description: >-
-        ITIL, SOC2, EU AI Act, ISO 42001, NIST, GDPR — vocabulários diferentes
-        para conceitos sobrepostos. IQ:NS os mapeia em um espaço semântico
-        compartilhado para que nada fique entre os vazios.
+        IQ:NS seleciona as ontologias exatas que você precisa de
+        `./ontologies/v1/`, em vez de promover uma lista fixa de padrões.
+        Vocabulários diferentes são mapeados para um espaço semântico
+        compartilhado, de modo que nada fique perdido.
     - icon: Users
       title: Aberto e Orientado pela Comunidade
       description: >-
         As ontologias principais são gratuitas e de código aberto. Construídas
-        por colaboradores que se importam em acertar a estrutura — não em vender
-        um painel.
+        por colaboradores que se preocupam em acertar a estrutura — não em
+        vender um painel.
     - icon: Zap
       title: Legível por Máquina por Design
       description: >-
@@ -47,9 +50,9 @@ value_props:
     - icon: Network
       title: Inteligência Institucional
       description: >-
-        Organizações sabem coisas — obrigações, tolerâncias de risco, regras
-        operacionais. IQ:NS dá a esse conhecimento uma estrutura que sobrevive à
-        mudança de cargos das pessoas.
+        As organizações sabem coisas — obrigações, tolerâncias de risco, regras
+        operacionais. O IQ:NS dá a esse conhecimento uma estrutura que sobrevive
+        à troca de cargos.
     - icon: BarChart
       title: Integração que Escala
       description: >-
@@ -67,7 +70,7 @@ iqns:
       number: 1
       title: Estruture o Conhecimento
       description: >-
-        Padrões, regulamentações e regras institucionais são modelados como
+        Documentos, frameworks e regras institucionais são modelados como
         ontologias formais: classes, propriedades e relacionamentos que máquinas
         podem raciocinar.
     - icon: Zap
@@ -79,7 +82,7 @@ iqns:
         padrões.
     - icon: Target
       number: 3
-      title: Integre com Seus Sistemas
+      title: Integre com seus Sistemas
       description: >-
         Consulte via SPARQL, conecte via MCP ou incorpore nos fluxos de trabalho
         dos seus agentes. As ontologias encontram você onde suas ferramentas já
@@ -93,26 +96,27 @@ iqns:
 frameworks:
   heading: Mais de 50 Frameworks. Um Vocabulário Compartilhado.
   description: >-
-    Mais de 100 arquivos de ontologia em mais de 20 domínios. IQ:NS mapeia
-    cruzado padrões em um vocabulário unificado para que você possa entender
-    como os conceitos se relacionam entre frameworks.
+    Mais de 100 arquivos de ontologia em mais de 20 domínios. O IQ:NS seleciona
+    os modelos relevantes diretamente de `./ontologies/v1/` e os mapeia para um
+    vocabulário unificado, para que você possa entender como os conceitos se
+    relacionam entre padrões.
   items:
-    - EU AI Act
-    - NIST AI RMF
-    - ISO 42001
-    - ISO 23894
-    - ISO 24027 (Bias)
-    - ISO 24028 (Trustworthiness)
-    - ISO 24029 (Robustness)
-    - ISO 24368 (Ethics)
-    - ISO 25059 (Quality)
-    - EU GDPR
     - OWASP LLM Top 10
     - MITRE ATLAS
     - OECD AI Principles
     - UNESCO AI Ethics
     - IEEE 7000
     - Google SAIF
+    - EU AI Act
+    - NIST AI RMF
+    - ISO 42001
+    - EU GDPR
+    - ISO 23894
+    - ISO 24027 (Bias)
+    - ISO 24028 (Trustworthiness)
+    - ISO 24029 (Robustness)
+    - ISO 24368 (Ethics)
+    - ISO 25059 (Quality)
     - EBA AI Guidelines
     - FDA AI/ML SaMD
     - Canada DCDD
@@ -124,15 +128,15 @@ frameworks:
     - ONC Trustworthy AI
     - NIST AI 100-1
     - NIST CSF 2.0
-    - ITIL 4
-    - COBIT
     - ISO 27001
     - ISO 31000
     - ISO 45001
     - ISO 50001
     - ISO 38500
     - ISO 22320
+    - ITIL 4
     - SOC 2
+    - COBIT
     - Basel III
     - DORA
     - MiFID II
@@ -153,18 +157,18 @@ industries:
   heading: Mais de 20 Domínios. Uma Estrutura Compartilhada.
   items:
     - icon: Brain
-      title: IA & Aprendizado de Máquina
+      title: IA e Aprendizado de Máquina
       description: >-
         EU AI Act, NIST AI RMF, ISO 42001, OWASP LLM Top 10, MITRE ATLAS — mais
         de 30 frameworks específicos de IA.
     - icon: Building
       title: Serviços Financeiros
       description: >-
-        Basel III, DORA, MiFID II, SOX, SR 11-7, EBA — modelagem de risco e
+        Basel III, DORA, MiFID II, SOX, SR 11-7, EBA — risco de modelo e
         relatórios regulatórios.
     - icon: FlaskConical
       title: Saúde
-      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC IA confiável.'
+      description: 'HIPAA, EU MDR, FDA AI/ML SaMD, ONC AI confiável.'
     - icon: Scale
       title: Jurídico
       description: >-
@@ -194,7 +198,7 @@ industries:
       description: ISO 50001 — gestão de energia e integração de IA.
     - icon: ShieldCheck
       title: Seguros
-      description: 'Solvency II — subscrição, sinistros e equidade de precificação.'
+      description: 'Solvency II — subscrição, sinistros e justiça de precificação.'
     - icon: Radio
       title: Mídia
       description: >-
@@ -207,7 +211,7 @@ industries:
       title: Transporte
       description: UN R157 — veículos autônomos e condução automatizada.
     - icon: Server
-      title: SaaS & SKMS
+      title: SaaS e SKMS
       description: 'Gestão de conhecimento de serviço para AWS, Azure, GCP, DigitalOcean.'
     - icon: Rocket
       title: Startups
@@ -218,8 +222,8 @@ industries:
 cta_final:
   heading: Comece a explorar
   subheading: >-
-    As ontologias são gratuitas e de código aberto. Baixe-as do GitHub,
-    consulte-as com SPARQL ou conecte-as aos seus agentes.
+    As ontologias principais são gratuitas e de código aberto. Baixe-as do
+    GitHub, consulte-as com SPARQL ou conecte-as aos seus agentes.
   cta_text: Ver no GitHub
   cta_href: 'https://github.com/iqns-org/ontologies'
 ---

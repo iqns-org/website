@@ -1,55 +1,20 @@
 ---
 title: Ressourcen
 description: >-
-  Leitfäden, Referenzen und Community‑Ressourcen für die Arbeit mit
-  IQ:NS‑Ontologien.
+  Zugriff auf Leitfäden, Referenzen und unterstützende Inhalte für
+  IQ:NS-Ontologien und Governance-Modelle.
 lang: de
 navigation:
-  section: ontologies
+  section: platform
   label: Ressourcen
-  order: 40
+  order: 14
 ---
 # Ressourcen
 
-## Ontologie-Dokumentation
+Finden Sie Dokumentation, Beispiele und Referenzmaterialien, die Ihnen helfen, IQ:NS-Ontologien effektiv zu verstehen und zu nutzen.
 
-Jede Ontologie wird mit Inline-Dokumentation geliefert — Labels, Definitionen, Geltungsbereichsnoten und Quellenverweise. Die Turtle-Dateien sind selbsterklärend.
+- Durchsuchen Sie die Ontologie‑Dokumentation und Beispiele
+- Erkunden Sie Plattform‑Integrationen und Abfragemuster
+- Beginnen Sie mit semantischer Modellierung und Governance‑Praxis
 
-- [Durchsuchen Sie Ontologien auf GitHub](https://github.com/iqns-org/ontologies)
-
----
-
-## Leitfäden für Rahmenwerke
-
-Kurzreferenzen für die von IQ:NS abgedeckten Standards:
-
-- **EU AI Act** — Risikoklassifizierung, Transparenz, Konformitätsbewertung
-- **NIST AI RMF** — Steuern, Kartieren, Messen, Verwalten
-- **ISO 42001** — Managementsystemansatz, Anhang A‑Kontrollen
-- **GDPR KI‑Bestimmungen** — automatisierte Entscheidungen, Profiling, Datenrechte
-- **Branchenspezifische Standards** — FDA, FTC, EBA, SR 11‑7 und mehr
-
-[​Vollständige Standardsübersicht ansehen](/standards)
-
----
-
-## Technische Ressourcen
-
-- **SPARQL‑Beispiele** — gängige Abfragen für die Analyse über Rahmenwerke hinweg
-- **Integrationsmuster** — Verknüpfung von Ontologien mit GRC‑Tools, Datenkatalogen, CI/CD
-- **MCP‑Einrichtung** — Verbindung von KI‑Agenten mit dem Wissensgraphen
-
----
-
-## Gemeinschaft
-
-- [GitHub‑Diskussionen](https://github.com/iqns-org/ontologies/discussions) — Fragen stellen, Ansätze teilen
-- [Kontaktieren Sie uns](/support) — Partnerschaften, Beiträge, Ideen
-
----
-
-## Blog
-
-Laufende Beiträge zu strukturierter Intelligenz, Ontologie‑Design und KI‑Integration.
-
-[Den Blog lesen](/blog)
+[Sehen Sie, wie IQ:NS funktioniert](/how-it-works)
