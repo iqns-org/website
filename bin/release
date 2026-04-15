@@ -29,6 +29,8 @@ echo "Bumped version to ${VERSION}"
 
 npm run test
 npm run translator
+git add -A .
+git commit -m "chore: update translations"
 npm run build
 
 git add -A .
