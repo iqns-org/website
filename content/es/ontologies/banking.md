@@ -2,7 +2,7 @@
 title: Banca
 description: >-
   Ontología bancaria para préstamos, fraude, supervisión y controles de
-  decisiones del cliente.
+  decisiones de clientes.
 lang: es
 navigation:
   enabled: false

@@ -10,11 +10,11 @@ navigation:
 ---
 # Luftfahrt
 
-Luftfahrt-Ontologie für Flugsysteme, Zertifizierung und betriebliche Aufsicht.
+Luftfahrt-Ontologie für Flugsysteme, Zertifizierung und operative Aufsicht.
 
 ## Warum diese Ontologie wichtig ist
 
-- Erfasst die Semantik von Flugsicherheit, Zertifizierung und betrieblicher Aufsicht.
+- Erfasst die Semantik von Flugsicherheit, Zertifizierung und operativer Aufsicht.
 - Hilft Luftfahrtteams, KI in Avionik und autonomen Flugzeugen zu steuern.
 - Unterstützt sicherere, konforme Luftoperationen mit strukturierten Modellen.
 

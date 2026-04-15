@@ -16,11 +16,11 @@ navigation:
 IQ:NS usa os mesmos padrões que impulsionam a publicação científica, a pesquisa farmacêutica e a integração de dados empresariais em todo o mundo:
 
 - **JSON-LD** — o modelo de dados universal. Cada tripla RDF é consultável, exportável, vinculável.
-- **SKOS** — captura hierarquias, mapeamentos e alinhamentos entre frameworks.
+- **SKOS** — captura hierarquias, mapeamentos e alinhamentos entre estruturas.
 - **OWL** — define classes, propriedades e relações lógicas entre conceitos.
 - **SHACL** — valida formas de dados e restrições.
 
-Cada conceito possui um IRI canônico (estável, permanente), uma definição formal referenciada ao texto original e relacionamentos explícitos com conceitos relacionados entre frameworks.
+Cada conceito possui um IRI canônico (estável, permanente), uma definição formal referenciada ao texto original e relações explícitas com conceitos relacionados entre estruturas.
 
 ---
 
@@ -28,13 +28,13 @@ Cada conceito possui um IRI canônico (estável, permanente), uma definição fo
 
 Quando um padrão muda, a atualização da ontologia se propaga por todos os conceitos mapeados — cada obrigação vinculada, cada controle relacionado. Sem remapeamento manual.
 
-### Desduplicação entre frameworks
+### Desduplicação entre estruturas
 
-Quando diferentes regras, políticas ou padrões operacionais exigem transparência, o IQ:NS reconhece-os como `skos:exactMatch` e apresenta um único conceito, não dois. Uma consulta resolve ambos.
+Quando diferentes regras, políticas ou padrões operacionais exigem transparência, o IQ:NS reconhece‑os como `skos:exactMatch` e apresenta um único conceito, não dois. Uma consulta resolve ambos.
 
 ### Perfil contextual
 
-Dada a jurisdição, o setor e o tipo de capacidade de IA, uma consulta SPARQL retorna o conjunto preciso e desduplicado de conceitos relevantes — não uma lista de frameworks, mas exatamente o que se aplica.
+Dada a jurisdição, o setor e o tipo de capacidade de IA, uma consulta SPARQL retorna o conjunto preciso e desduplicado de conceitos relevantes — não uma lista de estruturas, mas exatamente o que se aplica.
 
 ---
 
@@ -42,7 +42,7 @@ Dada a jurisdição, o setor e o tipo de capacidade de IA, uma consulta SPARQL r
 
 IQ:NS é publicado como um grafo de conhecimento modular e alinhado por domínio, em vez de uma lista plana de padrões. Mais de 40 módulos de ontologia independentes e versionados estão disponíveis em `./ontologies/v1/`, e cada módulo está alinhado ao restante do grafo usando SKOS, OWL e padrões semânticos compartilhados.
 
-Domínios representativos incluem governança de IA, privacidade de dados, resiliência de segurança, risco financeiro, supervisão de saúde, transparência governamental e controles empresariais. Essa estrutura mantém cada modelo de domínio claro, ao mesmo tempo que preserva o raciocínio e a reutilização entre domínios.
+Domínios representativos incluem governança de IA, privacidade de dados, resiliência de segurança, risco financeiro, supervisão de saúde, transparência governamental e controles empresariais. Essa estrutura mantém cada modelo de domínio claro enquanto preserva o raciocínio e a reutilização entre domínios.
 
 Cada módulo é um documento RDF/Turtle independente com alinhamentos semânticos explícitos, de modo que uma única consulta possa percorrer múltiplos domínios.
 
@@ -64,12 +64,12 @@ Isso mantém o mesmo modelo semântico disponível para fluxos de trabalho de co
 
 ## Implantação
 
-| Modo | Descrição |
-|------|-----------|
-| **GitHub** | Baixe e carregue em seu próprio repositório RDF |
-| **Cloud hosted** | Grafo gerenciado em uma instância privada, criptografado |
-| **Private cloud** | Implantado em sua VPC (AWS, Azure, GCP) |
-| **Air-gapped** | Disponível on-premises para cada cliente |
+| Modo               | Descrição                                            |
+|--------------------|------------------------------------------------------|
+| **GitHub**         | Baixe e carregue em seu próprio repositório RDF      |
+| **Cloud hosted**   | Grafo gerenciado em uma instância privada, criptografado |
+| **Private cloud**  | Implantado em sua VPC (AWS, Azure, GCP)              |
+| **Air-gapped**     | Disponível on-premises para cada cliente             |
 
 ---
 

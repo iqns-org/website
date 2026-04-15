@@ -1,21 +1,21 @@
 ---
 title: Estándares y marcos
 description: >-
-  Los estándares de AI y organizacionales de los modelos IQ:NS — lo que cubren,
-  a quién se aplican y cómo se conectan.
+  Los estándares de IA y organizacionales de los modelos IQ:NS — lo que cubren,
+  a quiénes se aplican y cómo se conectan.
 lang: es
 navigation:
   section: ontologies
   label: Estándares
   order: 20
 ---
-# Normas y Marcos
+# Estándares y Marcos
 
 ## El panorama
 
-Ningún marco único cubre todo. La mayoría de las organizaciones enfrentan requisitos superpuestos de múltiples normas — y los vacíos entre ellas son donde se esconden los problemas.
+Ningún marco único cubre todo. La mayoría de las organizaciones enfrentan requisitos superpuestos de múltiples estándares — y los vacíos entre ellos son donde se esconden los problemas.
 
-IQ:NS modela más de 50 marcos y modelos de dominio de `./ontologies/v1/` como ontologías estructuradas. Esto es lo que cubren.
+IQ:NS modela más de 50 marcos y modelos de dominio desde `./ontologies/v1/` como ontologías estructuradas. Esto es lo que cubren.
 
 IQ:NS no prioriza un único conjunto de regulaciones; selecciona a mano los modelos de ontología relevantes para cada contexto del repositorio.
 
@@ -29,13 +29,13 @@ IQ:NS no prioriza un único conjunto de regulaciones; selecciona a mano los mode
 - **Aplicación:** Multas de hasta el 7 % de los ingresos globales
 
 ### Marco de Gestión de Riesgos de IA de NIST
-- **Aplica a:** Voluntario, pero cada vez más referenciado por reguladores y adquisiciones de EE. UU.
-- **Cubre:** Cuatro funciones centrales — Gobernar, Mapear, Medir, Gestionar
-- **Por qué importa:** El marco más operativamente accionable disponible
+- **Aplica a:** Voluntario, pero cada vez más citado por reguladores y adquisiciones de EE. UU.
+- **Cubre:** Cuatro funciones principales — Gobernar, Mapear, Medir, Gestionar
+- **Por qué es importante:** El marco más operativamente accionable disponible
 
 ### ISO 42001
 - **Aplica a:** Organizaciones que buscan certificación formal de gestión de IA
-- **Cubre:** Sistema de gestión Plan-Hacer-Verificar-Actuar, controles del Anexo A, auditoría interna
+- **Cubre:** Sistema de gestión Plan-hacer-verificar-actuar, controles del Anexo A, auditoría interna
 
 ### RGPD de la UE (disposiciones de IA)
 - **Aplica a:** Cualquier organización que procese datos personales de residentes de la UE con IA
@@ -43,20 +43,20 @@ IQ:NS no prioriza un único conjunto de regulaciones; selecciona a mano los mode
 
 ---
 
-## Normas Específicas por Sector
+## Estándares Específicos por Sector
 
 ### Servicios Financieros
 | Marco | Jurisdicción | Enfoque |
 |---|---|---|
-| SR 11-7 | EE. UU. | Gestión de riesgo de modelo |
-| Directrices de IA de la EBA | UE | Supervisión de IA en instituciones de crédito |
+| SR 11-7 | EE. UU. | Gestión de riesgos de modelo |
+| Directrices de IA del EBA | UE | Supervisión de IA en instituciones de crédito |
 | Gobernanza de IA de MAS | Singapur | Gobernanza de IA en instituciones financieras |
 
 ### Salud
 | Marco | Jurisdicción | Enfoque |
 |---|---|---|
-| FDA IA/ML SaMD | EE. UU. | IA clínica y software como dispositivo médico |
-| ONC IA Confiable | EE. UU. | Estándares de IA en TI de salud |
+| FDA AI/ML SaMD | EE. UU. | IA clínica y software como dispositivo médico |
+| IA Confiable de ONC | EE. UU. | Estándares de IA para TI de salud |
 
 ### Seguridad
 | Marco | Enfoque |
@@ -76,9 +76,9 @@ IQ:NS no prioriza un único conjunto de regulaciones; selecciona a mano los mode
 
 ## Cómo se superponen los marcos
 
-Terminología diferente, mismos conceptos:
+Terminología diferente, conceptos iguales:
 
-| Concepto | Ley de IA de la UE | RMF de IA de NIST | ISO 42001 |
+| Concepto | Ley de IA de la UE | NIST AI RMF | ISO 42001 |
 |---|---|---|---|
 | Gestión de riesgos | Artículo 9 | Función Map | Cláusula 6.1 |
 | Supervisión humana | Artículo 14 | Govern 1.4 | A.8.4 |
@@ -86,7 +86,7 @@ Terminología diferente, mismos conceptos:
 | Sesgo y equidad | Artículo 10(2)(f) | Measure 2.6 | A.10.3 |
 | Transparencia | Capítulo IV | Govern 4.1 | A.8.3 |
 
-IQ:NS mapea estas correspondencias estructuralmente — de modo que puedes ver dónde un concepto abarca múltiples normas y dónde existen verdaderas brechas.
+IQ:NS mapea estas correspondencias estructuralmente — para que puedas ver dónde un concepto abarca múltiples estándares y dónde existen brechas reales.
 
 ---
 

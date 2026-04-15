@@ -36,16 +36,16 @@ echo "Bumped version to ${VERSION}"
 echo "Running test suite..."
 npm run test
 
-echo "Running translation script..."
+echo "Running translation script (i18n only, not markdown)..."
 before_translator="$(git diff --name-only | sort)"
-npm run translator -- --force
+npm run translator -- --mode i18n --force
 
 translator_changes="$(comm -13 <(printf '%s\n' "${before_translator}" | sed '/^$/d') <(git diff --name-only | sort) | sed '/^$/d')"
 if [ -n "${translator_changes}" ]; then
   echo "Staging translator-generated changes:"
   printf '%s\n' "${translator_changes}"
   printf '%s\n' "${translator_changes}" | xargs git add --
-  git commit -m "chore: update translations"
+  git commit -m "chore: update i18n translations"
 else
   echo "No translator changes detected. Skipping translation commit."
 fi

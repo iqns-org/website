@@ -1,6 +1,6 @@
 ---
 title: Audit & Assurance
-description: 'Audit-Ontologie für Beweispfade, Kontrollenprüfung und Assurance-Workflows.'
+description: 'Audit-Ontologie für Beweisketten, Kontrollenprüfung und Assurance-Workflows.'
 lang: de
 navigation:
   enabled: false

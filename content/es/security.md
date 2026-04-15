@@ -18,7 +18,7 @@ IQ:NS funciona solo con **metadatos**:
 - Sus extensiones de ontología (si son privadas): conceptos y mapeos personalizados
 - Referencias de evidencia (enlaces o hashes — no los documentos mismos)
 
-Nosotros **nunca** almacenamos datos de entrenamiento del modelo, pesos, salidas de inferencia, datos del cliente, o información de identificación personal (PII).
+Nunca **almacenamos** datos de entrenamiento del modelo, pesos, resultados de inferencia, datos de clientes o información de identificación personal (PII).
 
 ## Dónde lo almacenamos
 
@@ -44,7 +44,7 @@ Nosotros **nunca** almacenamos datos de entrenamiento del modelo, pesos, salidas
 
 Las ontologías centrales son de código abierto. Puede verificar cada concepto, cada mapeo, cada relación. La transparencia es estructural, no una promesa.
 
-## Reportar un problema de seguridad
+## Informar un problema de seguridad
 
 [security@iqns.org](mailto:security@iqns.org)
 

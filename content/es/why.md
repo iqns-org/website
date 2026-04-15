@@ -18,7 +18,7 @@ Tus decisiones más trascendentales están cada vez más moldeadas por máquinas
 
 La IA ya está dentro de los procesos de contratación, decisiones de crédito, triaje clínico, detección de fraude, operaciones de clientes y flujos de trabajo de servicio. Cada día, se unen más agentes: diferentes proveedores, diferentes datos, diferentes equipos, diferentes reguladores.
 
-El resultado no es una estrategia de IA. Es una **cadena de suministro agente** — sistemas interconectados que toman decisiones en tu nombre, cada uno con obligaciones que puede que no comprendas completamente.
+El resultado no es una estrategia de IA. Es una **cadena de suministro agente** — sistemas interconectados que toman decisiones en tu nombre, cada uno con obligaciones que quizás no comprendas completamente.
 
 Esa cadena de suministro no tiene un vocabulario compartido.
 
@@ -34,7 +34,7 @@ Cuando los agentes de IA actúan a gran escala, la fragmentación se convierte e
 
 ## Qué significa la inteligencia estructurada
 
-IQ:NS proporciona ontologías abiertas — vocabularios formales y legibles por máquinas construidos sobre RDF, SKOS, OWL y SHACL — que le dan al conocimiento institucional una estructura con la que tanto personas como máquinas pueden trabajar.
+IQ:NS ofrece ontologías abiertas — vocabularios formales y legibles por máquinas construidos sobre RDF, SKOS, OWL y SHACL — que dan al conocimiento institucional una estructura con la que tanto personas como máquinas pueden trabajar.
 
 - Qué obligaciones existen — a través de jurisdicciones, marcos, sectores
 - Cómo se relacionan los conceptos — donde los estándares se superponen, divergen, dejan vacíos
@@ -46,7 +46,7 @@ Esto no es un producto que gestiona cosas por ti. Es una infraestructura que hac
 
 ## Por qué es importante ahora
 
-Tu patrimonio de IA es multi-jurisdiccional, multi-marco, multi-proveedor, multi-agente. Ningún equipo humano lo mantiene todo de forma coherente. Ninguna hoja de cálculo rastrea cómo un concepto en un marco se relaciona con los requisitos en tres más.
+Tu patrimonio de IA es multi-jurisdiccional, multi-marco, multi-proveedor, multi-agente. Ningún equipo humano lo posee de manera coherente. Ninguna hoja de cálculo rastrea cómo un concepto en un marco se relaciona con los requisitos en tres más.
 
 La inteligencia estructurada necesita un **grafo de conocimiento** — algo sobre lo que las máquinas razonan y la gente confía.
 
@@ -56,7 +56,7 @@ La inteligencia estructurada necesita un **grafo de conocimiento** — algo sobr
 
 IQ:NS es de código abierto. Las ontologías centrales son gratuitas. Existe una capa comercial para equipos que necesitan alojamiento, bases de conocimiento privadas o soporte de integración — pero el núcleo es un bien público.
 
-Creemos que la capa semántica para IA y conocimiento institucional debe construirse de forma abierta, por personas que se preocupan por lograr la estructura correcta.
+Creemos que la capa semántica para IA y conocimiento institucional debería construirse de forma abierta, por personas que se preocupan por lograr la estructura correcta.
 
 ---
 

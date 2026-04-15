@@ -18,6 +18,6 @@ Ontología de auditoría para rastros de evidencia, pruebas de control y flujos 
 
 - Captura rastros de evidencia, controles y flujos de trabajo de aseguramiento.
 - Hace que las auditorías sean más accionables al convertir los hallazgos en datos estructurados.
-- Soporta aseguramiento automatizado y una mejor validación de controles.
+- Soporta el aseguramiento automatizado y una mejor validación de controles.
 
 [Ver la ontología en GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/audit)

@@ -30,17 +30,17 @@ plans:
       price: $0
       period: /year
     features:
-      - Más de 100 Ontologías abiertas
-      - Soporte de la comunidad
-      - Estándares de la industria
+      - Más de 100 Ontologías Abiertas
+      - Soporte Comunitario
+      - Estándares de la Industria
       - 'RDFS, OWL, SKOS, SHACL'
-      - Integraciones ilimitadas
+      - Integraciones Ilimitadas
     cta: Explorar en GitHub
     highlight: true
     cta_href: 'https://github.com/iqns-org/ontologies'
   - id: business
     name: Negocios
-    tagline: Para equipos que integran AI
+    tagline: Para equipos que integran IA
     price: $250
     period: /month
     monthly:
@@ -50,15 +50,15 @@ plans:
       price: '$2,500'
       period: /year
     features:
-      - Servidor MCP seguro
-      - Ontologías de gobernanza
-      - Ontologías privadas ilimitadas
-      - Servidor de conocimiento privado
-      - Agente AI (Ontólogo)
-      - Soporte de consultas SPARQL
-      - Integraciones personalizadas
-      - Soporte prioritario (SLA de 48 h)
-      - Conectores SaaS (Descubrimiento automatizado)
+      - Servidor MCP Seguro
+      - Ontologías de Gobernanza
+      - Ontologías Privadas Ilimitadas
+      - Servidor de Conocimiento Privado
+      - Agente IA (Ontólogo)
+      - Soporte de Consultas SPARQL
+      - Integraciones Personalizadas
+      - Soporte Prioritario (SLA de 48 h)
+      - Conectores SaaS (Descubrimiento Automatizado)
     cta: Comenzar
     highlight: false
     cta_href: /support
@@ -74,16 +74,16 @@ plans:
       price: '$10,000'
       period: /year
     features:
-      - Ontologías de gobernanza / cumplimiento
-      - Ontologías privadas ilimitadas
-      - Servidor de conocimiento empresarial
-      - Servidor MCP empresarial
-      - Soporte de consultas SPARQL
-      - Agente AI (Ontólogo)
-      - Integraciones empresariales
-      - Nube privada / en las instalaciones
-      - Conectores SaaS empresariales
-      - Soporte empresarial (SLA de 12 h)
+      - Ontologías de Gobernanza / Cumplimiento
+      - Ontologías Privadas Ilimitadas
+      - Servidor de Conocimiento Empresarial
+      - Servidor MCP Empresarial
+      - Soporte de Consultas SPARQL
+      - Agente IA (Ontólogo)
+      - Integraciones Empresariales
+      - Nube Privada / En las instalaciones
+      - Conectores SaaS Empresariales
+      - Soporte Empresarial (SLA de 12 h)
       - SAML / SSO
     cta: Habla con un arquitecto
     highlight: false
@@ -105,7 +105,7 @@ addons:
         Compromiso de 2 días — modelamos tu dominio en una ontología privada,
         entregada con documentación y guía de integración.
     - icon: Network
-      title: Mapeo de Framework
+      title: Mapeo de Marco
       price: '$2,500'
       description: >-
         Mapea tus estándares y políticas internos a ontologías públicas.
@@ -115,7 +115,7 @@ addons:
       title: Integración de Agente
       price: '$1,500'
       description: >-
-        Conecta tus flujos de trabajo agentes a IQ:NS vía MCP. Incluye
+        Conecta tus flujos de trabajo de agente a IQ:NS vía MCP. Incluye
         configuración, pruebas y un manual de operaciones para tu equipo.
     - icon: Users
       title: Entrenamiento de Equipo
@@ -128,7 +128,7 @@ faq:
   items:
     - q: ¿Qué obtengo gratis?
       a: >-
-        Todas las ontologías en el repositorio público — más de 100 archivos en
+        Todas las ontologías del repositorio público — más de 100 archivos en
         más de 50 dominios. Clona el repositorio, consulta los archivos Turtle,
         intégralos con tus herramientas. No se requiere cuenta.
     - q: '¿Qué es una ontología, en la práctica?'
@@ -136,7 +136,7 @@ faq:
         Un vocabulario legible por máquinas que mapea estándares, regulaciones y
         conocimiento institucional a un formato que los agentes y herramientas
         de IA pueden consultar. Piensa en ello como un diccionario compartido
-        que tus sistemas realmente comprenden.
+        que tus sistemas realmente entienden.
     - q: ¿Cuándo debería actualizar a Business?
       a: >-
         Cuando necesitas que la capa semántica esté operativa con un servidor de
@@ -149,7 +149,7 @@ faq:
         privadas donde puedes ampliar las ontologías públicas con tus propios
         estándares internos, políticas y taxonomías — de modo que el
         conocimiento organizacional compartido permanezca conectado.
-    - q: ¿Qué son los conectores ITIL SKMS?
+    - q: ¿Qué son los Conectores ITIL SKMS?
       a: >-
         Conectan las ontologías IQ:NS a los Sistemas de Gestión del Conocimiento
         de Servicio ITIL 4 — para que tu mesa de servicio, CMDB y herramientas
@@ -160,10 +160,10 @@ faq:
         No. Planes mensuales, cancela en cualquier momento. Paga anualmente y
         obtén 2 meses gratis. Los complementos son compromisos únicos definidos
         antes de que te comprometas.
-    - q: ¿Dónde se alojan mis datos?
+    - q: ¿Dónde se aloja mi datos?
       a: >-
         Los planes de pago se despliegan en la nube que elijas: AWS, GCP o Azure
         — tú eliges la región. Las bases de conocimiento privadas permanecen en
-        tu inquilino. Nunca mezclamos los datos de los clientes.
+        tu tenant. Nunca mezclamos datos de clientes.
 ---
 

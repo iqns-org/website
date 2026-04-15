@@ -1,8 +1,8 @@
 ---
 title: AI Sector
 description: >-
-  Ontologie fondamentale de gouvernance IA pour les cadres, contrôles, risques
-  et obligations.
+  Ontologie de gouvernance IA de base pour les cadres, contrôles, risques et
+  obligations.
 lang: fr
 navigation:
   enabled: false

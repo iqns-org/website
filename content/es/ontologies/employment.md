@@ -1,5 +1,5 @@
 ---
-title: Empleo & RRHH
+title: Empleo & HR
 description: >-
   Ontología de empleo para contratación, monitoreo, equidad y salvaguardas de
   los trabajadores.
@@ -7,7 +7,7 @@ lang: es
 navigation:
   enabled: false
   section: ontologies
-  label: Empleo & RRHH
+  label: Empleo & HR
   order: 50
 ---
 # Empleo y RRHH

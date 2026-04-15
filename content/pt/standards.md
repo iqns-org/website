@@ -1,5 +1,5 @@
 ---
-title: Padrões e Estruturas
+title: Padrões & Estruturas
 description: >-
   Os padrões de IA e organizacionais modelos IQ:NS — o que cobrem, a quem se
   aplicam e como se conectam.
@@ -13,18 +13,18 @@ navigation:
 
 ## O panorama
 
-Nenhum framework único cobre tudo. A maioria das organizações enfrenta requisitos sobrepostos de múltiplos padrões — e as lacunas entre eles são onde os problemas se escondem.
+Nenhuma estrutura única cobre tudo. A maioria das organizações enfrenta requisitos sobrepostos de múltiplos padrões — e as lacunas entre eles são onde os problemas se escondem.
 
-IQ:NS modela mais de 50 frameworks e modelos de domínio de `./ontologies/v1/` como ontologias estruturadas. Veja o que eles cobrem.
+IQ:NS modela mais de 50 estruturas e modelos de domínio de `./ontologies/v1/` como ontologias estruturadas. Aqui está o que eles cobrem.
 
 IQ:NS não prioriza um único conjunto de regulamentos; ele seleciona cuidadosamente os modelos de ontologia relevantes para cada contexto a partir do repositório.
 
 ---
 
-## Frameworks Horizontais
+## Estruturas Horizontais
 
 ### Lei de IA da UE
-- **Aplica-se a:** Qualquer organização que ofereça ou implante IA na UE
+- **Aplica-se a:** Qualquer organização que ofereça ou implemente IA na UE
 - **Abrange:** Classificação de risco, avaliação de conformidade, transparência, documentação técnica, supervisão humana
 - **Aplicação:** Multas de até 7% da receita global
 
@@ -39,52 +39,52 @@ IQ:NS não prioriza um único conjunto de regulamentos; ele seleciona cuidadosam
 
 ### GDPR da UE (disposições de IA)
 - **Aplica-se a:** Qualquer organização que processe dados pessoais de residentes da UE com IA
-- **Abrange:** Artigo 22 (decisões automatizadas), transparência de perfis, minimização de dados
+- **Abrange:** Artigo 22 (decisões automatizadas), transparência de perfilagem, minimização de dados
 
 ---
 
 ## Padrões Setoriais Específicos
 
 ### Serviços Financeiros
-| Framework | Jurisdição | Foco |
+| Estrutura | Jurisdição | Foco |
 |---|---|---|
-| SR 11-7 | US | Gerenciamento de risco de modelo |
-| Diretrizes de IA do EBA | EU | Supervisão de IA em instituições de crédito |
-| Governança de IA da MAS | Singapore | Governança de IA em instituições financeiras |
+| SR 11-7 | EUA | Gestão de risco de modelo |
+| EBA AI Guidelines | UE | Supervisão de IA em instituições de crédito |
+| MAS AI Governance | Singapura | Governança de IA em instituições financeiras |
 
 ### Saúde
-| Framework | Jurisdição | Foco |
+| Estrutura | Jurisdição | Foco |
 |---|---|---|
-| FDA AI/ML SaMD | US | IA clínica e software como dispositivo médico |
-| ONC IA Confiável | US | Padrões de IA para TI de saúde |
+| FDA AI/ML SaMD | EUA | IA clínica e software como dispositivo médico |
+| ONC Trustworthy AI | EUA | Padrões de IA para TI de saúde |
 
 ### Segurança
-| Framework | Foco |
+| Estrutura | Foco |
 |---|---|
 | OWASP LLM Top 10 | Vulnerabilidades de segurança de LLM |
-| MITRE ATLAS | Cenário de ameaças de IA adversarial |
-| Google SAIF | Framework de IA segura |
+| MITRE ATLAS | Cenário de ameaças de IA adversária |
+| Google SAIF | Estrutura de IA segura |
 
-### Ética e Princípios
-| Framework | Origem |
+### Ética & Princípios
+| Estrutura | Origem |
 |---|---|
-| Princípios de IA da OCDE | OECD |
+| Princípios de IA da OCDE | OCDE |
 | Ética de IA da UNESCO | UNESCO |
 | IEEE 7000 | IEEE |
 
 ---
 
-## Como os frameworks se sobrepõem
+## Como as estruturas se sobrepõem
 
 Terminologia diferente, mesmos conceitos:
 
 | Conceito | Lei de IA da UE | NIST AI RMF | ISO 42001 |
 |---|---|---|---|
-| Gerenciamento de risco | Artigo 9 | Função Map | Cláusula 6.1 |
-| Supervisão humana | Artigo 14 | Govern 1.4 | A.8.4 |
+| Gestão de risco | Artigo 9 | Função Map | Cláusula 6.1 |
+| Supervisão humana | Artigo 14 | Governar 1.4 | A.8.4 |
 | Documentação técnica | Artigo 11 | Map 3.4 | A.6.2 |
 | Viés e justiça | Artigo 10(2)(f) | Measure 2.6 | A.10.3 |
-| Transparência | Capítulo IV | Govern 4.1 | A.8.3 |
+| Transparência | Capítulo IV | Governar 4.1 | A.8.3 |
 
 IQ:NS mapeia essas correspondências estruturalmente — para que você possa ver onde um conceito abrange múltiplos padrões e onde realmente existem lacunas.
 

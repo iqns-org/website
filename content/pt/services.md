@@ -81,7 +81,7 @@ plans:
       - Suporte a Consultas SPARQL
       - Agente de IA (Ontologista)
       - Integrações Enterprise
-      - Nuvem Privada / Local
+      - Nuvem Privada / On Premises
       - Conectores SaaS Enterprise
       - Suporte Enterprise (SLA de 12h)
       - SAML / SSO
@@ -126,7 +126,7 @@ addons:
 faq:
   heading: Perguntas frequentes
   items:
-    - q: O que eu recebo gratuitamente?
+    - q: O que eu recebo de graça?
       a: >-
         Todas as ontologias no repositório público — mais de 100 arquivos em
         mais de 50 domínios. Clone o repositório, consulte os arquivos Turtle,
@@ -152,8 +152,8 @@ faq:
     - q: O que são Conectores ITIL SKMS?
       a: >-
         Eles conectam as ontologias IQ:NS aos Sistemas de Gerenciamento de
-        Conhecimento de Serviço (SKMS) do ITIL 4 — permitindo que seu service
-        desk, CMDB e ferramentas de gerenciamento de mudanças acessem o mesmo
+        Conhecimento de Serviço (SKMS) ITIL 4 — permitindo que seu service desk,
+        CMDB e ferramentas de gerenciamento de mudanças acessem o mesmo
         conhecimento estruturado que seus agentes de IA utilizam.
     - q: Existe contrato ou compromisso?
       a: >-

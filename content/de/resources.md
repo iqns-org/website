@@ -15,6 +15,6 @@ Finden Sie Dokumentation, Beispiele und Referenzmaterialien, die Ihnen helfen, I
 
 - Durchsuchen Sie die Ontologie‑Dokumentation und Beispiele
 - Entdecken Sie Plattform‑Integrationen und Abfragemuster
-- Beginnen Sie mit semantischem Modellieren und Governance‑Praxis
+- Beginnen Sie mit semantischer Modellierung und Governance‑Praxis
 
 [Sehen Sie, wie IQ:NS funktioniert](/how-it-works)

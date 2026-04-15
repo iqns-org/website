@@ -7,16 +7,16 @@ navigation:
   label: Suporte
   order: 50
 ---
-# Centro de Suporte IQ:NS
+# IQ:NS Support Centre
 
 Adoraríamos interagir com você como membro da comunidade ...
 
 - [Discord](https://discord.gg/hJNscf4e32)
-- [Solicitações / Erratas](https://github.com/iqns-org/ontologies/issues)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
 
-Nosso como cliente comercial e parceiro
+Como cliente comercial e parceiro
 
-- [Engajar Nossa Equipe](/services#addons)
+- [Engajar nossa equipe](/services#addons)
 
 
 ## Código Aberto

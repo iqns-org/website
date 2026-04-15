@@ -1,7 +1,7 @@
 ---
 title: AI Sector
 description: >-
-  Ontología central de gobernanza de IA para marcos, controles, riesgos y
+  Ontología central de gobernanza AI para marcos, controles, riesgos y
   obligaciones.
 lang: es
 navigation:

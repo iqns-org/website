@@ -1,7 +1,7 @@
 ---
 title: AI Sektor
 description: >-
-  Kern‑AI‑Governance‑Ontologie für Rahmenwerke, Kontrollen, Risiken und
+  Kern AI Governance Ontologie für Rahmenwerke, Kontrollen, Risiken und
   Verpflichtungen.
 lang: de
 navigation:

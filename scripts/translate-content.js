@@ -228,7 +228,7 @@ async function translateMarkdownBody(markdownContent, locale) {
 
 async function translateJsonObject(source, locale) {
   const cloned = JSON.parse(JSON.stringify(source))
-  const paths = collectStringPaths(cloned, [], new Set())
+  const paths = collectStringPaths(cloned, [], new Set(), cloned)
   if (!paths.length) return cloned
   const translations = await translatePaths(paths, locale)
   for (const { path: keyPath, setValue } of paths) {

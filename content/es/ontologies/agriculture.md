@@ -1,7 +1,7 @@
 ---
 title: Agricultura y Sistemas Alimentarios
 description: >-
-  Ontología de agricultura para la agricultura de precisión, modelos de
+  Ontología de la agricultura para la agricultura de precisión, modelos de
   rendimiento y garantía de la cadena alimentaria.
 lang: es
 navigation:
@@ -12,12 +12,12 @@ navigation:
 ---
 # Agricultura y Sistemas Alimentarios
 
-Ontología agrícola para agricultura de precisión, modelos de rendimiento y garantía de la cadena alimentaria.
+Ontología agrícola para la agricultura de precisión, modelos de rendimiento y garantía de la cadena alimentaria.
 
-## Por qué importa esta ontología
+## Por qué es importante esta ontología
 
 - Modela la agricultura de precisión, la trazabilidad y la gobernanza del sistema alimentario.
 - Ayuda a los equipos agrícolas a gestionar el riesgo y la sostenibilidad con IA.
-- Soporta flujos de trabajo interoperables de cadena de suministro y pronóstico de rendimiento.
+- Apoya flujos de trabajo interoperables de la cadena de suministro y la previsión de rendimientos.
 
 [Ver la ontología en GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/agriculture)

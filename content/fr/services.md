@@ -1,9 +1,9 @@
 ---
 title: Services et forfaits
 description: >-
-  Ontologies ouvertes, gratuites pour toujours. Niveaux commerciaux pour les
-  équipes qui ont besoin d'hébergement, de bases de connaissances privées ou
-  d'assistance à l'intégration.
+  Ontologies ouvertes, gratuites à vie. Niveaux commerciaux pour les équipes qui
+  ont besoin d'hébergement, de bases de connaissances privées ou d'assistance à
+  l'intégration.
 lang: fr
 navigation:
   section: platform
@@ -15,20 +15,20 @@ subtagline: >-
   bases de connaissances privées et/ou d'un support pratique.
 annual_note: Économisez 2 mois avec la facturation annuelle.
 trust_signal: >-
-  Construit sur les standards du Web sémantique du W3C adoptés par plus de 60 %
-  des entreprises du Fortune 500.
+  Construit sur les standards du Web sémantique W3C adoptés par plus de 60 % des
+  entreprises du Fortune 500.
 plans:
   - id: community
     name: Communauté
     tagline: Gratuit pour tous
     price: $0
-    period: /month
+    period: /mois
     monthly:
       price: $0
-      period: /month
+      period: /mois
     annual:
       price: $0
-      period: /year
+      period: /an
     features:
       - Plus de 100 ontologies ouvertes
       - Support communautaire
@@ -39,26 +39,26 @@ plans:
     highlight: true
     cta_href: 'https://github.com/iqns-org/ontologies'
   - id: business
-    name: Entreprise
+    name: Business
     tagline: Pour les équipes intégrant l'IA
     price: $250
-    period: /month
+    period: /mois
     monthly:
       price: $250
-      period: /month
+      period: /mois
     annual:
       price: '$2,500'
-      period: /year
+      period: /an
     features:
       - Serveur MCP sécurisé
       - Ontologies de gouvernance
       - Ontologies privées illimitées
       - Serveur de connaissances privées
-      - Agent IA (Ontologue)
+      - Agent IA (Ontologiste)
       - Support des requêtes SPARQL
       - Intégrations personnalisées
       - Support prioritaire (SLA 48 h)
-      - Connecteurs SaaS (découverte automatisée)
+      - Connecteurs SaaS (Découverte automatisée)
     cta: Commencer
     highlight: false
     cta_href: /support
@@ -66,20 +66,20 @@ plans:
     name: Écosystème / Entreprise
     tagline: Construisez des écosystèmes d'intelligence
     price: '$1,000'
-    period: /month
+    period: /mois
     monthly:
       price: '$1,000'
-      period: /month
+      period: /mois
     annual:
       price: '$10,000'
-      period: /year
+      period: /an
     features:
       - Ontologies de gouvernance / conformité
       - Ontologies privées illimitées
       - Serveur de connaissances d'entreprise
       - Serveur MCP d'entreprise
       - Support des requêtes SPARQL
-      - Agent IA (Ontologue)
+      - Agent IA (Ontologiste)
       - Intégrations d'entreprise
       - Cloud privé / sur site
       - Connecteurs SaaS d'entreprise
@@ -91,7 +91,7 @@ plans:
 guarantee:
   heading: Open source sous Apache 2.0. Toujours.
   items:
-    - 'Plus de 100 ontologies, gratuites pour toujours'
+    - 'Plus de 100 ontologies, gratuites à vie'
     - 'JSON-LD, RDFS, OWL, SKOS, SHACL'
     - Pas de verrouillage fournisseur
 addons:
@@ -115,7 +115,7 @@ addons:
       price: '$1,500'
       description: >-
         Connectez vos flux de travail agentiques à IQ:NS via MCP. Inclut la
-        configuration, les tests et un guide d'exploitation pour votre équipe.
+        configuration, les tests et un manuel d'exploitation pour votre équipe.
     - icon: Users
       title: Formation d'équipe
       price: '$2,500'
@@ -128,29 +128,29 @@ faq:
   items:
     - q: Que puis-je obtenir gratuitement ?
       a: >-
-        Chaque ontologie du dépôt public — plus de 100 fichiers couvrant plus de
-        50 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
+        Toutes les ontologies du dépôt public — plus de 100 fichiers couvrant
+        plus de 50 domaines. Clonez le dépôt, interrogez les fichiers Turtle,
         intégrez-les à vos outils. Aucun compte requis.
     - q: 'Qu''est-ce qu''une ontologie, concrètement ?'
       a: >-
         Un vocabulaire lisible par machine qui mappe les normes, réglementations
         et connaissances institutionnelles dans un format que les agents IA et
-        les outils peuvent interroger. Pensez-y comme à un dictionnaire partagé
-        que vos systèmes comprennent réellement.
-    - q: Quand devrais-je passer au plan Entreprise ?
+        les outils peuvent interroger. Considérez-le comme un dictionnaire
+        partagé que vos systèmes comprennent réellement.
+    - q: Quand devrais-je passer à Business ?
       a: >-
         Lorsque vous avez besoin de la couche sémantique opérationnalisée avec
-        un serveur de connaissances privé, un point de terminaison MCP géré ou
-        un hébergement SPARQL — afin que votre équipe puisse se concentrer sur
+        un serveur de connaissances privé, un point d'accès MCP géré ou un
+        hébergement SPARQL — afin que votre équipe puisse se concentrer sur
         l'intégration, pas sur l'infrastructure.
     - q: >-
         Puis-je modéliser les politiques internes aux côtés des normes
         publiques ?
       a: >-
-        Oui. Les plans Entreprise et Écosystème incluent des bases de
-        connaissances privées où vous pouvez étendre les ontologies publiques
-        avec vos propres normes internes, politiques et taxonomies — ainsi les
-        connaissances organisationnelles partagées restent connectées.
+        Oui. Les plans Business et Ecosystem incluent des bases de connaissances
+        privées où vous pouvez étendre les ontologies publiques avec vos propres
+        normes internes, politiques et taxonomies — ainsi les connaissances
+        organisationnelles partagées restent connectées.
     - q: Que sont les connecteurs ITIL SKMS ?
       a: >-
         Ils relient les ontologies IQ:NS aux systèmes de gestion des

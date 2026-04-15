@@ -1,5 +1,5 @@
 ---
-title: Tecnología y Arquitectura
+title: Tecnología & Arquitectura
 description: >-
   Cómo se construyen las ontologías IQ:NS: fundamentos de la web semántica,
   marcos legibles por máquina y APIs listas para agentes.
@@ -9,28 +9,28 @@ navigation:
   label: Tecnología
   order: 20
 ---
-# Tecnología y Arquitectura
+# Tecnología & Arquitectura
 
 ## Construido sobre estándares de la web semántica
 
-IQ:NS usa los mismos estándares que impulsan la publicación científica, la investigación farmacéutica y la integración de datos empresariales en todo el mundo:
+IQ:NS utiliza los mismos estándares que impulsan la publicación científica, la investigación farmacéutica y la integración de datos empresariales en todo el mundo:
 
 - **JSON-LD** — el modelo de datos universal. Cada triple RDF es consultable, exportable, enlazable.
 - **SKOS** — captura jerarquías, mapeos y alineaciones entre marcos.
 - **OWL** — define clases, propiedades y relaciones lógicas entre conceptos.
 - **SHACL** — valida formas de datos y restricciones.
 
-Cada concepto lleva un IRI canónico (estable, permanente), una definición formal referenciada al texto original y relaciones explícitas con conceptos relacionados entre marcos.
+Cada concepto lleva una IRI canónica (estable, permanente), una definición formal referenciada al texto original y relaciones explícitas con conceptos relacionados entre marcos.
 
 ---
 
 ## Cómo funciona
 
-Cuando una norma cambia, la actualización de la ontología se propaga a través de cada concepto mapeado — cada obligación vinculada, cada control relacionado. Sin remapeo manual.
+Cuando un estándar cambia, la actualización de la ontología se propaga a través de cada concepto mapeado — cada obligación vinculada, cada control relacionado. Sin remapeo manual.
 
 ### Desduplicación entre marcos
 
-Cuando diferentes reglas, políticas o normas operativas todas requieren transparencia, IQ:NS las reconoce como `skos:exactMatch` y muestra un solo concepto, no dos. Una consulta resuelve ambos.
+Cuando diferentes reglas, políticas o estándares operacionales requieren transparencia, IQ:NS los reconoce como `skos:exactMatch` y muestra un solo concepto, no dos. Una consulta resuelve ambos.
 
 ### Perfilado contextual
 
@@ -40,7 +40,7 @@ Dada la jurisdicción, el sector y el tipo de capacidad de IA, una consulta SPAR
 
 ## Modelos de dominio modulares
 
-IQ:NS se publica como un grafo de conocimiento modular y alineado por dominio en lugar de una lista plana de normas. Más de 40 módulos de ontología independientes y versionados están disponibles en `./ontologies/v1/`, y cada módulo está alineado con el resto del grafo usando SKOS, OWL y patrones semánticos compartidos.
+IQ:NS se publica como un grafo de conocimiento modular y alineado por dominio en lugar de una lista plana de estándares. Más de 40 módulos de ontología independientes y versionados están disponibles en `./ontologies/v1/`, y cada módulo está alineado con el resto del grafo usando SKOS, OWL y patrones semánticos compartidos.
 
 Los dominios representativos incluyen gobernanza de IA, privacidad de datos, resiliencia de seguridad, riesgo financiero, supervisión de salud, transparencia gubernamental y controles empresariales. Esta estructura mantiene cada modelo de dominio claro mientras preserva el razonamiento y la reutilización entre dominios.
 
@@ -56,7 +56,7 @@ El grafo completo es consultable vía SPARQL 1.1. Cualquier herramienta que habl
 
 ### Acceso al grafo listo para agentes
 
-Cada concepto se publica con un IRI canónico, metadatos legibles por máquina y relaciones semánticas formales. Los agentes y herramientas de automatización pueden consumir el grafo directamente — vía SPARQL o una API nativa de grafos — en lugar de depender de PDFs no estructurados o de ingeniería de prompts ad hoc.
+Cada concepto se publica con una IRI canónica, metadatos legibles por máquina y relaciones semánticas formales. Los agentes y herramientas de automatización pueden consumir el grafo directamente — vía SPARQL o una API nativa de grafos — en lugar de depender de PDFs no estructurados o ingeniería de prompts ad hoc.
 
 Esto mantiene el mismo modelo semántico disponible para flujos de trabajo de cumplimiento y razonamiento aumentado por recuperación, de modo que los agentes resuelvan obligaciones, riesgos y controles a partir de una única fuente de verdad.
 
@@ -75,7 +75,7 @@ Esto mantiene el mismo modelo semántico disponible para flujos de trabajo de cu
 
 ## Estándares abiertos, sin bloqueo
 
-Las ontologías se publican bajo licencia abierta. Exporta como RDF estándar en cualquier momento. Si te vas, llevas contigo un grafo de conocimiento completo y portátil.
+Las ontologías se publican bajo licencia abierta. Exporte como RDF estándar en cualquier momento. Si se va, lleva consigo un grafo de conocimiento completo y portátil.
 
 ---
 

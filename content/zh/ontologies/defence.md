@@ -1,6 +1,6 @@
 ---
 title: 国防与双重用途
-description: 用于任务风险、伦理和双重用途 AI 监督的国防治理模型。
+description: 针对任务风险、伦理和双重用途 AI 监督的国防治理模型。
 lang: zh
 navigation:
   enabled: false
@@ -14,8 +14,8 @@ navigation:
 
 ## 为什么此本体重要
 
-- 对国防 AI 的任务风险、伦理和双重用途进行建模。  
-- 支持安全的出口管制和运营监督。  
+- 为国防 AI 建模任务风险、伦理和双重用途的考量。
+- 支持安全的出口管制和运营监督。
 - 帮助国防团队与专门的治理和安全需求保持一致。
 
 [在 GitHub 上查看本体](https://github.com/iqns-org/ontologies/tree/main/v1/defence)

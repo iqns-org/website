@@ -11,7 +11,7 @@ navigation:
 
 Diese Bedingungen beschreiben Ihre Rechte und Pflichten bei der Nutzung von IQ:NS-Ontologien, der Website und den Diensten.
 
-## Zustimmung zu den Bedingungen
+## Annahme der Bedingungen
 
 Durch den Zugriff auf die IQ:NS-Website oder die Nutzung der Dienste stimmen Sie diesen Bedingungen zu. Wenn Sie nicht einverstanden sind, nutzen Sie die Seite bitte nicht.
 
@@ -25,11 +25,11 @@ Sie dürfen die Website nur für rechtmäßige Zwecke nutzen. Sie verpflichten s
 
 ## Geistiges Eigentum
 
-Alle Inhalte, Designs, Ontologien, Marken und Software auf dieser Seite sind Eigentum von IQ:NS oder dessen Lizenzgebern. Sie dürfen die Inhalte der Seite nicht ohne Erlaubnis reproduzieren, verbreiten oder abgeleitete Werke erstellen.
+Alle Inhalte, Designs, Ontologien, Marken und Software auf dieser Seite gehören IQ:NS oder deren Lizenzgebern. Sie dürfen die Inhalte der Seite ohne Erlaubnis nicht vervielfältigen, verbreiten oder abgeleitete Werke erstellen.
 
 ## Haftungsausschluss
 
-Die Seite und die Dienste werden „wie besehen“ und „wie verfügbar“ bereitgestellt. IQ:NS garantiert nicht, dass die Website ununterbrochen, fehlerfrei oder sicher ist. Wir schließen alle Gewährleistungen im gesetzlich zulässigen Umfang aus.
+Die Seite und die Dienste werden „wie besehen“ und „wie verfügbar“ bereitgestellt. IQ:NS garantiert nicht, dass die Website ununterbrochen, fehlerfrei oder sicher ist. Wir schließen alle Gewährleistungen im größtmöglichen gesetzlich zulässigen Umfang aus.
 
 ## Haftungsbeschränkung
 
@@ -41,7 +41,7 @@ Die Website kann Links zu Ressourcen Dritter enthalten. Diese Links werden nur z
 
 ## Änderungen dieser Bedingungen
 
-Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite ändern. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
+Wir können diese Bedingungen jederzeit durch Aktualisierung dieser Seite überarbeiten. Die fortgesetzte Nutzung der Seite nach Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren.
 
 ## Kontakt
 

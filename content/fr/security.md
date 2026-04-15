@@ -22,18 +22,18 @@ IQ:NS fonctionne uniquement sur **les métadonnées** :
 
 Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, les sorties d'inférence, les données client ou les informations personnelles identifiables (PII).
 
-## Où nous le stockons
+## Où nous les stockons
 
 - **Chiffrement :** AES-256 au repos, TLS 1.3 en transit
-- **Accès :** Contrôles basés sur les rôles, journalisation d'audit
-- **Sauvegardes :** Automatisées quotidiennement, réparties géographiquement
+- **Accès :** contrôles basés sur les rôles, journalisation d'audit
+- **Sauvegardes :** automatisées quotidiennement, distribuées géographiquement
 
 ## Options de déploiement
 
 - **Auto-hébergé** — téléchargez les fichiers Turtle, exécutez votre propre triplestore
-- **Hébergé sur le cloud** — instance gérée sur AWS, chiffrée
+- **Hébergé dans le cloud** — instance gérée sur AWS, chiffrée
 - **Cloud privé** — déployé dans votre VPC
-- **Air-gapped** — Disponible sur site pour chaque client
+- **Air-gapped** — disponible sur site pour chaque client
 
 ## Conformité
 
@@ -44,7 +44,7 @@ Nous **ne stockons jamais** les données d'entraînement du modèle, les poids, 
 
 ## Ouvert par défaut
 
-Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, chaque mappage, chaque relation. La transparence est structurelle, pas promise.
+Les ontologies de base sont open source. Vous pouvez vérifier chaque concept, chaque mappage, chaque relation. La transparence est structurelle, pas simplement promise.
 
 ## Signaler un problème de sécurité
 

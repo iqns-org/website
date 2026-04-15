@@ -13,36 +13,36 @@ navigation:
 
 IQ:NS arbeitet nur mit **Metadaten**:
 
-- Rahmenkonzepte und Beziehungen (öffentlicher Regulierungs­text)
+- Rahmenkonzepte und Beziehungen (öffentlicher regulatorischer Text)
 - Ihre Systemprofile (bei Nutzung der kommerziellen Stufe): Namen, Fähigkeiten, Risikoklassifizierungen
-- Ihre Ontologie‑Erweiterungen (falls privat): benutzerdefinierte Konzepte und Zuordnungen
-- Evidenz‑Referenzen (Links oder Hashes — nicht die Dokumente selbst)
+- Ihre Ontologie-Erweiterungen (wenn privat): benutzerdefinierte Konzepte und Zuordnungen
+- Evidenzreferenzen (Links oder Hashes – nicht die Dokumente selbst)
 
-Wir **speichern niemals** Model‑Trainingsdaten, Gewichte, Inferenz‑Ausgaben, Kundendaten oder PII.
+Wir **speichern niemals** Modelldaten zum Training, Gewichte, Inferenzausgaben, Kundendaten oder PII.
 
 ## Wo wir es speichern
 
-- **Verschlüsselung:** AES‑256 im Ruhezustand, TLS 1.3 während der Übertragung
-- **Zugriff:** Rollenbasierte Kontrollen, Audit‑Protokollierung
+- **Verschlüsselung:** AES-256 im Ruhezustand, TLS 1.3 während der Übertragung
+- **Zugriff:** Rollenbasierte Kontrollen, Audit-Logging
 - **Backups:** Automatisiert täglich, geografisch verteilt
 
 ## Bereitstellungsoptionen
 
-- **Selbstgehostet** — Turtle‑Dateien herunterladen, eigenen Triplestore betreiben
-- **Cloud‑gehostet** — verwaltete Instanz auf AWS, verschlüsselt
+- **Selbstgehostet** — Turtle-Dateien herunterladen, eigenen Triplestore betreiben
+- **Cloud-gehostet** — verwaltete Instanz auf AWS, verschlüsselt
 - **Private Cloud** — bereitgestellt in Ihrem VPC
-- **Air‑gapped** — Vor Ort für jeden Kunden verfügbar
+- **Air-gapped** — Vor Ort für jeden Kunden verfügbar
 
 ## Konformität
 
-- SOC 2 Typ II geprüft
-- DSGVO‑konform — keine Speicherung personenbezogener Daten
-- ISO 27001 zertifiziert
+- SOC 2 Type II geprüft
+- DSGVO-konform — keine Speicherung personenbezogener Daten
+- ISO 27001 zertifiziert
 - HIPAA BAA und FedRAMP auf Anfrage verfügbar
 
 ## Standardmäßig offen
 
-Die Kernontologien sind Open‑Source. Sie können jedes Konzept, jede Zuordnung, jede Beziehung überprüfen. Transparenz ist strukturell, nicht versprochen.
+Die Kernontologien sind Open Source. Sie können jedes Konzept, jede Zuordnung, jede Beziehung überprüfen. Transparenz ist strukturell, nicht versprochen.
 
 ## Melden Sie ein Sicherheitsproblem
 

@@ -1,8 +1,8 @@
 ---
 title: Biotech
 description: >-
-  Biotech-Ontologie für Labor‑KI, Entdeckungs‑Pipelines und regulierte
-  Forschungs‑Steuerungen.
+  Biotech-Ontologie für Labor AI, Entdeckungs-Pipelines und regulierte
+  Forschungskontrollen.
 lang: de
 navigation:
   enabled: false

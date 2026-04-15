@@ -1,7 +1,7 @@
 ---
 title: Agricultura & Sistemas Alimentares
 description: >-
-  Ontologia de agricultura para agricultura de precisão, modelos de rendimento e
+  Ontologia agrícola para agricultura de precisão, modelos de rendimento e
   garantia da cadeia alimentar.
 lang: pt
 navigation:
@@ -14,7 +14,7 @@ navigation:
 
 Ontologia agrícola para agricultura de precisão, modelos de rendimento e garantia da cadeia alimentar.
 
-## Por que esta ontologia importa
+## Por que esta ontologia é importante
 
 - Modela agricultura de precisão, rastreabilidade e governança do sistema alimentar.
 - Ajuda equipes agrícolas a gerenciar risco e sustentabilidade com IA.

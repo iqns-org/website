@@ -1,7 +1,7 @@
 ---
 title: Banque
 description: >-
-  Ontologie bancaire pour le prêt, la fraude, la supervision et les contrôles de
+  Ontology bancaire pour le prêt, la fraude, la supervision et les contrôles de
   décision client.
 lang: fr
 navigation:

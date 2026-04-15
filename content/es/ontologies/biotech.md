@@ -1,8 +1,8 @@
 ---
 title: Biotech
 description: >-
-  Ontología de Biotech para IA de laboratorio, pipelines de descubrimiento y
-  controles de investigación regulados.
+  Ontología Biotech para laboratorio AI, pipelines de descubrimiento y controles
+  de investigación regulados.
 lang: es
 navigation:
   enabled: false
@@ -12,9 +12,9 @@ navigation:
 ---
 # Biotecnología
 
-Ontología de biotecnología para IA de laboratorio, flujos de descubrimiento y controles de investigación regulada.
+Ontología de biotecnología para IA de laboratorio, pipelines de descubrimiento y controles de investigación regulada.
 
-## Por qué es importante esta ontología
+## Por qué esta ontología es importante
 
 - Codifica flujos de trabajo de investigación, laboratorio y regulatorios para IA de biotecnología.
 - Ayuda a los equipos a gestionar el descubrimiento, la seguridad y el cumplimiento de manera constante.

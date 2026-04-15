@@ -9,7 +9,7 @@ navigation:
 ---
 # IQ:NS 支持中心
 
-我们很乐意以社区成员的身份与您互动 ...
+我们很乐意以社区成员的身份与您互动 …
 
 - [Discord](https://discord.gg/hJNscf4e32)
 - [Requests / Errata](https://github.com/iqns-org/ontologies/issues)

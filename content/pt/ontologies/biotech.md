@@ -1,8 +1,8 @@
 ---
 title: Biotech
 description: >-
-  Ontologia de Biotech para IA de laboratório, pipelines de descoberta e
-  controles de pesquisa regulados.
+  Ontologia Biotech para IA de laboratório, pipelines de descoberta e controles
+  de pesquisa regulamentados.
 lang: pt
 navigation:
   enabled: false

@@ -14,7 +14,7 @@ navigation:
 
 Ontología de aviación para sistemas de vuelo, certificación y supervisión operativa.
 
-## Por qué importa esta ontología
+## Por qué esta ontología es importante
 
 - Captura la semántica de la seguridad de vuelo, certificación y supervisión operativa.
 - Ayuda a los equipos de aviación a gobernar la IA en aviónica y aeronaves autónomas.

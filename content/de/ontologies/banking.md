@@ -1,13 +1,13 @@
 ---
-title: Bankwesen
+title: Banking
 description: >-
-  Bankontologie für Kreditvergabe, Betrug, Aufsicht und
+  Banking-Ontologie für Kreditvergabe, Betrug, Aufsicht und
   Kundenentscheidungssteuerungen.
 lang: de
 navigation:
   enabled: false
   section: ontologies
-  label: Bankwesen
+  label: Banking
   order: 240
 ---
 # Bankwesen
@@ -18,6 +18,6 @@ Bankontologie für Kreditvergabe, Betrug, Aufsicht und Kundenentscheidungssteuer
 
 - Erfasst die Semantik von Kreditvergabe, Betrug, Kunden und Aufsicht für Banken.
 - Ermöglicht konsistente Modellrisikokontrollen über Finanzdienstleistungen hinweg.
-- Unterstützt verantwortungsbewusste Entscheidungsfindung in regulierten Bankarbeitsabläufen.
+- Unterstützt verantwortungsvolle Entscheidungsfindung in regulierten Bankarbeitsabläufen.
 
-[Die Ontologie auf GitHub ansehen](https://github.com/iqns-org/ontologies/tree/main/v1/banking)
+[Siehe die Ontologie auf GitHub](https://github.com/iqns-org/ontologies/tree/main/v1/banking)

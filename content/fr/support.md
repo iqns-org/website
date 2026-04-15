@@ -7,20 +7,20 @@ navigation:
   label: Assistance
   order: 50
 ---
-# IQ:NS Centre de Support
+# IQ:NS Support Centre
 
-Nous serions ravis d'interagir avec vous en tant que membre de la communauté ...
+Nous serions ravis d'échanger avec vous en tant que membre de la communauté ...
 
 - [Discord](https://discord.gg/hJNscf4e32)
-- [Demandes / Errata](https://github.com/iqns-org/ontologies/issues)
+- [Requests / Errata](https://github.com/iqns-org/ontologies/issues)
 
-En tant que client commercial et partenaire
+Nous en tant que client commercial et partenaire
 
-- [Engagez Notre Équipe](/services#addons)
+- [Engage Our Team](/services#addons)
 
 
 ## Open Source
 
-- [Serveur de Connaissances Gratuit](https://github.com/iqns-org/iq)
+- [Free Knowledge Server](https://github.com/iqns-org/iq)
 
-- [Ontologies Gratuites sur GitHub](https://github.com/iqns-org/ontologies)
+- [Free Ontologies on GitHub](https://github.com/iqns-org/ontologies)

@@ -1,6 +1,8 @@
 ---
 title: AdTech
-description: 'Werbeontologie für targeting, attribution, consent und brand safety.'
+description: >-
+  Werbeontologie für Zielgruppenansprache, Attribution, Einwilligung und
+  Markensicherheit.
 lang: de
 navigation:
   enabled: false
